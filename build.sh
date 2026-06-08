@@ -8,15 +8,14 @@ echo ""
 echo "** Generate PDF **"
 
 pandoc \
-  docs/*.md \
+  $(cat book/order.txt) \
   -o build/dnd-rules.pdf \
   --toc \
   --number-sections \
   --pdf-engine=xelatex \
-  --metadata-file=book/metadata.yaml \
-  -v
+  --metadata-file=book/metadata.yaml -v
 
 echo ""
 echo "** Generate MKdoc **"
 
-mkdocs build -v
+mkdocs build

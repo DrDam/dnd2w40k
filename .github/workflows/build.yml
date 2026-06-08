@@ -31,7 +31,7 @@ jobs:
       - name: Build PDF
         run: |
           mkdir -p build
-          pandoc docs/*.md \
+          pandoc $(cat book/order.txt) \
           -o build/dnd-rules.pdf \
           --toc \
           --number-sections \
