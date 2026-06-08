@@ -19,12 +19,12 @@ jobs:
       - name: Build PDF
         run: |
           mkdir -p build
-          docs/*.md \
+          pandoc docs/*.md \
           -o build/dnd-rules.pdf \
           --toc \
           --number-sections \
           --pdf-engine=xelatex \
-          --metadata-file=book/metadata.yaml \
+          --metadata-file=book/metadata.yaml
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
