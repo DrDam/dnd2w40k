@@ -46,8 +46,8 @@ jobs:
 
       - name: Publish PDF into MkDocs
         run: |
-          mkdir -p docs/assets
-          cp build/dnd-rules.pdf docs/assets/
+          mkdir -p site/assets/files
+          cp build/dnd-rules.pdf site/assets/files/
 
       - name: Deploy wiki
         uses: peaceiris/actions-gh-pages@v4
