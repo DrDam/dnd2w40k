@@ -28,12 +28,6 @@ jobs:
       - name: Build MkDocs
         run: mkdocs build
 
-      - name: Deploy wiki
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-
       - name: Build PDF
         run: |
           mkdir -p build
@@ -54,3 +48,9 @@ jobs:
         run: |
           mkdir -p docs/assets
           cp build/dnd-rules.pdf docs/assets/
+
+      - name: Deploy wiki
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
