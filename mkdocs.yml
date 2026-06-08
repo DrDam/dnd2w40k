@@ -1,0 +1,8 @@
+site_name: D&D Rules Wiki
+theme:
+  name: material
+
+nav:
+  - Accueil: 0-index.md
+  - Création de personnage: 1-Lorem.md
+  - Combat: 2-Dolor.md
