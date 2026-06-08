@@ -1,4 +1,5 @@
 site_name: D&D Rules Wiki
+site_url: https://DrDam.github.io/dnd2w40k/
 theme:
   name: material
 
