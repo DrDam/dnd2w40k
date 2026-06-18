@@ -30,7 +30,7 @@ jobs:
 
       - name: Build PDF
         run: |
-          cmhod +x book/book.sh
+          chmod +x book/book.sh
           ./book/book.sh
 
       - name: Upload artifact
