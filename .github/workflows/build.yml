@@ -30,13 +30,8 @@ jobs:
 
       - name: Build PDF
         run: |
-          mkdir -p build
-          pandoc $(cat book/order.txt) \
-          -o build/dnd-rules.pdf \
-          --toc \
-          --number-sections \
-          --pdf-engine=xelatex \
-          --metadata-file=book/metadata.yaml
+          cmhod +x book/book.sh
+          ./book/book.sh
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
