@@ -1,4 +1,3 @@
-docs/index.md
 docs/1-Lorem.md
 docs/2-Dolor.md
 docs/3-Toto.md

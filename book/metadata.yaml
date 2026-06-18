@@ -1,5 +1,17 @@
-title: "D&D Rules Compendium"
-author: "Ton Nom - test scripts"
+title: ""
+subtitle: Livre de règles
+author: DrDam
+date: Juin 2026
+
 lang: fr
-toc: true
+
+number-sections: true
+
+colorlinks: true
 geometry: margin=2.5cm
+titlepage: false
+header-includes:
+  - \usepackage{graphicx}
+  - \usepackage{tikz}
+  - \usepackage{eso-pic}
+  - \usepackage{xcolor}
