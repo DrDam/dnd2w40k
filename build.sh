@@ -13,7 +13,7 @@ pandoc \
   --toc \
   --number-sections \
   --pdf-engine=xelatex \
-  --metadata-file=book/metadata.yaml -v
+  --metadata-file=book/metadata.yaml
 
 echo ""
 echo "** Generate MKdoc **"
