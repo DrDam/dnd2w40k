@@ -2,18 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://DrDam.github.io/dnd2w40k/</loc>
-         <lastmod>2026-06-18</lastmod>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
-         <loc>https://DrDam.github.io/dnd2w40k/1-Lorem/</loc>
-         <lastmod>2026-06-18</lastmod>
+         <loc>https://DrDam.github.io/dnd2w40k/0-disclaimer/</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
-         <loc>https://DrDam.github.io/dnd2w40k/2-Dolor/</loc>
-         <lastmod>2026-06-18</lastmod>
+         <loc>https://DrDam.github.io/dnd2w40k/I.Manuel-joueur/</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
     <url>
-         <loc>https://DrDam.github.io/dnd2w40k/3-Toto/</loc>
-         <lastmod>2026-06-18</lastmod>
+         <loc>https://DrDam.github.io/dnd2w40k/I.Manuel-joueur/1.1-especes/</loc>
+         <lastmod>2026-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://DrDam.github.io/dnd2w40k/I.Manuel-joueur/2-Dolor/</loc>
+         <lastmod>2026-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://DrDam.github.io/dnd2w40k/II.Manuel-MJ/</loc>
+         <lastmod>2026-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://DrDam.github.io/dnd2w40k/III.Manuel-Monstres/</loc>
+         <lastmod>2026-06-19</lastmod>
+    </url>
+    <url>
+         <loc>https://DrDam.github.io/dnd2w40k/III.Manuel-Monstres/3-Toto/</loc>
+         <lastmod>2026-06-19</lastmod>
     </url>
 </urlset>
