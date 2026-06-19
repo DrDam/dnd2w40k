@@ -1,0 +1,3 @@
+\newpage
+
+# Manuel des monstres

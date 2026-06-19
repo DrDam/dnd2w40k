@@ -1,3 +1,9 @@
-docs/1-Lorem.md
-docs/2-Dolor.md
-docs/3-Toto.md
+book/book_titles/Livre1.md
+docs/I.Manuel-joueur/index.md
+docs/I.Manuel-joueur/1.1-especes.md
+docs/I.Manuel-joueur/2-Dolor.md
+book/book_titles/Livre2.md
+docs/II.Manuel-MJ/index.md
+book/book_titles/Livre3.md
+docs/III.Manuel-Monstres/index.md
+docs/III.Manuel-Monstres/3-Toto.md

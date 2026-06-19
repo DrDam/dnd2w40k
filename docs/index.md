@@ -1,13 +1,10 @@
+# A propos
 
-# Note préliminaire
+Ce site à pour vocation de founir une version traduite en français et hébergé de manière structuré du pack de conversion proposé
+initialement en 2020 par Klefgun en langue anglaise sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA).
 
-Ceci est une traduction française du pack de conversion de donjons & Dragons 5em édition pour l'univers de warhammer 40k proposé
-initialement en 2020 par Klefgun/unofficialmarshall en langue anglaise sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA)
+Les sources de ce site repose sur un [dépot github](https://drdam.github.io/dnd2w40k/) permettant à la communauté de le corriger et en étendre certains éléments (en particulier le manuel des monstre).
 
-De ce fait, ce contenu est totalement **non-officiel** et n'est en aucun cas approuvé par Games Workshop Limited. Adeptus Astartes, Blood Angels, Bloodquest, Cadian, Catachan, les emblèmes du Chaos, Cityfight, le logo du Chaos, Citadel, emblème Citadel, Codex, Daemonhunters, Dark Angels, Dark Eldar, 'Eavy Metal, Eldar, emblèmes Eldar, Œil de la Terreur, Fire Warrior, Forge World, Games Workshop, logo Games Workshop, Genestealer, Golden Demon, Gorkamorka, Great Unclean One, Inquisiteur, logo de l'Inquisiteur, emblème de l'Inquisiteur, Inquisiteur : Conspirations, Keeper of Secrets, Khorne, Kroot, Lord of Change, Necron, Nurgle, Ork, emblèmes de crânes orques, Sisters of Battle, Slaanesh, Space Hulk, Space Marine, chapitres de Space Marines, logos des chapitres de Space Marines, Tau, les désignations de castes Tau, Tyranid, Tyrannid, Tzeentch, Ultramarines, Warhammer, le logo Warhammer 40k, White Dwarf, le logo White Dwarf, ainsi que toutes les marques, noms, races, insignes de race, personnages, véhicules, lieux, unités, illustrations et images associés à l'univers Warhammer 40 000 sont soit ®, TM et/ou © Copyright Games Workshop Ltd 2000-2012, enregistrés de manière variable au Royaume-Uni et dans d'autres pays à travers le monde. Utilisés sans autorisation. Aucune contestation de leur statut n'est visée. Tous droits réservés à leurs propriétaires respectifs.
+Le contenu de ce site est également téléchargeable au format [PDF](assets/files/dnd-rules.pdf)
 
-# Contenu de ce site
 
-Ce site à pour vocation de traduire en français et hébergé de manière structuré le pack de conversion.
-
-Ce dernier est également téléchargeable au format [PDF](assets/files/dnd-rules.pdf)

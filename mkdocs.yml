@@ -1,10 +1,23 @@
-site_name: D&D Rules Wiki
+site_name: Warhammer 40 000 conversion
 site_url: https://DrDam.github.io/dnd2w40k/
 theme:
   name: material
+  features:
+    - navigation.expand
+    - toc.integrate
+
+markdown_extensions:
+  - toc:
+      toc_depth: 2
 
 nav:
-  - Accueil: index.md
-  - Création de personnage: 1-Lorem.md
-  - Combat: 2-Dolor.md
-  - Sorts: 3-Toto.md
+  - Note préliminaire : 0-disclaimer.md
+  - "Livre 1 : Manuel du joueur":
+      - avant-propos: I.Manuel-joueur/index.md
+      - Races: I.Manuel-joueur/1.1-especes.md
+      - Dolor: I.Manuel-joueur/2-Dolor.md
+  - "Livre 2 : Manuel du Maitre du jeu":
+      - avant-propos: II.Manuel-MJ/index.md
+  - "Livre 3 : Manuel des montres":
+      - avant-propos: III.Manuel-Monstres/index.md
+      - Test: III.Manuel-Monstres/3-Toto.md
