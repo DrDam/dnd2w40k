@@ -7,6 +7,19 @@ theme:
     - toc.integrate
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - toc:
       toc_depth: 2
 
+nav:
+  - A propos : index.md
+  - Note préliminaire : 0-disclaimer.md
+  - "Livre 1 : Manuel du joueur":
+      - 1. Préambule: I.Manuel-joueur/0-preambule.md
+      - 2. Les personnages, étape par étape: I.Manuel-joueur/1-perso.md
+  - "Livre 2 : Manuel du Maitre du jeu":
+      - avant-propos: II.Manuel-MJ/index.md
+  - "Livre 3 : Manuel des montres":
+      - avant-propos: III.Manuel-Monstres/index.md

@@ -1,1 +1,3 @@
 # Manuel du joueur
+
+\newpage
