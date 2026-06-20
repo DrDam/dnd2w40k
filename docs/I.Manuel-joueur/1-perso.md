@@ -14,7 +14,7 @@ Votre espèce augmente également un ou plusieurs de vos scores de caractéristi
 
 Notez les traits conférés par votre espèce sur votre fiche de personnage. Veillez également à noter vos langues de départ et votre vitesse de base.
 
-!!! note "CRÉER KRIEG LE SOLDAT DE KIEG, ÉTAPE 1
+!!! note "CRÉER KRIEG LE SOLDAT DE KIEG, ÉTAPE 1"
 
     Bob s’installe pour créer son personnage. Il décide qu’un humain bourru correspond au personnage qu’il souhaite incarner. Il note tous les traits des humains sur sa fiche de personnage, y compris sa vitesse de 9 mètres et les langues qu’il connaît : le bas-gothique et une autre de son choix. Il choisit les codes impériaux comme deuxième langue après avoir consulté la liste des langues au chapitre « [Antécédents](#antecedents) » .
 

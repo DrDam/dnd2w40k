@@ -11,8 +11,4 @@ colorlinks: true
 geometry: margin=2.5cm
 
 titlepage: false
-header-includes:
-  - \usepackage{graphicx}
-  - \usepackage{tikz}
-  - \usepackage{eso-pic}
-  - \usepackage{xcolor}
+
