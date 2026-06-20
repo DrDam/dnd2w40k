@@ -1,3 +1,1 @@
-# Manuel du joueur
-
-\newpage
+# Manuel du joueur {background="book/assets/cover.jpg" textcolor="white"}

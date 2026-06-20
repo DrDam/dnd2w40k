@@ -4,3 +4,10 @@
 \usepackage{xcolor}
 \usepackage[most]{tcolorbox}
 \tcbuselibrary{breakable}
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\part}{\thispagestyle{plain}}{\thispagestyle{plain}\setcounter{chapter}{0}}{}{\errmessage{Patch de \string\part\space a échoué}}
+\makeatother
+
+\usepackage{wallpaper}

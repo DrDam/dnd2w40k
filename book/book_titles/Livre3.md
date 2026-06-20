@@ -1,5 +1,1 @@
-\newpage
-
-# Manuel des monstres
-
-\newpage
+# Manuel des Monstres {background="book/assets/cover.jpg" textcolor="white"}

@@ -1,5 +1,1 @@
-\newpage
-
-# Manuel du Maitre du jeu
-
-\newpage
+# Manuel du maitre du jeu {background="book/assets/cover.jpg" textcolor="white"}
