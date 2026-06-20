@@ -9,6 +9,7 @@ number-sections: true
 
 colorlinks: true
 geometry: margin=2.5cm
+
 titlepage: false
 header-includes:
   - \usepackage{graphicx}

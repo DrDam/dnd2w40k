@@ -6,4 +6,6 @@ pandoc \
   --number-sections \
   --pdf-engine=xelatex \
   --metadata-file=book/metadata.yaml \
-  --include-before-body=book/titlepage.tex
+  --include-before-body=book/titlepage.tex \
+  --resource-path=docs/assets \
+  -f markdown-implicit_figures

@@ -1,5 +1,5 @@
 book/book_titles/Livre1.md
-docs/I.Manuel-joueur/index.md
+docs/I.Manuel-joueur/0.preambule.md
 docs/I.Manuel-joueur/1.1-especes.md
 docs/I.Manuel-joueur/2-Dolor.md
 book/book_titles/Livre2.md
