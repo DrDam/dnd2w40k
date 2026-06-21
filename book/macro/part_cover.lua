@@ -14,7 +14,7 @@ function Header(el)
     local textcolor = el.attributes["textcolor"] or "black"
 
     local wallpaper_cmd = pandoc.RawBlock("latex", string.format(
-      "\\ThisCenterWallPaper{1}{%s}\\color{%s}",
+      "\\clearpage\\ThisCenterWallPaper{1}{%s}\\color{%s}",
       image, textcolor
     ))
     local reset_color = pandoc.RawBlock("latex", "\\color{black}")

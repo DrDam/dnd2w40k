@@ -13,4 +13,6 @@ geometry: margin=2.5cm
 titlepage: false
 
 documentclass: book
-classoption: oneside
+classoption:
+  - oneside
+  - twocolumn

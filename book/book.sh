@@ -33,6 +33,7 @@ pandoc \
   --include-before-body=book/titlepage.tex \
   --resource-path=docs/assets \
   --lua-filter=book/macro/admonition.lua \
+  --lua-filter=book/macro/tables.lua \
   --lua-filter=book/macro/part_cover.lua \
   -H book/preamble.tex \
   -f markdown-implicit_figures

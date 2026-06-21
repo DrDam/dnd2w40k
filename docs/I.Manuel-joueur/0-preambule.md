@@ -100,25 +100,26 @@ Si vous optez pour cette solution, veuillez noter les différences suivantes :
 
 ### FAQ
 
-**Pourquoi faire ça ?**
+- **Pourquoi faire ça ?**
 
 Cet univers demande un engagement plus important que la plupart des autres univers. Klefgun voulait créer un jeu de table facile à jouer, basé sur les règles familières de la 5e édition.
 
 Pour ma part (DrDam), j'ai pas trouvé de système de jeu "officiel" pour warhammer 40 000 qui permettait de créer la diversité des personnages que je souhait. J'aime imaginer faire ensemble des joueurs qui incarneraient un tétrarque nécron avec un sorcier thousand-sons et un techno-prêtre, le tout sous la surveillance d'un SpaceMarine.
 
-**Avez-vous pensé à ajouter ____ ? / Puis-je aider à quelque chose ?**
+- **Avez-vous pensé à ajouter xxx ?**
+- **Puis-je aider à quelque chose ?**
 
 Le projet est en open-source sur github, n'hésitez pas à proposer une merge-request ou sur le serveur Discord qui lui est associé (en cours de création).
 
-**Pourquoi ____ est-il si faible/puissant ?**
+- **Pourquoi xxx est-il si faible/puissant ?**
 
 Klefgun essayé de faire en sorte que chaque choix de personnage ait un niveau de puissance similaire. Certaines situations permettent simplement à certaines forces de mieux s’exprimer que d’autres. Faites-nous part de vos préoccupations et ensemble nous verrons comment on peut les réajuster.
 
-**Pourquoi ne publier que la version française ?**
+- **Pourquoi ne publier que la traduction française ?**
 
 La question est ouverte. A l'origine, cette traduction ne servait qu'a créer un lore-kit pour une campagne que je (DrDam) souhaite monter. Une fois avoir traduit les règles qui me semblaient nécessaire (soit 80% du kit de conversion), il m'a semblé stupide de le garder pour moi.
 
-Est-ce qu'a terme ce projet proposera également la version anglaise, je (DrDam) ne sais pas encore.
+La version originale est toujours à son emplacement d'origine sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA). Est-ce qu'a terme ce projet proposera également la version anglaise, je (DrDam) ne sais pas encore.
 
 **Tu as pas l'impression de profiter du travail d'un autre ?**
 
