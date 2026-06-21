@@ -1,7 +1,6 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{eso-pic}
-\usepackage{xcolor}
 \usepackage[most]{tcolorbox}
 \tcbuselibrary{breakable}
 
@@ -17,3 +16,13 @@
 \setlength{\columnsep}{1.5cm}
 
 \usepackage{caption}
+
+\usepackage{cuted}
+
+\usepackage[table]{xcolor}
+
+% Types de colonnes pour les tableaux : largeur fixe, centrage vertical,
+% alignement horizontal sans justification forcée
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}

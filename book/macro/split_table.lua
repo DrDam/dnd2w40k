@@ -15,9 +15,9 @@ local function blocks_to_latex(blocks)
   s = s:gsub("\n", " ")
   s = s:gsub("%s+$", "")
   -- Nettoie les résidus d'attributs Markdown non interprétés par Pandoc
-  -- (ex: {.table-title} laissé tel quel côté texte, utile pour le style
-  -- CSS côté MkDocs Material mais sans signification pour Pandoc/LaTeX).
-  -- Les accolades sont échappées par pandoc.write (\{ \}), donc on les cible ainsi.
+  -- (ex: {.table-title} ou {.table-title .wide}, utiles pour le style/flag
+  -- côté MkDocs Material mais sans signification pour Pandoc/LaTeX).
+  -- Les accolades sont échappées par pandoc.write (\{ \}).
   s = s:gsub("%s*\\%{%.[%a%-%s\"=]*\\%}%s*$", "")
   return s
 end
@@ -27,7 +27,13 @@ local function table_to_tabular(tbl)
     table.insert(aligns, align_to_latex(tostring(colspec[1])))
   end
   local col_spec = table.concat(aligns, "")
-  local lines = {"\\begin{tabular}{@{}" .. col_spec .. "@{}}", "\\toprule"}
+
+  local lines = {
+    "\\rowcolors{2}{gray!12}{white}",
+    "\\begin{tabular}{@{}" .. col_spec .. "@{}}",
+    "\\toprule"
+  }
+
   for _, row in ipairs(tbl.head.rows) do
     local cells = {}
     for _, cell in ipairs(row.cells) do
@@ -36,6 +42,7 @@ local function table_to_tabular(tbl)
     table.insert(lines, table.concat(cells, " & ") .. " \\\\")
   end
   table.insert(lines, "\\midrule")
+
   for _, body in ipairs(tbl.bodies) do
     for _, row in ipairs(body.body) do
       local cells = {}
@@ -45,6 +52,7 @@ local function table_to_tabular(tbl)
       table.insert(lines, table.concat(cells, " & ") .. " \\\\")
     end
   end
+
   table.insert(lines, "\\bottomrule")
   table.insert(lines, "\\end{tabular}")
   return table.concat(lines, "\n")
@@ -59,9 +67,11 @@ function Pandoc(doc)
   local blocks = doc.blocks
   local new_blocks = {}
   local i = 1
+
   while i <= #blocks do
     local b = blocks[i]
     local next_b = blocks[i + 1]
+
     local is_caption_candidate = (b.t == "Para" or b.t == "Plain")
     local next_is_grid_pair = next_b and next_b.t == "Div"
       and next_b.classes:includes("grid")
@@ -85,6 +95,7 @@ function Pandoc(doc)
       i = i + 1
     end
   end
+
   doc.blocks = new_blocks
   return doc
 end

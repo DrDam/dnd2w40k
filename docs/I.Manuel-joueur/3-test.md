@@ -35,11 +35,10 @@ You start with the following items, plus anything provided by your Background.
 - (a) mesh armor or (b) a trooper armor
 - A mechanic’s kit
 
-
 *Test classe des personnages*{.table-title .wide}
 
 |Level | Proficiency Bonus | Features | Combat Augments Die | Overdrive Points | Upgraded Movement |
-| :----:| :--: |:--: |:--: |:--: |:--: |
+| :--:| :------: | ----------------------- | :------: | :------: | :------: |
 |1st | +2 | Integrated Weapon, Combat Augments | d6 | — | — |
 |2nd | +2 | Overdrive, Upgraded Movement | d6 | 2 | +10 ft. |
 |3rd | +2 | Cybernetic Implants, Deflect Missiles | d6 | 3 | +10 ft. |
@@ -62,5 +61,6 @@ You start with the following items, plus anything provided by your Background.
 |20th | +6 | Perfect Body | d12 | 20 | +30 ft.|
 
 
-Integrated Weapon
+**Integrated Weapon**
+
 At 1st level, you can integrate up to two weapons into your body. You can integrate a weapon over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach, and you integrate it into your body at the end of 1 hour. You can't integrate weapons with the two-handed property into your body. While the weapon is integrated, you gain the following benefits:

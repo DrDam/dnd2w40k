@@ -1,9 +1,11 @@
 book/book_titles/Livre1.md
 docs/I.Manuel-joueur/0-preambule.md
 docs/I.Manuel-joueur/1-perso.md
+docs/I.Manuel-joueur/3-test.md
 docs/I.Manuel-joueur/Especes/especes.md
 docs/I.Manuel-joueur/Especes/humanite.md
 docs/I.Manuel-joueur/Especes/homme-betes.md
+
 book/book_titles/Livre2.md
 book/book_titles/Livre3.md
 docs/III.Manuel-Monstres/index.md

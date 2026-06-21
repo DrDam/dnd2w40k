@@ -243,7 +243,7 @@ Au quatrième palier (niveaux 17 à 20), les personnages atteignent l’apogée 
 *Evolution des personnages*{.table-title}
 
 | Point d'expérience (XP) | Niveau | Bonus de maîtrise |
-| :---------------------: | :----: | :---------------: |
+| :--------: | :--: | :--------: |
 | 0                       | 1      | +2                |
 | 300                     | 2      | +2                |
 | 900                     | 3      | +2                |
