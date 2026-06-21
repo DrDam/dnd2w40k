@@ -21,6 +21,11 @@ nav:
   - "Livre 1 : Manuel du joueur":
       - 1. Préambule: I.Manuel-joueur/0-preambule.md
       - 2. Les personnages, étape par étape: I.Manuel-joueur/1-perso.md
+      - 3. Les espèces:
+        - Les Espèces: I.Manuel-joueur/Especes/especes.md
+        - L'humanité:
+            - A propos : I.Manuel-joueur/Especes/humanite.md
+            - Les hommes-bètes: I.Manuel-joueur/Especes/homme-betes.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":
