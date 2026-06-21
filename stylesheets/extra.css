@@ -1,0 +1,8 @@
+.md-typeset .grid.my-grid {
+  display: flex;
+}
+
+.md-typeset .grid.my-grid div {
+  margin: 0;
+  display: inline-block;
+}
