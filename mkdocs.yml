@@ -7,6 +7,8 @@ theme:
     - toc.integrate
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -23,3 +25,7 @@ nav:
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":
       - avant-propos: III.Manuel-Monstres/index.md
+
+
+extra_css:
+  - stylesheets/extra.css

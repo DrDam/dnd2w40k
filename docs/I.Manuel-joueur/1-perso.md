@@ -91,7 +91,10 @@ Vous disposez de 27 points à répartir entre vos scores de capacité. Le coût 
 
 Cette méthode de détermination des scores de caractéristiques vous permet de créer un ensemble de trois scores élevés et trois scores faibles (15, 15, 15, 8, 8, 8), un ensemble de scores supérieurs à la moyenne et presque égaux (13, 13, 13, 12, 12, 12), ou tout autre ensemble de scores se situant entre ces deux extrêmes.
 
-*Coût des points de caractéristiques*
+
+*Coût des points de caractéristiques*{.table-title}
+
+<div class="grid my-grid" markdown>
 
 | Score | Coût |
 | :----:| :--: |
@@ -99,12 +102,19 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 9     | 1    |
 | 10    | 2    |
 | 11    | 3    |
+
+| Score | Coût |
+| :----:| :--: |
 | 12    | 4    |
 | 13    | 5    |
 | 14    | 7    |
 | 15    | 9    |
 
-*Scores caractéristiques et modificateur*
+</div>
+
+*Scores caractéristiques et modificateur*{.table-title}
+
+<div class="grid my-grid" markdown>
 
 | Score | Modificateur |
 | :----:| :----------: |
@@ -116,6 +126,9 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 10-11 | 0            |
 | 12-13 | +1           |
 | 14-15 | +2           |
+
+| Score | Modificateur |
+| :----:| :----------: |
 | 16-17 | +3           |
 | 18-19 | +4           |
 | 20-21 | +5           |
@@ -124,6 +137,8 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 26-27 | +8           |
 | 28-29 | +9           |
 | 30    | +10          |
+
+</div>
 
 #### Etape 4. Décrivez votre personnage
 
@@ -225,27 +240,27 @@ Au troisième palier (niveaux 11 à 16), les personnages ont atteint un niveau d
 
 Au quatrième palier (niveaux 17 à 20), les personnages atteignent l’apogée de leurs capacités de classe, devenant à part entière des archétypes héroïques (ou maléfiques). Le sort du secteur, voire l’ordre fondamental de la galaxie, peut être en jeu au cours de leurs aventures.
 
-*Evolution des personnages*
+*Evolution des personnages*{.table-title}
 
 | Point d'expérience (XP) | Niveau | Bonus de maîtrise |
 | :---------------------: | :----: | :---------------: |
 | 0                       | 1      | +2                |
-| 300                     | 2 | +2                     |
-| 900                     | 3 | +2                     |
-| 2,700                   | 4 | +2                     |
-| 6,500                   | 5 | +3                     |
-| 14,000                  | 6 | +3                     |
-| 23,000                  | 7 | +3                     |
-| 34,000                  | 8 | +3                     |
-| 48,000                  | 9 | +4                     |
-| 64,000                  | 10 | +4                    |
-| 85,000                  | 11 | +4                    |
-| 100,000                 | 12 | +4                    |
-| 120,000                 | 13 | +5                    |
-| 140,000                 | 14 | +5                    |
-| 165,000                 | 15 | +5                    |
-| 195,000                 | 16 | +5                    |
-| 225,000                 | 17 | +6                    |
-| 265,000                 | 18 | +6                    |
-| 305,000                 | 19 | +6                    |
-| 355,000                 | 20 | +6                    |
+| 300                     | 2      | +2                |
+| 900                     | 3      | +2                |
+| 2,700                   | 4      | +2                |
+| 6,500                   | 5      | +3                |
+| 14,000                  | 6      | +3                |
+| 23,000                  | 7      | +3                |
+| 34,000                  | 8      | +3                |
+| 48,000                  | 9      | +4                |
+| 64,000                  | 10     | +4                |
+| 85,000                  | 11     | +4                |
+| 100,000                 | 12     | +4                |
+| 120,000                 | 13     | +5                |
+| 140,000                 | 14     | +5                |
+| 165,000                 | 15     | +5                |
+| 195,000                 | 16     | +5                |
+| 225,000                 | 17     | +6                |
+| 265,000                 | 18     | +6                |
+| 305,000                 | 19     | +6                |
+| 355,000                 | 20     | +6                |
