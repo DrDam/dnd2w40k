@@ -1,6 +1,6 @@
-## Les Espèces
+## Les Espèces
 
-« Il n'y a que la guerre. Depuis dix mille ans, l'Humanité lutte pour sa survie face aux horreurs qui rôdent dans les ténèbres de la galaxie. Les innombrables mondes de l'Imperium sont assiégés par des civilisations xenos, des démons issus du Warp et les ambitions de leurs propres traîtres. Pourtant, au milieu de ce conflit éternel, des individus se dressent pour changer le destin de systèmes entiers. »
+> « Il n'y a que la guerre. Depuis dix mille ans, l'Humanité lutte pour sa survie face aux horreurs qui rôdent dans les ténèbres de la galaxie. Les innombrables mondes de l'Imperium sont assiégés par des civilisations xenos, des démons issus du Warp et les ambitions de leurs propres traîtres. Pourtant, au milieu de ce conflit éternel, des individus se dressent pour changer le destin de systèmes entiers. »
 
 Votre personnage appartient à l'un des grands peuples de la galaxie. Son espèce influence non seulement son apparence et ses capacités physiques, mais également la manière dont il est perçu par les autres. Un citoyen de l'Imperium verra un Space Marine comme un ange de la mort envoyé par l'Empereur, tandis qu'un xenos sera souvent considéré comme un ennemi à exterminer.
 

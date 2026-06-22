@@ -1,4 +1,4 @@
-### L'humanité
+### L'humanité {.newpage}
 
 L'Imperium de l'Humanité s'étend sur près d'un million de mondes et rassemble une population innombrable. Si la majorité de ses citoyens sont des humains ordinaires, l'évolution, les environnements extrêmes, les modifications génétiques et les traditions propres à chaque planète ont donné naissance à une grande variété de lignées humaines.
 

@@ -44,3 +44,11 @@
 | 15    | 9    |
 
 </div>
+
+## Titres qui ne sont pas interprétés
+
+recherche (mode regex .*) : (?<=^#{1,6})\u00A0  et remplacer par un espace normal
+
+## Forcer un titre (quelque soit le niveau) sur une nouvelle page
+
+Exemple :  #### Mon-titre {.newpage}
