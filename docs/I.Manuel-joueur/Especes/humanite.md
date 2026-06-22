@@ -4,3 +4,5 @@ L'Imperium de l'Humanité s'étend sur près d'un million de mondes et rassemble
 
 Les espèces présentées dans cette section représentent les principales origines humaines disponibles pour les personnages joueurs, des simples citoyens impériaux aux individus les plus exceptionnels.
 
+![Régiments de la guarde impériale](../../assets/banner.jpg){.wide}
+

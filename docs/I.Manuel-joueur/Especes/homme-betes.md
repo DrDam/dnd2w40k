@@ -1,4 +1,4 @@
-#### Homme-bête
+#### Homme-bête {.newpage}
 
 Dans le foyer de bien des mères en deuil, un enfant est venu au monde dans un état bien pire que la mort. Des cornes tordues s’enroulent autour de la bouche de la chèvre qui appelle sa mère. Un homme-bête vient de naître. Au sein de l’Imperium, ces abominations répugnantes sont considérées, au mieux, comme tolérables. Au pire, la famille qui a donné naissance à une telle créature fait l’objet d’une enquête menée par les forces de police locales, voire par l’Inquisition elle-même.
 Quelle qu’en soit la raison, les hommes-bêtes sont généralement mis au travail de l’une des deux manières suivantes, s’ils ont la chance d’être épargnés : soit envoyés dans une mine oubliée, où ils trimeront comme des esclaves jusqu’à la fin de leur misérable existence, soit enrôlés dans les rangs de la Garde Impériale — au moins, dans la mort, ils pourront être validés aux yeux de l’Empereur, si jamais Celui-ci se montre miséricordieux envers une créature aussi misérable.

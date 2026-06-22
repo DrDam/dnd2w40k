@@ -81,13 +81,13 @@ Sur la fiche de personnage de D&D 5e, vous pouvez apporter les modifications sui
 
 Vous pouvez ajouter vos nouvelles compétences dans la case située dans le coin inférieur gauche de la fiche de personnage, comme indiqué ci-dessous.
 
-![Fiche personnage](../assets/how_play/fiche-perso.png "toto")
+![Fiche personnage](../assets/how_play/fiche-perso.png)
 
 **Pouvoirs technologiques / Pouvoirs psychiques**
 
 Si vous utilisez Roll20, vous pouvez modifier les paramètres de la fiche de personnage pour y inclure les points de sort.
 
-![Réglage Roll-20](../assets/how_play/roll-20.png  "toto")
+![Réglage Roll-20](../assets/how_play/roll-20.png)
 
 **Utilisation de la fiche de personnage de SW5e (Roll20)**
 

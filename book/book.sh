@@ -17,7 +17,9 @@ while IFS= read -r src_file; do
 
   dest_file="$PREPROCESSED_DIR/$src_file"
   mkdir -p "$(dirname "$dest_file")"
-  python3 book/macro/admonition_to_div.py "$src_file" > "$dest_file"
+  python3 book/macro/admonition_to_div.py "$src_file" \
+    | python3 book/macro/resolve_image_paths.py "$src_file" \
+    > "$dest_file"
   PREPROCESSED_FILES+=("$dest_file")
 done < book/order.txt
 
@@ -34,6 +36,7 @@ pandoc \
   --resource-path=docs/assets \
   --lua-filter=book/macro/admonition.lua \
   --lua-filter=book/macro/tables.lua \
+  --lua-filter=book/macro/wide_image.lua \
   --lua-filter=book/macro/newpage.lua \
   --lua-filter=book/macro/part_cover.lua \
   -H book/preamble.tex \
