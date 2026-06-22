@@ -1,6 +1,4 @@
-
 /newline
-
 
 #### Homme-bête {.newpage}
 
@@ -13,7 +11,7 @@ Pourtant, de nombreux hommes-bêtes sont tombés entre les griffes du Chaos, se 
 
 ##### Traits des hommes-bêtes
 
-**Augmentation recommandée des caractéristiques.** Votre caractéristique de Force augmente de 2, et votre caractéristique de Constitution augmente de 1.
+**Augmentation des caractéristiques.** Votre caractéristique de Force augmente de 2, et votre caractéristique de Constitution augmente de 1.
 
 **Alignement.**Les hommes-bêtes ont tendance à adopter des alignements chaotiques et ne penchent ni vers le bien ni vers le mal. Si un homme-bête est créé par la souillure du Warp, il peut être plus enclin à une disposition maléfique.
 
@@ -30,5 +28,3 @@ Pourtant, de nombreux hommes-bêtes sont tombés entre les griffes du Chaos, se 
 **Instincts bestiaux.** Vous possédez une compétence dans l’une des disciplines suivantes de votre choix : Athlétisme, Intimidation, Perception ou Survie.
 
 **Langues.** Vous pouvez parler, lire et écrire le gothique bas, ainsi qu’une des langues suivantes : le chaos, l’hérétique, les codes impériaux ou le tribal
-
-

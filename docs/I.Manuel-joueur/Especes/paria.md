@@ -1,7 +1,3 @@
-
-/newline
-
-
 #### Paria {.newpage}
 
 ![Paria](../../assets/humanity/Sisters_of_Silence_art.png)
@@ -12,7 +8,7 @@ Au sein de l’Imperium, certains « parias » découverts tôt sont endoctriné
 
 ##### Traits des parias
 
-**Augmentation recommandée des caractéristiques.** Votre caractéristique de Sagesse augmente de 2, et deux autres caractéristiques de votre choix augmentent de 1.
+**Augmentation des caractéristiques.** Votre caractéristique de Sagesse augmente de 2, et deux autres caractéristiques de votre choix augmentent de 1.
 
 **Âge.** Les humains atteignent l’âge adulte à la fin de l’adolescence et vivent moins d’un siècle.
 

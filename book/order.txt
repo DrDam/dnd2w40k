@@ -4,6 +4,8 @@ docs/I.Manuel-joueur/1-perso.md
 docs/I.Manuel-joueur/Especes/especes.md
 docs/I.Manuel-joueur/Especes/humanite.md
 docs/I.Manuel-joueur/Especes/homme-bete.md
+docs/I.Manuel-joueur/Especes/humain.md
+docs/I.Manuel-joueur/Especes/mutant.md
 docs/I.Manuel-joueur/Especes/paria.md
 book/book_titles/Livre2.md
 book/book_titles/Livre3.md
