@@ -1,0 +1,15 @@
+PDF :
+
+- Image en pleine largeur qui casse le saut de page (en cours)
+
+
+- Voir à permettre une page de commencer par une image (format livre regle dnd) => ajouter un "newpage" sur une image
+
+[illustration]
+
+Titre
+
+[.Texte.]
+
+- Supprimer la numérotation à partir du "#####"
+- Faire que les titres "#####" soit souligner pour les différencier du gras

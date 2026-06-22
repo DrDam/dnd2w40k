@@ -57,6 +57,14 @@ Exemple :  #### Mon-titre {.newpage}
 
 # Gestion des images
 
-## Mettre une image en pleine largeur
+## Mettre une image en pleine largeur à son emplacement
 
 ![banner](../assets/banner.jpg){.wide}
+
+## Ancrer l'image pleine largeur en haut de page
+
+??
+
+## Ancrer l'image pleine largeur en bas de page
+
+??
