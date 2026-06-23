@@ -33,6 +33,7 @@ Les mondes de la Mort au sein de l’Imperium sont des lieux hostiles et désol�
 **Augmentation des caractéristiques.** Votre caractéristique de Constitution augmente de 2, et votre caractéristique de Force augmente de 1.
 
 **Vie adaptée.** Votre monde était soumis à une menace constante à laquelle vous avez été contraint de vous adapter pour survivre. Choisissez l’une des principales menaces auxquelles vous vous êtes adapté lorsque vous sélectionnez ce monde d’origine :
+
 - *Flore hostile.* La végétation elle-même constituait un obstacle quotidien. Vous ignorez les pénalités liées au terrain difficile non amélioré. Vous bénéficiez d’un avantage aux jets de sauvegarde contre le poison, et vous disposez d’une résistance aux dégâts de poison.
 - *Bêtes carnivores.* Les bêtes se nourrissant de viande vous considéraient comme une proie. Votre vitesse de marche augmente de 1,5 mètre, et les traces que vous et jusqu’à 9 compagnons laissez derrière vous lorsque vous marchez sont indéchiffrables et ne peuvent être suivies par des moyens non améliorés.
 - *Climat extrême.* L’activité volcanique, les éruptions solaires, les températures négatives, voire pire, vous menaçaient au quotidien. Choisissez l’une des résistances aux dégâts suivantes en fonction de votre monde d’origine : acide, froid, feu ou foudre. Vous êtes naturellement adapté au climat de votre planète.
@@ -83,7 +84,7 @@ Les mondes-forges sont d'immenses planètes industrielles entièrement dévouée
 
 **Élu de l’Omnissiah.** Vous connaissez le pouvoir technologique « Désactiver un dispositif », et au niveau 3, vous apprenez le pouvoir technologique « Piratage avancé ». Vous pouvez lancer chacun de ces pouvoirs une fois, et vous retrouvez la capacité de le faire à la fin d’un long repos. L’Intelligence est votre caractéristique de lancement de pouvoirs technologiques pour ces pouvoirs.
 
-**Langues.** Vous pouvez parler, lire et écrire le binaire et le bas gothique .
+**Langues.** Vous pouvez parler, lire et écrire le binaire et le bas gothique.
 
 ##### Humain d'un monde forteresse
 
@@ -98,7 +99,7 @@ Entraînement sur un monde-forteresse. Vous maîtrisez les fusils laser, les pis
 
 **Retraite tactique.** À votre tour, vous pouvez effectuer l’action « Désengagement » en tant qu’action bonus.
 
-**Langues.** Vous pouvez parler, lire et écrire le bas gothique  et les codes impériaux.
+**Langues.** Vous pouvez parler, lire et écrire le bas gothique et les codes impériaux.
 
 ##### Humain d'un monde ruche
 

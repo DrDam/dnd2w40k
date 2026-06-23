@@ -36,4 +36,4 @@ Au niveau 5, choisissez l’une des options suivantes, ou l’une des options qu
 
 **Jet d’acide.** Lorsque vous effectuez l’action « Attaque », vous pouvez remplacer l’une de vos attaques par un jet d’acide provenant de glandes situées dans votre bouche, visant une créature ou un objet que vous pouvez voir à moins de 9 mètres de vous. La cible subit 2d10 points de dégâts d’acide, à moins qu’elle ne réussisse un jet de sauvegarde de Dextérité contre un DD égal à 8 + votre modificateur de Constitution + votre bonus de compétence. Ces dégâts augmentent de 1d10 lorsque vous atteignez le niveau 11 (3d10) et le niveau 17 (4d10).
 
-**Langues.** Vous pouvez parler, lire et écrire le bas gothique, ainsi que, au choix, le chaos, l’hérétique ou le monde souterrain.
+**Langues.** Vous pouvez parler, lire et écrire le bas gothique, ainsi que, au choix, le chaos, l’hérétique ou le langage des bas-fonds.

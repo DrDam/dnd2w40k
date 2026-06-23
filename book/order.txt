@@ -8,6 +8,7 @@ docs/I.Manuel-joueur/Especes/11-Homme-bete.md
 docs/I.Manuel-joueur/Especes/11-Humain.md
 docs/I.Manuel-joueur/Especes/11-Mutant.md
 docs/I.Manuel-joueur/Especes/11-Ogryn.md
+docs/I.Manuel-joueur/Especes/11-Ratling.md
 book/book_titles/Livre2.md
 docs/II.Manuel-MJ/index.md
 book/book_titles/Livre3.md
