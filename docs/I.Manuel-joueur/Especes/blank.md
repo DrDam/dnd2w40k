@@ -1,12 +1,12 @@
 ![Des soeurs du silence](../../assets/humanity/Sisters_of_Silence_art.png){.newpage}
 
-#### Paria
+#### Blank
 
-Les « Paria » sont des humains sans âme nés avec un pouvoir unique qui les rend résistants aux pouvoirs du Warp. Parfois appelés « parias », « nuls » ou « intouchables », ces humains possèdent le rare « gène du paria », dont la fréquence est estimée à un sur un milliard d’humains. Les personnes qui côtoient des « Blanks » ressentent une présence inquiétante émanant d’eux. De ce fait, de nombreux Blanks sont rejetés par leur société, ou meurent en bas âge après avoir été exilés.
+Les « Blanks » sont des humains sans âme nés avec un pouvoir unique qui les rend résistants aux pouvoirs du Warp. Parfois appelés « parias », « nuls » ou « intouchables », ces humains possèdent le rare « gène du paria », dont la fréquence est estimée à un sur un milliard d’humains. Les personnes qui côtoient des « Blanks » ressentent une présence inquiétante émanant d’eux. De ce fait, de nombreux Blanks sont rejetés par leur société, ou meurent en bas âge après avoir été exilés.
 De par leur simple existence, les Blanks constituent un véritable anathème pour le Warp, les psioniques et les démons. Ainsi, dès qu’ils sont découverts, ils sont très recherchés par les inquisiteurs, la Garde Impériale ou d’autres factions militaires qui combattent les forces du Chaos ou les psioniques.
 Au sein de l’Imperium, certains « parias » découverts tôt sont endoctrinés pour devenir des assassins du Temple, les Culexus, où leurs capacités anti-psychiques sont affinées à l’extrême. Il existe sur Terra une petite enclave connue sous le nom des Sœurs du Silence qui accueille des « parias » féminines dans ses rangs pour lutter contre les menaces qui surgissent autour de Terra.
 
-##### Traits des parias
+##### Traits des blanks
 
 **Augmentation des caractéristiques.** Votre caractéristique de Sagesse augmente de 2, et deux autres caractéristiques de votre choix augmentent de 1.
 
