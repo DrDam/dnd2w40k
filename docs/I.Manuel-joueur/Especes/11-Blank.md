@@ -27,4 +27,4 @@ Lorsque vous subissez les effets d’un pouvoir ou d’un effet psychique, vous 
 
 **Intolérance au warp.** Vous êtes incapable de manifester des pouvoirs psychiques. Vous ne pouvez pas gagner de niveaux dans une classe dotée de la capacité « lanceur de sort psychique ».
 
-**Langues.** Vous pouvez parler, lire et écrire le gothique bas ainsi qu’une autre langue de votre choix.
+**Langues.** Vous pouvez parler, lire et écrire le bas gothique ainsi qu’une autre langue de votre choix.
