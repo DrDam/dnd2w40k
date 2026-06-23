@@ -5,7 +5,7 @@ Il comportera un certain nombre de différences.
 
 ### Règles Classiques
 
-#### Création de personnage
+##### Création de personnage
 
 **Races/Espèces**
 
@@ -33,20 +33,20 @@ Les *langues* et les *origines* ont été adaptées au contexte, et les *origine
 
 Les *Dons* ont été légèrement modifiés et quelques-uns ont été ajoutés.
 
-#### Équipement
+##### Équipement
 
 La monnaie standard est le *Gelt* abrégé en *g*. 10 gelts équivalent à 1 pièce d'or.
 
 Les armes, armures et objets les plus courants sont répertoriés au [chapitre 5 : Équipement standard](#chapitre-5-Equipement-Standard). Tout le reste se trouve dans la section [Objets améliorés](#objet-ameliores) dans le livre du Maître du Jeu.
 
-#### Magie
+##### Magie
 
 Les effets magiques /sorts sont classés en deux catégories : techniques ou psychiques. Les sorts sont appelés « pouvoirs » et sont répartis en deux listes : les pouvoirs techniques et les pouvoirs psychiques. Les objets magiques sont des objets améliorés.
 
 Afin de mieux refléter la fatigue lié à l'usage de ces catégories de pouvoir, un système de "point de pouvoir" à été mis en place.
 Chaque sort de niveau 1 et plus demandera de dépenser ces points de pouvoir.
 
-#### Déroulement du jeu
+##### Déroulement du jeu
 
 **Compétences**
 
@@ -71,7 +71,7 @@ Certains types de créatures ont été modifiés. Les célestes, les démons et 
 
 Il n’existe actuellement aucune fiche de personnage disponible pour cette adaptation. Voici les options proposées.
 
-#### Modification sur une fiche personnage standard de D&D 5e.
+##### Modification sur une fiche personnage standard de D&D 5e.
 
 **Compétences**
 
