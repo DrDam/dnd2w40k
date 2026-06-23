@@ -41,3 +41,38 @@
   {\underline}
 
 \setcounter{tocdepth}{2}
+
+
+% ============================================================
+% TABLE DES MATIÈRES EN DEUX COLONNES
+% ============================================================
+% Par défaut, la classe book bascule automatiquement \tableofcontents
+% en une seule colonne pleine largeur (\onecolumn), même en mode
+% twocolumn -- c'est un choix de design intégré à la classe standard,
+% PAS un effet du document ou de pandoc. On redéfinit ici
+% \tableofcontents pour retirer cette bascule et garder le mode deux
+% colonnes du document.
+%
+% Point d'attention technique : il ne suffit pas de retirer le
+% \onecolumn/\twocolumn de la définition d'origine -- le titre "Table
+% des matières" lui-même utilise normalement \chapter*, qui pour tout
+% titre de chapitre non numéroté en mode twocolumn déclenche un AUTRE
+% mécanisme interne de la classe (\@topnewpage, via \@schapter) qui
+% force le titre en pleine largeur de PAGE avant de basculer le
+% contenu suivant en deux colonnes. Pour l'éviter complètement, le
+% titre "Table des matières" est ici composé manuellement (mêmes
+% styles visuels que \@makeschapterhead, mais sans passer par
+% \chapter*/\@schapter), pour qu'il s'insère normalement dans le flux
+% de la colonne courante comme n'importe quel autre titre.
+\makeatletter
+\renewcommand\tableofcontents{%
+    \vspace*{20\p@}%
+    {\parindent\z@ \raggedright \normalfont
+     \interlinepenalty\@M
+     \Huge\bfseries \contentsname \par\nobreak
+     \vskip 20\p@}%
+    \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
+    \@starttoc{toc}%
+    }
+\makeatother
+% ============================================================
