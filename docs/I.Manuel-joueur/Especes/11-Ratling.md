@@ -6,11 +6,9 @@ Les Ratlings sont une espèce d’abhumains mesurant entre trois et quatre pieds
 
 En tant que Ratling, vous pouvez facilement passer inaperçu, voire utiliser d’autres personnes comme couverture. Au sein de la Garde Impériale, les Ratlings sont employés comme tireurs d’élite. De nombreux ratlings mènent une vie de petite délinquance, tirant parti de leur petite taille pour se faufiler agilement au milieu des dangers et s’échapper rapidement.
 
-Traduit avec DeepL.com (version gratuite)
-
 ##### Traits des Ratling
 
-Votre personnage ogryn possède certains traits hérités de son ascendance abhumaine.
+Votre personnage ratling possède certains traits hérités de son ascendance abhumaine.
 
 **Augmentation des caractéristiques.** Votre score de Dextérité augmente de 2 et votre score de Sagesse augmente de 1.
 
