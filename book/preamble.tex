@@ -26,3 +26,16 @@
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+
+% ##### en Markdown -> \subsubsection (avec --top-level-division=part :
+% # part, ## chapter, ### section, #### subsection, ##### subsubsection).
+% Style demandé : pas de numéro, texte souligné (au lieu du gras seul
+% par défaut). secnumdepth global reste à 5 (réglé par --number-sections
+% côté pandoc) pour ne pas affecter la numérotation des autres niveaux
+% -- seul le format de \subsubsection est changé, via titlesec.
+\usepackage{titlesec}
+\titleformat{\subsubsection}
+  {\normalfont\bfseries}
+  {}
+  {0pt}
+  {\underline}

@@ -81,7 +81,7 @@ Sur la fiche de personnage de D&D 5e, vous pouvez apporter les modifications sui
 
 Vous pouvez ajouter vos nouvelles compétences dans la case située dans le coin inférieur gauche de la fiche de personnage, comme indiqué ci-dessous.
 
-![Fiche personnage](../assets/how_play/fiche-perso.png)
+![Fiche personnage classique](../assets/how_play/fiche-perso.png)
 
 **Pouvoirs technologiques / Pouvoirs psychiques**
 

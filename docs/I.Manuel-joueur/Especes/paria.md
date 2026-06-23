@@ -1,6 +1,6 @@
-#### Paria {.newpage}
+![Des soeurs du silence](../../assets/humanity/Sisters_of_Silence_art.png){.newpage}
 
-![Paria](../../assets/humanity/Sisters_of_Silence_art.png)
+#### Paria
 
 Les « Paria » sont des humains sans âme nés avec un pouvoir unique qui les rend résistants aux pouvoirs du Warp. Parfois appelés « parias », « nuls » ou « intouchables », ces humains possèdent le rare « gène du paria », dont la fréquence est estimée à un sur un milliard d’humains. Les personnes qui côtoient des « Blanks » ressentent une présence inquiétante émanant d’eux. De ce fait, de nombreux Blanks sont rejetés par leur société, ou meurent en bas âge après avoir été exilés.
 De par leur simple existence, les Blanks constituent un véritable anathème pour le Warp, les psioniques et les démons. Ainsi, dès qu’ils sont découverts, ils sont très recherchés par les inquisiteurs, la Garde Impériale ou d’autres factions militaires qui combattent les forces du Chaos ou les psioniques.

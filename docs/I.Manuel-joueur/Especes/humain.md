@@ -1,6 +1,6 @@
-#### Humains {.newpage}
+![L'inquisiteur Gregor Eisenhorn](../../assets/humanity/Eisenhorn6.png){.newpage height=8cm}
 
-![Homme bête](../../assets/humanity/Eisenhorn6.png)
+#### Humains
 
 Au cœur de l’Imperium de l’Humanité, sur la Sainte Terra, le Dieu-Empereur de l’Humanité trône sur le Trône d’Or, et ce depuis 10 000 ans. Le commun des mortels ignore ce qui se passe sur Terra et ce que fait réellement le Dieu-Empereur de l’Humanité, mais tout adepte du Credo Impérial sait que le Dieu-Empereur se contente de diriger l’ensemble de Ses vastes planètes et de Ses armées d’une main de fer depuis le Trône d’Or de Terra.
 

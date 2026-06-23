@@ -1,6 +1,6 @@
-#### Mutant {.newpage}
+![Un mutant de Nurgle](../../assets/humanity/NurgleMutant.png){.newpage height=8cm}
 
-![Mutant de Nurgle](../../assets/humanity/NurgleMutant.png)
+#### Mutant
 
 Les véritables mutants sont mis au ban de l’Imperium, pour le meilleur ou pour le pire. Les mutants présentent des anomalies génétiques dues à leur héritage ou à une exposition au Warp, et les mutants avancés sont souvent abattus à vue au sein de l’Imperium. La plupart des mutants présentant des mutations mineures, telles qu’une oreille ou un doigt supplémentaire, parviennent à vivre relativement en paix, ou ont recours à la chirurgie pour corriger leurs anomalies. Cependant, si la chirurgie n’est pas accessible, ou si l’influence de l’Église est omniprésente, les mutants sont contraints de vivre dans la clandestinité ou en marge de la société.
 

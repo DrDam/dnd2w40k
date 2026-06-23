@@ -53,7 +53,12 @@ recherche (mode regex .*) : (?<=^#{1,6})\u00A0  et remplacer par un espace norma
 
 ## Forcer un titre (quelque soit le niveau) sur une nouvelle page
 
-Exemple :  #### Mon-titre {.newpage}
+Exemple :
+- #### Mon-titre {.newpage}
+
+## Titre 5
+
+les titres en #####, sont souligné sans numérotation
 
 # Gestion des images
 
@@ -61,10 +66,13 @@ Exemple :  #### Mon-titre {.newpage}
 
 ![banner](../assets/banner.jpg){.wide}
 
-## Ancrer l'image pleine largeur en haut de page
+## Ancrer l'image en haut d'une nouvelle page
 
-??
+- ![my_image](../assets/image.jpg){.newpage}
+- ![banner](../assets/banner.jpg){.wide .newpage}
 
-## Ancrer l'image pleine largeur en bas de page
+## Adapter la taille d'une image
 
-??
+![my_image](../assets/image.jpg){height=8cm}
+
+- Images d'Especes à 8cm

@@ -8,5 +8,6 @@ docs/I.Manuel-joueur/Especes/humain.md
 docs/I.Manuel-joueur/Especes/mutant.md
 docs/I.Manuel-joueur/Especes/paria.md
 book/book_titles/Livre2.md
+docs/II.Manuel-MJ/index.md
 book/book_titles/Livre3.md
 docs/III.Manuel-Monstres/index.md
