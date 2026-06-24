@@ -1,6 +1,6 @@
 ![Un Genestealer Pur-souche](../../assets/xenos/Genestealer1.png){.newpage height=8cm}
 
-#### Genestealers
+#### Genestealer
 
 Les Genestealers infestent les colonies et les villes appartenant à d’autres créatures, les repeuplant avec leurs propres peuples et tentant d’y établir un Culte des Genestealers, pour finalement amener une flotte-ruche tyranide sur la planète afin de la dévorer dans son intégralité.
 
@@ -22,7 +22,7 @@ Les Acolytes Genestealers sont le résultat de générations d’implantations g
 
 **Physiologie tyranide.** Vous bénéficiez d’un avantage aux jets de sauvegarde contre les effets de charme, d’effroi, d’empoisonnement ou d’endormissement.
 
-**Langues.** Vous pouvez parler, lire et écrire le gothique bas.
+**Langues.** Vous pouvez parler, lire et écrire le bas gothique.
 
 **Génération.** En fonction du nombre de génération qui vous sépare du patriarche, vous obtenez des traits spécifique. Choisissez en une parmis les deux disponibles :
 

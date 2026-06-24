@@ -30,4 +30,4 @@ Cet avantage ne peut s’appliquer qu’à un seul objet à la fois. Si vous app
 
 **Aptitude technique.** Vous maîtrisez la compétence Technologie.
 
-**Langues.** Vous pouvez parler, lire et écrire le gothique bas, le jokaero et le tribal.
+**Langues.** Vous pouvez parler, lire et écrire le bas gothique, le jokaero et le tribal.

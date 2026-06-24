@@ -16,15 +16,15 @@ Votre personnage Aeldari dispose d’un ensemble de capacités commune ainsi que
 
 **Alignement.** Les Aeldari aiment la liberté, la diversité et l’expression de soi ; ils penchent donc vers les aspects les plus doux du chaos. Ils accordent une grande importance à leur liberté et à leur culture, et sont le plus souvent bons. Les Drukhari font exception : ils sont plus souvent mauvais que neutres ou bons.
 
-**Taille.** Les Aeldari mesurent entre moins de 5 et plus de 6 pieds et ont une silhouette élancée. Votre taille est moyenne.
+**Taille.** Les Aeldari mesurent entre moins de 1,5 mètre et 1,8 mètre et ont une silhouette élancée. Votre taille est moyenne.
 
-**Vitesse.** Votre vitesse de marche de base est de 30 pieds.
+**Vitesse.** Votre vitesse de marche de base est de 9 mètres .
 
 **Vision dans le noir.** Habitués aux forêts crépusculaires et au ciel nocturne, vous disposez d’une vision supérieure dans l’obscurité et la pénombre. Vous pouvez voir dans une lumière tamisée à moins de 60 pieds de vous comme s’il s’agissait d’une lumière vive, et dans l’obscurité comme s’il s’agissait d’une lumière tamisée. Vous ne pouvez pas distinguer les couleurs dans l’obscurité, seulement des nuances de gris.
 
 **Sens aiguisés.** Vous maîtrisez la compétence Perception.
 
-**Langues.** Vous pouvez parler, lire et écrire l’aeldari et le gothique bas.
+**Langues.** Vous pouvez parler, lire et écrire l’aeldari et le bas gothique.
 
 **Branche d'origine.** En tant Aeldari vous êtes le fruit de la séparation de votre peuple suite à la naissance de Slaanesh. Choisissez votre branche d'appartenance et obtenez ses traits, énumérés ci-dessous.
 

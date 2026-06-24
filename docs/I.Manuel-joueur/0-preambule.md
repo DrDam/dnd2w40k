@@ -3,7 +3,7 @@
 Le Manuel du joueur à pour objet de reproduire la structure du Manuel du joueur classique de la 5em édition.
 Il comportera un certain nombre de différences.
 
-### Règles Classiques
+### Eléments généraux
 
 ##### Création de personnage
 
