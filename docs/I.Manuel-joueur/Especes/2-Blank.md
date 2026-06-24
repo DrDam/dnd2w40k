@@ -24,7 +24,7 @@ Au sein de l’Imperium, certains « parias » découverts tôt sont endoctriné
 
 **Anathème psychique.** Vous bénéficiez d’un avantage aux jets de sauvegarde contre les pouvoirs psychiques.
 
-**Résistance psychique.** Vous disposez d’une résistance aux dégâts causés par les pouvoirs et effets psychiques, ainsi qu’aux dégâts psioniques.
+**Résistance aux warp.** Vous disposez d’une résistance aux dégâts causés par les pouvoirs et effets psychiques, ainsi qu’aux dégâts psioniques.
 Lorsque vous subissez les effets d’un pouvoir ou d’un effet psychique, vous pouvez utiliser ce trait pour devenir immunisé contre tous les effets de ce pouvoir ou de cet effet. Vous pouvez utiliser ce trait un nombre de fois égal à votre bonus de compétence, et vous récupérez tous les usages dépensés à la fin d’un long repos.
 
 **Intolérance au warp.** Vous êtes incapable de manifester des pouvoirs psychiques. Vous ne pouvez pas gagner de niveaux dans une classe dotée de la capacité « lanceur de sort psychique ».
