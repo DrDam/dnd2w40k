@@ -22,22 +22,22 @@ nav:
       - 1. Préambule: I.Manuel-joueur/0-preambule.md
       - 2. Les personnages, étape par étape: I.Manuel-joueur/1-perso.md
       - 3. Les espèces:
-        - Les Espèces: I.Manuel-joueur/Especes/especes.md
+        - Les Espèces: I.Manuel-joueur/Especes/0-especes.md
         - L'humanité:
-            - A propos : I.Manuel-joueur/Especes/10-Humanite.md
-            - Les Blanks: I.Manuel-joueur/Especes/11-Blank.md
-            - Les Corrompus: I.Manuel-joueur/Especes/11-Corrompus.md
-            - Les hommes-bêtes: I.Manuel-joueur/Especes/11-Homme-betes.md
-            - Les humains: I.Manuel-joueur/Especes/11-Humain.md
-            - Les Mutants: I.Manuel-joueur/Especes/11-Mutant.md
-            - Les Ogryns: I.Manuel-joueur/Especes/11-Ogryn.md
-            - Les Ratlings: I.Manuel-joueur/Especes/11-Ratling.md
-            - Les Scouts SpaceMarines: I.Manuel-joueur/Especes/11-Scout.md
-            - Les Technofusionnés: I.Manuel-joueur/Especes/11-Techfused.md
+            - A propos : I.Manuel-joueur/Especes/1-Humanite.md
+            - Les Blanks: I.Manuel-joueur/Especes/2-Blank.md
+            - Les Corrompus: I.Manuel-joueur/Especes/2-Corrompus.md
+            - Les hommes-bêtes: I.Manuel-joueur/Especes/2-Homme-betes.md
+            - Les humains: I.Manuel-joueur/Especes/2-Humain.md
+            - Les Mutants: I.Manuel-joueur/Especes/2-Mutant.md
+            - Les Ogryns: I.Manuel-joueur/Especes/2-Ogryn.md
+            - Les Ratlings: I.Manuel-joueur/Especes/2-Ratling.md
+            - Les Scouts SpaceMarines: I.Manuel-joueur/Especes/2-Scout.md
+            - Les Technofusionnés: I.Manuel-joueur/Especes/2-Techfused.md
         - Xenos:
-            - A propos : I.Manuel-joueur/Especes/20-xenos.md
-            - Les Aeldari : I.Manuel-joueur/Especes/21-Aeldari.md
-            - Les Cognats: I.Manuel-joueur/Especes/21-Cognat.md
+            - A propos : I.Manuel-joueur/Especes/3-xenos.md
+            - Les Aeldari : I.Manuel-joueur/Especes/4-Aeldari.md
+            - Les Cognats: I.Manuel-joueur/Especes/4-Cognat.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":
