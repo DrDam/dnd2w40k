@@ -26,18 +26,20 @@ nav:
         - L'humanité:
             - A propos : I.Manuel-joueur/Especes/humanite.md
             - Les Blanks: I.Manuel-joueur/Especes/11-Blank.md
-            - Les hommes-bètes: I.Manuel-joueur/Especes/11-Homme-betes.md
+            - Les Corrompus: I.Manuel-joueur/Especes/11-Corrompus.md
+            - Les hommes-bêtes: I.Manuel-joueur/Especes/11-Homme-betes.md
             - Les humains: I.Manuel-joueur/Especes/11-Humain.md
             - Les Mutants: I.Manuel-joueur/Especes/11-Mutant.md
             - Les Ogryns: I.Manuel-joueur/Especes/11-Ogryn.md
             - Les Ratlings: I.Manuel-joueur/Especes/11-Ratling.md
             - Les Scouts SpaceMarines: I.Manuel-joueur/Especes/11-Scout.md
             - Les Squats: I.Manuel-joueur/Especes/11-Squat.md
+            - Les Technofusionnés: I.Manuel-joueur/Especes/11-Techfused.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":
       - avant-propos: III.Manuel-Monstres/index.md
-
+  - Credits : credits.md
 
 extra_css:
   - stylesheets/extra.css
