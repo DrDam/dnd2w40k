@@ -10,17 +10,38 @@ PREPROCESSED_DIR="$BUILD_DIR/preprocessed"
 mkdir -p "$PREPROCESSED_DIR"
 
 # Préprocesse chaque fichier listé dans order.txt, en conservant l'arborescence
-PREPROCESSED_FILES=()
-while IFS= read -r src_file; do
-  # Ignore les lignes vides éventuelles dans order.txt
-  [ -z "$src_file" ] && continue
-
-  dest_file="$PREPROCESSED_DIR/$src_file"
+# Une ligne de order.txt peut être :
+#   - un fichier .md unique             -> docs/foo/bar.md
+#   - un dossier entier (trié par ordre alphabétique des fichiers .md)
+#                                        -> docs/foo/Dossier
+#                                        -> docs/foo/Dossier/*.md
+preprocess_one() {
+  local src_file="$1"
+  local dest_file="$PREPROCESSED_DIR/$src_file"
   mkdir -p "$(dirname "$dest_file")"
   python3 book/macro/admonition_to_div.py "$src_file" \
     | python3 book/macro/resolve_image_paths.py "$src_file" \
     > "$dest_file"
   PREPROCESSED_FILES+=("$dest_file")
+}
+
+PREPROCESSED_FILES=()
+while IFS= read -r entry; do
+  # Ignore les lignes vides éventuelles dans order.txt
+  [ -z "$entry" ] && continue
+
+  # Retire un éventuel suffixe "/*.md" pour ne garder que le chemin du dossier
+  dir_candidate="${entry%/\*.md}"
+
+  if [ -d "$dir_candidate" ]; then
+    # C'est un dossier : on prend tous les .md, triés alphabétiquement
+    while IFS= read -r -d '' md_file; do
+      preprocess_one "$md_file"
+    done < <(find "$dir_candidate" -maxdepth 1 -name '*.md' -print0 | sort -z)
+  else
+    # Fichier .md unique
+    preprocess_one "$entry"
+  fi
 done < book/order.txt
 
 # puis génération Pandoc.

@@ -24,17 +24,19 @@ nav:
       - 3. Les espèces:
         - Les Espèces: I.Manuel-joueur/Especes/especes.md
         - L'humanité:
-            - A propos : I.Manuel-joueur/Especes/humanite.md
-            - Les Blanks: I.Manuel-joueur/Especes/11-Blank.md
-            - Les Corrompus: I.Manuel-joueur/Especes/11-Corrompus.md
-            - Les hommes-bêtes: I.Manuel-joueur/Especes/11-Homme-betes.md
-            - Les humains: I.Manuel-joueur/Especes/11-Humain.md
-            - Les Mutants: I.Manuel-joueur/Especes/11-Mutant.md
-            - Les Ogryns: I.Manuel-joueur/Especes/11-Ogryn.md
-            - Les Ratlings: I.Manuel-joueur/Especes/11-Ratling.md
-            - Les Scouts SpaceMarines: I.Manuel-joueur/Especes/11-Scout.md
-            - Les Squats: I.Manuel-joueur/Especes/11-Squat.md
-            - Les Technofusionnés: I.Manuel-joueur/Especes/11-Techfused.md
+            - A propos : I.Manuel-joueur/Especes/1_Humanite.md
+            - Les Blanks: I.Manuel-joueur/Especes/1-Blank.md
+            - Les Corrompus: I.Manuel-joueur/Especes/1-Corrompus.md
+            - Les hommes-bêtes: I.Manuel-joueur/Especes/1-Homme-betes.md
+            - Les humains: I.Manuel-joueur/Especes/1-Humain.md
+            - Les Mutants: I.Manuel-joueur/Especes/1-Mutant.md
+            - Les Ogryns: I.Manuel-joueur/Especes/1-Ogryn.md
+            - Les Ratlings: I.Manuel-joueur/Especes/1-Ratling.md
+            - Les Scouts SpaceMarines: I.Manuel-joueur/Especes/1-Scout.md
+            - Les Technofusionnés: I.Manuel-joueur/Especes/1-Techfused.md
+        - Xenos:
+            - A propos : I.Manuel-joueur/Especes/2_Xenos.md
+            - Les Cognats: I.Manuel-joueur/Especes/2-Cognat.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":
