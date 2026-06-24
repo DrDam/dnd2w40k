@@ -4,7 +4,7 @@
 
 Chaque étape de la création d’un personnage s’accompagne d’un exemple illustrant cette étape, avec un joueur nommé Bob qui crée son personnage humain, Krieg le soldat de Krieg.
 
-##### Etape 1. Choisir une Espèce
+##### Etape 1. Choisir une espèce
 
 Chaque personnage appartient à une espèce, l’une des nombreuses espèces humanoïdes intelligentes de l’univers de Warhammer 40k. Les espèces des personnages joueurs les plus courantes sont les humains, les Eldars, les Tau et les Orques. Certaines races comportent également des sous-races, comme les Eldars des Mondes-Ateliers ou les Weirdboys orques. La section « [Espèces](#especes) » fournit davantage d’informations sur ces espèces.
 
@@ -146,7 +146,7 @@ Une fois que vous connaissez les aspects de jeu fondamentaux de votre personnage
 
 À l’aide des informations de la section « [Antécédents](#antecedents) », vous pouvez préciser l’apparence physique et les traits de personnalité de votre personnage. Choisissez l’alignement de votre personnage (la boussole morale qui guide ses décisions) et ses idéaux. La section « [Antécédents](#antecedents) » vous aide également à identifier ce qui compte le plus pour votre personnage, ce qu’on appelle ses « liens », ainsi que les faiblesses qui pourraient un jour le faire trébucher.
 
-Le passé de votre personnage décrit d’où il vient, son métier d’origine et sa place dans l’univers de Warhammer 40 000. Votre MJ pourrait vous proposer des parcours supplémentaires en plus de ceux inclus dans la section « [Antécédents](#antecedents) », et pourrait être disposé à travailler avec vous pour élaborer un parcours qui corresponde plus précisément à votre concept de personnage.
+Le passé de votre personnage décrit d’où il vient, son métier d’origine et sa place dans l’univers de Warhammer 40 000. Votre MJ pourrait vous proposer des historique supplémentaires en plus de ceux inclus dans la section « [Antécédents](#antecedents) », et pourrait être disposé à travailler avec vous pour élaborer un historique qui corresponde plus précisément à votre concept de personnage.
 
 Un Antécédent confère à votre personnage une bonus caractéristique (un avantage général) et une maîtrise de deux compétences ; il peut également vous permettre d’acquérir des langues supplémentaires ou la maîtrise de certains types d’outils. Notez ces informations, ainsi que les détails de personnalité que vous développez, sur votre fiche de personnage.
 
@@ -172,15 +172,15 @@ Un personnage doté d’un grand Charisme respire la confiance en soi, général
 
     Bob décide que Krieg est issu d’une lignée de soldats, originaire du Monde de la Mort de Krieg. Il a grandi en accomplissant les tâches habituelles des Krieg, comme nettoyer les latrines et entretenir son fusil laser. Mais Krieg a un destin héroïque — massacrer tous ceux qui s’opposent à l’Imperium — ; il choisit donc le passé de « héros populaire » pour son personnage. Il note les compétences et la particularité que ce passé lui confère.
 
-    Bob a une image assez claire de la personnalité de Krieg en tête ; il ignore donc les traits de caractère suggérés par le parcours de « héros populaire », notant plutôt que Krieg est un homme attentionné et sensible qui prend un réel plaisir à la mort de ses ennemis, mais cache sa joie derrière la loyauté froide que lui inspire le service de l’Imperium. Il choisit l’idéal d’équité dans la liste proposée par son parcours, précisant que Krieg estime que personne n’est au-dessus des lois.
+    Bob a une image assez claire de la personnalité de Krieg en tête ; il ignore donc les traits de caractère suggérés par le historique de « héros populaire », notant plutôt que Krieg est un homme attentionné et sensible qui prend un réel plaisir à la mort de ses ennemis, mais cache sa joie derrière la loyauté froide que lui inspire le service de l’Imperium. Il choisit l’idéal d’équité dans la liste proposée par son historique, précisant que Krieg estime que personne n’est au-dessus des lois.
 
     Compte tenu de son histoire, le lien de Krieg est évident : il aspire à retourner un jour sa planète natale, Krieg. Son défaut est lié à sa nature attentionnée et sensible : il a un faible pour les orphelins et les âmes égarées, ce qui le conduit à faire preuve de clémence même lorsque cela n’est peut-être pas justifié.
 
 ##### Etape 5. Choisissez votre équipement
 
-Votre classe et votre parcours déterminent l’équipement de départ de votre personnage, notamment ses armes, son armure et tout autre matériel d’aventure. Notez cet équipement sur votre fiche de personnage. Tous ces objets sont détaillés dans la section « [Équipement](#equipement) ».
+Votre classe et votre historique déterminent l’équipement de départ de votre personnage, notamment ses armes, son armure et tout autre matériel d’aventure. Notez cet équipement sur votre fiche de personnage. Tous ces objets sont détaillés dans la section « [Équipement](#equipement) ».
 
-Au lieu de vous contenter de l’équipement qui vous est attribué en fonction de votre classe et de votre parcours, vous pouvez acheter votre équipement de départ. Vous disposez d’un certain nombre de gelt (g) à dépenser en fonction de votre classe, comme indiqué dans la section « [Équipement](#equipement) ». Cette section contient également des listes exhaustives d’équipements, accompagnées de leurs prix.
+Au lieu de vous contenter de l’équipement qui vous est attribué en fonction de votre classe et de votre historique, vous pouvez acheter votre équipement de départ. Vous disposez d’un certain nombre de gelt (g) à dépenser en fonction de votre classe, comme indiqué dans la section « [Équipement](#equipement) ». Cette section contient également des listes exhaustives d’équipements, accompagnées de leurs prix.
 
 Votre score de Force limite la quantité d’équipement que vous pouvez transporter. Évitez d’acheter de l’équipement dont le poids total (en kilogramme) dépasse votre score de Force multiplié par 15. La section « Utilisation des scores de caractéristiques » fournit davantage d’informations sur la capacité de charge.
 
@@ -205,7 +205,7 @@ Lorsque vous effectuez une attaque avec une arme, vous lancez un d20 et ajoutez 
 
 !!! note "CRÉATION DE KRIEG LE SOLDAT DE KRIEG, ÉTAPE 5"
 
-    Bob note l'équipement de départ correspondant à la classe de soldat et au parcours de héros populaire. Son équipement de départ comprend une cotte de mailles et un bouclier, qui, combinés, confèrent à Krieg une classe d'armure de 18.
+    Bob note l'équipement de départ correspondant à la classe de soldat et au historique de héros populaire. Son équipement de départ comprend une cotte de mailles et un bouclier, qui, combinés, confèrent à Krieg une classe d'armure de 18.
 
     Pour les armes de Krieg, Bob choisit une hache de combat et deux haches à main. Sa hache de combat étant une arme de mêlée, Krieg utilise son modificateur de Force pour ses attaques et ses dégâts. Son bonus d’attaque correspond à son modificateur de Force (+3) plus son bonus de compétence (+2), soit un total de +5. La hache de combat inflige 1d8 points de dégâts cinétiques, et Krieg ajoute son modificateur de Force aux dégâts lorsqu’il touche, pour un total de 1d8 + 3 points de dégâts cinétiques. Lorsqu’il lance une hache à main, Krieg bénéficie du même bonus d’attaque (les haches à main, en tant qu’armes de jet, utilisent la Force pour les attaques et les dégâts), et l’arme inflige 1d6 + 3 points de dégâts cinétiques lorsqu’elle touche.
 

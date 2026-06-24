@@ -3,7 +3,7 @@
 Le Manuel du joueur à pour objet de reproduire la structure du Manuel du joueur classique de la 5em édition.
 Il comportera un certain nombre de différences.
 
-### Eléments généraux
+### Éléments généraux
 
 ##### Création de personnage
 
@@ -11,7 +11,6 @@ Il comportera un certain nombre de différences.
 
 Les *espèces* s’inspirent de celles présentes dans la galaxie.
 Certaines *espèces exotiques* pourraient ne pas convenir à votre campagne.
-Les *Space Marines* sont traité à part, et suivent un processus de création de personnage différent en raison de leur entraînement, de leur héritage et de leur équipement.
 Presque toutes les races existantes sont des versions entièrement nouvelles ou modifiées de races déjà publiées.
 
 **Classes**
