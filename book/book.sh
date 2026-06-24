@@ -35,9 +35,10 @@ while IFS= read -r entry; do
 
   if [ -d "$dir_candidate" ]; then
     # C'est un dossier : on prend tous les .md, triés alphabétiquement
+    # C entraîne un tri en ordre ASCII strict (indépendant de la locale système)
     while IFS= read -r -d '' md_file; do
       preprocess_one "$md_file"
-    done < <(find "$dir_candidate" -maxdepth 1 -name '*.md' -print0 | sort -z)
+    done < <(find "$dir_candidate" -maxdepth 1 -name '*.md' -print0 | LC_COLLATE=C sort -z)
   else
     # Fichier .md unique
     preprocess_one "$entry"
