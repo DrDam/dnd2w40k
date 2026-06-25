@@ -27,7 +27,7 @@ nav:
             - A propos : I.Manuel-joueur/Especes/1-Humanite.md
             - Les Blanks: I.Manuel-joueur/Especes/2-Blank.md
             - Les Corrompus: I.Manuel-joueur/Especes/2-Corrompus.md
-            - Les hommes-bêtes: I.Manuel-joueur/Especes/2-Homme-betes.md
+            - Les hommes-bêtes: I.Manuel-joueur/Especes/2-Homme-bete.md
             - Les humains: I.Manuel-joueur/Especes/2-Humain.md
             - Les Mutants: I.Manuel-joueur/Especes/2-Mutant.md
             - Les Ogryns: I.Manuel-joueur/Especes/2-Ogryn.md
@@ -35,16 +35,23 @@ nav:
             - Les Scouts SpaceMarines: I.Manuel-joueur/Especes/2-Scout.md
             - Les Technofusionnés: I.Manuel-joueur/Especes/2-Techfused.md
         - Xenos:
-            - A propos : I.Manuel-joueur/Especes/3-xenos.md
+            - A propos : I.Manuel-joueur/Especes/3-Xenos.md
             - Les Aeldari : I.Manuel-joueur/Especes/4-Aeldari.md
             - Les Cognats: I.Manuel-joueur/Especes/4-Cognat.md
-            - Les Genestealers: I.Manuel-joueur/Especes/4-Genestealer.md
+            - Les Genestealers: I.Manuel-joueur/Especes/4-Genestealers.md
+            - Les Hommes-Rats: I.Manuel-joueur/Especes/4-Hommes-rats.md
             - Les Gretchins: I.Manuel-joueur/Especes/4-Gretchin.md
             - Les Jokaeros: I.Manuel-joueur/Especes/4-Jokaero.md
             - Les Kroots: I.Manuel-joueur/Especes/4-Kroot.md
             - Les Lacrymoles: I.Manuel-joueur/Especes/4-Lacrymole.md
             - Les Necrons: I.Manuel-joueur/Especes/4-Necron.md
             - Les Orks: I.Manuel-joueur/Especes/4-Ork.md
+            - Les Stryxis: I.Manuel-joueur/Especes/4-Stryxis.md
+            - Les Tarellians: I.Manuel-joueur/Especes/4-Tarellian.md
+            - Les Tau: I.Manuel-joueur/Especes/4-Tau.md
+            - Les Thyrrus: I.Manuel-joueur/Especes/4-Thyrrus.md
+            - Les Vespides: I.Manuel-joueur/Especes/4-Vespide.md
+            - Les Viskeons: I.Manuel-joueur/Especes/4-Viskeon.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":

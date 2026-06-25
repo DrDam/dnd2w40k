@@ -7,7 +7,7 @@ Au plus profond des Mondes-Tombeaux, dans des mondes tombés depuis longtemps da
 !!! warning "Note pour le Maitre du Jeu"
     Les Nécrons sont des créatures artificielles et ne peuvent être soignés par la plupart des méthodes de soins standard. De ce fait, il est important que vos joueurs sachent qu’ils risquent d’être fortement désavantagés par rapport aux autres membres de leur groupe en raison du manque de soins à leur disposition.
 
-##### Traits des Nécron
+##### Traits des Nécrons
 
 **Augmentation des caractéristiques.** Votre caractéristique de Constitution augmente de 2, et une autre caractéristique de votre choix augmente de 1.
 
