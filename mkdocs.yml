@@ -53,6 +53,14 @@ nav:
             - Les Thyrrus: I.Manuel-joueur/Especes/4-Thyrrus.md
             - Les Vespides: I.Manuel-joueur/Especes/4-Vespide.md
             - Les Viskeons: I.Manuel-joueur/Especes/4-Viskeon.md
+        - 3. Les classes:
+          - les classes: I.Manuel-joueur/Classes/0-classes.md
+          - les Augmentistes: I.Manuel-joueur/Classes/1-Augmentiste.md
+        - 4. Personnalité et historique:
+          - Préambule: I.Manuel-joueur/Origines/0-title.md
+          - les Historiques: I.Manuel-joueur/Classes/1-Historiques.md
+          - les Chapitre/Légion: I.Manuel-joueur/Classes/2-OrrigineSM.md
+          - les Roles opérationnels: I.Manuel-joueur/Classes/3-RoleOperationnel.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":
