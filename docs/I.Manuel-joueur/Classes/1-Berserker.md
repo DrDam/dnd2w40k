@@ -1,79 +1,82 @@
-![Le chef Ork Ghazghkull Mag Uruk Thraka](../../assets/classes/Warlord_Ghazkull_Thraka.png){.newpage height=8cm}
+![Un Blood Angel de la Compagnie de la Mort](../../assets/classes/death-company-by-adeptus-celeng.png){.newpage height=8cm}
 
-### Augmentiste
+### Berserker
 
-Ses poings, tels des toupies, s’abattent sur une pluie de balles qui s’abat sur lui ; un homme, fait plus de métal que de chair, bondit par-dessus la barricade de police et se jette dans les rangs serrés des arbitres. Son mouvement est un éclair qui projette les arbitres au loin, jusqu’à ce qu’il se retrouve seul debout.
+Un grand membre d’une tribu humaine avance à grands pas à travers les tempêtes de neige, enveloppé de fourrures et brandissant sa hache. Il rit en chargeant vers le groupe d’Orques qui ont osé attaquer les villages de son monde sauvage.
 
-Prenant une profonde inspiration, le mutant sent les pistons automatiques s’enfoncer dans son dos, inondant son corps de substances chimiques et de stimulants pour l’aider à affronter le combat qui l’attend. Dans l’obscurité totale de l’arène, son adversaire s’approche de lui, lui assénant coup après coup, avant de reculer en titubant lorsque ses mains se mettent à saigner sous l’impact de la chair contre le métal.
+Un Ogryn grogne face au dernier challenger qui remet en cause son autorité, prêt à briser le cou de son adversaire à mains nues, comme il l’a fait avec ses six derniers adversaires.
 
-Une bande de gardes franchit une dernière colline, jusqu’à ce qu’ils aperçoivent le chef de guerre — un Ork de 3 mètres de haut, fait de plus de métal que de chair verte, la mâchoire constituée des restes d’un pare-chocs de voiture, et la poitrine équipée pour rejeter des gaz d’échappement et des fumées à chaque inspiration. Le chef de guerre se retourne, ses yeux brillant d’un rouge perçant dans la nuit, et fait vrombir les moteurs de son cœur.
+La bouche écumante, un Blood Angel assène un coup de gantelet au visage de son ennemi Eldar noir, puis se retourne pour enfoncer son coude blindé dans le ventre d’un autre, lui brisant les côtes et lui fracturant les os.
 
-Quels que soient leurs implants, les augmentistes sont unis par leur passion pour l’amélioration de leur corps afin de mieux répondre à leurs désirs. Que ce soit pour ressembler au gangster le plus imposant et le plus redoutable du quartier, ou pour écraser leurs ennemis à coups dévastateurs, la cybernétique est le pain quotidien des augmentistes.
+Ces berserkers, aussi différents soient-ils, se caractérisent par une rage surnaturelle qui s’empare d’eux dès que l’aube de la bataille se lève. Plus qu’une simple émotion, leur colère et leur férocité sont celles d’un animal acculé, mais leur objectif est aussi clair que l’œil d’une tempête.
+
+Pour certains, leur rage jaillit de la communion entre la technologie et la chair, utilisant la cybernétique pour réprimer toute émotion superflue afin d’alimenter leur fureur au combat. Pour d’autres, cette rage est forgée par des années de combat, de discipline et de dévouement à leur cause.
 
 **Création Rapide**
 
-Vous pouvez créer rapidement un « augmentiste » en suivant ces conseils. Tout d’abord, faites en sorte que votre modificateur de caractéristique le plus élevé soit la Force ou la Dextérité. Votre deuxième score le plus élevé devrait être la Constitution. Ensuite, choisissez le parcours « pilote ».
+Vous pouvez créer rapidement un berserker en suivant ces conseils. Tout d’abord, faites en sorte que la Force soit votre modificateur de caractéristique le plus élevé. Vos scores suivants les plus élevés devraient être la Constitution et la Dextérité. Ensuite, choisissez le parcours « mercenaire ».
 
 ##### Bonus de classe
 
-En tant qu’augmentiste, vous bénéficiez des caractéristiques de classe suivantes :
+En tant que Berserker, vous bénéficiez des caractéristiques de classe suivantes :
 
 **Points de vie**
 
-*Dés de vie* : 1d8 par niveau d’augmentiste
+*Dés de vie* : 1d12 par niveau d’augmentiste
 
-*Points de vie au niveau 1* : 8 + votre modificateur de Constitution
+*Points de vie au niveau 1* : 12 + votre modificateur de Constitution
 
-*Points de vie aux niveaux supérieurs* : 1d8 (ou 5) + votre modificateur de Constitution par niveau d’augmentiste après le niveau 1
+*Points de vie aux niveaux supérieurs* : 1d12 (ou 5) + votre modificateur de Constitution par niveau de Berserker après le niveau 1
 
 **Compétences de départ**
 
 Vous maîtrisez les objets suivants, en plus des compétences fournies par votre espèce ou votre historique.
 
-*Armures* : armures légères, armures moyennes, boucliers
+*Armures* : armure légère, armure moyenne, armure lourde, boucliers
 
 *Armes* : armes simples, armes de guerre
 
-*Outils* : trousse de mécanicien
+*Outils* : aucun
 
-*Jets de sauvegarde* : Force, Dextérité
+*Jets de sauvegarde* : Force, Constitution
 
-*Compétences* : choisissez-en deux parmi Acrobatie, Alétisme, Intimidation, Perspicacité, Connaissances, Perception, Pilotage, Discrétion et Technologie.
+*Compétences* : choisissez-en deux parmi Acrobatie, Athlétisme, Perspicacité, Intimidation, Connaissances, Médecine, Nature, Perception et Survie.
 
 *Équipement de départ*
 
 Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par votre historique :
 
-- (a) deux épées courtes ou (b) deux gantelets légers
-- (a) un pistolet laser et deux cellules d’énergie ou (b) un pistolet et deux chargeurs
-- (a) un sac de technologue ou (b) un sac d’explorateur
-- (a) une armure en mailles ou (b) une armure de soldat
-- Une trousse de mécanicien
+- (a) une grande hache ou (b) n’importe quelle arme de combat au corps à corps
+- (a) deux haches à une main ou (b) n’importe quelle arme simple ou (c) un bouclier
+- (a) une cotte de mailles à écailles ou (b) une cotte de mailles
+- Un sac d’explorateur et cinq javelots
+
 
 *Scores caractéristiques et modificateur*{.table-title .wide}
 
-| Niveau | Bonus de Maitrise | Aptitudes | Augmentations de combat | Points de sur surcadençage  | Déplacement amélioré |
-| :-: | :---: | ---------------- | :----: | :----: | :---: |
-| 1 | +2 | Arme intégrée, Améliorations de combat | d6 | — | — |
-| 2 | +2 | Surcadençage, Déplacement amélioré | d6 | 2 | + 3m |
-| 3 | +2 | Implants cybernétiques, Détourner les missiles | d6 | 3 | + 3m|
-| 4 | +2 | Amélioration des caractéristiques, Force hydraulique | d6 | 4 |+ 3m|
-| 5 | +3 | Attaque supplémentaire, Frappe étourdissante | d8 | 5 | + 3m|
-| 6 | +3 | Frappes améliorées, Implants cybernétiques | d8 | 6 | + 4,5m|
-| 7 | +3 | Évasion, Autonomie mentale | d8 | 7 | + 4,5m|
-| 8 | +3 | Amélioration des caractéristiques | d8 | 8 | + 4,5m|
-| 9 | +4 | Amélioration de l’arme intégrée, Amélioration du mouvement sans armure | d8 | 9 | + 4,5m|
-| 10 | +4 | Corps cybernétique | d8 | 10 | + 6m|
-| 11 | +4 | Amélioration Implants cybernétiques | d10 | 11 | + 6m|
-| 12 | +4 | Amélioration des caractéristiques | d10 | 12 | + 6m|
-| 13 | +5 | Amélioration des armes intégrées, Traducteur universel | d10 | 13 | + 6m|
-| 14 | +5 | Noyau amélioré | d10 | 14 | + 6m|
-| 15 | +5 | Immortalité mécanisée | d10 | 15 | + 7,5m|
-| 16 | +5 | Amélioration des caractéristiques | d10 | 16 | + 7,5m|
-| 17 | +6 | Amélioration Implants cybernétiques | d12 | 17 | + 7,5m|
-| 18 | +6 | Camouflage intégré | d12 | 18 | + 9m|
-| 19 | +6 | Amélioration des caractéristiques | d12 | 19 | + 9m|
-| 20 | +6 | Améliorations parfaites | d12 | 20 | + 9m|
+| Niveau | Bonus de Maîtrise | Aptitudes | Rage | Dégâts en Rage |
+| :-: | :---: | ---------------- | :----: | :----: |
+| 1 | +2 | Défense sans armure, Rage | 2 | +2 |
+| 2 | +2 | Attaque téméraire, Sens du danger | 2 | +2 |
+| 3 | +2 | War path | 3 | +2 |
+| 4 | +2 | Amélioration des caractéristiques | 3 | +2 |
+| 5 | +3 | Attaque supplémentaire, Déplacement rapide | 3 | +2 |
+| 6 | +3 | Capacité « Chemin de guerre » | 4 | +2 |
+| 7 | +3 | Instinct sauvage | 4 | +2 |
+| 8 | +3 | Amélioration des caractéristiques | 4 | +2 |
+| 9 | +4 | Critique brutal (1 dé) | 5 | +3 |
+| 10 | +4 | Capacité « Chemin de guerre » | 4 | +3 |
+| 11 | +4 | Rage implacable | 4 | +3 |
+| 12 | +4 | Amélioration des caractéristiques | 5 | +3 |
+| 13 | +5 | Critique brutal (2 dés) | 5 | +3 |
+| 14 | +5 | Caractéristique « Chemin de guerre » | 5 | +3 |
+| 15 | +5 | Rage persistante | 5 | +3 |
+| 16 | +5 | Amélioration des caractéristiques | 5 | +4 |
+| 17 | +6 | Critique brutale (3 dés) | 6 | +4 |
+| 18 | +6 | Puissance indomptable | 6 | +4 |
+| 19 | +6 | Amélioration des caractéristiques | 6 | +4 |
+| 20 | +6 | Champion de la guerre | illimité | +4 |
+
 
 ##### Aptitudes de classe
 

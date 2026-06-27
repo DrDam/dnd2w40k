@@ -16,11 +16,11 @@ Notez les traits conférés par votre espèce sur votre fiche de personnage. Vei
 
 !!! note "CRÉER KRIEG LE SOLDAT DE KIEG, ÉTAPE 1"
 
-    Bob s’installe pour créer son personnage. Il décide qu’un humain bourru correspond au personnage qu’il souhaite incarner. Il note tous les traits des humains sur sa fiche de personnage, y compris sa vitesse de 9 mètres et les langues qu’il connaît : le bas-gothique et une autre de son choix. Il choisit les codes impériaux comme deuxième langue après avoir consulté la liste des langues au chapitre « [Antécédents](#antecedents) » .
+    Bob s’installe pour créer son personnage. Il décide qu’un humain bourru correspond au personnage qu’il souhaite incarner. Il note tous les traits des humains sur sa fiche de personnage, y compris sa vitesse de 9 mètres et les langues qu’il connaît : le bas-gothique et une autre de son choix. Il choisit les codes impériaux comme deuxième langue après avoir consulté la liste des langues au chapitre « Historique » .
 
 ##### Etape 2. Choisissez une Classe
 
-Chaque personnage appartient à une classe. La classe définit globalement la vocation d’un personnage, les talents particuliers qu’il possède et les tactiques qu’il est le plus susceptible d’employer lorsqu’il explore des ruines antiques, combat des monstres ou mène une négociation tendue. Les classes de personnages sont décrites dans la section « [Classes](#classes) ».
+Chaque personnage appartient à une classe. La classe définit globalement la vocation d’un personnage, les talents particuliers qu’il possède et les tactiques qu’il est le plus susceptible d’employer lorsqu’il explore des ruines antiques, combat des monstres ou mène une négociation tendue. Les classes de personnages sont décrites dans la section « Classes ».
 
 Votre personnage bénéficie d’un certain nombre d’avantages liés à votre choix de classe. Bon nombre de ces avantages sont des *caractéristiques de classe* — des capacités (y compris le lancement de sorts) qui distinguent votre personnage des membres d’autres classes. Vous acquérez également un certain nombre de *compétences* : armures, armes, compétences, jets de sauvegarde et parfois outils. Vos compétences définissent bon nombre des choses que votre personnage sait particulièrement bien faire, qu’il s’agisse d’utiliser certaines armes ou de raconter un mensonge convaincant.
 
@@ -40,7 +40,7 @@ Les points de vie de votre personnage déterminent sa résistance au combat et d
 
 Au niveau 1, votre personnage dispose d’un dé de vie, dont le type est déterminé par votre classe. Vous commencez avec un nombre de points de vie égal au résultat le plus élevé de ce dé, comme indiqué dans la description de votre classe. (Vous ajoutez également votre modificateur de Constitution, que vous déterminerez à l’étape 3.) Il s’agit également de votre maximum de points de vie.
 
-Notez les points de vie de votre personnage sur votre fiche de personnage. Notez également le type de dé de points de vie utilisé par votre personnage et le nombre de dés de points de vie dont vous disposez. Après vous être reposé, vous pouvez dépenser des dés de points de vie pour regagner des points de vie (voir « [Se reposer](#se-reposer) » dans la section Aventure).
+Notez les points de vie de votre personnage sur votre fiche de personnage. Notez également le type de dé de points de vie utilisé par votre personnage et le nombre de dés de points de vie dont vous disposez. Après vous être reposé, vous pouvez dépenser des dés de points de vie pour regagner des points de vie (voir « Se reposer » dans la section Aventure).
 
 **Bonus de maîtrise**
 
@@ -144,11 +144,11 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 
 Une fois que vous connaissez les aspects de jeu fondamentaux de votre personnage, il est temps de lui donner corps en tant que personne. Votre personnage a besoin d’un nom. Prenez quelques minutes pour réfléchir à son apparence physique et à son comportement général.
 
-À l’aide des informations de la section « [Antécédents](#antecedents) », vous pouvez préciser l’apparence physique et les traits de personnalité de votre personnage. Choisissez l’alignement de votre personnage (la boussole morale qui guide ses décisions) et ses idéaux. La section « [Antécédents](#antecedents) » vous aide également à identifier ce qui compte le plus pour votre personnage, ce qu’on appelle ses « liens », ainsi que les faiblesses qui pourraient un jour le faire trébucher.
+À l’aide des informations de la section « Historiques », vous pouvez préciser l’apparence physique et les traits de personnalité de votre personnage. Choisissez l’alignement de votre personnage (la boussole morale qui guide ses décisions) et ses idéaux. La section « Historiques » vous aide également à identifier ce qui compte le plus pour votre personnage, ce qu’on appelle ses « liens », ainsi que les faiblesses qui pourraient un jour le faire trébucher.
 
-Le passé de votre personnage décrit d’où il vient, son métier d’origine et sa place dans l’univers de Warhammer 40 000. Votre MJ pourrait vous proposer des historique supplémentaires en plus de ceux inclus dans la section « [Antécédents](#antecedents) », et pourrait être disposé à travailler avec vous pour élaborer un historique qui corresponde plus précisément à votre concept de personnage.
+Le passé de votre personnage décrit d’où il vient, son métier d’origine et sa place dans l’univers de Warhammer 40 000. Votre MJ pourrait vous proposer des historique supplémentaires en plus de ceux inclus dans la section « Historiques », et pourrait être disposé à travailler avec vous pour élaborer un historique qui corresponde plus précisément à votre concept de personnage.
 
-Un Antécédent confère à votre personnage une bonus caractéristique (un avantage général) et une maîtrise de deux compétences ; il peut également vous permettre d’acquérir des langues supplémentaires ou la maîtrise de certains types d’outils. Notez ces informations, ainsi que les détails de personnalité que vous développez, sur votre fiche de personnage.
+Un Historique confère à votre personnage une bonus caractéristique (un avantage général) et une maîtrise de deux compétences ; il peut également vous permettre d’acquérir des langues supplémentaires ou la maîtrise de certains types d’outils. Notez ces informations, ainsi que les détails de personnalité que vous développez, sur votre fiche de personnage.
 
 **Les capacités de votre personnage**
 
@@ -178,9 +178,9 @@ Un personnage doté d’un grand Charisme respire la confiance en soi, général
 
 ##### Etape 5. Choisissez votre équipement
 
-Votre classe et votre historique déterminent l’équipement de départ de votre personnage, notamment ses armes, son armure et tout autre matériel d’aventure. Notez cet équipement sur votre fiche de personnage. Tous ces objets sont détaillés dans la section « [Équipement](#equipement) ».
+Votre classe et votre historique déterminent l’équipement de départ de votre personnage, notamment ses armes, son armure et tout autre matériel d’aventure. Notez cet équipement sur votre fiche de personnage. Tous ces objets sont détaillés dans la section « Équipement ».
 
-Au lieu de vous contenter de l’équipement qui vous est attribué en fonction de votre classe et de votre historique, vous pouvez acheter votre équipement de départ. Vous disposez d’un certain nombre de gelt (g) à dépenser en fonction de votre classe, comme indiqué dans la section « [Équipement](#equipement) ». Cette section contient également des listes exhaustives d’équipements, accompagnées de leurs prix.
+Au lieu de vous contenter de l’équipement qui vous est attribué en fonction de votre classe et de votre historique, vous pouvez acheter votre équipement de départ. Vous disposez d’un certain nombre de gelt (g) à dépenser en fonction de votre classe, comme indiqué dans la section « Équipement ». Cette section contient également des listes exhaustives d’équipements, accompagnées de leurs prix.
 
 Votre score de Force limite la quantité d’équipement que vous pouvez transporter. Évitez d’acheter de l’équipement dont le poids total (en kilogramme) dépasse votre score de Force multiplié par 15. La section « Utilisation des scores de caractéristiques » fournit davantage d’informations sur la capacité de charge.
 
@@ -188,9 +188,9 @@ Votre score de Force limite la quantité d’équipement que vous pouvez transpo
 
 Votre classe d’armure (CA) indique dans quelle mesure votre personnage parvient à éviter d’être blessé au combat. Parmi les éléments qui contribuent à votre CA, on trouve l’armure que vous portez, le bouclier que vous maniez et votre modificateur de Dextérité. Cependant, tous les personnages ne portent pas d’armure ni de bouclier.
 
-Sans armure ni bouclier, la CA de votre personnage est égale à 10 + son modificateur de Dextérité. Si votre personnage porte une armure, un bouclier ou les deux, calculez sa CA en suivant les règles de la section « [Équipement](#equipement) ». Notez sa CA sur sa fiche de personnage.
+Sans armure ni bouclier, la CA de votre personnage est égale à 10 + son modificateur de Dextérité. Si votre personnage porte une armure, un bouclier ou les deux, calculez sa CA en suivant les règles de la section « Équipement ». Notez sa CA sur sa fiche de personnage.
 
-Votre personnage doit posséder une compétence en armure et en bouclier pour pouvoir les porter et les utiliser efficacement ; ces compétences sont déterminées par votre classe. Le port d’une armure ou d’un bouclier présente des inconvénients si vous ne disposez pas de la compétence requise, comme expliqué dans la section « [Équipement](#equipement) ».
+Votre personnage doit posséder une compétence en armure et en bouclier pour pouvoir les porter et les utiliser efficacement ; ces compétences sont déterminées par votre classe. Le port d’une armure ou d’un bouclier présente des inconvénients si vous ne disposez pas de la compétence requise, comme expliqué dans la section « Équipement ».
 
 Certains sorts et capacités de classe vous offrent une autre méthode de calcul de votre CA. Si vous disposez de plusieurs capacités vous proposant différentes méthodes de calcul, vous choisissez celle que vous souhaitez utiliser.
 

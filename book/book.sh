@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+# Set timer
+debut=$(date +%s)
+
 # Build du PDF : préprocessing des admonitions MkDocs -> fenced divs,
 
 BUILD_DIR="build"
@@ -64,4 +67,8 @@ pandoc \
   -H book/preamble.tex \
   -f markdown-implicit_figures
 
-echo "PDF généré : $BUILD_DIR/dnd-rules.pdf"
+# Log fin opérations
+fin=$(date +%s)
+duree=$((fin - debut))
+
+echo "PDF généré en $duree secondes"

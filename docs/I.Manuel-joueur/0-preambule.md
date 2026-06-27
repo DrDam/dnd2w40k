@@ -36,7 +36,7 @@ Les *Dons* ont été légèrement modifiés et quelques-uns ont été ajoutés.
 
 La monnaie standard est le *Gelt* abrégé en *g*. 10 gelts équivalent à 1 pièce d'or.
 
-Les armes, armures et objets les plus courants sont répertoriés au [chapitre 5 : Équipement standard](#chapitre-5-Equipement-Standard). Tout le reste se trouve dans la section [Objets améliorés](#objet-ameliores) dans le livre du Maître du Jeu.
+Les armes, armures et objets les plus courants sont répertoriés au chapitre « Équipement ». Tout le reste se trouve dans la section « Objets améliorés » dans le livre du Maître du Jeu.
 
 ##### Magie
 
