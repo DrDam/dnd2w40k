@@ -50,7 +50,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure en mailles ou (b) une armure de soldat
 - Une trousse de mécanicien
 
-*Scores caractéristiques et modificateur*{.table-title .wide}
+*Les aptitudes de l'Augmentiste*{.table-title .wide}
 
 | Niveau | Bonus de Maitrise | Aptitudes | Augmentations de combat | Points de sur surcadençage  | Déplacement amélioré |
 | :-: | :---: | ---------------- | :----: | :----: | :---: |
@@ -74,8 +74,6 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 18 | +6 | Camouflage intégré | d12 | 18 | + 9m|
 | 19 | +6 | Amélioration des caractéristiques | d12 | 19 | + 9m|
 | 20 | +6 | Améliorations parfaites | d12 | 20 | + 9m|
-
-##### Aptitudes de classe
 
 ##### Arme intégrée
 
@@ -136,6 +134,7 @@ Lorsque vous atteignez le niveau 3, vous vous faites implanter des dispositifs c
 Si vous réduisez les dégâts à 0, vous pouvez renvoyer l’attaque. Si vous renvoyez une attaque de cette manière, vous pouvez dépenser 1 point de surcharge pour effectuer une attaque à distance (portée 6 mètre/18 mètres) avec l’arme ou la munition que vous venez de renvoyer, dans le cadre de la même réaction. Vous effectuez cette attaque avec maîtrise, quelles que soient vos maîtrises d’armes, et pouvez utiliser vos dés d’augmentations de combat pour déterminer les dégâts.
 
 ##### Amélioration des caractéristiques
+
 Lorsque vous atteignez le niveau 4, puis à nouveau aux niveaux 8, 12, 16 et 19, vous pouvez choisir parmis les modifications suivantes :
 
 - Augmenter de 2 points une caractéristique de votre choix
