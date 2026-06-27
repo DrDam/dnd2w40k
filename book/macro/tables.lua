@@ -3,8 +3,8 @@
 -- à leur légende si une légende (paragraphe en italique, généralement
 -- avec l'attribut {.table-title}) la précède immédiatement.
 --
--- Style commun à tous les tableaux (voir \newcolumntype L/C/R dans
--- book/preamble.tex) :
+-- Style commun à tous les tableaux (voir \newcolumntype L/C/R et
+-- \tablefontsize/\tablecaptionfontsize dans book/preamble.tex) :
 --   - colonnes à largeur fixe avec centrage vertical du texte
 --   - alignement horizontal sans justification forcée (texte multi-ligne
 --     aligné à gauche/droite/centré, jamais étiré bord à bord)
@@ -16,6 +16,12 @@
 --     cellule d'un tabular englobant, \rowcolor déborderait sur toute
 --     la hauteur de ligne du tabular englobant ; on utilise alors
 --     \cellcolor par cellule (voir `table_to_tabular_lines`).
+--   - taille de police configurable séparément pour la légende
+--     (\tablecaptionfontsize) et le contenu du tableau (\tablefontsize),
+--     toutes deux définies dans book/preamble.tex. Pour réduire la
+--     police des tableaux dans tout le document, modifier uniquement
+--     ces deux commandes dans le préambule -- aucun changement requis
+--     ici.
 --
 -- Trois modes de rendu, suivant la légende qui précède le(s) tableau(x) :
 --
@@ -25,6 +31,15 @@
 --      mode twocolumn -- PAS \textwidth, qui vaut la largeur de la PAGE
 --      entière et ferait largement déborder le tableau hors de sa
 --      colonne).
+--      Utilise `supertabular` (PAS `tabular` dans un center) : si le
+--      tableau est trop long pour la colonne/page courante, il continue
+--      automatiquement en haut de la colonne/page suivante, en répétant
+--      la légende (suffixée de "(suite)") ET l'en-tête de colonnes --
+--      titre "collant" qui suit le tableau partout où il se coupe.
+--      C'est pour cette répétition automatique que `supertabular` est
+--      utilisé ici plutôt qu'un simple `tabular` : un `tabular` coupé en
+--      plein milieu par un saut de page/colonne laisse sa suite orpheline,
+--      sans légende ni en-tête (comportement observé avant ce filtre).
 --
 --   2. Légende avec flag .wide + tableau -> mode "wide" : le tableau a
 --      VRAIMENT besoin de pleine largeur (plus de colonnes que ne peut
@@ -35,19 +50,35 @@
 --      la légende et le tableau dans le MÊME bloc \strip pour qu'ils ne
 --      puissent jamais se retrouver séparés par une coupure de page.
 --      Largeur calée sur \textwidth (pleine largeur de page).
+--      Reste en `tabular` classique (pas de titre "collant" multi-page) :
+--      `supertabular` gère sa pagination au niveau \output de LaTeX, ce
+--      qui entre en conflit avec le patch de \output déjà effectué par
+--      `cuted` pour `strip` -- combiner les deux n'est pas fiable. En
+--      pratique, les tableaux .wide visent la largeur plutôt que la
+--      hauteur (sinon ils seraient en mode standard), donc ce cas reste
+--      rare ; à surveiller si un tableau .wide devient trop long pour
+--      une page.
 --
 --   3. Légende + Div MkDocs Material `grid` contenant DEUX tableaux ->
 --      mode "grid" : les deux tableaux s'affichent côte à côte sous une
 --      légende commune, chacun avec sa propre largeur calée sur la
 --      moitié de \columnwidth.
+--      Reste en `tabular` classique (pas de titre "collant" multi-page) :
+--      `supertabular` ne peut pas être imbriqué comme cellule d'un autre
+--      tabular, ce qui est la structure même du mode grid (deux tableaux
+--      côte à côte). En pratique ces tableaux sont volontairement courts
+--      (paires de listes de coûts/valeurs), donc le risque de coupure
+--      reste faible.
 --
 -- Sans légende précédente, le tableau garde l'ancien comportement
 -- (choix automatique table/table* selon une heuristique de largeur,
 -- en float [!t]), pour ne pas casser les tableaux sans titre.
 --
--- Note : nécessaire en mode `twocolumn` car `longtable` (par défaut chez
--- Pandoc) lève une erreur fatale dans ce mode. `tabular` fonctionne
--- toujours, que ce soit dans le flux ou dans un float.
+-- Note : `longtable` (par défaut chez Pandoc) lève une erreur fatale en
+-- mode `twocolumn` ("longtable not in 1-column mode") -- c'est pour
+-- cette raison que ce filtre reconstruit entièrement les tableaux en
+-- `tabular`/`supertabular` plutôt que de s'appuyer sur la sortie LaTeX
+-- par défaut de Pandoc.
 
 local MAX_NARROW_COLS = 4
 local MAX_NARROW_CELL_CHARS = 15
@@ -235,7 +266,104 @@ local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcol
   return table.concat(lines, "\n")
 end
 
--- Tableau SANS légende préalable : comportement hérité, choix auto table/table* en float
+-- Variante de `table_to_tabular_lines` pour `supertabular` : sépare la
+-- définition de l'en-tête de colonnes (répété à chaque nouvelle page/
+-- colonne via \tablehead) de l'environnement supertabular lui-même, qui
+-- ne contient que les lignes de corps.
+--
+-- IMPORTANT : la légende est insérée comme une ligne \multicolumn dans
+-- \tablefirsthead/\tablehead, PAS via la commande \tablecaption de
+-- supertabular -- \tablecaption préfixe automatiquement la légende
+-- d'un numéro de table ("Table 1.1: ..."), ce qui ne correspond pas au
+-- style des autres tableaux du document (légende en italique simple,
+-- sans numérotation -- voir \begin{center}...\end{center} dans
+-- `captioned_table_wide`/`captioned_table_grid`, qui n'utilisent pas
+-- \caption non plus). Garder \tablecaption inutilisé évite aussi toute
+-- incohérence de numérotation entre tableaux "standard" (qui en
+-- auraient une) et "wide"/"grid" (qui n'en ont pas).
+--
+-- ATTENTION -- piège \multicolumn + colortbl dans \tablehead/\tablefirsthead :
+-- englober le \multicolumn{}{}{...} de la ligne de légende dans un
+-- groupe explicite {\tablecaptionfontsize ...} casse la compilation
+-- avec une erreur fatale "Misplaced \omit" (LaTeX reste bloqué en
+-- attente de saisie, même en -interaction=nonstopmode). C'est un
+-- conflit connu entre colortbl (chargé ici via \usepackage[table]{xcolor},
+-- nécessaire pour \rowcolor) et la macro \multispan/\omit interne aux
+-- en-têtes de supertabular : le groupe { } autour du \multicolumn
+-- perturbe la portée que colortbl attend pour patcher \omit. La parade
+-- consiste à placer \tablecaptionfontsize comme premier token DANS le
+-- contenu de la cellule (4e argument du \multicolumn), jamais dans un
+-- groupe qui englobe le \multicolumn lui-même -- la taille de police
+-- reste bien appliquée (elle se propage normalement à tout ce qui suit
+-- dans la cellule), seule la position du groupe change.
+-- Par symétrie, \tablefontsize (qui s'applique au CORPS du tableau,
+-- cellules de \begin{supertabular}...\end{supertabular}) est émis tel
+-- quel AVANT \tablefirsthead, donc hors de toute structure de tableau :
+-- aucun risque équivalent à cet endroit.
+--
+-- AUTRE PIÈGE -- \emph imbriqué dans \textit (annule l'italique) :
+-- `caption_latex` provient du Markdown source via Pandoc, qui rend
+-- *texte*{.table-title} en \emph{texte} (PAS \textit{texte}). \emph
+-- BASCULE l'style ambiant au lieu de le forcer : un \emph{...} imbriqué
+-- DANS un \textit{...} repasse donc en romain au lieu de rester en
+-- italique. Le suffixe "(suite)" est donc ajouté en \textit{(suite)}
+-- séparé, juxtaposé après caption_latex -- jamais en englobant
+-- caption_latex dans un \textit{%s (suite)} (qui désitaliciserait toute
+-- la légende d'origine).
+--
+-- `caption_latex` est répété dans \tablefirsthead (légende normale, une
+-- seule fois en haut du tableau) et \tablehead (légende suffixée de
+-- "(suite)", répétée à chaque continuation page/colonne suivante).
+-- Retourne une chaîne LaTeX complète prête à insérer dans le flux.
+local function table_to_supertabular_lines(tbl, total_target, width_unit, caption_latex)
+  width_unit = width_unit or "columnwidth"
+  local widths = compute_column_widths(tbl, total_target)
+  local col_specs = {}
+  for idx, colspec in ipairs(tbl.colspecs) do
+    table.insert(col_specs, align_to_coltype(tostring(colspec[1]), widths[idx], width_unit))
+  end
+  local col_spec = table.concat(col_specs, "")
+  local ncols = #tbl.colspecs
+
+  local header_cells = {}
+  for _, row in ipairs(tbl.head.rows) do
+    local cells = {}
+    for _, cell in ipairs(row.cells) do
+      table.insert(cells, blocks_to_latex(cell.contents))
+    end
+    table.insert(header_cells, table.concat(cells, " & ") .. " \\\\")
+  end
+  local header_block = table.concat(header_cells, "\n")
+
+  local lines = {
+    "\\tablefontsize",
+    string.format(
+      "\\tablefirsthead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
+      ncols, caption_latex, header_block
+    ),
+    string.format(
+      "\\tablehead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s \\textit{(suite)}}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
+      ncols, caption_latex, header_block
+    ),
+    "\\tabletail{}",
+    "\\tablelasttail{\\bottomrule}",
+    "\\begin{supertabular}{@{}" .. col_spec .. "@{}}",
+  }
+
+  local body_rows = collect_body_rows(tbl)
+  for idx, cells in ipairs(body_rows) do
+    local shaded = (idx % 2 == 1)
+    if shaded then
+      table.insert(lines, "\\rowcolor{gray!12}")
+    end
+    table.insert(lines, table.concat(cells, " & ") .. " \\\\")
+  end
+
+  table.insert(lines, "\\end{supertabular}")
+  return table.concat(lines, "\n")
+end
+
+
 local function standalone_table_to_latex(tbl)
   local narrow = is_narrow_table(tbl)
   local env = narrow and "table" or "table*"
@@ -243,7 +371,7 @@ local function standalone_table_to_latex(tbl)
   local width_unit = narrow and "columnwidth" or "textwidth"
   local tabular = table_to_tabular_lines(tbl, total_target, width_unit)
   return pandoc.RawBlock("latex",
-    "\\begin{" .. env .. "}[!t]\n\\centering\n" .. tabular .. "\n\\end{" .. env .. "}")
+    "\\begin{" .. env .. "}[!t]\n\\centering\n\\tablefontsize\n" .. tabular .. "\n\\end{" .. env .. "}")
 end
 
 -- Tableau AVEC légende préalable, mode flux normal (par défaut).
@@ -251,15 +379,15 @@ end
 -- largeur de la PAGE entière (deux colonnes), alors que ce tableau reste
 -- dans une seule colonne -- utiliser \textwidth ici ferait déborder le
 -- tableau bien au-delà de sa colonne.
+-- Utilise `supertabular` (voir `table_to_supertabular_lines`) : permet
+-- au tableau de continuer en haut de la colonne/page suivante si trop
+-- long, en répétant légende + en-tête de colonnes ("titre collant").
+-- Pas de \begin{center}...\end{center} englobant ici : supertabular
+-- gère lui-même son insertion dans le flux de la page (un center autour
+-- casserait sa pagination interne).
 local function captioned_table_inline(caption_latex, tbl)
-  local tabular = table_to_tabular_lines(tbl, 0.98, "columnwidth")
-  local latex = string.format([[
-\begin{center}
-%s\par
-\vspace{0.3em}
-%s
-\end{center}]], caption_latex, tabular)
-  return pandoc.RawBlock("latex", latex)
+  return pandoc.RawBlock("latex",
+    table_to_supertabular_lines(tbl, 0.98, "columnwidth", caption_latex))
 end
 
 -- Tableau AVEC légende préalable, mode pleine largeur (flag .wide).
@@ -274,9 +402,10 @@ local function captioned_table_wide(caption_latex, tbl)
   local latex = string.format([[
 \begin{strip}
 \centering
-%s\par
+{\tablecaptionfontsize %s}\par
 \vspace{0.3em}
 \nopagebreak
+\tablefontsize
 %s
 \end{strip}]], caption_latex, tabular)
   return pandoc.RawBlock("latex", latex)
@@ -286,17 +415,29 @@ end
 -- `grid` contenant deux tableaux, affichés côte à côte sous une légende
 -- commune. Chaque tableau vise la moitié de \columnwidth (avec marge
 -- pour l'espacement entre les deux).
+-- Englobé dans un \begin{samepage}...\end{samepage} : ce bloc reste
+-- VOLONTAIREMENT en `tabular` classique (pas de titre "collant" multi-
+-- page -- supertabular ne peut pas être imbriqué comme cellule d'un
+-- autre tabular, ce qui est la structure même de ce mode). `samepage`
+-- empêche LaTeX de couper le bloc en deux entre une page/colonne et la
+-- suivante (légende d'un côté, tableaux orphelins de l'autre -- défaut
+-- observé avant ce correctif) ; en pratique ces tableaux sont courts
+-- (quelques lignes de coûts/valeurs), donc les forcer entiers sur une
+-- même colonne/page ne pose pas de problème de place.
 local function captioned_table_grid(caption_latex, tbl1, tbl2)
   local tabular1 = table_to_tabular_lines(tbl1, 0.46, "columnwidth", true)
   local tabular2 = table_to_tabular_lines(tbl2, 0.46, "columnwidth", true)
   local latex = string.format([[
+\begin{samepage}
 \begin{center}
-%s\par
+{\tablecaptionfontsize %s}\par
 \vspace{0.3em}
+\tablefontsize
 \begin{tabular}{cc}
 %s & %s
 \end{tabular}
-\end{center}]], caption_latex, tabular1, tabular2)
+\end{center}
+\end{samepage}]], caption_latex, tabular1, tabular2)
   return pandoc.RawBlock("latex", latex)
 end
 

@@ -21,11 +21,36 @@
 
 \usepackage[table]{xcolor}
 
+% supertabular : permet à un tableau de continuer sur la page/colonne
+% suivante en répétant automatiquement sa légende et son en-tête de
+% colonnes ("titre collant"). Contrairement à longtable, fonctionne en
+% mode twocolumn (longtable lève une erreur fatale dans ce mode -- voir
+% book/macro/tables.lua pour le détail de cette contrainte).
+\usepackage{supertabular}
+
 % Types de colonnes pour les tableaux : largeur fixe, centrage vertical,
 % alignement horizontal sans justification forcée
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+
+% ============================================================
+% TAILLE DE POLICE DES TABLEAUX (configurable)
+% ============================================================
+% \tablefontsize  : taille appliquée au CONTENU des tableaux (en-têtes
+%                   de colonnes + cellules de corps).
+% \tablecaptionfontsize : taille appliquée à la LÉGENDE des tableaux
+%                   (ex: *Titre du tableau*{.table-title}).
+% Valeurs LaTeX standard, du plus petit au plus grand :
+%   \tiny \scriptsize \footnotesize \small \normalsize \large ...
+% \normalsize correspond à la taille du corps de texte (10pt par défaut
+% pour la classe "book" sans option de taille -- voir classoption dans
+% book/metadata.yaml si la taille du corps de texte a été changée par
+% ailleurs, ex: fontsize=11pt).
+% Pour réduire la police des tableaux, changer uniquement la ligne
+% ci-dessous, par exemple en \footnotesize ou \small.
+\newcommand{\tablefontsize}{\small}
+\newcommand{\tablecaptionfontsize}{\normalsize}
 
 % ##### en Markdown -> \subsubsection (avec --top-level-division=part :
 % # part, ## chapter, ### section, #### subsection, ##### subsubsection).
