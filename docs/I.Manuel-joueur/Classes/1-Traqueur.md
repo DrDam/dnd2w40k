@@ -65,7 +65,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 9 | +4 | Amélioration du verrouillage de cible | 4 | 17 | 18 | 3 |
 | 10 | +4 | Poursuite inlassable | 4 | 18 | 20 | 3 |
 | 11 | +4 | Amélioration de la Technique de Traqueur | 4 | 19 | 22 | 3 |
-| 12 | +4 | Amélioration des caractéristiques | 4 | 20 | 22 | 3 |
+| 12 | +4 | Amélioration des caractéristiques | 4 | 20 | 24 | 3 |
 | 13 | +5 | -- | 5 | 22 | 26 | 4 |
 | 14 | +5 | Cape de combat | 5 | 23 | 28 | 4 |
 | 15 | +5 | Amélioration de la Technique de Traqueur | 5 | 24 | 30 | 4 |

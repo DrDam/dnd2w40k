@@ -15,7 +15,7 @@ Presque toutes les races existantes sont des versions entièrement nouvelles ou 
 
 **Classes**
 
-Les classes ont été revues, à l’exception du Soldat (Combattant) et du Renégat (Voleur).
+Les classes ont été revues, à l’exception du Soldat (Guerrier) et du Renégat (Voleur).
 
 - Les *Augmentistes* s’apparentent aux moines, mais exploitent la technologie pour améliorer leur corps, ce qui déclenche des effets spéciaux.
 - Les *Berserkers* sont des barbares, mais leurs sous-classes ont été légèrement modifiées pour s’adapter à l’univers du jeu.
