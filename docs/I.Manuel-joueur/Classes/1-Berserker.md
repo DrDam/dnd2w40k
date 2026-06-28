@@ -14,7 +14,7 @@ Pour certains, leur rage jaillit de la communion entre la technologie et la chai
 
 **Création Rapide**
 
-Vous pouvez créer rapidement un berserker en suivant ces conseils. Tout d’abord, faites en sorte que la Force soit votre modificateur de caractéristique le plus élevé. Vos scores suivants les plus élevés devraient être la Constitution et la Dextérité. Ensuite, choisissez le parcours « mercenaire ».
+Vous pouvez créer rapidement un berserker en suivant ces conseils. Tout d’abord, faites en sorte que la Force soit votre modificateur de caractéristique le plus élevé. Vos scores suivants les plus élevés devraient être la Constitution et la Dextérité. Ensuite, choisissez l'historique « mercenaire ».
 
 ##### Bonus de classe
 
@@ -26,7 +26,7 @@ En tant que Berserker, vous bénéficiez des caractéristiques de classe suivant
 
 *Points de vie au niveau 1* : 12 + votre modificateur de Constitution
 
-*Points de vie aux niveaux supérieurs* : 1d12 (ou 5) + votre modificateur de Constitution par niveau de Berserker après le niveau 1
+*Points de vie aux niveaux supérieurs* : 1d12 (ou 7) + votre modificateur de Constitution par niveau de Berserker après le niveau 1
 
 **Compétences de départ**
 
@@ -105,7 +105,7 @@ Au niveau 2, vous développez un sixième sens qui vous permet de percevoir lors
 
 À partir du niveau 2, vous pouvez mettre de côté toute préoccupation défensive pour attaquer avec un acharnement farouche. Lorsque vous effectuez votre première attaque pendant votre tour, vous pouvez décider d’attaquer de manière téméraire. Cela vous confère un avantage aux jets d’attaque avec des armes de mêlée utilisant la Force pendant ce tour, mais les jets d’attaque contre vous bénéficient d’un avantage jusqu’à votre prochain tour.
 
-#### Voies du combat
+##### Voies du combat
 
 Au niveau 3, vous choisissez un chemin qui définit la nature de votre rage, tel que le Chemin de la haine. Votre choix vous confère des capacités au niveau 3, puis à nouveau aux niveaux 6, 10 et 14.
 

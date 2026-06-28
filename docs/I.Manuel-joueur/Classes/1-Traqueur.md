@@ -12,7 +12,7 @@ Les Traqueurs sont les premiers sur les lieux du crime, et les derniers à voir 
 
 **Création Rapide**
 
-Vous pouvez créer rapidement un personnage de type « Traqueur » en suivant ces conseils. Tout d’abord, faites en sorte que votre modificateur de caractéristique le plus élevé soit la Force ou la Dextérité, selon que vous souhaitiez vous concentrer sur le combat au corps à corps ou sur les armes à distance (ou les armes de finesse). Votre deuxième score le plus élevé devrait être celui de l’Intelligence. Ensuite, choisissez le parcours « mercenaire ».
+Vous pouvez créer rapidement un personnage de type « Traqueur » en suivant ces conseils. Tout d’abord, faites en sorte que votre modificateur de caractéristique le plus élevé soit la Force ou la Dextérité, selon que vous souhaitiez vous concentrer sur le combat au corps à corps ou sur les armes à distance (ou les armes de finesse). Votre deuxième score le plus élevé devrait être celui de l’Intelligence. Ensuite, choisissez l'historique « mercenaire ».
 
 ##### Bonus de classe
 

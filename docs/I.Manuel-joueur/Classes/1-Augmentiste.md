@@ -12,7 +12,7 @@ Quels que soient leurs implants, les augmentistes sont unis par leur passion pou
 
 **Création Rapide**
 
-Vous pouvez créer rapidement un « augmentiste » en suivant ces conseils. Tout d’abord, faites en sorte que votre modificateur de caractéristique le plus élevé soit la Force ou la Dextérité. Votre deuxième score le plus élevé devrait être la Constitution. Ensuite, choisissez le parcours « pilote ».
+Vous pouvez créer rapidement un « augmentiste » en suivant ces conseils. Tout d’abord, faites en sorte que votre modificateur de caractéristique le plus élevé soit la Force ou la Dextérité. Votre deuxième score le plus élevé devrait être la Constitution. Ensuite, choisissez l'historique « pilote ».
 
 ##### Bonus de classe
 
