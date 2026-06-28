@@ -54,7 +54,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Cible de verrouillage | Nombre de pouvoir technologiques connu | Nombre de point de lanceur de sort | Niveau maximal des pouvoir tech |
 | :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
-| 1 | +2 | Entraînement de Traqueur, Verrouillage de cible | 2 | -- | -- | 1 |
+| 1 | +2 | Entraînement de Traqueur, Verrouillage de cible | 2 | -- | -- | -- |
 | 2 | +2 | Style de combat, Lancement de sorts technologiques | 2 | 7 | 4 | 1 |
 | 3 | +2 | Technique de Traqueur | 2 | 9 | 6 | 1 |
 | 4 | +2 | Amélioration des caractéristiques | 2 | 10 | 8 | 1 |

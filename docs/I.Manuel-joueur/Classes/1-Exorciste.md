@@ -48,7 +48,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 *Les aptitudes de l'Exorciste*{.table-title .wide}
 
-| Niveau | Bonus de Maîtrise | Aptitudes | Frappe du warp | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir tech |
+| Niveau | Bonus de Maîtrise | Aptitudes | Frappe du warp | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
 | :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
 | 1 | +2 | Lanceur de sort psychique, Manifestation de l’Immaterium, Vision de sorcière | -- | 5 | 2 | 1 |
 | 2 | +2 | Style de combat, Frappe du Warp | 2d8 | 7 | 4 | 1 |

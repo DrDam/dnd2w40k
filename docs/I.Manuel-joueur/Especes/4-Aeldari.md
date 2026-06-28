@@ -28,7 +28,7 @@ Votre personnage Aeldari dispose d’un ensemble de capacités commune ainsi que
 
 **Branche d'origine.** En tant Aeldari vous êtes le fruit de la séparation de votre peuple suite à la naissance de Slaanesh. Choisissez votre branche d'appartenance et obtenez ses traits, énumérés ci-dessous.
 
-#### Azuriani
+#### Asuryani
 
 Après la chute de l’Empire Aeldari et la naissance de Slaanesh, connue sous le nom de Sai’lanthresh (Celle-qui-a-soif), les Aeldari des Mondes-Vaisseaux construisirent des vaisseaux géants, de la taille d’un continent.
 
