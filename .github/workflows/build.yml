@@ -31,18 +31,13 @@ jobs:
       - name: Build PDF
         run: |
           chmod +x book/book.sh
-          ./book/book.sh
+          chmod +x book/build_all_books.sh
+          ./book/build_all_books.sh
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: dnd-rules-pdf
-          path: build/dnd-rules.pdf
-
-      - name: Publish PDF into MkDocs
+      - name: Move PDF into MkDocs
         run: |
-          mkdir -p site/assets/files
-          cp build/dnd-rules.pdf site/assets/files/
+          mkdir -p site/assets/pdf
+          cp build/*.pdf site/assets/pdf/
 
       - name: Deploy wiki
         uses: peaceiris/actions-gh-pages@v4

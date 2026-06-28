@@ -7,7 +7,7 @@ echo "#################"
 echo ""
 echo "** Generate PDF **"
 
-./book/book.sh
+./book/build_all_books.sh
 
 echo ""
 echo "** Generate MKdoc **"

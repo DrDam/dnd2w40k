@@ -103,7 +103,7 @@ Si vous optez pour cette solution, veuillez noter les différences suivantes :
 
 Cet univers demande un engagement plus important que la plupart des autres univers. Klefgun voulait créer un jeu de table facile à jouer, basé sur les règles familières de la 5e édition.
 
-Pour ma part (DrDam), j'ai pas trouvé de système de jeu "officiel" pour warhammer 40 000 qui permettait de créer la diversité des personnages que je souhait. J'aime imaginer faire ensemble des joueurs qui incarneraient un tétrarque nécron avec un sorcier thousand-sons et un techno-prêtre, le tout sous la surveillance d'un SpaceMarine.
+Pour ma part (DrDam), je n'ai pas trouvé de système de jeu "officiel" pour warhammer 40 000 qui permettait de créer la diversité des personnages que je souhait. J'aime imaginer faire ensemble des joueurs qui incarneraient un tétrarque nécron avec un sorcier thousand-sons et un techno-prêtre, le tout sous la surveillance d'un SpaceMarine.
 
 - **Avez-vous pensé à ajouter xxx ?**
 - **Puis-je aider à quelque chose ?**

@@ -1,0 +1,2 @@
+docs/II.Manuel-MJ/index.md
+docs/credits.md
