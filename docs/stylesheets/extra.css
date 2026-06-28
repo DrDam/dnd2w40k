@@ -6,3 +6,91 @@
   margin: 0;
   display: inline-block;
 }
+
+/* statblock.css — Bloc monstre D&D, cadre sobre façon livre de règles.
+   Pensé pour coller visuellement à la sortie Pandoc/LaTeX (monsterblock). */
+
+.monster {
+  border: 1px solid var(--md-default-fg-color, #1a1a1a);
+  border-radius: 2px;
+  padding: 0.8em 1.2em;
+  margin: 1.5em 0;
+  background-color: var(--md-default-bg-color, #fff);
+}
+
+/* Nom du monstre : remplace le H1 interne, pas de lien d'ancre, pas de TdM */
+.monster h1 {
+  font-size: 1.5em;
+  margin: 0 0 0.2em 0;
+  padding: 0;
+  border: none;
+  color: var(--md-default-fg-color, #1a1a1a);
+}
+
+/* Permet d'utiliser un # interne sans qu'il remonte dans la navigation
+   ni dans la table des matières générée (toc). */
+.monster h1::before {
+  content: none;
+}
+
+/* Sous-titres internes : Actions, Réactions, Traits légendaires... */
+.monster h2,
+.monster h3,
+.monster h4 {
+  font-size: 1.15em;
+  margin: 0.8em 0 0.3em 0;
+  padding: 0;
+  border: none;
+}
+
+/* Ligne italique type/taille/alignement, juste sous le nom */
+.monster>p:first-of-type em {
+  font-style: italic;
+}
+
+/* Séparateurs --- entre sections */
+.monster hr {
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--light, #999);
+  margin: 0.6em 0;
+}
+
+/* Ligne des 6 caractéristiques : tableau centré, sans bordures verticales */
+.monster .statline {
+  margin: 0.6em 0;
+  border-top: 1px solid var(--md-default-fg-color--light, #999);
+  border-bottom: 1px solid var(--md-default-fg-color--light, #999);
+  padding: 0.4em 0;
+}
+
+.monster .statline table {
+  width: 100%;
+  border: none;
+  text-align: center;
+}
+
+.monster .statline table th,
+.monster .statline table td {
+  border: none !important;
+  text-align: center;
+  padding: 0.15em 0.4em;
+  background: transparent !important;
+}
+
+.monster .statline table th {
+  font-weight: 700;
+  font-size: 0.85em;
+  letter-spacing: 0.03em;
+}
+
+/* Compétences / Sens / Langues / Puissance : pas d'espace excessif */
+.monster p {
+  margin: 0.25em 0;
+}
+
+/* Traits et actions : nom en gras-italique, comme l'original */
+.monster strong em,
+.monster em strong {
+  font-style: italic;
+  font-weight: 700;
+}

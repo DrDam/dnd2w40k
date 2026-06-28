@@ -101,3 +101,54 @@
     }
 \makeatother
 % ============================================================
+
+% statblock-preamble.tex
+% À inclure via --include-in-header avec le template LaTeX par défaut de Pandoc.
+% Définit un cadre sobre "bloc monstre" + une ligne de caractéristiques centrée.
+
+\usepackage[most]{tcolorbox}
+\usepackage{array}
+
+% --- Titre du monstre (remplace le H1 interne, sans numérotation ni TdM) ---
+\newcommand{\monstername}[1]{%
+  \par\vspace{2pt}
+  {\bfseries\Large #1}\par
+  \vspace{2pt}
+}
+
+% --- Sous-titre interne (Actions, Réactions, Traits légendaires...) ---
+\newcommand{\monstersection}[1]{%
+  \par\vspace{6pt}
+  {\bfseries\large #1}\par
+  \vspace{2pt}
+}
+
+% --- Cadre sobre, façon livre de règles, sans bandeau coloré ---
+% \tablefontsize (définie dans book/preamble.tex, = \small par défaut) :
+% applique la même taille de police que les tableaux du document à TOUT
+% le contenu du bloc monstre -- se propage automatiquement à monstername/
+% monstersection/statline, qui sont émis à l'intérieur de ce groupe.
+\newtcolorbox{monsterblock}{
+  enhanced,
+  breakable,
+  colback=white,
+  colframe=black,
+  boxrule=0.6pt,
+  arc=1pt,
+  left=8pt, right=8pt, top=6pt, bottom=6pt,
+  before skip=12pt, after skip=12pt,
+  fontupper=\tablefontsize,
+}
+
+% --- Ligne FOR/DEX/CON/INT/SAG/CHA ---
+% Le tableau Markdown source devient un tabular Pandoc standard ;
+% on encadre juste avec un peu d'espacement et un filet haut/bas discret.
+\newenvironment{statline}{%
+  \par\vspace{4pt}
+  \noindent\hrulefill\par\vspace{2pt}
+  \small\centering
+}{%
+  \par\vspace{2pt}
+  \noindent\hrulefill\par\vspace{4pt}
+}
+% ============================================================

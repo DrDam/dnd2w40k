@@ -60,6 +60,7 @@ pandoc \
   --include-before-body=book/titlepage.tex \
   --resource-path=docs/assets \
   --lua-filter=book/macro/admonition.lua \
+  --lua-filter=book/macro/statblock.lua \
   --lua-filter=book/macro/tables.lua \
   --lua-filter=book/macro/newpage.lua \
   --lua-filter=book/macro/wide_image.lua \

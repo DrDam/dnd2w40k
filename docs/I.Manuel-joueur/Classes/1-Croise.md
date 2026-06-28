@@ -192,7 +192,40 @@ Le nombre de points de vie temporaires augmente lorsque vous atteignez certains 
 Une fois que vous avez invoqué un champion de la foi, vous ne pouvez pas le faire à nouveau avant d’avoir effectué un long repos.
 
 
+<div class="monster" markdown="1">
 
+##### Champion de la foi
+
+*Démon de taille Moyenne, loyal (a son invocateur)*
+
+**Classe d'armure** 20 (armure naturelle)
+
+**Points de vie** 65
+
+**Vitesse** 9 m, vol 12 m
+
+<div class="statline" markdown="1">
+FOR    | DEX    | CON    | INT    | SAG    | CHA
+:---:  | :---:  | :---:  | :---:  | :---:  | :---:
+20 (+5)| 16 (+3)| 16 (+3)| 16 (+3)| 16 (+3)| 16 (+3)
+</div>
+
+**Résistances aux dégâts** : radiants, nécrotiques
+
+**Immunités aux états** : charme, épuisement, effroi
+
+**Sens** : vision dans le noir 18 m., Perception passive 13
+
+**Langues** : parle les langues de son invocateur
+
+**Bonus de compétence** : égal à votre bonus
+
+#### Actions
+
+**Attaque multiple.** Le champion effectue deux attaques avec sa grande épée.
+
+**Grande épée enflammée.** Attaque à l'arme de mêlée : 5 + votre bonus de maîtrise pour toucher, portée de 5 pieds, une cible. Touché :  (1d8 + 4 + votre bonus de maîtrise) de dégâts de tranchant plus 7 (2d6) de dégâts radiants ou nécrotiques (à choisir lors de l'invocation de cette créature).
+</div>
 
 
 
