@@ -14,7 +14,7 @@ Les Traqueurs sont les premiers sur les lieux du crime, et les derniers à voir 
 
 Vous pouvez créer rapidement un personnage de type « Traqueur » en suivant ces conseils. Tout d’abord, faites en sorte que votre modificateur de caractéristique le plus élevé soit la Force ou la Dextérité, selon que vous souhaitiez vous concentrer sur le combat au corps à corps ou sur les armes à distance (ou les armes de finesse). Votre deuxième score le plus élevé devrait être celui de l’Intelligence. Ensuite, choisissez l'historique « mercenaire ».
 
-##### Bonus de classe
+#### Bonus de classe
 
 En tant que Traqueur, vous bénéficiez des caractéristiques de classe suivantes :
 
@@ -74,6 +74,8 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 18 | +6 | Verrouillage parfait | 6 | 28 | 36 | 5 |
 | 19 | +6 | Amélioration des caractéristiques | 6 | 29 | 38 | 5 |
 | 20 | +6 | Maître Traqueur | 6 | 30 | 40 | 5 |
+
+#### Aptitudes du Traqueur
 
 ##### Formation de Traqueur
 
@@ -174,43 +176,43 @@ Au niveau 18, le dé de dégâts de votre « verrouillage de cible » inflige le
 Au niveau 20, vous devenez un chasseur hors pair. Une fois par tour, vous pouvez ajouter votre modificateur d’Intelligence au jet d’attaque et au jet de dégâts d’une attaque que vous effectuez.
 
 
-##### Liste des Techniques de Traqueur
+#### Les techniques de Traqueur
 
-**Technique du chasseur**
+##### La Technique du chasseur
 
 La technique du chasseur est utilisée par les Traqueurs qui souhaitent connaître les faiblesses de leur proie, tout en étant capables de se défendre contre ses attaques ou d’éliminer rapidement ses serviteurs.
 
-*Intuition du chasseur*
+**Intuition du chasseur**
 
 Lorsque vous choisissez cette technique au niveau 3, si vous attaquez et infligez des dégâts à une créature alors que votre verrouillage de cible est actif, vous pouvez découvrir si cette créature possède des immunités, des résistances ou des vulnérabilités aux dégâts, et vous en connaissez la nature.
 
-*Identification précise des faiblesses*
+**Identification précise des faiblesses**
 
 Toujours à partir du niveau 3, si une créature alliée se trouve à moins de 1,5 mètre d’une créature hostile et n’est pas hors de combat, vous bénéficiez d’un avantage lors du premier jet d’attaque que vous effectuez à votre tour contre cette créature hostile.
 
-*Défense réflexive*
+**Défense réflexive**
 
 À partir du niveau 7, lorsque vous êtes touché par une attaque ou que vous échouez à un jet de sauvegarde, mais avant que les effets ne se produisent, vous pouvez utiliser votre réaction pour obtenir un bonus à votre CA ou à votre jet de sauvegarde égal à votre bonus de compétence, ce qui peut faire rater l’attaque ou réussir le jet de sauvegarde.
 
-*Fendre la vague*
+**Fendre la vague**
 
 À partir du niveau 11, vous avez appris à fendre la vague d’ennemis qui s’opposent à vous. Vous pouvez utiliser votre action pour effectuer des attaques de mêlée contre un nombre illimité de créatures situées à moins de 1,5 mètre de vous, avec un jet d’attaque distinct pour chaque cible.
 
 Vous pouvez également utiliser votre action pour effectuer une attaque à distance contre un nombre illimité de créatures se trouvant dans un carré de 3 mètres situé dans la portée de votre arme. Vous devez effectuer un jet d’attaque distinct pour chaque cible.
 
-*Évasion*
+**Évasion**
 
 Au niveau 15, lorsque vous êtes soumis à un effet, tel que la « tempête de glace » d’un psyker ou la « boule de feu » d’un savant, qui vous permet d’effectuer un jet de sauvegarde de Dextérité pour ne subir que la moitié des dégâts, vous ne subissez aucun dégât si vous réussissez votre jet de sauvegarde, et seulement la moitié des dégâts si vous échouez.
 
-**Technique de l'ombre**
+##### Technique de l'ombre
 
 La technique de l'ombre repose sur la discrétion et l’exploitation des faiblesses de sa proie, jusqu’à ce qu’il trouve enfin le moment opportun pour l’abattre.
 
-*Améliorations d’embuscade*
+**Améliorations d’embuscade**
 
 Au niveau 3, vous pouvez effectuer l’action « Se cacher » dans le cadre de l’action bonus que vous utilisez pour activer votre verrouillage de cible. Tant que le verrouillage de cible est actif, vous pouvez effectuer l’action « Se cacher » en tant qu’action bonus à chacun de vos tours.
 
-*Frappe de précision*
+**Frappe de précision**
 
 À partir du niveau 3 également, lorsque vous infligez des dégâts à une créature avec une attaque à l’arme, vous pouvez effectuer une frappe de précision contre la cible. La créature subit l’un des effets suivants :
 
@@ -220,14 +222,14 @@ Au niveau 3, vous pouvez effectuer l’action « Se cacher » dans le cadre de l
 
 Vous disposez d’un nombre de frappes de précision égal au double de votre bonus de compétence, et vous récupérez tous vos usages à la fin d’un long repos.
 
-*Bond rapide*
+**Bond rapide**
 
 Au niveau 7, tant que votre verrouillage de cible est activé, vous pouvez effectuer l’action « Bondir » en tant qu’action bonus lors de votre tour. Si vous effectuez une course de cette manière, vous ne provoquez pas d’attaques d’opportunité jusqu’au début de votre prochain tour.
 
-*Prédire l’assaut*
+**Prédire l’assaut**
 
 Au niveau 11, lorsque vous êtes attaqué, vous pouvez lancer le dé de dégâts de votre verrouillage de cible et réduire le jet d’attaque de ce montant. Vous pouvez utiliser cette capacité une fois par tour.
 
-*Ciblage critique*
+**Ciblage critique**
 
 Au niveau 15, tant que votre « ciblage » est actif, vos attaques à l'arme infligent des coups critiques si vous obtenez un résultat de 19 ou 20 au jet.

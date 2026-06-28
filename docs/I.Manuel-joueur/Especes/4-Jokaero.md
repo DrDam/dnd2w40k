@@ -1,10 +1,10 @@
 ![Un fabriquant d'arme Jokaero](../../assets/xenos/Jokaero_Weaponsmith.png){.newpage}
 
-#### Jokaero
+### Jokaero
 
 Les Jokaero sont une espèce de type primate considérée comme des xénos « tolérables » par le Mandat impérial. Ils sont fascinés par la technologie et sont capables de la manipuler et de l’améliorer, bien que l’on ne comprenne pas encore tout à fait comment. Les Jokaero semblent posséder une intelligence inférieure à la norme pour une espèce humanoïde douée de raison, mais ils sont capables de créer des merveilles technologiques qui n’ont rien à envier à celles de l’Âge sombre de la technologie. Les Jokaero ont tendance à se montrer imprévisibles dans leur rapport à la technologie, mais en raison de leur tempérament nonchalant et de leur aversion pour l’agressivité, ils sont tolérés en tant que « singes techniciens » et constituent une véritable aubaine pour ceux avec qui ils choisissent de travailler.
 
-##### Traits des Jokaero
+#### Traits des Jokaero
 
 **Augmentation des caractéristiques.** Votre caractéristique d’Intelligence augmente de 2, et votre caractéristique de Dextérité augmente de 1.
 

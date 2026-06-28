@@ -1,12 +1,12 @@
 ![Un mutant de Nurgle](../../assets/humanity/NurgleMutant.png){.newpage height=8cm}
 
-#### Mutant
+### Mutant
 
 Les véritables mutants sont mis au ban de l’Imperium, pour le meilleur ou pour le pire. Les mutants présentent des anomalies génétiques dues à leur héritage ou à une exposition au Warp, et les mutants avancés sont souvent abattus à vue au sein de l’Imperium. La plupart des mutants présentant des mutations mineures, telles qu’une oreille ou un doigt supplémentaire, parviennent à vivre relativement en paix, ou ont recours à la chirurgie pour corriger leurs anomalies. Cependant, si la chirurgie n’est pas accessible, ou si l’influence de l’Église est omniprésente, les mutants sont contraints de vivre dans la clandestinité ou en marge de la société.
 
 Bien que les mutants soient le plus souvent des humains, n’importe quelle espèce peut devenir mutante en cas d’exposition suffisante au Warp, y compris les espèces principalement composées de métal et de machines.
 
-##### Traits des mutants
+#### Traits des mutants
 
 **Augmentation des caractéristiques.** Votre Constitution augmente de 2, et une autre caractéristique de votre choix augmente de 1.
 

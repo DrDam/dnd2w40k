@@ -1,12 +1,12 @@
 ![Un Kin dans son armure du vide](../../assets/xenos/KInandCOG.png){.newpage height=8cm}
 
-#### Cognat
+### Cognat
 
 Les Cognats sont des abhumains de petite taille et à la carrure trapue. Les Cognats se désignent eux-mêmes sous le nom de « Kin », et leur faction principale est connue sous le nom de « Ligues de Votann ».
 Ces abhumains trapus sont réputés pour leur loyauté farouche, accordant plus d’importance à l’honneur et à leur héritage qu’à leur propre vie. Les Votann sont des superordinateurs qui clonent les Kin ; à leur mort, le fait d’être renvoyés vers ces machines est considéré comme un retour auprès de leurs ancêtres.
 Certain Cognats se destines à l'exploration où le commerce avec les autres espèces, dans l'espoir de revenir un jour chez eux pour transmettre leur savoir. Il arrive que certains soit banni des leurs et s'installe auprès des autres peuples de la galaxie.
 
-##### Traits des Cognats
+#### Traits des Cognats
 
 Votre personnage Cognat dispose d’un ensemble de capacités innées, qui font partie intégrante de la nature des Cognats.
 

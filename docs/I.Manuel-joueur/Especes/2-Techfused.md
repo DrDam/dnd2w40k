@@ -1,12 +1,12 @@
 ![Un techno-prêtre de l'Adeptus Mechanicus](../../assets/humanity/Adeptus_mechanicus_by_cribs-d4b4afs.png){.newpage height=7cm}
 
-#### Technofusionné
+### Technofusionné
 
 L’union du métal et de la chair donne naissance aux Technofusionnés : des humanoïdes qui ont remplacé une partie importante de leur constitution organique par des éléments cybernétiques. Que ce soit par une étrange fétichisation du métal ou pour se rapprocher de leur conception du Dieu-Machine, ces créatures sont davantage composées de rouages et de mécanismes, entremêlés à leurs organes et à leur peau, que des parties organiques avec lesquelles elles sont nées.
 
 N’importe quelle espèce humanoïde peut devenir un Technofusionné, mais ce sont le plus souvent les humains adeptes du Culte du Dieu-Machine et les orques mutilés par d’innombrables combats qui finissent par le devenir.
 
-##### Traits des Technofusionnés
+#### Traits des Technofusionnés
 
 **Augmentation des caractéristiques.** Votre caractéristique de Constitution augmente de 2, et une caractéristique de votre choix augmente de 1.
 

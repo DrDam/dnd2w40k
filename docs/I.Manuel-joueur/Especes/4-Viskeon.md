@@ -1,10 +1,10 @@
-#### Viskeon {.newpage}
+### Viskeon {.newpage}
 
 Les Viskeons sont des créatures humanoïdes à la peau bleue, à sang froid, capables de cracher de l'acide et dotées d'une capacité extraordinaire à régénérer leurs membres et organes perdus. Leur planète d'origine était un monde brûlant et aride, parsemé de jungles et de plaines, idéal pour une espèce à sang froid.
 
 Les Viskeons accordent une grande importance aux prouesses martiales et considèrent le combat au corps à corps comme l’un des plus grands honneurs qui soient ; ils l’apprécient à tel point que le combat à distance est perçu comme déshonorant et lâche au sein de leur société. Lorsqu’une incursion tyranide a envahi leur monde d’origine, presque tous les Viskeons ont péri, à l’exception de ceux qui se trouvaient hors de leur planète en tant que mercenaires ou chasseurs de primes. À ce jour, les mercenaires viskeons restent une vue rare mais très prisée.
 
-##### Traits des Viskeons
+#### Traits des Viskeons
 
 **Augmentation des caractéristiques.** Votre caractéristique de Force augmente de 2 et votre caractéristique de Constitution augmente de 1.
 

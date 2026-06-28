@@ -1,17 +1,17 @@
 ![Un Scout Space Marine du chapitre des ImpérialFists](../../assets/humanity/ScoutMarineIF.png){.newpage height=8cm}
 
-#### Scout Space Marine
+### Scout Space Marine
 
 Les Space Marines sont des guerriers surhumains, fruits d’expériences biologiques et génétiques de haut vol. Ceux qui viennent d’entamer leur parcours pour devenir ces titans surhumains doivent d’abord commencer leur vie en tant que Scout Marine, après s’être déjà vu implanter de nouveaux organes qui leur confèrent une constitution plus résistante et plus robuste.
 
-!!! info "Au sujet des Space Marines"
+!!! info "Au sujet des Scout Space Marines"
 
     **Équilibrage.** Les Scout Marines sont conçus pour être équilibrés vis-a-vis des autres espèces de ce livre de règle.
 
     **Niveau.** Si votre intention est de créer un personnage Space Marine à partir du niveau 1, il est recommandé de commencer un personnage "Scout Space Marine" jusqu'à niveau 4.
     Lors du passage au niveau 5, il est recommandé de refaire une fiche personnage complète en Space Marine directement niveau 5.
 
-##### Traits des Scouts
+#### Traits des Scouts
 
 **Augmentation des caractéristiques.** Votre score de Force augmente de 2, et votre score de Constitution augmente de 1.
 Et ils ne connaîtront pas la peur. Vous bénéficiez d’un avantage aux jets de sauvegarde contre l’effroi.

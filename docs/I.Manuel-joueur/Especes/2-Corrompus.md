@@ -1,6 +1,6 @@
 ![Un SpaceMarine corrompu par Nurgle](../../assets/humanity/The-Tainted.jpg){.newpage}
 
-#### Corrompus
+### Corrompus
 
 Les Corrompus sont le fruit du contact impie avec le Chaos lui-même. Beaucoup d’entre eux ont choisi délibérément d’être touchés par le Chaos, savourant leurs nouveaux pouvoirs. Cependant, la corruption peut également résulter d’une exposition prolongée au Warp, voire d’une union impie entre démons, créatures du Warp, hérétiques ou autres.
 
@@ -8,7 +8,7 @@ Les Corrompus sont issus de la lignée de n’importe quelle espèce et, au sens
 
 Les Corrompus subsistent en petites minorités aux marges de la civilisation. Sur les mondes féodaux et sauvages, ils peuvent être considérés comme un mauvais présage, mais on les laisse vivre en paix, de crainte que leur mort n’attire une malédiction sur la tribu qui les a mis au monde. D’autres Corrompus peuvent être repérés par un inquisiteur radical ou une bande de guerriers du Chaos, qui utilisent leurs pouvoirs à des fins précises plutôt que de les rejeter de la société.
 
-##### Traits des Corrompus
+#### Traits des Corrompus
 
 **Augmentation des caractéristiques.** Votre score de Charisme augmente de 2.
 
@@ -26,7 +26,7 @@ Les Corrompus subsistent en petites minorités aux marges de la civilisation. Su
 
 **Marqué par le chaos.** Vous êtes marqué par le chaos, ce qui vous confère des effets uniques en fonction du dieu qui domine la corruption dans votre sang. Choisissez l’une des allégeances suivantes qui déterminent votre corruption et obtenez ses traits, énumérés ci-dessous.
 
-##### Marqué par Khorne
+#### Marqué par Khorne
 
 Vous avez été corrompu par le dieu de la haine, du meurtre, du sang et de la guerre. Une haine éternelle envers les psioniques habite votre être même.
 
@@ -36,7 +36,7 @@ Vous avez été corrompu par le dieu de la haine, du meurtre, du sang et de la g
 
 **Résistance psychique.** Vous bénéficiez d’un avantage aux jets de sauvegarde de Sagesse et de Charisme contre les pouvoirs psychiques.
 
-##### Marqué par Nurgle
+#### Marqué par Nurgle
 
 Vous avez été corrompu par le dieu de la gloutonnerie, de la maladie, de la peste et de la stagnation.
 
@@ -46,7 +46,7 @@ Vous avez été corrompu par le dieu de la gloutonnerie, de la maladie, de la pe
 
 **Robustesse surnaturelle.** Votre maximum de points de vie augmente de 1, puis de 1 à chaque fois que vous gagnez un niveau.
 
-##### Marqué par par Slaanesh
+#### Marqué par par Slaanesh
 
 Vous avez été corrompu par le dieu du plaisir et de l'excès.
 
@@ -56,7 +56,7 @@ Vous avez été corrompu par le dieu du plaisir et de l'excès.
 
 **Vitesse accrue.** Votre vitesse de marche augmente de 1,5 mètres
 
-##### Marqué par par Tzeentch
+#### Marqué par par Tzeentch
 
 Votre corps a été influencé par le dieu du mensonge, de la tromperie et de la trahison, ce qui vous confère les effets suivants :
 
@@ -66,7 +66,7 @@ Votre corps a été influencé par le dieu du mensonge, de la tromperie et de la
 
 **Téléporté par le Warp. En tant qu’action bonus, vous pouvez vous téléporter psychiquement jusqu’à 9 mètres vers un espace inoccupé que vous pouvez voir. Une fois que vous avez utilisé ce trait, vous ne pouvez pas le réutiliser avant d’avoir terminé un repos court ou long.
 
-##### Marqué par le chaos indivisible
+#### Marqué par le chaos indivisible
 
 Vous avez été souillé par les pouvoirs infinis du Warp et des êtres qui y résident.
 

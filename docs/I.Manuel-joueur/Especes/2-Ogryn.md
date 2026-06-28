@@ -1,12 +1,12 @@
 ![Un Ogryn servant dans l'astra militarum](../../assets/humanity/Ogryn-0.png){.newpage height=8cm}
 
-#### Ogryn
+### Ogryn
 
 Les Ogryn sont des abhumains massifs, d’une loyauté à toute épreuve, mais stupides. Ils sont couverts de bosses et de protubérances disgracieuses, et se traînent avec des corps massifs et encombrants. Ils sont considérés comme d’excellents combattants de première ligne au sein de la Garde Impériale, sont très doués pour suivre les ordres, mais ont à peine deux cellules cérébrales à se frotter l’une contre l’autre.
 
 Les Ogryn sont généralement victimes de discrimination au sein de l’Imperium, mais leurs contributions à la Garde Impériale leur permettent de rester dans les limites des mutations acceptables. Leur immense puissance de combat et leur nature docile leur permettent d’adopter la culture militaire avec une relative facilité.
 
-##### Traits des Ogryns
+#### Traits des Ogryns
 
 Votre personnage ogryn possède certains traits hérités de son ascendance abhumaine.
 

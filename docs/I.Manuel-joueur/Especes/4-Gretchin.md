@@ -1,6 +1,6 @@
 ![Un travailleur Gretchin](../../assets/xenos/Grotpic.png){.newpage}
 
-#### Gretchin
+### Gretchin
 
 Les Gretchin constituent une sous-espèce plus petite des Orques ; ils sont considérés comme une espèce inférieure par rapport aux Orques en raison de leur manque de force et de leurs performances médiocres au combat. Les Orques utilisent généralement les Gretchin comme boucliers humains, pour déminer les terrains, et parfois même comme rations d’urgence.
 
@@ -8,7 +8,7 @@ Les Gretchins adhèrent à la culture orque : la guerre et le WAAAGH ! coulent t
 
 Lorsque vous créez un Gretchin, réfléchissez à ce que sont ses expériences avec les Orques. Est-il traité comme un être inférieur, comme la plupart des Gretchins ? Avez-vous vu vos compagnons Gretchins servir de chair à canon pour déminer des champs de mines et faire le bouclier face aux balles ? Si vous avez quitté la culture orque, était-ce en quête de pouvoir, ou pour trouver un endroit où vous ne risqueriez pas de mourir ?
 
-##### Traits des Gretchins
+#### Traits des Gretchins
 
 **Augmentation des caractéristiques.** Votre caractéristique de Dextérité augmente de 2, et votre caractéristique de Constitution augmente de 1.
 

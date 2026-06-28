@@ -1,12 +1,12 @@
 ![Un Autarque du vaisseau monde Biel-Tan](../../assets/xenos/AsuryaniWarrior.png){.newpage height=8cm}
 
-#### Aeldari
+### Aeldari
 
 Les Aeldari tirent une grande fierté du fait qu’ils existaient déjà depuis des milliers d’années avant l’avènement de l’humanité, et qu’ils ont également bâti l’un des empires les plus durables que la galaxie ait jamais connus. Au cours de la période où leur espèce régnait, ils ont réussi à isoler une partie du Warp, connue sous le nom de « Webway », pour leur usage exclusif.
 
 La chute de l’empire eldar fut annoncée par la naissance du dieu du Chaos Slaanesh, dans un lieu désormais connu sous le nom d’Œil de la Terreur. Sa naissance fut le fruit de la soif combinée des Aeldari pour les drogues, le plaisir et l’euphorie, une soif si intense qu’elle finit par polluer le Warp et donner naissance à ce nouveau dieu du Chaos, qui ne tarda pas à dévorer autant de ses créateurs que possible.
 
-##### Traits des Aeldari
+#### Traits des Aeldari
 
 Votre personnage Aeldari dispose d’un ensemble de capacités commune ainsi que certaine lié à son origine.
 
@@ -28,7 +28,7 @@ Votre personnage Aeldari dispose d’un ensemble de capacités commune ainsi que
 
 **Branche d'origine.** En tant Aeldari vous êtes le fruit de la séparation de votre peuple suite à la naissance de Slaanesh. Choisissez votre branche d'appartenance et obtenez ses traits, énumérés ci-dessous.
 
-##### Azuriani
+#### Azuriani
 
 Après la chute de l’Empire Aeldari et la naissance de Slaanesh, connue sous le nom de Sai’lanthresh (Celle-qui-a-soif), les Aeldari des Mondes-Vaisseaux construisirent des vaisseaux géants, de la taille d’un continent.
 
@@ -42,7 +42,7 @@ Après la chute de l’Empire Aeldari et la naissance de Slaanesh, connue sous l
 
 **Langue supplémentaire.** Vous pouvez parler, lire une autre langue de votre choix.
 
-##### Exodite
+#### Exodite
 
 Vos ancêtres ont fui avant l’effondrement du grand empire eldar et se sont installés sur des mondes vierges, où ils ont bâti de nouvelles vies et cultures.
 
@@ -56,7 +56,7 @@ Vos ancêtres ont fui avant l’effondrement du grand empire eldar et se sont in
 
 **Langue supplémentaire.** Vous pouvez parler, lire et écrire le tribal.
 
-##### Drukhari
+#### Drukhari
 
 Après la naissance de Slaanesh, les Drukhari se sont réfugiés dans le Webway. Pour apaiser sa soif incessante d’âmes Aeldari, les Drukhari ont torturé des prisonniers et des esclaves pendant des années, sombrant toujours davantage dans l’hédonisme qui a donné naissance à leur plus grand ennemi. Les Drukhari comptent parmi les xénos les plus indignes de confiance de la galaxie ; ils ne cessent de se trahir et de se mentir les uns aux autres afin d’acquérir pouvoir et réputation.
 

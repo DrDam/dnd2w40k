@@ -1,10 +1,10 @@
-#### Tarellian {.newpage}
+### Tarellian {.newpage}
 
 Les Tarellians sont une espèce d’humanoïdes ressemblant à des chiens, connus sous le nom de « soldats-chiens », qui sont au bord de l’extinction en raison des multiples menaces qui pèsent sur leur espèce. Ils possèdent des épaules larges et une gueule vorace en forme de mâchoire canine. Ils disposaient autrefois d’une civilisation florissante avant que l’humanité ne bombarde de virus bon nombre de leurs planètes à la fin du 30e millénaire. Au 40e millénaire, les Tyranides ont détruit l’une de leurs dernières planètes restantes.
 
 Les survivants restants proviennent de rares populations de mercenaires et de nomades qui errent parmi les étoiles. Les Tau ont enrôlé bon nombre des Tarellians restants dans leurs rangs en tant que mercenaires, ou les ont intégrés dans leur société.
 
-##### Traits des Tarellians
+#### Traits des Tarellians
 
 **Augmentation des caractéristiques.** Votre caractéristique de Constitution augmente de 2, et votre caractéristique de Sagesse augmente de 1.
 

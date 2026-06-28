@@ -1,12 +1,12 @@
 ![Un Ratling servant dans l'astra militarum](../../assets/humanity/Ratling_tracker.png){.newpage height=8cm}
 
-#### Ratling
+### Ratling
 
 Les Ratlings sont une espèce d’abhumains mesurant entre trois et quatre pieds de haut. En tant qu’abhumains, ils font généralement l’objet de discriminations, mais ils sont très appréciés en tant que tireurs d’élite au sein de la Garde Impériale. Les Ratlings figurent sur la liste des mutations acceptables établie par l’Imperium.
 
 En tant que Ratling, vous pouvez facilement passer inaperçu, voire utiliser d’autres personnes comme couverture. Au sein de la Garde Impériale, les Ratlings sont employés comme tireurs d’élite. De nombreux ratlings mènent une vie de petite délinquance, tirant parti de leur petite taille pour se faufiler agilement au milieu des dangers et s’échapper rapidement.
 
-##### Traits des Ratling
+#### Traits des Ratling
 
 Votre personnage ratling possède certains traits hérités de son ascendance abhumaine.
 

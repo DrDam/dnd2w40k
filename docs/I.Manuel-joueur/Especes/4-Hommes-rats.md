@@ -1,4 +1,4 @@
-#### Homme-Rats {.newpage}
+### Homme-Rats {.newpage}
 
 Au plus profond de chaque cité-ruche, sous chaque grille d’égout et fouillant chaque tas de gravats, on dit qu’un homme-rat se cache. Ces créatures égoïstes sont connues pour fouiller partout où elles le peuvent, et sont rejetées par la plupart des sociétés civilisées. Elles forment de petites bandes d’hommes-rats, unies par le fragile espoir d’un repas ou d’un butin, et pillent les cités de la surface afin de tenter de survivre dans les mondes de plus en plus mécanisés où elles se retrouvent.
 
@@ -6,7 +6,7 @@ Si on les laisse tranquilles, les hommes-rats ne parviennent généralement jama
 
 Les hommes-rats constituent la forme de vie la plus dépravée, la plus méprisable et la plus inférieure que la galaxie ait à offrir.
 
-##### Traits des Homme-Rats
+#### Traits des Homme-Rats
 
 **Augmentation des caractéristiques.** Votre score de Dextérité augmente de 2.
 

@@ -1,6 +1,6 @@
 ![Un Guerrier-du-feu T'au en armure complète](../../assets/xenos/TauFireWarrior.png){.newpage}
 
-#### T'au
+### T'au
 
 Les T'au sont une espèce intelligente, jeune, humanoïde et technologiquement avancée, qui se bat pour étendre son idéal du « Bien Suprême » à toutes les espèces intelligentes de la galaxie. Les T'au se présentent comme une espèce pacifique dans la mesure du possible, mais peuvent conquérir une planète lorsque leurs tentatives de paix sont rejetées.
 
@@ -8,7 +8,7 @@ La société T'au est dirigée par une caste secrète connue sous le nom d’Ét
 
 La société T'au est divisée en plusieurs castes, chacune étant génétiquement adaptée à une fonction spécifique afin de servir au mieux les intérêts de la société.
 
-##### Traits des T'au
+#### Traits des T'au
 
 **Âge.** Les T'au ont une espérance de vie à peu près équivalente à celle des humains.
 
@@ -26,7 +26,7 @@ La société T'au est divisée en plusieurs castes, chacune étant génétiqueme
 
 **Caste d'origine.** Du fait de votre naissance, vous appartenez à l'une des castes de l'empire T'au. Choisissez-en une parmis celles disponibles.
 
-##### La caste de l’Air
+#### La caste de l’Air
 
 En tant que membre de la caste de l’Air, vous êtes doué pour piloter des véhicules et pouvez ainsi remplir le rôle de pilote dont les T'au ont besoin.
 
@@ -39,7 +39,7 @@ En tant que membre de la caste de l’Air, vous êtes doué pour piloter des vé
 **Résistance au froid.** Vous résistez aux dégâts de froid. De plus, vous êtes naturellement adapté aux hautes altitudes.
 
 
-##### La caste de la Terre
+#### La caste de la Terre
 
 Vous possédez une robustesse naturelle et êtes capable de porter de lourdes charges sans difficulté.
 
@@ -51,7 +51,7 @@ Vous possédez une robustesse naturelle et êtes capable de porter de lourdes ch
 
 **Artisan expert.** Vous pouvez reproduire les œuvres artisanales d’autres créatures. Vous bénéficiez d’un avantage lors de tous les jets effectués pour produire des répliques d’objets existants, tels que des meubles, des emblèmes héraldiques et des armes, à condition de disposer d’un modèle ainsi que des matériaux et outils nécessaires.
 
-##### La caste du Feu
+#### La caste du Feu
 
 Vous avez été élevé pour la guerre et êtes devenu résistant aux feux qu’elle engendre.
 
@@ -63,7 +63,7 @@ Vous avez été élevé pour la guerre et êtes devenu résistant aux feux qu’
 
 **Précision T'au.** Attaquer à longue portée ne vous impose pas de désavantage lors de vos jets d’attaque avec une arme à distance.
 
-##### La caste de l’Eau
+#### La caste de l’Eau
 
 Vous êtes adapté à la vie aquatique et êtes un négociateur et un orateur né.
 

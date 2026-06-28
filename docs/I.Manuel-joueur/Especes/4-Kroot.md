@@ -1,6 +1,6 @@
 ![Un guerrier Kroot](../../assets/xenos/Kroot2.png){.newpage}
 
-#### Kroot
+### Kroot
 
 Les Kroot sont des créatures humanoïdes qui possèdent généralement un bec, deux bras et deux jambes. Le terme « généralement » est utilisé en raison de la capacité innée des Kroot à se nourrir de la chair d’une créature, ce qui finit par induire des mutations génétiques similaires aux traits de cette dernière.
 
@@ -10,7 +10,7 @@ Les Kroot sont dirigés par des « façonneurs », qui sont des membres de la tr
 
 Les Kroot ont été découverts par l’Empire Tau et ont uni leurs forces à celui-ci pour servir d’unités auxiliaires. On trouve également des Kroot parcourant la galaxie en tant que mercenaires, marchands et chasseurs de primes.
 
-##### Traits des Kroot
+#### Traits des Kroot
 
 **Augmentation des caractéristiques.** Votre caractéristique de Force augmente de 2, et votre caractéristique de Dextérité augmente de 1.
 
@@ -34,7 +34,7 @@ Par exemple, pour acquérir le trait « Constitution puissante », vous devez co
 
 **Langues.** Vous pouvez parler, lire et écrire le tau, le tribal, le bas gothique.
 
-##### Absorption de force{.newpage}
+#### Absorption de force{.newpage}
 
 *Traits gagnés et conditions*{.table-title .wide}
 

@@ -1,6 +1,6 @@
 ![Un Boy ork](../../assets/xenos/OrkBoy1.png){.newpage}
 
-#### Ork
+### Ork
 
 Les Orks sont violents. Les Orks sont nombreux. Ils emploient souvent des conventions de dénomination rudimentaires, comme le fait d’appeler les plus petits « boyz » et « gitz ». Le phénomène connu sous le nom de « champ gestalt » fait que les choses se réalisent si un nombre suffisant d’Orks y croit. C’est pourquoi de nombreux véhicules orks sont rouges : parce que les choses rouges vont plus vite.
 
@@ -8,7 +8,7 @@ Les Orks sont des créatures fongiques qui se reproduisent à l’aide de spores
 
 Il existe différentes catégories d’Orks : les « knobs » sont de grands Orks qui mènent de petits groupes au combat. Les « Warbosses » sont des Orks qui ont acquis une certaine intelligence et sont capables de mener des masses au combat et de coordonner des stratégies. Les « Techboyz » savent manier la technologie et parviennent d’une manière ou d’une autre à la faire fonctionner, tandis que les « weirdboyz » sont des psykers qui doivent se faire retirer le sommet du crâne, sans quoi leur cerveau deviendrait trop gros pour y tenir. La société ork s’articule principalement autour de klanz et de tribus à la manière des barbares, avec les warbosses au sommet de la hiérarchie, les seigneurs de guerre à la tête de petites bandes de guerre, et les « knobs » à la tête de petits groupes de « boyz » orks.
 
-##### Traits des Orks
+#### Traits des Orks
 
 **Augmentation des caractéristiques.** Votre caractéristique de Constitution augmente de 2, et votre caractéristique de Force augmente de 1.
 

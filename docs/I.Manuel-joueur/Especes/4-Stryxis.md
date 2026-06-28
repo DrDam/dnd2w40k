@@ -1,12 +1,12 @@
 ![Un stryxis vendant une arme Tau](../../assets/xenos/Stryxis.png){.newpage}
 
-#### Stryxis
+### Stryxis
 
 Les Stryx sont connus dans toute la galaxie pour être des marchands et des colporteurs sans scrupules. Généralement vêtus d’une robe marron, ces humanoïdes ne se distinguent que par leurs visages ressemblant à ceux de carlins ; ils semblent asexués aux yeux de l’observateur, avec leurs membres dégingandés et leurs quatre petits yeux brillants. Les Stryxis sont connus pour vendre leurs marchandises aux Impériaux, aux Tau, au Chaos et à quiconque est prêt à les acheter, à l’exception des Eldars, envers lesquels ils nourrissent une rancune tenace pour des raisons inconnues.
 
 Les Stryxis sont réputés pour être des escrocs et des intrigants, et ne semblent se soucier de rien d’autre que de faire du profit. De nombreux Stryxis mènent une vie de nomades et de vagabonds, et sont considérés par les Impériaux comme des marchands indécis, car leur façon d’évaluer les marchandises est très différente de celle de la plupart des espèces intelligentes. Les Stryxis aiment amasser du butin, quelle que soit sa valeur, et tentent de le revendre au prix qu’ils jugent bon.
 
-##### Traits des Stryxis
+#### Traits des Stryxis
 
 **Augmentation des caractéristiques.** Votre Charisme augmente de 2 et votre Intelligence de 1.
 

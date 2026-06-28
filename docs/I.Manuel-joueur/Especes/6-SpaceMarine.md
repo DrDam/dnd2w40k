@@ -1,6 +1,6 @@
 ![Un Intercessor SpaceMarine du chapitre des UltraMarines](../../assets/humanity/UM_Primaris_Space_Marine.png){.newpage height=8cm}
 
-#### Space Marine
+### Space Marine
 
 Les Space Marines, ou Adeptus Astartes, sont des guerriers transhumains créés par l'Empereur de l'Humanité pour défendre l'Imperium contre ses innombrables ennemis. Recrutés dès leur plus jeune âge parmi les populations les plus résistantes de la galaxie, ils subissent une série de modifications génétiques et chirurgicales qui les transforment en combattants d'une puissance, d'une endurance et d'une longévité largement supérieures à celles d'un humain ordinaire.
 
@@ -23,7 +23,7 @@ Qu'ils soient de loyaux défenseurs de l'Humanité, champions des Dieux Sombres 
 
     **Caractéristiques améliorées.** Si vous utilisez la grille standard pour déterminer vos caractéristiques, il est recommandé d’utiliser plutôt les valeurs suivantes : 17, 15, 14, 13, 12, 10.
 
-##### Traits des Space Marines
+#### Traits des Space Marines
 
 Tous les Space Marines possèdent les mêmes caractéristiques de base, issues de leurs modifications génétiques et de leur entraînement initial. Chaque Space Marine présente les caractéristiques suivantes :
 

@@ -1,6 +1,6 @@
 ![Collection de Xenos](../../assets/xenos/banner.jpg){.wide .newpage}
 
-### Les Xenos
+## Espèces : Les Xenos
 
 À travers la galaxie, d'innombrables espèces extraterrestres ont fait connaître leur existence. Beaucoup d'entre elles ont été contraintes de s'unir au sein d'une faction plus vaste pour survivre, ou de mener une vie nomade à bord de vaisseaux spatiaux pour subvenir à leurs besoins. Quelle qu'en soit la raison, les espèces présentées dans ce chapitre regroupent des xénos et des sous-espèces humaines hors du commun que l'on peut rencontrer dans la galaxie.
 

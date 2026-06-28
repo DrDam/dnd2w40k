@@ -1,6 +1,6 @@
 ![L'inquisiteur Gregor Eisenhorn](../../assets/humanity/Eisenhorn6.png){.newpage height=8cm}
 
-#### Humains
+### Humains
 
 Au cœur de l’Imperium de l’Humanité, sur la Sainte Terra, le Dieu-Empereur de l’Humanité trône sur le Trône d’Or, et ce depuis 10 000 ans. Le commun des mortels ignore ce qui se passe sur Terra et ce que fait réellement le Dieu-Empereur de l’Humanité, mais tout adepte du Credo Impérial sait que le Dieu-Empereur se contente de diriger l’ensemble de Ses vastes planètes et de Ses armées d’une main de fer depuis le Trône d’Or de Terra.
 
@@ -12,7 +12,7 @@ La majorité des humains de la galaxie réside au sein de l’Imperium ou à ses
 
 **Les Tau.** Sous l’Empire Tau, les humains peuvent mener une vie sereine au sein d’une caste appelée « gue’vesa ». Dans ce système, ils sont traités à l’instar de citoyens de seconde zone, mais ne subissent pas nécessairement d’injustice. De nombreux humains sont envoyés à bord de flottes de propagande afin de rallier d’autres humains à leur cause.
 
-##### Traits des humains
+#### Traits des humains
 
 Il est difficile de généraliser à propos des humains, mais votre personnage humain présente les traits suivants.
 
@@ -26,7 +26,7 @@ Il est difficile de généraliser à propos des humains, mais votre personnage h
 
 **Monde d’origine.** Chaque humain possède un monde d’origine qui détermine les traits supplémentaires dont il bénéficie. Choisissez l’un des mondes d’origine répertoriés ci-dessous.
 
-##### Humain d'un monde mort
+#### Humain d'un monde mort
 
 Les mondes de la Mort au sein de l’Imperium sont des lieux hostiles et désolés, souvent pour diverses raisons. Sur certains, des monstres terrifiants rôdent et considèrent les humains comme des proies. Sur d’autres, l’hostilité même de l’environnement empêche les humains de survivre sans recourir à des mesures extrêmes.
 
@@ -43,7 +43,7 @@ Dans les griffes de la mort. Vous bénéficiez d’un avantage aux jets de sauve
 
 **Langues.** Vous pouvez parler, lire et écrire le bas gothique et le tribal.
 
-##### Humain d'un monde sauvage
+#### Humain d'un monde sauvage
 
 Les mondes sauvages sont souvent des mondes indomptés et sauvages qui se trouvent néanmoins à l’intérieur des frontières de l’Imperium. Ces mondes sont le plus souvent exploités pour leurs ressources naturelles ou pour la robustesse de leurs habitants.
 
@@ -56,7 +56,7 @@ Robustesse surnaturelle. Votre maximum de points de vie augmente de 1, puis de 1
 
 **Langues.** Vous pouvez parler, lire et écrire le bas gothique et le tribal.
 
-##### Humain d'un monde féodal
+#### Humain d'un monde féodal
 
 Alors que de nombreux mondes de l’Imperium bénéficient d’un certain niveau de technologie, les mondes féodaux restent cantonnés à un niveau technologique rudimentaire, à peine supérieur à celui d’un mousquet standard. Ces mondes adoptent souvent des systèmes féodaux, où des rois et des monarques règnent sur leurs royaumes.
 
@@ -72,7 +72,7 @@ Alors que de nombreux mondes de l’Imperium bénéficient d’un certain niveau
 
 **Langues.** Vous pouvez parler, lire et écrire le tribal et le bas gothique .
 
-##### Humain d'un monde forge
+#### Humain d'un monde forge
 
 Les mondes-forges sont d'immenses planètes industrielles entièrement dévouées au Adeptus Mechanicus. Leurs cités-usines produisent sans relâche armes, véhicules, vaisseaux et machines destinés à soutenir l'Imperium. Les habitants y grandissent au milieu des chaînes de production, des fumées toxiques et des prières adressées à l'Omnimessie, où le travail, la discipline et la dévotion à la machine rythment chaque instant de leur existence.
 
@@ -86,7 +86,7 @@ Les mondes-forges sont d'immenses planètes industrielles entièrement dévouée
 
 **Langues.** Vous pouvez parler, lire et écrire le binaire et le bas gothique.
 
-##### Humain d'un monde forteresse
+#### Humain d'un monde forteresse
 
 Les mondes consacrés à la formation de la prochaine génération de soldats de l’Imperium sont appelés « mondes-forteresses ». Ces planètes versent leur tribut à l’Imperium presque exclusivement sous forme de soldats qu’elles forment, souvent dès l’enfance, afin qu’ils rejoignent l’Astra Militarum lorsqu’ils atteignent l’âge requis.
 
@@ -101,7 +101,7 @@ Entraînement sur un monde-forteresse. Vous maîtrisez les fusils laser, les pis
 
 **Langues.** Vous pouvez parler, lire et écrire le bas gothique et les codes impériaux.
 
-##### Humain d'un monde ruche
+#### Humain d'un monde ruche
 
 Votre monde d'origine était un monde-ruche, abritant des milliards d'êtres humains vivant dans des villes tentaculaires, dont les tours semblaient effleurer le ciel. Ces villes offrent l'un des niveaux de vie les plus élevés dans les plus hautes flèches de la ruche, et l'une des conditions de vie les plus précaires dans les bidonvilles des ruche inférieures.
 
@@ -114,7 +114,7 @@ Compétences propres au monde-ruche. Vous maîtrisez un jeu de jeu de votre choi
 
 **Langues.** Vous pouvez parler, lire et écrire le bas gothique  et le langage des bas-fonds.
 
-##### Humain d'un monde impérial
+#### Humain d'un monde impérial
 
 Votre monde d’origine faisait partie des millions de mondes unis sous la bannière impériale. La plupart des mondes impériaux entrent dans cette catégorie, qui est la plus vaste parmi celles que l’on trouve au sein de l’Imperium. Ces mondes disposent généralement d’un niveau technologique stable permettant d’améliorer la vie des civils, notamment grâce à l’électricité et à l’automobile.
 
@@ -124,7 +124,7 @@ Votre monde d’origine faisait partie des millions de mondes unis sous la banni
 
 **Langues.** Vous pouvez parler, lire et écrire le bas gothique  ainsi que deux autres langues de votre choix.
 
-##### Humain d'un monde sanctuaire
+#### Humain d'un monde sanctuaire
 
 Les mondes sanctuaires comptent parmi les plus pieux et les plus sacrés de l’Imperium. Généralement situés le long des routes de pèlerinage, ces mondes sanctuaires abritent souvent des reliques sacrées, des statues ou les lieux de sépulture de saints tombés au service du Dieu-Empereur.
 
@@ -135,7 +135,7 @@ Les mondes sanctuaires comptent parmi les plus pieux et les plus sacrés de l’
 **Esprit résilient.** Vous bénéficiez d’un avantage aux jets de sauvegarde pour résister aux effets de l’envoûtement et de la peur.
 Langues. Vous pouvez parler, lire et écrire le bas gothique et le haut gothique.
 
-##### Humain d'un monde en guerre
+#### Humain d'un monde en guerre
 
 Les mondes en guerre sont ceux qui sont en conflit depuis si longtemps que leur raison d’être initiale a été perdue. Ces mondes sont constamment ravagés par la guerre, qui s’étend parfois sur des décennies, voire des siècles, et ceux qui y naissent voient souvent le jour sur les lignes de front.
 

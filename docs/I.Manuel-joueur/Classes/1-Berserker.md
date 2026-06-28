@@ -1,4 +1,4 @@
-![Un Blood Angel de la Compagnie de la Mort](../../assets/classes/death-company-by-adeptus-celeng.png){.newpage height=8cm}
+![Le chef Ork Ghazghkull Mag Uruk Thraka](../../assets/classes/Warlord_Ghazkull_Thraka.png){.newpage height=8cm}
 
 ### Berserker
 
@@ -16,7 +16,7 @@ Pour certains, leur rage jaillit de la communion entre la technologie et la chai
 
 Vous pouvez créer rapidement un berserker en suivant ces conseils. Tout d’abord, faites en sorte que la Force soit votre modificateur de caractéristique le plus élevé. Vos scores suivants les plus élevés devraient être la Constitution et la Dextérité. Ensuite, choisissez l'historique « mercenaire ».
 
-##### Bonus de classe
+#### Bonus de classe
 
 En tant que Berserker, vous bénéficiez des caractéristiques de classe suivantes :
 
@@ -76,6 +76,8 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 18 | +6 | Puissance indomptable | 6 | +4 |
 | 19 | +6 | Amélioration des caractéristiques | 6 | +4 |
 | 20 | +6 | Champion de la guerre | illimité | +4 |
+
+#### Aptitudes du Berserker
 
 ##### Défense sans armure
 
@@ -156,45 +158,45 @@ Chaque fois que vous utilisez cette capacité après la première fois, la diffi
 
 Au niveau 20, vous incarnez la puissance de la guerre. Vos scores de Force et de Constitution augmentent de 4. Le maximum de ces scores est désormais de 26.
 
-##### Liste des Voies de la guerre
+#### Voies de la guerre
 
-**La Voie de la haine**
+##### La Voie de la haine
 
 La lame la plus tranchante n'est rien comparée à la haine la plus pure. Sur cette voie, nombreux sont ceux qui ont succombé à la rage aveugle propre à une vie de guerre et de conquête.
 
-*Fureur sans fin*
+**Fureur sans fin**
 
 Dès que vous choisissez ce chemin au niveau 3, vous pouvez canaliser votre haine dans vos coups d’arme. Tant que vous êtes en rage, la première créature que vous touchez à chacun de vos tours avec une attaque d’arme subit des dégâts supplémentaires égaux à 1d6 + la moitié de votre niveau de berserker. Ces dégâts supplémentaires sont du même type que ceux infligés par votre arme.
 
-*Folie furieuse*
+**Folie furieuse**
 
 Également au niveau 3, lorsque vous réduisez une créature à 0 point de vie pendant votre tour, vous pouvez utiliser une action bonus pour vous déplacer immédiatement jusqu’à la moitié de votre vitesse.
 
-*Rage aveugle*
+**Rage aveugle**
 
 À partir du niveau 6, vous ne pouvez pas être charmé ni effrayé pendant que vous êtes en rage. Si vous êtes charmé ou effrayé lorsque vous entrez en rage, l’effet est suspendu pendant toute la durée de la rage.
 
-*Charge furieuse*
+**Charge furieuse**
 
 À partir du niveau 10, vous pouvez effectuer l’action « Élan » en tant qu’action bonus pendant que vous êtes en rage.
 
-*Représailles*
+**Représailles**
 
 À partir du niveau 14, lorsque vous subissez des dégâts infligés par une créature située à moins de 5 pieds de vous, vous pouvez utiliser votre réaction pour effectuer une attaque au corps à corps contre cette créature.
 
-**Voie de l’Augmentation**
+##### Voie de l’Augmentation
 
 Pour devenir plus puissant, tu t’appuies sur la cybernétique qui renforce ton corps. La chair est faible, et tu as eu recours au métal pour surmonter ses faiblesses.
 
-*Cybernétique utilitaire*
+**Cybernétique utilitaire**
 
 Lorsque tu choisis cette voie au niveau 3, tu apprends les pouvoirs technologiques « Réparation » et « Analyse », et tu peux les lancer sans dépenser de points technologiques. Vous pouvez ainsi lancer « Analyse » un nombre de fois égal à votre modificateur de Constitution (avec un minimum d’une fois). Vous récupérez tous les usages dépensés lorsque vous effectuez un long repos.
 
-*Armure cutanée*
+**Armure cutanée**
 
 Toujours au niveau 3, vous gagnez une armure cutanée capable de se durcir sous l’effet d’un stress extrême, donnant à votre peau un aspect métallique. Lorsque vous êtes en rage, vous bénéficiez d’une résistance à tous les dégâts, à l’exception des dégâts psioniques.
 
-*Cybernétique de soutien*
+**Cybernétique de soutien**
 
 Au niveau 6, vous obtenez un exosquelette mécanique pour renforcer davantage votre corps. Votre capacité de portage (y compris la charge maximale et la force de levage maximale) est doublée et vous bénéficiez d’un avantage aux tests de Force effectués pour pousser, tirer, soulever ou briser des objets.
 
@@ -204,10 +206,10 @@ De plus, vous pouvez choisir l’une des cybernétiques suivantes et bénéficie
 - Cavité de dissimulation. Vous disposez d’une cavité de dissimulation située à un endroit de votre choix sur votre corps, par exemple sur votre bras ou votre jambe. Cette cavité est un petit compartiment à l’intérieur de votre corps capable de dissimuler entièrement les objets qui y sont placés. Une cavité de dissimulation peut être utilisée pour stocker et cacher une arme légère ou un objet de taille similaire. Il faut une action pour ranger ou retirer un objet ou une arme de votre cavité de dissimulation.
 - Optique panspectrale. Vous pouvez voir jusqu’à 1 mile sans difficulté, capable de discerner même les moindres détails comme si vous observiez quelque chose situé à moins de 100 pieds de vous. De plus, la pénombre n’impose pas de désavantage à vos jets de Sagesse (Perception).
 
-*Plus machine qu’homme*
+**Plus machine qu’homme**
 
 À partir du niveau 10, votre cybernétique vous rend immunisé contre le poison et les maladies non amplifiées. De plus, vous ignorez les terrains difficiles non amplifiés.
 
-*Contournement hydraulique*
+**Contournement hydraulique**
 
 Au niveau 14, vous acquérez la capacité de projeter des personnes en position couchée. Lorsque vous êtes en rage, vous pouvez utiliser une action bonus pendant votre tour pour mettre à terre une créature de taille Grande ou inférieure lorsque vous la touchez avec une attaque d’arme de mêlée.

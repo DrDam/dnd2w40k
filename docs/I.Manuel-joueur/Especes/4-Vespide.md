@@ -1,10 +1,10 @@
 ![Un Vespide au combat](../../assets/xenos/VespidStingwing.png){.newpage}
 
-#### Vespide
+### Vespide
 
 L'espèce des Vespides est composée d'humanoïdes recouverts d'une substance semblable à de la chitine et dotés d'ailes qui en font un atout précieux sur le champ de bataille. Combattant aux côtés des Tau au sein d'unités auxiliaires, de reconnaissance et d'escarmouche, les Vespides constituent l'un des principaux atouts permettant aux Tau d'affronter les Space Marines au combat, grâce à leur habileté à contourner l'ennemi et à leur grande mobilité. Les Impériaux appellent les Vespides les « ailes-aiguilles ». Les Vespides possèdent trois yeux sur la tête, et leur bouche est constituée d’un ensemble de mandibules et de protubérances acérées comme des lames de rasoir. Les Vespides forment des groupes appelés « souches » et sont très recherchés en tant que mercenaires et au sein de l’armée Tau.
 
-##### Traits des Vespides
+#### Traits des Vespides
 
 **Augmentation des caractéristiques.**  Votre caractéristique de Dextérité augmente de 2, et votre caractéristique de Sagesse augmente de 1.
 

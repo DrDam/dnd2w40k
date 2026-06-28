@@ -1,10 +1,10 @@
-#### Thyrrus {.newpage}
+### Thyrrus {.newpage}
 
 Les Squiddies
 Surnommés « Squiddies » par les Impériaux, ces étranges xénos ont failli être exterminés par la Garde Impériale. Les Thyrrus sont des créatures ressemblant à des calmars, dotées de plusieurs yeux et de membres à multiples articulations. Les Thyrrus ont tendance à faire fi des notions mesquines que les autres espèces appellent « survie » et « victoire », préférant vivre leur vie comme un spectacle. Un chef thyrrus serait capable de saccager une cuisine, de réduire en cendres un orphelinat et d’exterminer toute une espèce humaine, si cela permettait de concocter un repas divertissant. De même, les Thyrrus considéraient la guerre comme un spectacle, ce qui a conduit à leur quasi-extinction.
 La physiologie des Thyrrus comprend une multitude de tentacules, une peau capable de changer de couleur à volonté à des fins sociales et pratiques, quatre yeux, un corps cartilagineux, une pseudo-bouche qui fonctionne davantage comme une passoire, et une structure naturelle s’apparentant à un masque à gaz. Il en résulte une créature qui semble se soucier peu de la vie, mais qui est capable de survivre dans des circonstances et des environnements extrêmes.
 
-##### Traits des Thyrrus
+#### Traits des Thyrrus
 
 **Augmentation des caractéristiques.**  Votre Charisme augmente de 2 et votre Dextérité de 1.
 

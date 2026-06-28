@@ -1,12 +1,12 @@
 ![Un Lacrymole prenant l'apparence d'un humain](../../assets/xenos/Lacrymole_pic.png){.newpage}
 
-#### Lacrymole
+### Lacrymole
 
 Le lacrymole est une curiosité parmi les espèces présentes dans la galaxie. Il se présente sous la forme d’un humanoïde typique, de stature, de taille et de poids moyens, à une différence près : son apparence physique évolue et change constamment, passant par une myriade de couleurs, jusqu’à ce qu’il décide d’imiter l’apparence d’une autre espèce humanoïde. C’est pourquoi le lacrymole vit le plus souvent au sein d’autres civilisations, telles que l’Imperium, où il peut prospérer dans le secret.
 
 Les lacrymoles possèdent des dents semblables à celles des vampires et sont capables de se nourrir du sang d’autres créatures pour subsister. Parmi toutes les espèces considérées comme intolérables dans la plupart des sociétés, le lacrymole est l’une des créatures les plus haïes, les plus traquées et les plus méprisées de toute la galaxie.
 
-##### Traits des Lacrymoles
+#### Traits des Lacrymoles
 
 **Augmentation des caractéristiques.** Votre caractéristique de Charisme augmente de 2. De plus, une caractéristique de votre choix augmente de 1.
 
