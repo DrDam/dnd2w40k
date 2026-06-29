@@ -58,12 +58,65 @@
 % par défaut). secnumdepth global reste à 5 (réglé par --number-sections
 % côté pandoc) pour ne pas affecter la numérotation des autres niveaux
 % -- seul le format de \subsubsection est changé, via titlesec.
+%
+% ATTENTION -- piège \underline et titres longs en mode twocolumn :
+% \underline{...} (natif LaTeX2e, hérité du mode math) compose son
+% contenu dans une \hbox -- une boîte RIGIDE, sans aucun point de
+% coupure de ligne autorisé à l'intérieur. Un \subsubsection assez
+% court tient dans la largeur de colonne par hasard, mais dès qu'un
+% titre dépasse cette largeur (ex: "Modification sur une fiche
+% personnage standard de D&D 5e."), la boîte ne peut PAS se replier sur
+% plusieurs lignes : elle déborde tel quel par-dessus la colonne
+% voisine, sans avertissement ni erreur de compilation (reproduit et
+% confirmé en isolation, hors de tout pipeline Pandoc/Lua -- comportement
+% de base de \underline, pas un artefact des filtres de ce projet).
+% \soulpkg{soul} (\ul{...}) résout ce point nativement mais ajoute une
+% dépendance non utilisée par ailleurs dans ce document.
+%
+% Deuxième piège -- \titlerule fait TOUJOURS pleine largeur de colonne :
+% un premier correctif (remplacer \underline par \titlerule en 5e
+% argument optionnel de \titleformat, APRÈS le titre) règle bien le
+% débordement, mais \titlerule trace son filet sur \linewidth dans tous
+% les cas, QUEL QUE SOIT le texte du titre au-dessus -- "Magie" (5
+% lettres) se retrouvait donc souligné sur toute la largeur de la
+% colonne, comme un titre 5x plus long (constaté en test, visuellement
+% incohérent avec un soulignement "normal").
+%
+% Solution retenue (toujours sans nouveau package) : \titlerulewrap
+% mesure (\settowidth) la largeur RÉELLE du titre tel que composé sur
+% une seule ligne, et trace une règle de cette largeur précise -- sauf
+% si cette largeur dépasse \linewidth (titre long qui se repliera de
+% toute façon sur plusieurs lignes), auquel cas on retombe sur la
+% pleine largeur de colonne, seul choix cohérent dans ce cas (le titre
+% occupant alors plusieurs lignes, caler le filet sur la largeur d'une
+% ligne précise -- ex: la dernière -- demanderait de mesurer une mise
+% en page déjà figée, non disponible simplement sans dépendance
+% supplémentaire telle que soul/ulem).
 \usepackage{titlesec}
+\usepackage{calc}
+
+\newlength{\titleulwidth}
+\newcommand{\titlerulewrap}[1]{%
+  \settowidth{\titleulwidth}{#1}%
+  \ifdim\titleulwidth>\linewidth
+    \setlength{\titleulwidth}{\linewidth}%
+  \fi
+  % \vspace{-0.6\baselineskip} (et non un \vspace positif) : sans ce
+  % correctif, l'espace naturel laissé par \par après le titre (interligne
+  % + profondeur de descente des caractères) crée un écart visuellement
+  % disproportionné entre le texte du titre et le filet -- alors que
+  % l'intention de départ (cf. l'ancien \underline) était un trait
+  % "collé" au texte, façon soulignement classique. Valeur négative
+  % choisie empiriquement pour coller le filet juste sous la ligne de
+  % base du titre, quelle que soit sa taille de police.
+  #1\par\nobreak\vspace{-1.25\baselineskip}\noindent\rule{\titleulwidth}{0.5pt}%
+}
+
 \titleformat{\subsubsection}
   {\normalfont\bfseries}
   {}
   {0pt}
-  {\underline}
+  {\titlerulewrap}
 
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{0}
@@ -74,6 +127,20 @@
   {\chaptertitlename\ \thechapter\ —\ }
   {0pt}
   {}
+
+% Espacement autour du titre de chapitre (avant / après / "indent" du
+% bloc titre lui-même, dernier paramètre laissé à 0pt = pas de retrait).
+% Par défaut, titlesec retombe sur des valeurs proches de book.cls natif
+% (\vspace*{50pt} avant, \vskip 40pt après -- voir \@makechapterhead
+% dans book.cls) dès que \titleformat est redéfini sans \titlespacing
+% associée. Ces valeurs sont pensées pour un chapitre qui commence
+% directement par du texte ; ici, le chapitre est souvent suivi d'une
+% image (.wide), et le grand espace après-titre par défaut se voit
+% comme un vide disproportionné au-dessus de l'image. Réduit ici à des
+% valeurs plus resserrées, sans pour autant coller le titre au bord de
+% page (le "avant" reste non nul pour respecter un minimum d'air en
+% haut de page).
+\titlespacing{\chapter}{0pt}{10pt}{10pt}
 
 % ============================================================
 % TABLE DES MATIÈRES EN DEUX COLONNES

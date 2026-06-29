@@ -35,10 +35,10 @@ function Div(el)
 
       local before = pandoc.RawBlock("latex",
         string.format(
-          "\\begin{tcolorbox}[colback=%s!5!white,colframe=%s!75!black,title={%s},breakable]",
+          "\\begin{samepage}\\begin{tcolorbox}[colback=%s!5!white,colframe=%s!75!black,title={%s},before upper={\\setlength{\\parskip}{6pt}}]",
           color, color, escape_latex(title)
         ))
-      local after = pandoc.RawBlock("latex", "\\end{tcolorbox}")
+      local after = pandoc.RawBlock("latex", "\\end{tcolorbox}\\end{samepage}")
 
       table.insert(el.content, 1, before)
       table.insert(el.content, after)

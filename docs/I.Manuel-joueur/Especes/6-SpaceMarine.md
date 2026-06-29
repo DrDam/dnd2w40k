@@ -12,14 +12,18 @@ Qu'ils soient de loyaux défenseurs de l'Humanité, champions des Dieux Sombres 
 
 !!! warning "Au sujet des SpaceMarines"
 
-    Les Space Marines ne sont pas créés de la même manière que les espèces classiques. Au lieu de choisir un historique, vous choisissirez un chapitre/légion d'origine et un role tactique.
+    Les Space Marines ne sont pas créés de la même manière que les espèces classiques. Au lieu de choisir un historique, vous choisirez un chapitre/légion d'origine et un role tactique.
 
-    **Équilibrage.** Les Space Marines **ne sont PAS équilibrés** selon les règles standard de création de groupe et sont intentionnellement conçus pour être plus puissants que les personnages classiques. Les Scout Marines sont destinés à être joués aux côtés des espèces classiques.
+    **Équilibrage.** Les Space Marines **ne sont PAS équilibrés** selon les règles standard de création de groupe et sont intentionnellement **conçus pour être plus puissants que les personnages classiques**.
+
+    Les Scout Marines sont destinés à être joués aux côtés des espèces classiques.
 
     **Différence de puissance.** Votre Maitre-du-Jeu doit garder à l’esprit que les Space Marines sont conçus pour être plus puissants que les races classiques et doit s’organiser en conséquence.
 
-    **Niveau.** Il est recommandé que, si un Space Marine fait partie de votre campagne en tant que personnage de joueur utilisant ces règles, il soit au moins de niveau 5 afin de refléter sa force et son entraînement. Si il est prévu de faire commencer le personnage niveau 1, il est recommandé de commencer le personnage via le "Scout Marine" jusqu'à niveau 4.
-    Lors du passage au niveau 5, il est recommandé de refaire une fiche personnage complète en Space Marine directement niveau 5.
+    **Niveau.** Si il est prévu de faire commencer un personnage "SpaceMarine" au niveau 1, il est recommandé de :
+
+    - **Commencer** le personnage en tant que **Scout Marine** comme un personnage classique, et le conserver **jusqu'à niveau 4**.
+    - **Lors du passage au niveau 5**, pour marquer l'entré du novice dans la confrérie des frères de bataille, de **refaire une fiche de SpaceMarine niveau 5**.
 
     **Caractéristiques améliorées.** Si vous utilisez la grille standard pour déterminer vos caractéristiques, il est recommandé d’utiliser plutôt les valeurs suivantes : 17, 15, 14, 13, 12, 10.
 

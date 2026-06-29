@@ -8,8 +8,11 @@ Les Space Marines sont des guerriers surhumains, fruits d’expériences biologi
 
     **Équilibrage.** Les Scout Marines sont conçus pour être équilibrés vis-a-vis des autres espèces de ce livre de règle.
 
-    **Niveau.** Si votre intention est de créer un personnage Space Marine à partir du niveau 1, il est recommandé de commencer un personnage "Scout Space Marine" jusqu'à niveau 4.
-    Lors du passage au niveau 5, il est recommandé de refaire une fiche personnage complète en Space Marine directement niveau 5.
+    **Niveau.** Si il est prévu de faire commencer un personnage "SpaceMarine" au niveau 1, il est recommandé de :
+
+    - **Commencer** le personnage en tant que **Scout Marine** comme un personnage classique, et le conserver **jusqu'à niveau 4**.
+    - **Lors du passage au niveau 5**, pour marquer l'entré du novice dans la confrérie des frères de bataille, de **refaire une fiche de SpaceMarine niveau 5**.
+
 
 #### Traits des Scouts
 

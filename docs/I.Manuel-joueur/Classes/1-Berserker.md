@@ -202,9 +202,9 @@ Au niveau 6, vous obtenez un exosquelette mécanique pour renforcer davantage vo
 
 De plus, vous pouvez choisir l’une des cybernétiques suivantes et bénéficier de ses avantages :
 
-- Maillage adaptatif de la main. Vous gagnez une vitesse d’escalade et de nage égale à votre vitesse de marche.
-- Cavité de dissimulation. Vous disposez d’une cavité de dissimulation située à un endroit de votre choix sur votre corps, par exemple sur votre bras ou votre jambe. Cette cavité est un petit compartiment à l’intérieur de votre corps capable de dissimuler entièrement les objets qui y sont placés. Une cavité de dissimulation peut être utilisée pour stocker et cacher une arme légère ou un objet de taille similaire. Il faut une action pour ranger ou retirer un objet ou une arme de votre cavité de dissimulation.
-- Optique panspectrale. Vous pouvez voir jusqu’à 1 mile sans difficulté, capable de discerner même les moindres détails comme si vous observiez quelque chose situé à moins de 100 pieds de vous. De plus, la pénombre n’impose pas de désavantage à vos jets de Sagesse (Perception).
+- *Maillage adaptatif de la main.* Vous gagnez une vitesse d’escalade et de nage égale à votre vitesse de marche.
+- *Cavité de dissimulation.* Vous disposez d’une cavité de dissimulation située à un endroit de votre choix sur votre corps, par exemple sur votre bras ou votre jambe. Cette cavité est un petit compartiment à l’intérieur de votre corps capable de dissimuler entièrement les objets qui y sont placés. Une cavité de dissimulation peut être utilisée pour stocker et cacher une arme légère ou un objet de taille similaire. Il faut une action pour ranger ou retirer un objet ou une arme de votre cavité de dissimulation.
+- *Optique panspectrale.* Vous pouvez voir jusqu’à 1 mile sans difficulté, capable de discerner même les moindres détails comme si vous observiez quelque chose situé à moins de 30 mètres de vous. De plus, la pénombre n’impose pas de désavantage à vos jets de Sagesse (Perception).
 
 **Plus machine qu’homme**
 

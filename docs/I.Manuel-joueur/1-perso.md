@@ -16,7 +16,11 @@ Notez les traits conférés par votre espèce sur votre fiche de personnage. Vei
 
 !!! note "CRÉER KRIEG LE SOLDAT DE KIEG, ÉTAPE 1"
 
-    Bob s’installe pour créer son personnage. Il décide qu’un humain bourru correspond au personnage qu’il souhaite incarner. Il note tous les traits des humains sur sa fiche de personnage, y compris sa vitesse de 9 mètres et les langues qu’il connaît : le bas-gothique et une autre de son choix. Il choisit les codes impériaux comme deuxième langue après avoir consulté la liste des langues au chapitre « Historique » .
+    Bob s’installe pour créer son personnage. Il décide qu’un humain bourru correspond au personnage qu’il souhaite incarner.
+
+    Il note tous les traits des humains sur sa fiche de personnage, y compris sa vitesse de 9 mètres et les langues qu’il connaît : le bas-gothique et une autre de son choix.
+
+    Il choisit les codes impériaux comme deuxième langue après avoir consulté la liste des langues au chapitre « Personnalité et Origine » .
 
 ##### Etape 2. Choisissez une Classe
 
@@ -61,11 +65,13 @@ Votre bonus de maîtrise ne peut pas être ajouté plus d’une fois à un même
 
     Bob imagine Krieg le soldat de Krieg se ruant au combat avec une pelle, couvert du sang de ses ennemis. Il fait de Krieg un soldat et note sur sa fiche de personnage les compétences propres à cette classe ainsi que ses caractéristiques de niveau 1.
 
-    En tant que soldat de niveau 1, Krieg dispose d’un dé de vie (un d10) et commence avec un total de points de vie égal à 10 + son modificateur de Constitution. Bob note ces informations et inscrira le chiffre définitif après avoir déterminé la valeur de Constitution de Krieg (voir l’étape 3). Bob note également le bonus de compétence d’un personnage de niveau 1, qui est de +2.
+    En tant que soldat de niveau 1, Krieg dispose d’un dé de vie (un d10) et commence avec un total de points de vie égal à 10 + son modificateur de Constitution.
+
+    Bob note ces informations et inscrira le chiffre définitif après avoir déterminé la valeur de Constitution de Krieg (voir l’étape 3). Bob note également le bonus de compétence d’un personnage de niveau 1, qui est de +2.
 
 ##### Etape 3. Déterminer les scores de caractéristiques
 
-Une grande partie des actions de votre personnage dans le jeu dépend de ses six caractéristiques : **Force**, **Dextérité**, **Constitution**, **Intelligence**, **Sagesse** et **Charisme. Chaque caractéristique est associée à un score, c'est-à-dire un chiffre que vous inscrivez sur votre fiche de personnage.
+Une grande partie des actions de votre personnage dans le jeu dépend de ses six caractéristiques : **Force**, **Dextérité**, **Constitution**, **Intelligence**, **Sagesse** et **Charisme**. Chaque caractéristique est associée à un score, c'est-à-dire un chiffre que vous inscrivez sur votre fiche de personnage.
 
 Les six caractéristiques et leur utilisation dans le jeu sont décrites dans la section « Utilisation des scores de caractéristiques ». Le tableau « Résumé des scores de caractéristiques » fournit un aperçu rapide des qualités mesurées par chaque caractéristique, des races qui augmentent certaines caractéristiques et des classes pour lesquelles chaque caractéristique revêt une importance particulière.
 
@@ -207,7 +213,9 @@ Lorsque vous effectuez une attaque avec une arme, vous lancez un d20 et ajoutez 
 
     Bob note l'équipement de départ correspondant à la classe de soldat et au historique de héros populaire. Son équipement de départ comprend une cotte de mailles et un bouclier, qui, combinés, confèrent à Krieg une classe d'armure de 18.
 
-    Pour les armes de Krieg, Bob choisit une hache de combat et deux haches à main. Sa hache de combat étant une arme de mêlée, Krieg utilise son modificateur de Force pour ses attaques et ses dégâts. Son bonus d’attaque correspond à son modificateur de Force (+3) plus son bonus de compétence (+2), soit un total de +5. La hache de combat inflige 1d8 points de dégâts cinétiques, et Krieg ajoute son modificateur de Force aux dégâts lorsqu’il touche, pour un total de 1d8 + 3 points de dégâts cinétiques. Lorsqu’il lance une hache à main, Krieg bénéficie du même bonus d’attaque (les haches à main, en tant qu’armes de jet, utilisent la Force pour les attaques et les dégâts), et l’arme inflige 1d6 + 3 points de dégâts cinétiques lorsqu’elle touche.
+    Pour les armes de Krieg, Bob choisit une hache de combat et deux haches à main. Sa hache de combat étant une arme de mêlée, Krieg utilise son modificateur de Force pour ses attaques et ses dégâts. Son bonus d’attaque correspond à son modificateur de Force (+3) plus son bonus de compétence (+2), soit un total de +5.
+
+    La hache de combat inflige 1d8 points de dégâts cinétiques, et Krieg ajoute son modificateur de Force aux dégâts lorsqu’il touche, pour un total de 1d8 + 3 points de dégâts cinétiques. Lorsqu’il lance une hache à main, Krieg bénéficie du même bonus d’attaque (les haches à main, en tant qu’armes de jet, utilisent la Force pour les attaques et les dégâts), et l’arme inflige 1d6 + 3 points de dégâts cinétiques lorsqu’elle touche.
 
 ##### Etape 6. Se rassembler
 
