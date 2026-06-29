@@ -45,7 +45,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - Une armure en mailles et deux dagues
 
 
-*Les aptitudes du Mécanicien*{.table-title .wide}
+*Les aptitudes du Psyker*{.table-title .wide}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
 | :-: | :---: | ---------------- | :----: | :----: | :----: |
