@@ -55,12 +55,15 @@ nav:
         - Les Space Marines: I.Manuel-joueur/Especes/6-SpaceMarine.md
       - 6. Les classes:
         - les classes: I.Manuel-joueur/Classes/0-Classes.md
+        - les Agents: I.Manuel-joueur/Classes/1-Agent.md
         - les Augmentistes: I.Manuel-joueur/Classes/1-Augmentiste.md
         - les Berserkers : I.Manuel-joueur/Classes/1-Berserker.md
         - les Croisés : I.Manuel-joueur/Classes/1-Croise.md
         - les Exorcistes : I.Manuel-joueur/Classes/1-Exorciste.md
         - les Mécaniciens : I.Manuel-joueur/Classes/1-Mecanicien.md
         - les Psykers : I.Manuel-joueur/Classes/1-Psyker.md
+        - les Soldats : I.Manuel-joueur/Classes/1-Soldat.md
+        - les Sorciers : I.Manuel-joueur/Classes/1-Sorcier.md
         - les Traqueurs : I.Manuel-joueur/Classes/1-Traqueur.md
       - 7. Personnalité et historique:
         - Préambule: I.Manuel-joueur/Origines/0-title.md

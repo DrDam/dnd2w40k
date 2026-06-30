@@ -336,6 +336,17 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
   local header_block = table.concat(header_cells, "\n")
 
   local lines = {
+    -- \begingroup/\endgroup (et non \begin{table}/center/strip, qui
+    -- casseraient la pagination interne de supertabular -- voir notes
+    -- ci-dessus) : seul moyen de scoper \tablefontsize sans perturber
+    -- le patch du \output que supertabular effectue pour sa
+    -- continuation automatique entre pages/colonnes. Sans ce groupe,
+    -- \tablefontsize (= \small) est une déclaration LaTeX globale qui
+    -- ne se referme jamais : elle "fuit" sur tout le reste du document
+    -- après ce tableau (réduisant la taille de police de tout ce qui
+    -- suit), puisque ni \tablefirsthead/\tablehead/\tabletail ni
+    -- \begin{supertabular}...\end{supertabular} n'ouvrent de groupe.
+    "\\begingroup",
     "\\tablefontsize",
     string.format(
       "\\tablefirsthead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
@@ -360,6 +371,7 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
   end
 
   table.insert(lines, "\\end{supertabular}")
+  table.insert(lines, "\\endgroup")
   return table.concat(lines, "\n")
 end
 

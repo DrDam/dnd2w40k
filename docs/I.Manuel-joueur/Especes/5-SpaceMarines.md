@@ -4,15 +4,15 @@
 
 Les Space Marines, ou Adeptus Astartes, sont des guerriers transhumains créés par l'Empereur pour défendre l'Humanité. Recrutés dès leur plus jeune âge, ils subissent de profondes modifications génétiques et chirurgicales qui font d'eux des combattants d'une force, d'une endurance et d'une longévité bien supérieures à celles d'un humain ordinaire.
 
-Chaque Space Marine appartient à un Chapitre, une Légion ou une autre confrérie guerrière possédant ses propres traditions et doctrines. Si la plupart servent fidèlement l'Imperium, d'autres ont rejoint les forces du Chaos ou sont devenus renégats. Malgré leurs différences, tous partagent le même héritage génétique et une existence entièrement consacrée à la guerre.
+Chaque Space Marine appartient à un Chapitre, une Légion ou une autre confrérie guerrière possédant ses propres traditions et doctrines. Si la plupart servent fidèlement l'Imperium, ou ont rejoint les forces du Chaos. Malgré leurs différences, tous ont une existence entièrement consacrée à la guerre.
 
-Avant de devenir des frères de bataille à part entière, les aspirants servent comme Scouts, achevant leur transformation et leur entraînement. Dans ce supplément, les Scouts sont destinés aux personnages de bas niveau, tandis que les Space Marines représentent des Astartes pleinement accomplis.
+Avant de devenir des frères de bataille à part entière, les aspirants servent comme Scouts, achevant leur transformation et leur entraînement.
 
 !!! warning "Equilibrage"
 
-    Les Space Marines **ne sont PAS équilibrés** et sont intentionnellement **conçus pour être plus puissants** que les personnages classiques. **Votre Maitre-du-Jeu doit** garder à l’esprit cet état de fait et **s'organiser en conséquence**.
+    Les Space Marines **ne sont PAS équilibrés** et sont intentionnellement **conçus pour être plus puissants** que les personnages classiques.
 
-    Les Scout Marines sont destinés à être joués aux côtés des autres espèces.
+    Seuls les Scout Marines sont destinés à être joués aux côtés des autres espèces.
 
 !!! note "du Scout au Frère de Bataille"
 

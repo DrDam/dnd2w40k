@@ -191,8 +191,14 @@
 }
 
 % --- Sous-titre interne (Actions, Réactions, Traits légendaires...) ---
+% Une fine ligne horizontale juste au-dessus du titre permet de
+% détacher visuellement chaque section (Traits / Actions / ...) du
+% texte qui précède, façon livre de règles -- sans quoi un sous-titre
+% en simple gras se confondait avec le corps de texte environnant et
+% pouvait sembler "ne pas s'afficher" même quand il était bien rendu.
 \newcommand{\monstersection}[1]{%
   \par\vspace{6pt}
+  \noindent\rule{\linewidth}{0.5pt}\par\vspace{3pt}
   {\bfseries\large #1}\par
   \vspace{2pt}
 }
@@ -204,6 +210,7 @@
 % monstersection/statline, qui sont émis à l'intérieur de ce groupe.
 \newtcolorbox{monsterblock}{
   enhanced,
+  breakable,
   colback=yellow!20,
   opacityback=0.95,
   colframe=black,

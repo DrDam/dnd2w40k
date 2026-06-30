@@ -1,4 +1,4 @@
-![Une chanoinesse de l'Adepta Sororitas](../../assets/classes/Mother_Superior_Sisters_of_Battle.png){height=8cm}
+![Une chanoinesse de l'Adepta Sororitas](../../assets/classes/Mother_Superior_Sisters_of_Battle.png){.newpage height=8cm}
 
 ### Croisé
 
@@ -14,11 +14,11 @@ En tant que Croisé, vous bénéficiez des caractéristiques de classe suivantes
 
 **Points de vie**
 
-*Dés de vie* : 1d10 par niveau de Berserker
+*Dés de vie* : 1d10 par niveau de Croisé
 
 *Points de vie au niveau 1* : 10 + votre modificateur de Constitution
 
-*Points de vie aux niveaux supérieurs* : 1d10 (ou 6) + votre modificateur de Constitution par niveau de Berserker après le niveau 1
+*Points de vie aux niveaux supérieurs* : 1d10 (ou 6) + votre modificateur de Constitution par niveau de Croisé après le niveau 1
 
 **Compétences de départ**
 
@@ -41,7 +41,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure de combat ou (b) une armure en cotte de mailles, un fusil d’assaut et 2 chargeurs
 - (a) une arme martiale et un bouclier ou (b) deux armes martiales
 - (a) une carabine laser et 2 cellules d’énergie ou (b) deux haches de main
-- (a) un sac de donjonier ou (b) un sac d’explorateur
+- (a) un sac d’explorateur de ruines ou (b) un sac d’explorateur
 
 
 *Les aptitudes du Croisé*{.table-title .wide}
@@ -175,7 +175,7 @@ Les apôtres sont des hommes saints de leur foi, qui cherchent à agir avec droi
 
 **Érudit de la guerre**
 
-À partir du niveau 3, lorsque vous choisissez ce serment, vous maîtrisez parfaitement l’art de la guerre et la philosophie. Choisissez deux des compétences suivantes : Intuition, Enquête, Connaissances, Nature et Occultisme. Vous acquérez la maîtrise de ces compétences et pouvez ajouter le double de votre bonus de maîtrise aux jets de compétence effectués lorsque vous utilisez ces compétences.
+À partir du niveau 3, lorsque vous choisissez ce serment, vous maîtrisez parfaitement l’art de la guerre et la philosophie. Choisissez deux des compétences suivantes : Intuition, Investigation, Connaissances, Nature et Occultisme. Vous acquérez la maîtrise de ces compétences et pouvez ajouter le double de votre bonus de maîtrise aux jets de compétence effectués lorsque vous utilisez ces compétences.
 
 **Fanatisme**
 
@@ -195,7 +195,7 @@ Une fois que vous avez invoqué un champion de la foi, vous ne pouvez pas le fai
 
 <div class="monster" markdown="1">
 
-##### Champion de la foi
+#### Champion de la foi
 
 *Démon de taille Moyenne, loyal (a son invocateur)*
 
@@ -221,14 +221,12 @@ FOR    | DEX    | CON    | INT    | SAG    | CHA
 
 **Bonus de compétence** : égal à votre bonus
 
-#### Actions
+##### Actions
 
 **Attaque multiple.** Le champion effectue deux attaques avec sa grande épée.
 
 **Grande épée enflammée.** Attaque à l'arme de mêlée : 5 + votre bonus de maîtrise pour toucher, portée de 5 pieds, une cible. Touché :  (1d8 + 4 + votre bonus de maîtrise) de dégâts de tranchant plus 7 (2d6) de dégâts radiants ou nécrotiques (à choisir lors de l'invocation de cette créature).
 </div>
-
-
 
 ##### Serment du Pénitent
 

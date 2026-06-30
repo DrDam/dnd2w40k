@@ -34,7 +34,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 
 *Jets de sauvegarde* : Sagesse, Charisme
 
-*Compétences* : choisissez-en deux parmi Tromperie, Perspicacité, Intimidation, Enquête, Connaissances, Nature, Occultisme, Représentation et Persuasion.
+*Compétences* : choisissez-en deux parmi Tromperie, Perspicacité, Intimidation, Investigation, Connaissances, Nature, Occultisme, Représentation et Persuasion.
 
 *Équipement de départ*
 
@@ -100,7 +100,6 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 ##### Récupération d'énergie
 
 Dès le niveau 1, vous avez appris à récupérer une partie de votre énergie en méditant brièvement. À la fin d'un repos court, vous pouvez récupérer un nombre de points psioniques égal à la moitié de votre niveau de psyker (arrondi à l'unité inférieure) + votre modificateur de lanceur de sort psychique. Une fois que vous avez utilisé cette capacité, vous devez effectuer un repos long avant de pouvoir l'utiliser à nouveau.
-
 
 ##### Lancement de sorts renforcé par le Warp
 

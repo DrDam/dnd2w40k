@@ -34,7 +34,7 @@ Par exemple, pour acquérir le trait « Constitution puissante », vous devez co
 
 **Langues.** Vous pouvez parler, lire et écrire le tau, le tribal, le bas gothique.
 
-#### Absorption de force{.newpage}
+#### Absorption de force
 
 *Traits gagnés et conditions*{.table-title .wide}
 
