@@ -216,7 +216,7 @@ Vous avez exercé les fonctions de diplomate, négociant et facilitant des accor
 
 **Équipement** : Un certificat attestant de votre fonction, un ensemble de vêtements raffinés et une bourse contenant 200 g.
 
-**Caractéristique : Procédures de cour**
+**Aptitude : Procédures de cour**
 
 Votre connaissance du fonctionnement des bureaucraties vous permet d’accéder aux archives et aux rouages internes de toute cour noble ou de tout gouvernement que vous rencontrez. Vous savez qui sont les personnalités influentes, à qui vous adresser pour obtenir les faveurs que vous recherchez, et quelles sont les intrigues actuelles qui intéressent le groupe.
 
@@ -270,7 +270,7 @@ Vous êtes disciple de l’une des nombreuses religions qui parsèment la galaxi
 
 **Équipement** : un symbole sacré (de la secte de votre choix, tel qu’une aquila ou une étoile du Chaos), un livre de prières ou un moulin à prières, 5 bâtons d’encens, des vêtements liturgiques, une tenue de tous les jours et une bourse contenant 150 g
 
-**Capacité : Refuge des fidèles**
+**Aptitude : Refuge des fidèles**
 
 En tant qu’acolyte, vous inspirez le respect de ceux qui partagent votre foi, et vous pouvez célébrer les cérémonies religieuses liées au Culte impérial. Vous et vos compagnons d’aventure pouvez compter sur des soins et une assistance gratuits dans un temple, un sanctuaire ou tout autre lieu de culte de votre confession. Ceux qui partagent votre religion vous apporteront leur soutien (mais uniquement à vous) pour mener une vie modeste.
 
@@ -336,7 +336,7 @@ Un bon artiste est polyvalent et pimente chaque représentation avec une variét
 | 9 | Conteur |
 | 10 | Acrobate |
 
-**Caractéristique : À la demande générale**
+**Aptitude : À la demande générale**
 Vous pouvez toujours trouver un endroit où vous produire, généralement dans une auberge ou une taverne, mais aussi au sein d’un cirque, dans un théâtre, voire à la cour d’un noble. Dans ce genre d’endroit, vous bénéficiez d’un hébergement et de repas gratuits, d’un niveau modeste ou confortable (selon la qualité de l’établissement), à condition de vous produire chaque soir. De plus, vos représentations font de vous une sorte de personnalité locale. Lorsque des étrangers vous reconnaissent dans une ville où vous vous êtes produit, ils vous portent généralement une certaine sympathie.
 
 **Personnalités suggérées**
@@ -377,4 +377,315 @@ Vous pouvez toujours trouver un endroit où vous produire, généralement dans u
 | 5 | J’ai du mal à cacher mes véritables sentiments. |
 | 6 | Malgré tous mes efforts, je ne suis pas fiable envers mes amis. |
 
-##### Heretic
+##### Hérétique
+
+**Compétences** : choisissez-en deux parmi Tromperie, Intimidation, Connaissances et Occultisme
+
+**Langues** : deux de votre choix
+
+**Équipement** : une tenue de sectateur, une tenue de tous les jours, un symbole sacré de la divinité que vous avez choisie, un symbole de votre initiation (tel qu’un œil conservé dans du vinaigre, un os de doigt ou une poupée vaudou), et 50 g.
+
+**Aptitude : Servitude résignée**
+
+En tant que serviteur de forces maléfiques, vous vous êtes résigné à une position de servitude. Vous connaissez bien les rituels, les aspects et les traits caractéristiques de la divinité ou de la philosophie que vous avez vénérée. De plus, vous connaissez les conséquences de ces rituels, telles que les mutations, les bienfaits, les malédictions et autres traits distinctifs que peuvent présenter les membres de ce culte. Lorsque vous cherchez refuge, d’autres membres de votre culte ou de votre confession peuvent être en mesure de vous héberger et de vous vêtir, à condition que vous continuiez à pratiquer votre foi ou que vous apportiez votre soutien à leurs ambitions.
+
+##### Mécanicien
+
+**Compétences** : choisissez-en deux parmi Technologie, Pilotage, Investigation et Perception
+
+**Maîtrise des outils** : trousse de mécanicien, véhicule (au choix)
+
+**Équipement** : une clé à molette, une lettre d’un client, une tenue de tous les jours, une trousse de mécanicien, une clé d’un vieux véhicule et une pochette contenant 100 g.
+
+**Aptitude : Bricoleur**
+
+Qu’il s’agisse d’un grille-pain cassé ou de canalisations rouillées, les gens sont prêts à vous écouter pour de petites réparations mécaniques. En échange d’un travail manuel, ils seraient disposés à vous offrir le gîte et le couvert, à vous et à vos compagnons, à condition que vous ne vous soyez pas mis à dos ces personnes auparavant et que vous ne leur causiez pas plus d’ennuis que vous n’en valez la peine.
+
+##### Médecin
+
+**Compétences** : Choisissez-en deux parmi Connaissances, Médecine, Nature et Technologie.
+
+**Maîtrise des outils** : Outils de chirurgien
+
+**Équipement** : Une fiole de chloroforme, un stéthoscope, une trousse ou une valise de médecin, des outils de chirurgien, une trousse de premiers secours, des vêtements courants et une pochette contenant 100 g.
+
+**Aptitude : Guérisseur polyvalent**
+
+Grâce au temps que vous avez passé à voyager, vous connaissez suffisamment bien les différentes régions du monde pour savoir où se trouvent les guérisseurs et chirurgiens compétents, ainsi que les endroits où trouver les médicaments ou le matériel nécessaires aux soins. Dans un monde où les médecins sont rares, vous pouvez également monnayer facilement vos services. Installer une clinique ou une tente de soins en ville pendant quelques heures peut vous permettre d’obtenir un repas gratuit et un toit au-dessus de votre tête.
+
+##### Mercenaire
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Persuasion, Intimidation et Acrobatie
+
+**Maîtrise des outils** : un type de jeu de dés, véhicules (terrestres)
+
+**Équipement** : un uniforme de votre compagnie (de qualité « vêtements de voyageur »), un insigne indiquant votre grade, un jeu de dés de votre choix et une pochette contenant le reste de votre dernier salaire (100 g).
+
+**Aptitude : La vie de mercenaire**
+
+Vous connaissez la vie de mercenaire comme seul quelqu’un qui l’a vécue peut la connaître. Vous êtes capable d’identifier les compagnies de mercenaires à leurs emblèmes, et vous en savez un peu sur chacune d’entre elles, y compris sur ceux qui les ont récemment engagées. Vous pouvez trouver les tavernes et les salles de fête où se rassemblent les mercenaires dans n’importe quelle région, à condition de parler la langue locale.
+
+###### Militaire
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Intimidation, Perception et Médecine
+
+**Maîtrise des outils** : un type de jeu de hasard, véhicules (terrestres)
+
+**Équipement** : un insigne de grade, un trophée pris à un ennemi tombé au combat (une dague, une lame brisée ou un morceau de bannière), un jeu de dés ou de cartes à jouer, une tenue de tous les jours et une pochette de ceinture contenant 100 g
+
+**Aptitude : Grade militaire**
+
+Vous possédez un grade militaire issu de votre carrière. Les forces fidèles à votre ancienne organisation militaire reconnaissent toujours votre autorité et votre influence, et les soldats de rang inférieur vous témoignent le respect qui vous est dû. Vous pouvez invoquer votre grade pour exercer une influence sur d’autres soldats et réquisitionner du matériel simple ou des chevaux pour un usage temporaire. Vous pouvez également, en général, accéder aux campements militaires et aux forteresses alliés qui reconnaissent votre rang.
+
+##### Aristocrate
+
+**Compétences** : choisissez-en deux parmi Connaissances, Persuasion, Tromperie et Représentation
+
+**Maîtrise des outils** : un type de matériel de jeu
+
+**Langues** : une de votre choix
+
+**Équipement** : un ensemble de vêtements raffinés, une bague à sceau, un parchemin attestant de votre ascendance et une bourse contenant 250 g
+
+**Aptitude : Position privilégiée**
+
+Grâce à votre naissance aristocratique, les gens ont tendance à penser le meilleur de vous. Vous êtes bien accueilli dans la haute société, et les gens partent du principe que vous avez le droit d’être partout où vous vous trouvez. Les gens du peuple font tout leur possible pour vous satisfaire et éviter de vous déplaire, et les autres personnes de haute naissance vous traitent comme un membre de leur propre sphère sociale. Vous pouvez obtenir une audience auprès d’un aristocrate local si nécessaire.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Mes compliments éloquents donnent à chacun de mes interlocuteurs l’impression d’être la personne la plus merveilleuse et la plus importante au monde. |
+| 2 | Le peuple m’aime pour ma générosité. |
+| 3 | Personne qui me regarde ne saurait douter de ma noblesse. |
+| 4 | Je m’efforce de suivre sans cesse les dernières tendances de la mode. |
+| 5 | Je n’aime pas me salir les mains. |
+| 6 | Malgré ma naissance aristocratique, je ne me place pas au-dessus des autres. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Bon) Respect. On me doit du respect en raison de ma position, mais tout le monde mérite la dignité, quelle que soit sa condition. |
+| 2 | (Loyal) Responsabilité. Il est de mon devoir de respecter l’autorité de mes supérieurs. |
+| 3 | (Chaotique) Indépendance. Je dois prouver que je peux me débrouiller seul, sans ma famille. |
+| 4 | (Mauvais) Pouvoir. Si j’arrive à acquérir plus de pouvoir, personne ne pourra me dire quoi faire. |
+| 5 | (Tout alignement) Famille. Les liens du sang sont plus forts que tout. |
+| 6 | (Bon) Obligation. Il est de mon devoir de protéger ceux qui sont sous mes ordres. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Je relèverai n’importe quel défi pour gagner l’approbation de ma famille. |
+| 2 | L’allégeance de ma maison à une autre maison doit être maintenue à tout prix. |
+| 3 | Rien n’est plus important que ma famille. |
+| 4 | Je suis amoureux d’un héritier d’une famille que la mienne méprise. |
+| 5 | Ma loyauté envers mon souverain est inébranlable. |
+| 6 | Les gens du peuple doivent me considérer comme un héros. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Je crois secrètement que tout le monde est inférieur à moi. |
+| 2 | Je cache un secret véritablement scandaleux qui ruinerait ma famille. |
+| 3 | J’entends trop souvent des menaces voilées là où il n’y en a pas. |
+| 4 | J’ai un désir insatiable de plaisirs charnels. |
+| 5 | Je crois que le monde tourne autour de moi. |
+| 6 | Je fais souvent honte à ma famille. |
+
+##### Étranger
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Survie, Nature et Perception
+
+**Maîtrise d’un outil** : un type d’instrument de musique
+
+**Langues** : une de votre choix
+
+**Équipement** : un bâton, un piège de chasse, un trophée provenant d’un animal que vous avez tué, une tenue de voyage et une pochette de ceinture contenant 100 g
+
+**Origine**
+
+Vous avez visité des lieux étranges et vu des choses que les autres ne peuvent même pas imaginer. Pensez à certaines des contrées lointaines que vous avez parcourues et à l’influence qu’elles ont eue sur vous. Vous pouvez déterminer votre métier en fonction de votre expérience dans la nature, ou lancer le dé sur le tableau ci-dessous.
+
+| d10 | Spécialité|
+| :-: | ------- |
+| 1 | Garde forestier |
+| 2 | Tapper |
+| 3 | Colon |
+| 4 | Guide |
+| 5 | Exilé ou rejeté |
+| 6 | Chasseur de primes|
+| 7 | Pèlerin |
+| 8 | Nomad tribal |
+| 9 | Chasseur-cueilleur |
+| 10 | Maraudeur tribal |
+
+**Aptitude : Le vagabond**
+
+Vous avez une excellente mémoire des cartes et de la géographie, et vous êtes toujours capable de vous rappeler la configuration générale du terrain, des localités et des autres éléments qui vous entourent. De plus, vous pouvez trouver chaque jour de quoi vous nourrir et vous désaltérer, ainsi que jusqu’à cinq autres personnes, à condition que la région regorge de baies, de petit gibier, d’eau, etc.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Je suis animé par une soif d’aventure qui m’a poussé à quitter mon foyer. |
+| 2 | Je veille sur mes amis comme s’ils étaient une portée de chiots nouveau-nés. |
+| 3 | Une fois, j’ai couru 40 km pour avertir les miens de l’arrivée d’une armée, et je le referais sans hésiter. |
+| 4 | J’ai une leçon à tirer de chaque situation.  |
+| 5 | Je n’accorde aucune importance aux nantis. L’argent ne peut pas vous sauver de la mort. |
+| 6 | Je ramasse sans cesse des objets et je les tripote, parfois jusqu’à les casser. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Chaotique) Changement. La vie est comme les saisons, en constante évolution, et nous devons évoluer avec elle. |
+| 2 | (Bon) Bien commun. Il incombe à chacun de maximiser le bonheur. |
+| 3 | (Loyal) Honneur. Si je me déshonore, je déshonore tout mon peuple. |
+| 4 | (Mauvais) Puissance. Les plus forts sont destinés à régner. |
+| 5 | (Neutre) Nature. Le monde naturel est plus important que n’importe quelle civilisation. |
+| 6 | (Tout alignement) Gloire. Je dois gagner la gloire au combat, pour moi-même et pour mon peuple. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Mon peuple est ce qui compte le plus pour moi. |
+| 2 | Une atteinte à la nature est une atteinte à moi-même. |
+| 3 | Je ferai pleuvoir une terrible colère sur les malfaiteurs qui ont détruit ma patrie. |
+| 4 | Je suis le dernier de mon peuple, et c’est à moi qu’il revient de préserver son héritage. |
+| 5 | Je suis en proie à d’horribles visions d’une catastrophe à venir. |
+| 6 | Il est de mon devoir de faire tout ce qui est nécessaire pour assurer la survie de mon peuple. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Je suis épris des plaisirs charnels. |
+| 2 | Il n’y a pas de place pour la prudence dans une vie vécue pleinement. |
+| 3 | Je me souviens de chaque insulte que j’ai reçue et nourris une rancœur silencieuse envers quiconque m’a jamais fait du tort. |
+| 4 | Je mets du temps à faire confiance à ceux qui ne font pas partie de mon peuple. |
+| 5 | La violence est la réponse à presque tous les problèmes. |
+| 6 | Je ne sauve pas ceux qui sont trop faibles pour se sauver eux-mêmes. |
+
+##### Pèlerin
+
+Vous avez mené une vie de pèlerin itinérant, parcourant les lieux saints de la galaxie au nom de votre foi. Le long des chemins de pèlerinage, vous avez sans doute découvert une grande partie de la galaxie, depuis ses merveilleuses cités aux gratte-ciel dorés qui effleurent les nuages jusqu’aux planètes qui ne sont guère plus que des déserts arides de roches et de poussière.
+
+**Compétences** : choisissez-en deux parmi Connaissances, Occultisme, Représentation et Persuasion
+
+**Langues** : deux de votre choix
+
+**Équipement** : une tenue de voyageur et une bourse contenant 50 g.
+
+**Aptitude : Sanctuaires sacrés**
+
+Des sanctuaires sont disséminés à travers la galaxie, et les itinéraires habituellement empruntés par les pèlerins sont bien connus. En tant que pèlerin, vous connaissez bien ces sanctuaires dédiés à votre foi, ainsi que des informations de base telles que leur niveau de surveillance, la présence éventuelle de pillards ou de pirates dans cet espace aérien, et l’histoire générale de ces sanctuaires.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | J’idolâtre un champion particulier de ma religion et je me réfère constamment à ses exploits et à son exemple. |
+| 2 | Je vois des présages dans chaque événement et chaque action. |
+| 3 | Rien ne peut ébranler mon optimisme et ma foi. |
+| 4 | Je cite (ou déforme) les textes sacrés dans presque toutes les situations. |
+| 5 | Je suis tolérant (ou intolérant) envers les autres croyances et je respecte (ou condamne) le culte d’autres dieux. |
+| 6 | J’ai passé tellement de temps dans la solitude que j’ai peu d’expérience dans mes relations avec les gens du monde extérieur. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Loyal) Tradition. Les rites ancestraux de ma religion doivent être préservés. |
+| 2 | (Bon) Charité. Je m’efforce toujours d’aider ceux qui sont dans le besoin. |
+| 3 | (Chaotique) Changement. Les dieux œuvrent sans cesse dans le monde pour le transformer. |
+| 4 | (Loyal) Pouvoir. J’espère un jour accéder à une position de pouvoir au sein de la hiérarchie de mon Église. |
+| 5 | (Loyal) Foi. Je suis convaincu que ma divinité guidera mes actions. |
+| 6 | (Tout alignement) Apothéose. À ma mort, je serai récompensé par une vie immortelle au service de ma divinité. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Je mourrais pour récupérer une ancienne relique de ma foi. |
+| 2 | Je me vengerai d’une hiérarchie ecclésiastique corrompue. |
+| 3 | Je dois ma vie à un prêtre qui m’a recueilli lorsque je suis devenu orphelin. |
+| 4 | Je ferai tout pour protéger l’Église que j’ai servie. |
+| 5 | Tout ce que je fais vise à aider ceux qui sont moins fidèles à atteindre ma position. |
+| 6 | Je cherche à préserver un texte sacré que mes ennemis cherchent à détruire. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Je juge les autres sévèrement, et moi-même encore plus sévèrement. |
+| 2 | J’accorde trop de confiance à ceux qui détiennent le pouvoir au sein de la hiérarchie de mon Église. |
+| 3 | Ma piété m’amène à faire aveuglément confiance à ceux qui partagent ma foi. |
+| 4 | Je suis intransigeant dans mes convictions. |
+| 5 | Je me méfie des étrangers et m’attends au pire de leur part. |
+| 6 | Une fois que je me suis fixé un objectif, j’en deviens obsédé au détriment de tout le reste. |
+
+##### Pilote
+
+**Compétences** : choisissez-en deux parmi Pilotage, Perception, Représentation et Technologie
+
+**Maîtrise des outils** : Véhicules (tous)
+
+**Équipement** : un porte-clés sophistiqué pour un véhicule, un magazine consacré aux véhicules, une paire de dés en peluche, une tenue de voyage et 100 g
+
+**Aptitude : Expert en véhicules**
+
+Au cours de votre carrière de pilote, vous avez appris à identifier tous les types de véhicules circulant sur la route. Des vélos basiques aux croiseurs stellaires high-tech, vous connaissez au moins les fonctions et caractéristiques de base de la plupart des véhicules. Si un véhicule est si exotique que vous ne l’avez jamais vu auparavant, vous pouvez souvent en déterminer l’origine ou repérer des similitudes avec d’autres véhicules que vous avez déjà vus.
+
+##### Forces de police
+
+Vous faisiez partie des forces de police, par exemple en tant qu’Arbites, ou d’une force de défense planétaire. Vous avez servi à protéger les intérêts collectifs de la planète. Peut-être étiez-vous en désaccord avec certaines des réglementations en vigueur sur votre monde d’origine, ou peut-être étiez-vous un fervent défenseur de la loi, quelles que soient les circonstances. Réfléchissez à la manière dont votre monde traitait la criminalité et les problèmes qui affligent la galaxie, et demandez-vous si votre planète a déjà subi des attaques ou des raids de la part de forces extérieures.
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Intimidation, Investigation et Perception.
+
+**Langues** : une de votre choix
+
+**Maîtrise des outils** : Véhicules (terrestres)
+
+**Équipement** : un uniforme (vêtements élégants), une matraque (bâton), un sifflet, une paire de menottes, une lettre d’un collègue concernant une affaire classée sans suite, et une pochette contenant 100 g.
+
+**Aptitude : Grade de policier**
+
+En tant que membre des forces de police, vous disposez d’un insigne de service qui atteste de votre autorité. Grâce à celui-ci, vous pouvez pénétrer dans des zones qui auraient pu être auparavant interdites d’accès et consulter, en fonction de votre grade, un certain nombre de documents, tels que les dossiers de la police locale ou les enregistrements de vidéosurveillance. De plus, les habitants sont plus enclins à vous faire confiance, à moins que vous ou votre fonction n’ayez une mauvaise réputation.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Je veille toujours à ce que mon uniforme soit impeccable avant de partir en patrouille. |
+| 2 | Je suis toujours poli et respectueux. |
+| 3 | Je suis hanté par les souvenirs d’une affaire qui a mal tourné. |
+| 4 | J’ai perdu trop d’amis au sein des forces de l’ordre, et j’ai du mal à m’en faire de nouveaux. |
+| 5 | J’ai un sens de l’humour un peu noir. |
+| 6 | La meilleure solution est généralement la plus simple. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Loyal) L'ordre. Je dois obéir à mes supérieurs, même si je ne suis pas d'accord avec leurs ordres. |
+| 2 | (Bon) Le service général. Je veux servir le bien commun chaque fois que j'en ai l'occasion. |
+| 3 | (Chaotique) Le changement. Les forces de police de ma planète utilisent des méthodes dépassées qui ne fonctionnent plus. |
+| 4 | (Mauvais) La force. Dans la vie comme à la guerre, c'est la force la plus puissante qui l'emporte. |
+| 5 | (Neutre) Choisis tes combats. Ça ne sert à rien de partir à l’assaut si je peux trouver une autre solution. |
+| 6 | (Tout alignement) Patrie. Ma ville, ma nation ou mon peuple sont tout ce qui compte. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Je suis toujours hanté par un tueur que je n’ai jamais réussi à coincer. |
+| 2 | Je veille sur une famille qui habite près de mon secteur de patrouille. |
+| 3 | J’ai une dette envers mon supérieur que je ne pourrai jamais rembourser. |
+| 4 | Ceux qui se battent à mes côtés méritent que je donne ma vie pour eux. |
+| 5 | Je me bats pour ceux qui ne peuvent pas se défendre eux-mêmes. |
+| 6 | Mon devoir, c’est ma vie. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Il m’arrive parfois d’accepter de l’argent si cela permet d’éviter des conflits. |
+| 2 | Ma haine envers mes ennemis est aveugle et irrationnelle. |
+| 3 | J’ai peu de respect pour ceux qui ne respectent pas la loi. |
+| 4 | Je préférerais avaler mon insigne plutôt que d’admettre que j’ai tort. |
+| 5 | Je respecte la loi, même si elle n’est pas toujours juste. |
+| 6 | J’ai un problème d’alcoolisme pour faire face à ce que j’ai vu. |
+
+##### Préservé
+
+**Compétences** : choisissez-en deux parmi Connaissances, Investigation, Occultisme et Perspicacité.
+
+**Maîtrise d’outils** : un jeu de jeu ou un instrument de musique de votre choix.
+
+**Équipement** : un livre qui a été préservé avec vous, un petit sablier, une tenue de tous les jours datée et une pochette contenant 100 g.
+
+**Caractéristique : Connaissance des âges**
+
+Vous êtes une relique d’une autre époque : que ce soit par stase cryogénique, voyage dans le temps ou phénomène de distorsion, vous venez d’une époque située à des centaines, voire des milliers d’années dans le passé. Vous pouvez vous remémorer avec précision n’importe quelle information de votre époque, à condition que cette information relève du savoir commun ou qu’elle vous concerne directement.
+
+##### Pilleur
