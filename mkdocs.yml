@@ -67,9 +67,10 @@ nav:
         - les Traqueurs : I.Manuel-joueur/Classes/1-Traqueur.md
       - 7. Personnalité et historique:
         - Préambule: I.Manuel-joueur/Origines/0-title.md
-        - les Historiques: I.Manuel-joueur/Origines/1-Historiques.md
-        - les Chapitre/Légion: I.Manuel-joueur/Origines/2-OrigineSM.md
-        - les Roles opérationnels: I.Manuel-joueur/Origines/3-RoleOperationnel.md
+        - les Langues: I.Manuel-joueur/Origines/1-Langues.md
+        - les Historiques: I.Manuel-joueur/Origines/2-Historiques.md
+        - les Chapitre/Légion: I.Manuel-joueur/Origines/3-OrigineSM.md
+        - les Roles opérationnels: I.Manuel-joueur/Origines/4-RoleOperationnel.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":

@@ -1,3 +1,0 @@
-### Historiques
-
-##### Soldat

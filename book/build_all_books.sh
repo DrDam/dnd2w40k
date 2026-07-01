@@ -12,9 +12,7 @@ echec=()
 reussite=()
 
 for livre in "${LIVRES[@]}"; do
-  echo "=============================================="
-  echo " Génération du livre : $livre"
-  echo "=============================================="
+  echo "- Livre $livre : Génération ..."
 
   if ./book/book.sh "$livre"; then
     reussite+=("$livre")
@@ -28,9 +26,7 @@ done
 fin_total=$(date +%s)
 duree_total=$((fin_total - debut_total))
 
-echo "=============================================="
-echo " Bilan"
-echo "=============================================="
+echo "= Bilan"
 echo "Durée totale : ${duree_total}s"
 
 if [ "${#reussite[@]}" -gt 0 ]; then

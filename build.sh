@@ -1,15 +1,26 @@
 #/bin/bash
 
-echo "#################"
-echo "# Build project #"
-echo "#################"
-
+echo "###########################"
+echo "# Production PDF / Mkdocs #"
+echo "###########################"
 echo ""
-echo "** Generate PDF **"
+
+echo "==========================="
+echo "==   Génération des PDF  =="
+echo "==========================="
+echo ""
 
 ./book/build_all_books.sh
 
 echo ""
-echo "** Generate MKdoc **"
+echo "==========================="
+echo "==  Génération du MKdoc  =="
+echo "==========================="
+echo ""
 
 mkdocs build
+
+echo ""
+echo "###########################"
+echo "#           Fin           #"
+echo "###########################"

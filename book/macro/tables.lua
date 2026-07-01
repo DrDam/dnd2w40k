@@ -80,9 +80,6 @@
 -- `tabular`/`supertabular` plutôt que de s'appuyer sur la sortie LaTeX
 -- par défaut de Pandoc.
 
-local MAX_NARROW_COLS = 4
-local MAX_NARROW_CELL_CHARS = 15
-
 -- Convertit un alignement Pandoc + une largeur (fraction de la largeur
 -- de référence, voir `width_unit` plus bas) en spécification de colonne
 -- LaTeX, en utilisant les types personnalisés L{}/C{}/R{} (définis dans
@@ -158,27 +155,21 @@ local function has_wide_flag(block)
   return text:find("%.wide") ~= nil
 end
 
-local function is_narrow_table(tbl)
-  local ncols = #tbl.colspecs
-  if ncols > MAX_NARROW_COLS then
-    return false
-  end
-  local function check_rows(rows)
-    for _, row in ipairs(rows) do
-      for _, cell in ipairs(row.cells) do
-        local text = blocks_to_plain_text(cell.contents)
-        if #text > MAX_NARROW_CELL_CHARS then
-          return false
-        end
-      end
-    end
-    return true
-  end
-  if not check_rows(tbl.head.rows) then return false end
-  for _, body in ipairs(tbl.bodies) do
-    if not check_rows(body.body) then return false end
-  end
-  return true
+-- Détecte si un bloc "légende candidate" porte réellement le marqueur
+-- .table-title (ex: *Titre*{.table-title} ou *Titre*{.table-title .wide}).
+--
+-- INDISPENSABLE : sans ce test, TOUT paragraphe de texte normal placé
+-- juste avant un Table (une simple phrase d'intro, par exemple) était
+-- pris à tort pour la légende du tableau qui suit -- puisque
+-- is_caption_candidate ne testait auparavant que le TYPE de bloc
+-- (Para/Plain), jamais son contenu. Un tableau volontairement "sans
+-- titre" mais précédé d'un paragraphe ordinaire se retrouvait donc
+-- avec ce paragraphe transformé en légende (mise en petite italique,
+-- perdu comme texte normal), et le tableau basculait à tort en mode
+-- "captioned" (supertabular) au lieu du mode standalone attendu.
+local function has_table_title_flag(block)
+  local text = blocks_to_plain_text({block})
+  return text:find("%.table%-title") ~= nil
 end
 
 -- Construit la liste des lignes de corps (hors en-tête), chacune sous la
@@ -315,6 +306,14 @@ end
 -- seule fois en haut du tableau) et \tablehead (légende suffixée de
 -- "(suite)", répétée à chaque continuation page/colonne suivante).
 -- Retourne une chaîne LaTeX complète prête à insérer dans le flux.
+-- caption_latex est optionnel (nil ou "" = pas de légende) : dans ce
+-- cas, aucune ligne de titre n'est générée/répétée -- seul l'en-tête de
+-- colonnes du tableau (\tablefirsthead/\tablehead) est répété en cas de
+-- coupure entre page/colonne. C'est ce qui permet aux tableaux SANS
+-- *Titre*{.table-title} de rester eux aussi dans le flux via
+-- supertabular (voir standalone_table_to_latex), au lieu de repasser
+-- par un float table/table* qui peut se déplacer hors de sa place
+-- d'origine dans le texte.
 local function table_to_supertabular_lines(tbl, total_target, width_unit, caption_latex)
   width_unit = width_unit or "columnwidth"
   local widths = compute_column_widths(tbl, total_target)
@@ -335,6 +334,23 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
   end
   local header_block = table.concat(header_cells, "\n")
 
+  local has_caption = caption_latex ~= nil and caption_latex ~= ""
+
+  local firsthead, contthead
+  if has_caption then
+    firsthead = string.format(
+      "\\tablefirsthead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
+      ncols, caption_latex, header_block
+    )
+    contthead = string.format(
+      "\\tablehead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s \\textit{(suite)}}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
+      ncols, caption_latex, header_block
+    )
+  else
+    firsthead = string.format("\\tablefirsthead{\\toprule\n%s\n\\midrule}", header_block)
+    contthead = string.format("\\tablehead{\\toprule\n%s\n\\midrule}", header_block)
+  end
+
   local lines = {
     -- \begingroup/\endgroup (et non \begin{table}/center/strip, qui
     -- casseraient la pagination interne de supertabular -- voir notes
@@ -348,14 +364,8 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
     -- \begin{supertabular}...\end{supertabular} n'ouvrent de groupe.
     "\\begingroup",
     "\\tablefontsize",
-    string.format(
-      "\\tablefirsthead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
-      ncols, caption_latex, header_block
-    ),
-    string.format(
-      "\\tablehead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s \\textit{(suite)}}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
-      ncols, caption_latex, header_block
-    ),
+    firsthead,
+    contthead,
     "\\tabletail{}",
     "\\tablelasttail{\\bottomrule}",
     "\\begin{supertabular}{@{}" .. col_spec .. "@{}}",
@@ -376,14 +386,45 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
 end
 
 
+-- Tableau SANS légende précédente (pas de *Titre*{.table-title} juste
+-- avant) : comportement par défaut = pleine colonne ET dans le flux,
+-- exactement comme un tableau avec légende en mode standard -- la seule
+-- différence est l'absence de ligne de titre.
+--
+-- Historique : ce cas passait par un float `\begin{table}[!t]` (ou
+-- `table*` selon une heuristique de largeur, désormais supprimée -- voir
+-- note plus bas dans l'historique de ce fichier). Un float peut se
+-- déplacer hors de sa place d'origine dans le texte (LaTeX le pousse en
+-- haut de la page/colonne suivante s'il ne tient pas). Ce défaut restait
+-- invisible tant que le bug de is_caption_candidate absorbait presque
+-- tous les tableaux narratifs en mode "captioned" (supertabular, qui
+-- LUI reste dans le flux) -- une fois ce bug corrigé, les tableaux
+-- réellement sans titre se sont mis à "sauter" hors de leur place.
+--
+-- Fix : on réutilise directement table_to_supertabular_lines (le même
+-- mécanisme "dans le flux" que les tableaux captionnés), simplement
+-- sans légende -- voir le paramètre caption_latex optionnel de cette
+-- fonction. Le tableau reste ainsi à sa place exacte dans le texte,
+-- avec pagination automatique (en-tête de colonnes répété) s'il déborde
+-- sur la page/colonne suivante.
+--
+-- Un tableau standalone n'a normalement aucun moyen d'être marqué .wide
+-- dans ce document (le flag .wide n'est lu que sur le paragraphe de
+-- légende, voir has_wide_flag) -- mais on vérifie tout de même
+-- tbl.attr.classes au cas où une vraie syntaxe de légende Pandoc
+-- (`: Légende {.wide}`) serait utilisée un jour, ce qui peuple
+-- réellement l'Attr du Table lui-même. Dans ce cas, même traitement que
+-- captioned_table_wide (strip, pleine largeur), mais sans légende.
 local function standalone_table_to_latex(tbl)
-  local narrow = is_narrow_table(tbl)
-  local env = narrow and "table" or "table*"
-  local total_target = narrow and 0.98 or 0.95
-  local width_unit = narrow and "columnwidth" or "textwidth"
-  local tabular = table_to_tabular_lines(tbl, total_target, width_unit)
-  return pandoc.RawBlock("latex",
-    "\\begin{" .. env .. "}[!t]\n\\centering\n\\tablefontsize\n" .. tabular .. "\n\\end{" .. env .. "}")
+  local wide = tbl.attr and tbl.attr.classes and tbl.attr.classes:includes("wide")
+
+  if wide then
+    local tabular = table_to_tabular_lines(tbl, 0.87, "textwidth")
+    local latex = "\\begin{strip}\n\\centering\n\\tablefontsize\n" .. tabular .. "\n\\end{strip}"
+    return pandoc.RawBlock("latex", latex)
+  end
+
+  return pandoc.RawBlock("latex", table_to_supertabular_lines(tbl, 0.98, "columnwidth"))
 end
 
 -- Tableau AVEC légende préalable, mode flux normal (par défaut).
@@ -468,6 +509,7 @@ function Pandoc(doc)
     local next_b = blocks[i + 1]
 
     local is_caption_candidate = (b.t == "Para" or b.t == "Plain")
+      and has_table_title_flag(b)
     local next_is_table = next_b and next_b.t == "Table"
     local next_is_grid_pair = next_b and next_b.t == "Div"
       and next_b.classes:includes("grid")
