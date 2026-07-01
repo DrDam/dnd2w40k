@@ -1,50 +1,52 @@
-### Langues
+### Langues {.newpage}
 
 ##### Les langues dans l'Impérium
 
 Elles représentent généralement des dialectes très divergents ou des codes, plutôt que des langues entièrement distinctes.
 
-**Hérétique**
+**Argot des marchands**
 
-Langage guttural mêlant argot et bas gothique utilisé par les cultistes, mutants et hérétiques affiliés aux Puissances de la Ruine pour s’identifier entre eux et désigner leurs ennemis.
-
-**Haut gothique**
-
-Réservé aux nobles et aux érudits, le haut gothique est une langue savante. De nombreux documents officiels et administratifs y sont rédigés. Il s’agit d’une langue archaïque et formelle, comportant très peu d’argot ou d’expressions familières.
-
-**Codes impériaux**
-
-Utilisés par de nombreuses forces armées, ces codes constituent un langage chiffré employé à travers les différentes branches de l’Imperium pour transmettre rapidement des informations tout en en dissimulant le sens aux observateurs non avertis.
+Système de codes simple utilisé entre marchands, mercenaires et voyageurs pour transmettre des informations via des expressions courantes, du jargon et de l’argot.
 
 **Bas gothique**
 
 Langue standard de l’Imperium, presque tout humain ayant été en contact avec celui-ci la connaît.
 
-**Argot des marchands**
+**Codes impériaux**
 
-Système de codes simple utilisé entre marchands, mercenaires et voyageurs pour transmettre des informations via des expressions courantes, du jargon et de l’argot.
+Utilisés par de nombreuses forces armées, ces codes constituent un langage chiffré employé à travers les différentes branches de l’Imperium pour transmettre rapidement des informations tout en en dissimulant le sens aux observateurs non avertis.
 
-**Tribal**
+**Haut gothique**
 
-Langage simple et direct des mondes féodaux et sauvages.
+Réservé aux nobles et aux érudits, le haut gothique est une langue savante. De nombreux documents officiels et administratifs y sont rédigés. Il s’agit d’une langue archaïque et formelle, comportant très peu d’argot ou d’expressions familières.
+
+**Hérétique**
+
+Langage guttural mêlant argot et bas gothique utilisé par les cultistes, mutants et hérétiques affiliés aux Puissances de la Ruine pour s’identifier entre eux et désigner leurs ennemis.
 
 **Language des bas-fonds**
 
 Langue utilisée par les contrebandiers, trafiquants et criminels. Elle est riche en argot, détournements de sens et termes destinés à tromper ou désorienter les non-initiés.
 
+**Tribal**
+
+Langage simple et direct des mondes féodaux et sauvages.
+
+
+
 *Les langues de l'Impérium*{.table-title .wide}
 
 | Langue | Locuteurs typiques | Écriture |
 | -- | ------------- | -- |
-| Hérétique | Hérétiques, cultistes, mutants | Gothique |
-| Haut gothique | Nobles, Space Marines, hauts dignitaires impériaux, marchands fortunés | Gothique |
-| Codes impériaux | Marine Impériale, Garde Impériale | Gothique |
-| Bas gothique | Humains et races impériales (ogryn, ratlings, Space Marines) | Gothique |
 | Argot des marchands | Rogue Traders, mercenaires, marchands offworld, Stryxis, rangers Aeldari, esclavagistes | Gothique |
+| Bas gothique | Humains et races impériales (ogryn, ratlings, Space Marines) | Gothique |
+| Codes impériaux | Marine Impériale, Garde Impériale | Gothique |
+| Haut gothique | Nobles, Space Marines, hauts dignitaires impériaux, marchands fortunés | Gothique |
+| Hérétique | Hérétiques, cultistes, mutants | Gothique |
+| Language des bas-fonds | Vagabonds, voyous, mutants, gangs des ruches, criminels, pirates | Gothique |
 | Tribal | Habitants des mondes sauvages, populations primitives, humains non impériaux | — |
-| Milieu criminel | Vagabonds, voyous, mutants, gangs des ruches, criminels, pirates | Gothique |
 
-##### Les langues Exotiques
+##### Les langues Exotiques  {.newpage}
 
 Les langues exotiques sont obscures, alien ou limitées à des groupes très restreints. Elles sont généralement très diverses et rarement rencontrées au sein de l’Imperium.
 
