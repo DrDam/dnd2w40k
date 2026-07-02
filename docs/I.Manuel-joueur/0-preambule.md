@@ -66,7 +66,7 @@ Des mécanismes ont été ajoutés pour les zone radioactive et le vide spatial.
 
 Certains types de créatures ont été modifiés. Les célestes, les démons et les fées ont tous été regroupés sous la catégorie des démons. Chaque démon est aligné sur un dieu, indiqué entre parenthèses, par exemple Démon (Khorne).
 
-### Comment jouer
+### Comment jouer {.newpage}
 
 Il n’existe actuellement aucune fiche de personnage disponible pour cette adaptation. Voici les options proposées.
 
@@ -80,7 +80,7 @@ Sur la fiche de personnage de D&D 5e, vous pouvez apporter les modifications sui
 
 Vous pouvez ajouter vos nouvelles compétences dans la case située dans le coin inférieur gauche de la fiche de personnage, comme indiqué ci-dessous.
 
-![Fiche personnage classique](../assets/how_play/fiche-perso.png){height=5.5cm}
+![Fiche personnage classique](../assets/how_play/fiche-perso.png)
 
 **Pouvoirs technologiques / Pouvoirs psychiques**
 

@@ -35,29 +35,69 @@
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
 
 % ============================================================
-% TAILLE DE POLICE DES TABLEAUX (configurable)
+% TAILLES DE POLICE -- CONFIGURATION CENTRALISÉE
 % ============================================================
-% \tablefontsize  : taille appliquée au CONTENU des tableaux (en-têtes
-%                   de colonnes + cellules de corps).
-% \tablecaptionfontsize : taille appliquée à la LÉGENDE des tableaux
-%                   (ex: *Titre du tableau*{.table-title}).
+% Point d'entrée UNIQUE pour ajuster toutes les tailles de police du
+% document. Chaque commande ci-dessous est ensuite référencée par son
+% NOM (jamais recopiée en dur) partout ailleurs dans ce fichier et dans
+% book/titlepage.tex -- modifier une valeur ici suffit à la répercuter
+% partout où elle est utilisée.
+%
 % Valeurs LaTeX standard, du plus petit au plus grand :
-%   \tiny \scriptsize \footnotesize \small \normalsize \large ...
+%   \tiny \scriptsize \footnotesize \small \normalsize
+%   \large \Large \LARGE \huge \Huge
 % \normalsize correspond à la taille du corps de texte (10pt par défaut
 % pour la classe "book" sans option de taille -- voir classoption dans
-% book/metadata.yaml si la taille du corps de texte a été changée par
-% ailleurs, ex: fontsize=11pt).
-% Pour réduire la police des tableaux, changer uniquement la ligne
-% ci-dessous, par exemple en \footnotesize ou \small.
-\newcommand{\tablefontsize}{\small}
+% book/metadata.yaml si la taille du corps de texte elle-même doit être
+% changée ; c'est un réglage distinct de ceux-ci, fixé par la classe
+% document et non par une commande \newcommand).
+%
+% Exception volontaire : book/macro/statblock.lua (via
+% \newtcolorbox{monsterblock}, plus bas dans ce fichier) applique déjà
+% \tablefontsize à TOUT le contenu du bloc monstre via fontupper --
+% \monstername/\monstersection en héritent donc automatiquement, sans
+% avoir besoin de leur propre commande de taille de police en plus de
+% leur \Large/\large de mise en emphase (voir ces commandes plus bas).
+
+% --- Tableaux ---
+% Contenu (en-têtes de colonnes + cellules de corps) et légendes
+% (*Titre*{.table-title}) des tableaux, dans tout le document.
+\newcommand{\tablefontsize}{\normalsize}
 \newcommand{\tablecaptionfontsize}{\normalsize}
 
-% ##### en Markdown -> \subsubsection (avec --top-level-division=part :
-% # part, ## chapter, ### section, #### subsection, ##### subsubsection).
+% --- Titres de section (Markdown) ---
+% Correspondance Markdown -> LaTeX : voir plus bas dans ce fichier
+% (\subsubsection pour #####, \chapter pour # via --top-level-division=part).
+\newcommand{\chaptertitlefontsize}{\Huge}   % \chapter (titre de chapitre)
+
+% --- Table des matières ---
+\newcommand{\tocfontsize}{\Huge}            % titre "Table des matières"
+
+% --- Bloc monstre (statblock.lua) ---
+% Ces deux commandes ne fixent PAS la taille du CONTENU du bloc (déjà
+% couverte par \tablefontsize via fontupper, voir note ci-dessus) --
+% seulement l'emphase du nom du monstre et de ses sous-titres internes
+% (Actions, Réactions...) par rapport à ce contenu.
+\newcommand{\monsternamefontsize}{\Large}   % nom du monstre
+\newcommand{\monstersectionfontsize}{\large} % sous-titres (Actions, ...)
+
+% --- Page de titre (book/titlepage.tex) ---
+\newcommand{\titlepageTaglineSize}{\Large}    % accroche sous le visuel
+\newcommand{\titlepageTitleSize}{\Huge}       % titre principal (\BookSubtitle)
+\newcommand{\titlepageCreditSize}{\large}     % mentions légales / crédits
+\newcommand{\titlepageAboutTitleSize}{\Huge}  % titre "A propos"
+% ============================================================
+
+
+% #### et ##### en Markdown -> \subsection et \subsubsection
+% (avec --top-level-division=part : # part, ## chapter, ### section,
+% #### subsection, ##### subsubsection).
 % Style demandé : pas de numéro, texte souligné (au lieu du gras seul
-% par défaut). secnumdepth global reste à 5 (réglé par --number-sections
-% côté pandoc) pour ne pas affecter la numérotation des autres niveaux
-% -- seul le format de \subsubsection est changé, via titlesec.
+% par défaut), #### avec un filet plus épais que ##### pour marquer la
+% hiérarchie (voir \subsectionrulewidth/\subsubsectionrulewidth plus
+% bas). secnumdepth global reste à 5 (réglé par --number-sections côté
+% pandoc) pour ne pas affecter la numérotation des autres niveaux --
+% seul le format de \subsection et \subsubsection est changé, via titlesec.
 %
 % ATTENTION -- piège \underline et titres longs en mode twocolumn :
 % \underline{...} (natif LaTeX2e, hérité du mode math) compose son
@@ -95,9 +135,27 @@
 \usepackage{titlesec}
 \usepackage{calc}
 
+% --- Épaisseur des filets de titre (configurable) ---
+% Même logique que le bloc de tailles de police plus haut : ces deux
+% commandes sont le SEUL endroit à toucher pour ajuster l'épaisseur des
+% traits sous les titres #### et #####. \subsectionrulewidth (####) est
+% volontairement plus épais que \subsubsectionrulewidth (#####), pour
+% marquer visuellement que #### est un niveau de titre au-dessus dans
+% la hiérarchie -- tout le reste de leur traitement (gras, pas de
+% numéro, largeur du trait calée sur le texte) reste identique entre
+% les deux niveaux, voir \titlerulecore ci-dessous.
+\newcommand{\subsubsectionrulewidth}{0.5pt}
+\newcommand{\subsectionrulewidth}{1.5pt}
+
 \newlength{\titleulwidth}
-\newcommand{\titlerulewrap}[1]{%
-  \settowidth{\titleulwidth}{#1}%
+
+% Noyau commun : #1 = épaisseur du filet (une des deux commandes
+% ci-dessus), #2 = texte du titre, injecté automatiquement par titlesec
+% dans le "before-code" de \titleformat (voir plus bas). Factorisé ici
+% pour que #### et ##### partagent exactement la même mesure de largeur
+% et le même espacement filet/texte, seule l'épaisseur variant.
+\newcommand{\titlerulecore}[2]{%
+  \settowidth{\titleulwidth}{#2}%
   \ifdim\titleulwidth>\linewidth
     \setlength{\titleulwidth}{\linewidth}%
   \fi
@@ -109,8 +167,22 @@
   % "collé" au texte, façon soulignement classique. Valeur négative
   % choisie empiriquement pour coller le filet juste sous la ligne de
   % base du titre, quelle que soit sa taille de police.
-  #1\par\nobreak\vspace{-1.25\baselineskip}\noindent\rule{\titleulwidth}{0.5pt}%
+  #2\par\nobreak\vspace{-1.25\baselineskip}\noindent\rule{\titleulwidth}{#1}%
 }
+
+% Wrappers à UN seul argument -- \titleformat n'injecte le titre composé
+% que dans une macro à 1 argument (voir la 5e valeur des deux
+% \titleformat ci-dessous) ; on ne peut donc pas passer l'épaisseur en
+% argument à cet endroit-là, d'où ces deux wrappers minces, un par
+% niveau de titre, qui referment \titlerulecore avec la bonne épaisseur.
+\newcommand{\titlerulewrap}[1]{\titlerulecore{\subsubsectionrulewidth}{#1}}
+\newcommand{\titlerulewrapThick}[1]{\titlerulecore{\subsectionrulewidth}{#1}}
+
+\titleformat{\subsection}
+  {\normalfont\bfseries}
+  {}
+  {0pt}
+  {\titlerulewrapThick}
 
 \titleformat{\subsubsection}
   {\normalfont\bfseries}
@@ -123,7 +195,7 @@
 
 % met sur la même ligne le "chapitre X" et le nom du chapitre
 \titleformat{\chapter}[hang]
-  {\normalfont\Huge\bfseries}
+  {\normalfont\chaptertitlefontsize\bfseries}
   {\chaptertitlename\ \thechapter\ —\ }
   {0pt}
   {}
@@ -168,7 +240,7 @@
     \vspace*{20\p@}%
     {\parindent\z@ \raggedright \normalfont
      \interlinepenalty\@M
-     \Huge\bfseries \contentsname \par\nobreak
+     \tocfontsize\bfseries \contentsname \par\nobreak
      \vskip 20\p@}%
     \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
     \@starttoc{toc}%
@@ -186,7 +258,7 @@
 % --- Titre du monstre (remplace le H1 interne, sans numérotation ni TdM) ---
 \newcommand{\monstername}[1]{%
   \par\vspace{2pt}
-  {\bfseries\Large #1}\par
+  {\bfseries\monsternamefontsize #1}\par
   \vspace{2pt}
 }
 
@@ -199,7 +271,7 @@
 \newcommand{\monstersection}[1]{%
   \par\vspace{6pt}
   \noindent\rule{\linewidth}{0.5pt}\par\vspace{3pt}
-  {\bfseries\large #1}\par
+  {\bfseries\monstersectionfontsize #1}\par
   \vspace{2pt}
 }
 
@@ -224,10 +296,15 @@
 % --- Ligne FOR/DEX/CON/INT/SAG/CHA ---
 % Le tableau Markdown source devient un tabular Pandoc standard ;
 % on encadre juste avec un peu d'espacement et un filet haut/bas discret.
+% Pas de commande de taille de police ici : déjà héritée de
+% \tablefontsize via fontupper (voir \monsterblock ci-dessus) --
+% mise en dur ici auparavant (\small), ce qui la désynchronisait de
+% \tablefontsize en cas de changement de ce dernier dans le bloc de
+% configuration centralisé en haut de ce fichier.
 \newenvironment{statline}{%
   \par\vspace{4pt}
   \noindent\hrulefill\par\vspace{2pt}
-  \small\centering
+  \centering
 }{%
   \par\vspace{2pt}
   \noindent\hrulefill\par\vspace{4pt}

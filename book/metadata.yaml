@@ -12,7 +12,8 @@ geometry: margin=2.5cm
 
 titlepage: false
 
-documentclass: book
+documentclass: extbook
 classoption:
   - oneside
   - twocolumn
+  - 8pt
