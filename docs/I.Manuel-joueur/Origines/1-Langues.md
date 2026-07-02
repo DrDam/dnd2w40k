@@ -1,4 +1,4 @@
-### Langues {.newpage}
+### Langues
 
 ##### Les langues dans l'Impérium
 
@@ -33,7 +33,6 @@ Langue utilisée par les contrebandiers, trafiquants et criminels. Elle est rich
 Langage simple et direct des mondes féodaux et sauvages.
 
 
-
 *Les langues de l'Impérium*{.table-title .wide}
 
 | Langue | Locuteurs typiques | Écriture |
@@ -46,7 +45,7 @@ Langage simple et direct des mondes féodaux et sauvages.
 | Language des bas-fonds | Vagabonds, voyous, mutants, gangs des ruches, criminels, pirates | Gothique |
 | Tribal | Habitants des mondes sauvages, populations primitives, humains non impériaux | — |
 
-##### Les langues Exotiques  {.newpage}
+##### Les langues Exotiques
 
 Les langues exotiques sont obscures, alien ou limitées à des groupes très restreints. Elles sont généralement très diverses et rarement rencontrées au sein de l’Imperium.
 

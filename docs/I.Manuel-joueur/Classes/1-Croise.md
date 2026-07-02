@@ -44,7 +44,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) un sac d’explorateur de ruines ou (b) un sac d’explorateur
 
 
-*Les aptitudes du Croisé*{.table-title .wide}
+*Les aptitudes du Croisé*{.table-title .wide .newpage}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Points de valeur |
 | :-: | :---: | ---------------- | :----: |

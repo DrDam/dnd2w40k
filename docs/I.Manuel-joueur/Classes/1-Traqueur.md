@@ -50,7 +50,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - Un sac d’explorateur et deux poignards
 
 
-*Les aptitudes du Traqueur*{.table-title .wide}
+*Les aptitudes du Traqueur*{.table-title .wide .newpage}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Cible de verrouillage | Nombre de pouvoir technologiques connu | Nombre de point de lanceur de sort | Niveau maximal des pouvoir tech |
 | :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |

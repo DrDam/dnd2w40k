@@ -59,6 +59,21 @@
 --      rare ; à surveiller si un tableau .wide devient trop long pour
 --      une page.
 --
+--      Limite connue de `strip` : contrairement à un float, il ne peut
+--      PAS reporter son contenu sur la page suivante s'il ne rentre pas
+--      dans l'espace RESTANT de la page courante (pas la page entière).
+--      Un tableau .wide un peu haut, arrivant au milieu d'une page déjà
+--      bien remplie, déclenche alors "LaTeX Warning: Optional argument
+--      of \twocolumn too tall" et "Text page N contains only floats".
+--      Si ça arrive, ajouter .newpage à la légende :
+--        *Titre*{.table-title .wide .newpage}
+--      force un \clearpage juste avant le tableau, qui démarre alors en
+--      haut d'une page vierge avec le \textheight complet disponible.
+--      Ne règle pas le cas extrême d'un tableau plus haut qu'une page
+--      entière (aucune solution avec `strip` dans ce cas : il faudrait
+--      alléger le tableau, ou revenir à un vrai float `table*`).
+
+--
 --   3. Légende + Div MkDocs Material `grid` contenant DEUX tableaux ->
 --      mode "grid" : les deux tableaux s'affichent côte à côte sous une
 --      légende commune, chacun avec sa propre largeur calée sur la
@@ -172,6 +187,26 @@ local function has_table_title_flag(block)
   return text:find("%.table%-title") ~= nil
 end
 
+-- Détecte si un bloc "légende candidate" porte le flag .newpage
+-- (ex: *Titre*{.table-title .wide .newpage}). Réservé aux tableaux
+-- .wide -- voir captioned_table_wide pour la raison d'être de ce flag :
+-- contrairement à un float, `strip` (package cuted) ne peut PAS
+-- basculer un tableau trop grand sur la page suivante s'il ne rentre
+-- pas dans l'espace restant de la page courante -- il doit tenir dans
+-- l'espace RESTANT, pas dans une page pleine. D'où "LaTeX Warning:
+-- Optional argument of \twocolumn too tall" et "Text page N contains
+-- only floats" quand un tableau .wide un peu haut arrive au milieu
+-- d'une page déjà partiellement remplie. .newpage force un
+-- \clearpage juste avant le strip, pour que le tableau démarre en
+-- haut d'une page vierge et dispose ainsi du \textheight complet --
+-- ce qui ne garantit pas qu'il tienne (un tableau plus haut qu'une
+-- page entière reste impossible avec `strip`, quoi qu'il arrive), mais
+-- résout le cas courant où il ne manque que peu de place.
+local function has_newpage_flag(block)
+  local text = blocks_to_plain_text({block})
+  return text:find("%.newpage") ~= nil
+end
+
 -- Construit la liste des lignes de corps (hors en-tête), chacune sous la
 -- forme { cells = {...} }, pour pouvoir ensuite leur appliquer un
 -- \rowcolor explicite une à une.
@@ -223,7 +258,6 @@ local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcol
 
   local lines = {
     "\\begin{tabular}{@{}" .. col_spec .. "@{}}",
-    "\\toprule"
   }
 
   for _, row in ipairs(tbl.head.rows) do
@@ -231,9 +265,8 @@ local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcol
     for _, cell in ipairs(row.cells) do
       table.insert(cells, blocks_to_latex(cell.contents))
     end
-    table.insert(lines, table.concat(cells, " & ") .. " \\\\")
+    table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end
-  table.insert(lines, "\\midrule")
 
   local body_rows = collect_body_rows(tbl)
   for idx, cells in ipairs(body_rows) do
@@ -243,16 +276,15 @@ local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcol
       for _, cell in ipairs(cells) do
         table.insert(colored_cells, "\\cellcolor{gray!12}" .. cell)
       end
-      table.insert(lines, table.concat(colored_cells, " & ") .. " \\\\")
+      table.insert(lines, table.concat(colored_cells, " & ") .. " \\\\[\\tablerowsep]")
     else
       if shaded then
         table.insert(lines, "\\rowcolor{gray!12}")
       end
-      table.insert(lines, table.concat(cells, " & ") .. " \\\\")
+      table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
     end
   end
 
-  table.insert(lines, "\\bottomrule")
   table.insert(lines, "\\end{tabular}")
   return table.concat(lines, "\n")
 end
@@ -330,7 +362,7 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
     for _, cell in ipairs(row.cells) do
       table.insert(cells, blocks_to_latex(cell.contents))
     end
-    table.insert(header_cells, table.concat(cells, " & ") .. " \\\\")
+    table.insert(header_cells, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end
   local header_block = table.concat(header_cells, "\n")
 
@@ -339,16 +371,16 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
   local firsthead, contthead
   if has_caption then
     firsthead = string.format(
-      "\\tablefirsthead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
+      "\\tablefirsthead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s}\\\\[0.3em]\n%s}",
       ncols, caption_latex, header_block
     )
     contthead = string.format(
-      "\\tablehead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s \\textit{(suite)}}\\\\[0.3em]\n\\toprule\n%s\n\\midrule}",
+      "\\tablehead{\\multicolumn{%d}{@{}l@{}}{\\tablecaptionfontsize %s \\textit{(suite)}}\\\\[0.3em]\n%s}",
       ncols, caption_latex, header_block
     )
   else
-    firsthead = string.format("\\tablefirsthead{\\toprule\n%s\n\\midrule}", header_block)
-    contthead = string.format("\\tablehead{\\toprule\n%s\n\\midrule}", header_block)
+    firsthead = string.format("\\tablefirsthead{%s}", header_block)
+    contthead = string.format("\\tablehead{%s}", header_block)
   end
 
   local lines = {
@@ -367,7 +399,7 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
     firsthead,
     contthead,
     "\\tabletail{}",
-    "\\tablelasttail{\\bottomrule}",
+    "\\tablelasttail{}",
     "\\begin{supertabular}{@{}" .. col_spec .. "@{}}",
   }
 
@@ -377,7 +409,7 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
     if shaded then
       table.insert(lines, "\\rowcolor{gray!12}")
     end
-    table.insert(lines, table.concat(cells, " & ") .. " \\\\")
+    table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end
 
   table.insert(lines, "\\end{supertabular}")
@@ -450,17 +482,18 @@ end
 -- Légende et tableau sont regroupés dans un seul \begin{strip}...\end{strip}
 -- avec \nopagebreak entre les deux, pour qu'ils ne puissent jamais être
 -- séparés par une coupure de page.
-local function captioned_table_wide(caption_latex, tbl)
+local function captioned_table_wide(caption_latex, tbl, newpage)
   local tabular = table_to_tabular_lines(tbl, 0.87, "textwidth")
+  local clearpage = newpage and "\\mbox{}\\clearpage\n" or ""
   local latex = string.format([[
-\begin{strip}
+%s\begin{strip}
 \centering
 {\tablecaptionfontsize %s}\par
 \vspace{0.3em}
 \nopagebreak
 \tablefontsize
 %s
-\end{strip}]], caption_latex, tabular)
+\end{strip}]], clearpage, caption_latex, tabular)
   return pandoc.RawBlock("latex", latex)
 end
 
@@ -525,7 +558,8 @@ function Pandoc(doc)
       local wide = has_wide_flag(b)
 
       if wide then
-        table.insert(new_blocks, captioned_table_wide(caption_latex, next_b))
+        local newpage = has_newpage_flag(b)
+        table.insert(new_blocks, captioned_table_wide(caption_latex, next_b, newpage))
       else
         table.insert(new_blocks, captioned_table_inline(caption_latex, next_b))
       end

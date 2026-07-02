@@ -89,9 +89,8 @@ local function statline_table_to_tabular(tbl)
     for _, cell in ipairs(row.cells) do
       table.insert(cells, inlines_to_latex(pandoc.utils.blocks_to_inlines(cell.contents)))
     end
-    table.insert(lines, table.concat(cells, " & ") .. " \\\\")
+    table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end
-  table.insert(lines, "\\midrule")
 
   for _, body in ipairs(tbl.bodies) do
     for _, row in ipairs(body.body) do
@@ -99,7 +98,7 @@ local function statline_table_to_tabular(tbl)
       for _, cell in ipairs(row.cells) do
         table.insert(cells, inlines_to_latex(pandoc.utils.blocks_to_inlines(cell.contents)))
       end
-      table.insert(lines, table.concat(cells, " & ") .. " \\\\")
+      table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
     end
   end
 

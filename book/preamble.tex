@@ -62,8 +62,17 @@
 % --- Tableaux ---
 % Contenu (en-têtes de colonnes + cellules de corps) et légendes
 % (*Titre*{.table-title}) des tableaux, dans tout le document.
-\newcommand{\tablefontsize}{\normalsize}
+\newcommand{\tablefontsize}{\small}
 \newcommand{\tablecaptionfontsize}{\normalsize}
+
+% Espacement vertical ajouté après CHAQUE ligne de tableau (en-tête et
+% corps, dans tous les modes -- standard, wide, grid, statline).
+% Introduit en remplacement des filets horizontaux (\toprule/\midrule/
+% \bottomrule, désormais entièrement retirés des tableaux du document,
+% voir book/macro/tables.lua et book/macro/statblock.lua) : sans aucun
+% filet, les lignes se touchaient visuellement sans cet espacement --
+% ce \tablerowsep sert de séparation visuelle légère à la place.
+\newcommand{\tablerowsep}{1.5pt}
 
 % --- Titres de section (Markdown) ---
 % Correspondance Markdown -> LaTeX : voir plus bas dans ce fichier

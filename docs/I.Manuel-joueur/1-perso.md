@@ -4,7 +4,7 @@
 
 Chaque étape de la création d’un personnage s’accompagne d’un exemple illustrant cette étape, avec un joueur nommé Bob qui crée son personnage humain, Krieg le soldat de Krieg.
 
-##### Etape 1. Choisir une espèce
+#### Etape 1. Choisir une espèce
 
 Chaque personnage appartient à une espèce, l’une des nombreuses espèces humanoïdes intelligentes de l’univers de Warhammer 40k. Les espèces des personnages joueurs les plus courantes sont les humains, les Eldars, les Tau et les Orques. Certaines races comportent également des sous-races, comme les Eldars des Mondes-Ateliers ou les Weirdboys orques. La section « Espèces » fournit davantage d’informations sur ces espèces.
 
@@ -22,7 +22,7 @@ Notez les traits conférés par votre espèce sur votre fiche de personnage. Vei
 
     Il choisit les codes impériaux comme deuxième langue après avoir consulté la liste des langues au chapitre « Personnalité et Origine » .
 
-##### Etape 2. Choisissez une Classe
+#### Etape 2. Choisissez une Classe
 
 Chaque personnage appartient à une classe. La classe définit globalement la vocation d’un personnage, les talents particuliers qu’il possède et les tactiques qu’il est le plus susceptible d’employer lorsqu’il explore des ruines antiques, combat des monstres ou mène une négociation tendue. Les classes de personnages sont décrites dans la section « Classes ».
 
@@ -69,7 +69,7 @@ Votre bonus de maîtrise ne peut pas être ajouté plus d’une fois à un même
 
     Bob note ces informations et inscrira le chiffre définitif après avoir déterminé la valeur de Constitution de Krieg (voir l’étape 3). Bob note également le bonus de compétence d’un personnage de niveau 1, qui est de +2.
 
-##### Etape 3. Déterminer les scores de caractéristiques
+#### Etape 3. Déterminer les scores de caractéristiques
 
 Une grande partie des actions de votre personnage dans le jeu dépend de ses six caractéristiques : **Force**, **Dextérité**, **Constitution**, **Intelligence**, **Sagesse** et **Charisme**. Chaque caractéristique est associée à un score, c'est-à-dire un chiffre que vous inscrivez sur votre fiche de personnage.
 
@@ -89,7 +89,7 @@ Une fois vos scores de caractéristiques attribués, déterminez vos modificateu
 
     Bob complète les points de vie finaux de Krieg : 10 + son modificateur de Constitution de +2, soit un total de 12 points de vie.
 
-**Variante : Personnalisation des caractéristiques**
+##### Variante : Personnalisation des caractéristiques
 
 Si votre Maître du donjon le souhaite, vous pouvez utiliser cette variante pour déterminer vos caractéristiques. La méthode décrite ici vous permet de créer un personnage doté d’un ensemble de caractéristiques que vous choisissez individuellement.
 
@@ -146,7 +146,7 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 
 </div>
 
-##### Etape 4. Décrivez votre personnage
+#### Etape 4. Décrivez votre personnage
 
 Une fois que vous connaissez les aspects de jeu fondamentaux de votre personnage, il est temps de lui donner corps en tant que personne. Votre personnage a besoin d’un nom. Prenez quelques minutes pour réfléchir à son apparence physique et à son comportement général.
 
@@ -182,7 +182,7 @@ Un personnage doté d’un grand Charisme respire la confiance en soi, général
 
     Compte tenu de son histoire, le lien de Krieg est évident : il aspire à retourner un jour sa planète natale, Krieg. Son défaut est lié à sa nature attentionnée et sensible : il a un faible pour les orphelins et les âmes égarées, ce qui le conduit à faire preuve de clémence même lorsque cela n’est peut-être pas justifié.
 
-##### Etape 5. Choisissez votre équipement
+#### Etape 5. Choisissez votre équipement
 
 Votre classe et votre historique déterminent l’équipement de départ de votre personnage, notamment ses armes, son armure et tout autre matériel d’aventure. Notez cet équipement sur votre fiche de personnage. Tous ces objets sont détaillés dans la section « Équipement ».
 
@@ -217,7 +217,7 @@ Lorsque vous effectuez une attaque avec une arme, vous lancez un d20 et ajoutez 
 
     La hache de combat inflige 1d8 points de dégâts cinétiques, et Krieg ajoute son modificateur de Force aux dégâts lorsqu’il touche, pour un total de 1d8 + 3 points de dégâts cinétiques. Lorsqu’il lance une hache à main, Krieg bénéficie du même bonus d’attaque (les haches à main, en tant qu’armes de jet, utilisent la Force pour les attaques et les dégâts), et l’arme inflige 1d6 + 3 points de dégâts cinétiques lorsqu’elle touche.
 
-##### Etape 6. Se rassembler
+#### Etape 6. Se rassembler
 
 La plupart des personnages n’agissent pas seuls. Chaque personnage joue un rôle au sein d’un groupe, une équipe d’aventuriers travaillant ensemble vers un objectif commun. Le travail d’équipe et la coopération améliorent considérablement les chances de votre groupe de survivre aux nombreux périls qui guettent dans les mondes de Warhammer 40 000. Discutez avec vos camarades de jeu et votre MJ pour décider si vos personnages se connaissent, comment ils se sont rencontrés et quel genre de missions le groupe pourrait entreprendre.
 
@@ -225,7 +225,7 @@ La plupart des personnages n’agissent pas seuls. Chaque personnage joue un rô
 
 Au fur et à mesure que votre personnage part à l’aventure et surmonte des défis, il gagne de l’expérience, représentée par des points d’expérience. Un personnage qui atteint un total de points d’expérience défini voit ses capacités s’améliorer. Cette progression s’appelle « passer au niveau supérieur ».
 
-##### Caractéristiques de classe et dés de vie
+#### Caractéristiques de classe et dés de vie
 
 Lorsque votre personnage gagne un niveau, sa classe lui confère souvent des caractéristiques supplémentaires, comme indiqué dans la description de la classe. Certaines de ces caractéristiques vous permettent d’augmenter vos scores de caractéristiques, soit en augmentant deux scores de 1 chacun, soit en augmentant un score de 2. Vous ne pouvez pas augmenter un score de caractéristique au-delà de 20. De plus, le bonus de compétence de chaque personnage augmente à certains niveaux.
 
@@ -233,7 +233,7 @@ Chaque fois que vous gagnez un niveau, vous obtenez 1 dé de vie supplémentaire
 
 Lorsque votre modificateur de Constitution augmente de 1, votre maximum de points de vie augmente de 1 pour chaque niveau que vous avez atteint. Par exemple, si votre guerrier de niveau 7 a une Constitution de 17, lorsqu’il atteint le niveau 8, il fait passer sa Constitution de 17 à 18, augmentant ainsi son modificateur de Constitution de +3 à +4. Son maximum de points de vie augmente alors de 8.
 
-##### Progression des XP et du bonus de compétence
+#### Progression des XP et du bonus de compétence
 
 Le tableau « Évolution du personnage » récapitule les XP nécessaires pour passer du niveau 1 au niveau 20, ainsi que le bonus de compétence correspondant à chaque niveau. Consultez les informations figurant dans la description de la classe de votre personnage pour connaître les autres améliorations que vous obtenez à chaque niveau.
 

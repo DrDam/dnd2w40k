@@ -51,7 +51,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - Une armure de mailles, deux dagues et un kit de sécurité
 
 
-*Les aptitudes de l'Agent*{.table-title .wide}
+*Les aptitudes de l'Agent*{.table-title .wide .newpage}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Attaque sournoise |
 | :-: | :---: | ---------------- | :----: |

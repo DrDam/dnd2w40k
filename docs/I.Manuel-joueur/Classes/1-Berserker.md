@@ -52,7 +52,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - Un sac d’explorateur et cinq javelots
 
 
-*Les aptitudes du Berserker*{.table-title .wide}
+*Les aptitudes du Berserker*{.table-title .wide .newpage}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Rage | Dégâts en Rage |
 | :-: | :---: | ---------------- | :----: | :----: |

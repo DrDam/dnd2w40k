@@ -64,7 +64,7 @@ Votre corps a été influencé par le dieu du mensonge, de la tromperie et de la
 
 **Esprit protégé.** Vous bénéficiez d’un avantage aux jets de sauvegarde pour résister aux effets de charme et à la lecture de vos pensées.
 
-**Téléporté par le Warp. En tant qu’action bonus, vous pouvez vous téléporter psychiquement jusqu’à 9 mètres vers un espace inoccupé que vous pouvez voir. Une fois que vous avez utilisé ce trait, vous ne pouvez pas le réutiliser avant d’avoir terminé un repos court ou long.
+**Téléporté par le Warp.** En tant qu’action bonus, vous pouvez vous téléporter psychiquement jusqu’à 9 mètres vers un espace inoccupé que vous pouvez voir. Une fois que vous avez utilisé ce trait, vous ne pouvez pas le réutiliser avant d’avoir terminé un repos court ou long.
 
 #### Marqué par le chaos indivisible
 

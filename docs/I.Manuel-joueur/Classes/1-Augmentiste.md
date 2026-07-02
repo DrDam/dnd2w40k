@@ -50,7 +50,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure en mailles ou (b) une armure de soldat
 - Une trousse de mécanicien
 
-*Les aptitudes de l'Augmentiste*{.table-title .wide}
+*Les aptitudes de l'Augmentiste*{.table-title .wide .newpage}
 
 | Niveau | Bonus de Maitrise | Aptitudes | Augmentations de combat | Points de sur surcadençage  | Déplacement amélioré |
 | :-: | :---: | ---------------- | :----: | :----: | :---: |
