@@ -1,3 +1,4 @@
+book/parts_titles/Livre1-part1.md
 docs/I.Manuel-joueur/0-preambule.md
 docs/I.Manuel-joueur/1-perso.md
 docs/I.Manuel-joueur/Especes/*.md
