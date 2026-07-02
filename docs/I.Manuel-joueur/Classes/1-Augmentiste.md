@@ -38,7 +38,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 
 *Jets de sauvegarde* : Force, Dextérité
 
-*Compétences* : choisissez-en deux parmi Acrobatie, Alétisme, Intimidation, Perspicacité, Connaissances, Perception, Pilotage, Discrétion et Technologie.
+*Compétences* : choisissez-en deux parmi Acrobatie, Athlétisme, Connaissances, Discrétion, Intimidation, Perception, Perspicacité, Pilotage et Technologie.
 
 *Équipement de départ*
 

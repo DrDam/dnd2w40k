@@ -34,7 +34,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 
 *Jets de sauvegarde* : Sagesse, Charisme
 
-*Compétences* : choisissez-en deux parmi Tromperie, Perspicacité, Intimidation, Investigation, Connaissances, Nature, Occultisme, Représentation et Persuasion.
+*Compétences* : choisissez-en deux parmi Connaissances, Intimidation, Investigation, Nature, Occultisme, Perspicacité, Persuasion, Représentation et Tromperie.
 
 *Équipement de départ*
 

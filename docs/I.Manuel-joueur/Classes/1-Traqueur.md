@@ -38,7 +38,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 
 *Jets de sauvegarde* : Force, Dextérité
 
-*Compétences* : choisissez-en trois parmi Athlétisme, Acrobatie, Intuition, Investigation, Connaissances, Nature, Occultisme, Perception, Pilotage, Discrétion, Survie et Technologie.
+*Compétences* : choisissez-en trois parmi Acrobatie, Athlétisme, Connaissances, Discrétion, Intuition, Investigation, Nature, Occultisme, Perception, Pilotage, Survie et Technologie.
 
 *Équipement de départ*
 

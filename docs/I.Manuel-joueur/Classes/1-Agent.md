@@ -39,7 +39,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 
 *Jets de sauvegarde* : Dextérité, Intelligence
 
-*Compétences* : Choisissez-en quatre parmi les suivantes : Acrobatie, Tromperie, Perspicacité, Intimidation, Investigation, Connaissances, Perception, Représentation, Persuasion, Pilotage, Prestidigitation, Survie et Technologie.
+*Compétences* : Choisissez-en quatre parmi les suivantes : Acrobatie, Connaissances, Intimidation, Investigation, Perception, Perspicacité, Persuasion, Pilotage, Prestidigitation, Représentation, Survie, Technologie et Tromperie.
 
 *Équipement de départ*
 
