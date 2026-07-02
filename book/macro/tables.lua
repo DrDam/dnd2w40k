@@ -263,7 +263,7 @@ local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcol
   for _, row in ipairs(tbl.head.rows) do
     local cells = {}
     for _, cell in ipairs(row.cells) do
-      table.insert(cells, blocks_to_latex(cell.contents))
+      table.insert(cells, "\\textbf{" .. blocks_to_latex(cell.contents) .. "}")
     end
     table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end
@@ -360,7 +360,7 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
   for _, row in ipairs(tbl.head.rows) do
     local cells = {}
     for _, cell in ipairs(row.cells) do
-      table.insert(cells, blocks_to_latex(cell.contents))
+      table.insert(cells, "\\textbf{" .. blocks_to_latex(cell.contents) .. "}")
     end
     table.insert(header_cells, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end

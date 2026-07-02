@@ -87,7 +87,7 @@ local function statline_table_to_tabular(tbl)
   for _, row in ipairs(tbl.head.rows) do
     local cells = {}
     for _, cell in ipairs(row.cells) do
-      table.insert(cells, inlines_to_latex(pandoc.utils.blocks_to_inlines(cell.contents)))
+      table.insert(cells, "\\textbf{" .. inlines_to_latex(pandoc.utils.blocks_to_inlines(cell.contents)) .. "}")
     end
     table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
   end
