@@ -1,4 +1,4 @@
-### Historiques {.newpage}
+### Historiques
 
 Si, dans le cadre de votre historique, on vous attribue une maîtrise que vous avez déjà acquise lors de la création de votre personnage, vous pouvez choisir à la place une autre compétence ou un autre outil pour acquérir cette maîtrise.
 
