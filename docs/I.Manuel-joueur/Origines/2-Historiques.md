@@ -684,8 +684,328 @@ En tant que membre des forces de police, vous disposez d’un insigne de service
 
 **Équipement** : un livre qui a été préservé avec vous, un petit sablier, une tenue de tous les jours datée et une pochette contenant 100 g.
 
-**Caractéristique : Connaissance des âges**
+**Aptitude : Connaissance des âges**
 
 Vous êtes une relique d’une autre époque : que ce soit par stase cryogénique, voyage dans le temps ou phénomène de distorsion, vous venez d’une époque située à des centaines, voire des milliers d’années dans le passé. Vous pouvez vous remémorer avec précision n’importe quelle information de votre époque, à condition que cette information relève du savoir commun ou qu’elle vous concerne directement.
 
 #### Pilleur
+
+Au sein de la galaxie, de nombreuses espèces se livrent à des raids et au pillage. Qu’il s’agisse d’un simple pirate, d’un brigand en quête de sa prochaine proie ou d’un régiment entier passé du côté de l’ombre, ces pillards sont présents partout dans la galaxie, en temps de paix comme en temps de guerre, et mènent une vie difficile et tourmentée en échange de ce qu’ils considèrent comme leur liberté.
+
+**Compétences** : choisissez-en deux parmi Acrobatie, Athlétisme, Perception, Pilotage
+
+**Maîtrise des outils** : kit de sécurité, outils de navigation, véhicules (terrestres ou spatiaux)
+
+**Équipement** : un trophée rapporté d’un raid, tel qu’une dague cassée ou une bannière déchirée, une tenue ordinaire et une bourse contenant 50 g.
+
+**Aptitude : Mauvaise réputation**
+Où que vous alliez, les gens ont peur de vous en raison de votre réputation. Lorsque vous vous trouvez dans une localité civilisée, vous pouvez vous en tirer à bon compte en commettant des délits mineurs, comme refuser de payer votre repas dans un bar ou enfoncer la porte d’un magasin du coin, car la plupart des gens ne signaleront pas vos agissements aux autorités.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | J’ai toujours un plan pour quand les choses tournent mal. |
+| 2 | Je reste toujours calme, quelle que soit la situation. Je n’élève jamais la voix et je ne me laisse jamais dominer par mes émotions. |
+| 3 | La première chose que je fais quand j’arrive dans un nouvel endroit, c’est de repérer l’emplacement de tout ce qui a de la valeur, ou les endroits où l’on peut cacher des objets. |
+| 4 | Je préfère me faire un nouvel ami plutôt qu’un nouvel ennemi. |
+| 5 | Je ne prête pas attention aux risques d’une situation. Ne me donnez jamais les probabilités. |
+| 6 | La meilleure façon de me pousser à faire quelque chose, c’est de me dire que je n’y arriverai pas. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Loyal) L'honneur. Je ne vole pas mes confrères.  |
+| 2 | (Bon) La charité. Je vole les riches pour pouvoir aider les personnes dans le besoin. |
+| 3 | (Chaotique) La liberté. Les chaînes sont faites pour être brisées, tout comme ceux qui les forgent.  |
+| 4 | (Mauvais) La cupidité. Je ferai tout ce qu'il faut pour devenir riche.  |
+| 5 | (Neutre) Les gens. Je suis fidèle à mes amis, pas à des idéaux, et quant aux autres, qu’ils aillent se noyer dans le Styx, je m’en fiche.  |
+| 6 | (Bon) Rédemption. Il y a une étincelle de bonté en chacun.  |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | J’essaie de rembourser une vieille dette que j’ai envers un généreux bienfaiteur. |
+| 2 | Mes gains mal acquis servent à subvenir aux besoins de ma famille. |
+| 3 | On m’a volé quelque chose d’important, et je compte bien le récupérer. |
+| 4 | Je deviendrai le plus grand pillard qui ait jamais existé. |
+| 5 | Je suis coupable d’un crime terrible. J’espère pouvoir me racheter. |
+| 6 | Une personne que j’aimais est morte à cause d’une erreur que j’ai commise. Cela ne se reproduira plus jamais. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Quand je vois quelque chose de valeur, je ne pense plus qu’à une chose : comment le voler. |
+| 2 | Quand je dois choisir entre l’argent et mes amis, je choisis généralement l’argent. |
+| 3 | S’il y a un plan, je l’oublierai. Si je ne l’oublie pas, je l’ignorerai. |
+| 4 | J’ai un « tic » qui trahit mes mensonges. |
+| 5 | Je prends la fuite dès que les choses tournent mal. |
+| 6 | Une personne innocente est en prison pour un crime que j’ai commis. Ça ne me dérange pas. |
+
+#### Rogue Traider
+
+**Compétences** : choisissez-en deux parmi Connaissances, Pilotage, Investigation et Technologie
+
+**Langues** : une de votre choix
+
+**Maîtrise des outils** : Véhicules (un de votre choix), outils de navigation
+
+**Équipement** : un souvenir de votre ancien vaisseau, une tenue de tous les jours, 100 g et une carte stellaire de vos itinéraires les plus fréquents.
+
+**Aptitude : Cartographe Stellaire**
+
+Vous avez une excellente mémoire des cartes stellaires et des constellations, et vous pouvez toujours vous rappeler la configuration générale des systèmes stellaires, des stations spatiales et des planètes que vous avez visités ou étudiés. De plus, vous connaissez les itinéraires les plus empruntés par les marchands indésirables.
+
+#### Marin
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Perception, Nature et Escamotage
+
+**Maîtrise des outils** : outils de navigation, véhicules (maritimes) ou véhicules (spatiaux)
+
+**Équipement** : une cheville d’amarrage (gourdin), une corde de soie (50 pieds), un porte-bonheur tel qu’une patte de lapin ou une petite pierre percée d’un trou au centre (vous pouvez également lancer un dé pour obtenir un bibelot aléatoire à partir du tableau des bibelots du chapitre 5), une tenue de tous les jours et une pochette de ceinture contenant 100 g
+
+**Aptitude : Passage à bord d’un navire**
+
+Lorsque vous en avez besoin, vous pouvez obtenir un passage gratuit à bord d’un navire pour vous-même et vos compagnons d’aventure. Vous pourriez embarquer sur le navire sur lequel vous avez servi, ou sur un autre navire avec lequel vous entretenez de bonnes relations (peut-être celui commandé par un ancien membre d’équipage). Comme vous faites appel à une faveur, vous ne pouvez pas être certain que l’itinéraire ou les horaires répondront à tous vos besoins. C’est votre MJ qui déterminera le temps nécessaire pour atteindre votre destination. En échange de ce passage gratuit, vous et vos compagnons devrez aider l’équipage pendant la traversée.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Mes amis savent qu’ils peuvent compter sur moi, quoi qu’il arrive. |
+| 2 | Je travaille dur pour pouvoir m’amuser à fond une fois le boulot terminé. |
+| 3 | Je prends quelques libertés avec la vérité pour rendre une histoire plus captivante. |
+| 4 | Pour moi, une bagarre est l’occasion idéale de découvrir une nouvelle ville. |
+| 5 | Je ne rate jamais un pari amical. |
+| 6 | J’aime le travail bien fait, surtout si je peux faire en sorte que quelqu’un d’autre s’en charge. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Bon) Respect. Ce qui assure la cohésion d’un vaisseau, c’est le respect mutuel. |
+| 2 | (Loyal) Équité. Nous travaillons tous, donc nous partageons tous les récompenses. |
+| 3 | (Chaotique) Liberté. Mon vaisseau me donne la liberté d’aller où je veux et de faire ce que je veux. |
+| 4 | (Mauvais) Domination. Je suis un prédateur, et les autres vaisseaux sont mes proies. |
+| 5 | (Neutre) Les gens. Je suis dévoué à mon équipage. |
+| 6 | (Tout alignement) Aspiration. Un jour, je posséderai mon propre vaisseau et tracerai ma propre destinée.|
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Je suis avant tout fidèle à mon capitaine, tout le reste est secondaire. |
+| 2 | Le navire est ce qu’il y a de plus important ; les équipages et les capitaines vont et viennent. |
+| 3 | Je me souviendrai toujours de mon premier navire. |
+| 4 | Dans une ville, j’ai une maîtresse dont le regard a failli me faire quitter mon navire. |
+| 5 | On m’a privé de ma juste part des bénéfices, et je veux récupérer ce qui m’est dû. |
+| 6 | Des pirates ont assassiné mon équipage, pillé mon navire et m’ont laissé pour mort. Je me vengerai. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Je suis les ordres, même si je pense qu’ils sont erronés. |
+| 2 | Je suis prêt à dire n’importe quoi pour éviter le surcroît de travail. |
+| 3 | Dès que quelqu’un remet en question mon courage, je ne recule jamais, quelle que soit la dangerosité de la situation. |
+| 4 | Une fois que je commence à boire, j’ai du mal à m’arrêter. |
+| 5 | Je ne peux m’empêcher de glisser dans ma poche la petite monnaie et les bibelots que je trouve. |
+| 6 | Ma fierté m’entraînera probablement à ma perte. |
+
+#### Récupérateur
+
+Des villes-ruches tentaculaires aux plus modestes dépotoirs, les récupérateurs gagnent leur vie en fouillant les tas et les épaves de technologies abandonnées pour survivre. Certains d’entre eux peuvent se lancer dans une carrière plus dynamique, en rejoignant un équipage à bord d’un vaisseau de récupération spécialisé dans l’exploration des épaves d’anciens champs de bataille spatiaux, ou en parcourant les planètes jusqu’à ce qu’ils trouvent des débris de valeur.
+
+**Compétences** : choisissez-en deux parmi Investigation, Connaissances, Escamotage et Discrétion.
+
+**Maîtrise des outils** : Trousse de mécanicien, un outil de votre choix
+
+**Équipement** : Un insigne héraldique inconnu, une arme cassée, une pièce de monnaie unique, une tenue de voyageur et une pochette contenant 100 g.
+
+**Aptitude : Récupération**
+
+Vous connaissez les meilleurs endroits où fouiller et pouvez fabriquer du matériel rudimentaire à partir des objets que vous récupérez. Lorsque vous vous trouvez dans une zone civilisée ou urbaine, vous pouvez passer plusieurs heures à fouiller les environs à la recherche de ferraille et de bric-à-brac afin de fabriquer un objet figurant dans la section « Équipement d’aventure » : « Équipement standard », à condition que son prix soit inférieur ou égal à 100 g. Cet objet est considéré comme pratiquement sans valeur par la plupart des marchands et des vendeurs, ce qui rend sa vente impossible.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Je cache des restes de nourriture et des babioles dans mes poches. |
+| 2 | Je pose beaucoup de questions. |
+| 3 | J’aime me faufiler dans des endroits où personne ne peut m’atteindre. |
+| 4 | Je mange comme un ogre et j’ai de mauvaises manières. |
+| 5 | Je n’aime pas me laver. |
+| 6 | Je dis sans détour ce que les autres laissent entendre ou cachent. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Bon) Le respect. Tout le monde, riche ou pauvre, mérite le respect. |
+| 2 | (Loyal) La communauté. Nous devons veiller les uns sur les autres, car personne d’autre ne le fera. |
+| 3 | (Chaotique) Le changement. Les humbles sont élevés, et les puissants sont rabaissés. Le changement est dans la nature des choses. |
+| 4 | (Mauvais) La vengeance. Il faut montrer aux riches ce que sont la vie et la mort dans les bas-fonds. |
+| 5 | (Neutre) Les gens. J’aide ceux qui m’aident : c’est ce qui nous maintient en vie. |
+| 6 | (Tout alignement) Aspiration. Je vais prouver que je mérite une vie meilleure. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Ma ville, ma cité ou ma décharge, c’est chez moi, et je me battrai pour la défendre. |
+| 2 | J’ai aidé des orphelins à trouver leurs repères dans la casse pour les aider à survivre. |
+| 3 | Je dois ma survie à quelqu’un qui m’a appris à vivre dans la rue. |
+| 4 | J’ai une dette que je ne pourrai jamais rembourser envers la personne qui a eu pitié de moi. |
+| 5 | J’ai échappé à ma vie de misère en volant une personnalité importante, et je suis recherché pour cela. |
+| 6 | Personne d’autre ne devrait avoir à endurer les épreuves que j’ai traversées. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | Le gelt me semble être une somme considérable, et je suis prêt à faire à peu près n’importe quoi pour en avoir davantage. |
+| 2 | Je ne ferai jamais entièrement confiance à personne d’autre qu’à moi-même. |
+| 3 | Je préfère tuer quelqu’un dans son sommeil plutôt que de me battre à la loyale. |
+| 4 | Ce n’est pas du vol si j’en ai plus besoin que quelqu’un d’autre. |
+| 5 | Les gens qui ne savent pas se débrouiller par eux-mêmes n’ont que ce qu’ils méritent. |
+| 6 | Mentir me vient naturellement. |
+
+#### Érudit
+
+Compétences : choisissez-en deux parmi Connaissances, Occultisme, Investigation et Nature
+
+**Langues** : deux de votre choix
+
+**Équipement** : une bouteille d’encre noire, une plume, un petit couteau, une lettre d’un collègue décédé posant une question à laquelle vous n’avez pas encore pu répondre, une tenue de tous les jours et une pochette de ceinture contenant 100 g
+
+**Aptitude : Chercheur**
+
+Lorsque vous tentez d’apprendre ou de vous remémorer un élément de savoir, si vous ne connaissez pas cette information, vous savez souvent où et auprès de qui vous pouvez l’obtenir. Généralement, ces informations proviennent d’une bibliothèque, d’un scriptorium, d’une université, d’un sage ou d’une autre personne ou créature érudite. Votre MJ peut décider que la connaissance que vous recherchez est cachée dans un endroit presque inaccessible, ou qu’elle est tout simplement introuvable. Dévoiler les secrets les plus profonds du multivers peut nécessiter une aventure, voire une campagne entière.
+
+#### Esclave
+
+Vous avez été réduit en esclavage ou contraint au servage. Que l’on vous ait demandé d’effectuer des tâches subalternes en tant que serveur, ou que vous ayez été forcé de combattre dans une armée d’esclaves au service d’un gouverneur fortuné, vous partagez certains points communs avec d’autres esclaves du même acabit.
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Acrobatie, Tromperie et Survie.
+
+**Maîtrise d’outils** : deux outils de votre choix
+
+**Équipement** : une tenue de voyageur, un pendentif appartenant à un ami toujours réduit en esclavage, un souvenir de votre ancien propriétaire tel qu’un emblème, une montre ou un insigne, et une bourse contenant 10 g.
+
+**Aptitude : La camaraderie des opprimés**
+
+Dans la grande galaxie, la demande de main-d’œuvre est forte. De l’ouvrier d’usine ordinaire au plus humble des gladiateurs-esclaves, vous pouvez trouver un ami parmi ces personnes. Grâce à ces relations, vous pouvez obtenir de ces esclaves des informations sur l’actualité politique, sur leurs maîtres, ainsi que sur la nature de leur travail.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Peu importe à quel point les choses deviennent difficiles, je ne me plains jamais, car j’ai connu pire. |
+| 2 | Je ne prends la parole que lorsqu’on m’adresse la parole. |
+| 3 | J’appelle tout le monde « monsieur » ou « seigneur » sans même y penser. |
+| 4 | Par habitude, j’effectue des tâches ménagères simples pour mon entourage. |
+| 5 | J’ai tendance à éviter d’être au centre de l’attention. |
+| 6 | Je suis terrifié par les cordes, les fouets et les chaînes. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Loyal) Statu quo. Le statut est défini par des règles claires qui constituent le fondement de la civilisation. |
+| 2 | (Bon) Égalité. Nous saignons tous du même sang rouge, et nous souffrons tous ensemble. |
+| 3 | (Chaotique) Combattant de la liberté. Tous les esclaves doivent être libres, à tout prix. |
+| 4 | (Neutre) Apathie. Je ne pense qu’à ce qui relève de mon pouvoir, et tout le reste n’est qu’une question de circonstances. |
+| 5 | (Neutre) Indifférence. Les gens ne sont que des gens. Ce qu’ils sont compte plus que ce qu’ils représentent. |
+| 6 | (Tout alignement) Famille. Il est important d’avoir des amis et sa famille à ses côtés, où que l’on soit. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Je rêve de retourner dans mon pays natal ou auprès de ma famille. |
+| 2 | J’ai rencontré un être cher pendant ma captivité. J’espère le revoir. |
+| 3 | Mon identité d’esclave est marquée par des cicatrices ou des tatouages. |
+| 4 | J’ai eu une relation secrète avec une personne qui n’était pas esclave pendant ma captivité. |
+| 5 | Mes amis sont toujours réduits en esclavage. J’espère revenir les chercher un jour. |
+| 6 | J’ai entendu parler d’un monde extraordinaire au-delà de la captivité, et je veux le découvrir. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | J’ai du mal à partager des choses. |
+| 2 | J’ai du mal à parler, même quand on m’adresse la parole. |
+| 3 | Quand on me demande de faire quelque chose, je me sens obligé de le faire, même si je n’aime pas la personne. |
+| 4 | Je dis toujours la vérité quand on me pose une question. |
+| 5 | Je suis lâche. |
+| 6 | Je suis pris de violentes crises de rage lorsque je revois ceux qui m’ont autrefois retenu prisonnier. |
+
+#### Contrebandier
+
+**Compétences** : choisissez-en deux parmi Athlétisme, Tromperie, Pilotage et Investigation
+
+**Maîtrise des outils** : Véhicules (un de votre choix)
+
+**Équipement** : un gilet en cuir raffiné ou une paire de bottes en cuir, une tenue de tous les jours et une pochette en cuir contenant 150 g
+
+**Aptitude : Sous le radar**
+
+Vous connaissez un réseau de contrebandiers prêts à vous aider à vous sortir de situations délicates. Lorsque vous vous trouvez dans une ville, un village ou toute autre communauté de taille similaire (à la discrétion du MJ), vous et vos compagnons pouvez séjourner gratuitement dans des refuges. Ces refuges offrent un mode de vie modeste. Pendant votre séjour dans un refuge, vous pouvez choisir de garder votre présence (et celle de vos compagnons) secrète.
+
+#### Techno-prêtre
+
+Au sein du Culte du Dieu-Machine, les membres ordinaires sont simplement appelés « techno-prêtre ». Ces techno-prêtre croient que la véritable illumination vient du remplacement de la chair fragile du corps humain par la structure immortelle des machines. Les membres vénérables du Culte de la Machine peuvent ne conserver que quelques organes rappelant leur forme humaine d’origine, tandis que beaucoup deviennent des mélanges méconnaissables de machine et d’homme peu après leur initiation.
+
+**Compétences** : choisissez-en deux parmi Connaissances, Médecine, Pilotage et Technologie.
+
+**Langues** : une de votre choix
+
+**Maîtrise des outils** : un gadget technique de votre choix
+
+**Équipement** : un symbole du rouage du Mechanicum, une tenue rouge du Culte de la Machine (vêtements raffinés), un petit objet issu d’une technologie inconnue, tel qu’une montre cassée ou un cogitateur hors service, et une pochette contenant 100 g
+
+**Aptitude : Implants du Culte de la Machine**
+Vous disposez d’implants cybernétiques fournis par le Culte de la Machine, qui vous permettent de vous mettre plus facilement en résonance avec les esprits des machines. Lorsque vous interagissez avec un objet technologique, tel qu’une arme, une machine ou un véhicule, vous êtes capable de communiquer avec son esprit. Vous pouvez ainsi déterminer l’âge de cet objet, l’humeur de son esprit, ainsi que savoir s’il a été consacré ou profané. Vous pouvez également découvrir d’autres caractéristiques de cet objet technologique, à la discrétion du MJ, en fonction de l’intelligence de l’esprit de la machine. Par exemple, un Land Raider peut disposer de connaissances plus étendues concernant les batailles auxquelles il a participé, tandis qu’un simple fusil laser ne saura peut-être que combien de fois il a tiré au cours de la journée écoulée.
+
+**Personnalités suggérées**
+
+| d6 | Trait de personnalité |
+| :-: | ------------------------ |
+| 1 | Je prie toujours les machines avant de les activer. |
+| 2 | Je suis obsédé par mon apparence et je passe mon temps à me polir et à me lustrer. |
+| 3 | Je panique lorsqu’il n’y a pas de port de recharge à proximité. |
+| 4 | Je m’excuse auprès de mon arme si je rate un tir ou si je mets trop de temps à la recharger. |
+| 5 | Je marmonne des litanies et des incantations à voix basse quand je n’ai rien à faire. |
+| 6 | Je tiens une liste des machines intéressantes que j’aimerais voir un jour. |
+
+| d6 | Idéal |
+| :-: | ------------------------ |
+| 1 | (Loyal) Tradition. Les rites des esprits des machines sont sacrés et doivent être vénérés. |
+| 2 | (Bon) Connaissance. Il existe des connaissances qu’il faut rechercher pour le Dieu des Machines. |
+| 3 | (Chaotique) Changement. Les méthodes actuelles qui régissent le Culte des Machines entraînent stagnation et ignorance. |
+| 4 | (Neutre) Évolution. La seule façon de survivre est d’évoluer vers une nouvelle forme. |
+| 5 | (Mauvais) Chair faible. Ceux qui n’ont pas intégré de chair dans leur corps sont faibles et pourriront bientôt. |
+| 6 | (Tout alignement) Machines. Les machines sont ce qui nous anime dans notre vie quotidienne, et nous devons accroître leur efficacité et leur durabilité pour les siècles à venir. |
+
+| d6 | Obligation |
+| :-: | ------------------------ |
+| 1 | Mon mentor a disparu lors d’une expédition visant à découvrir une archéotech perdue. |
+| 2 | J’ai perdu mon premier fusil laser quelque part sur un monde non civilisé. J’espère le récupérer un jour. |
+| 3 | J’ai une dette envers le Culte des Machines pour m’avoir recueilli. |
+| 4 | Mes implants proviennent d’un magos décédé, que j’ai juré de venger. |
+| 5 | Je cherche à préserver un texte sacré que mes ennemis cherchent à détruire. |
+| 6 | Je mourrais pour récupérer une relique perdue. |
+
+| d6 | Faille |
+| :-: | ------------------------ |
+| 1 | J’analyse à voix haute la menace potentielle de toute situation donnée. |
+| 2 | Je me trompe souvent dans l’interprétation des signaux émotionnels. |
+| 3 | J’essaie d’appliquer une analyse statistique aux moments chargés d’émotion. |
+| 4 | La guerre est la seule chose qui ait du sens à mes yeux. |
+| 5 | Je considère souvent les créatures non augmentées comme des « chairistes ». |
+| 6 | Je parle très lentement pour que les gens stupides puissent me comprendre. |
+
+#### Gamin des rues
+
+**Compétences** : choisissez-en deux parmi Escamotage, Tromperie, Intuition et Perception
+
+**Maîtrise des outils** : kit de déguisement, kit de sécurité
+
+**Équipement** : un petit couteau, une carte de la ville où vous avez grandi, une souris de compagnie, un souvenir de vos parents, une tenue de tous les jours et une pochette de ceinture contenant 100 g
+
+**Aptitude : Secrets de la ville**
+
+Vous connaissez les schémas secrets et les flux de circulation des villes et pouvez trouver des passages à travers la jungle urbaine que d’autres ne remarqueraient pas. Lorsque vous n’êtes pas en combat, vous (et les compagnons que vous menez) pouvez vous déplacer entre deux lieux quelconques de la ville deux fois plus vite que ne le permettrait normalement votre vitesse.
+
+#### Chasseur de sorcières
+
+**Compétences** : choisissez-en deux parmi Occultisme, Perspicacité, Connaissances et Investigation
+
+**Maîtrise des outils** : trousse d’empoisonneur
+
+**Langues** : une de votre choix
+
+**Équipement** : un trophée provenant d’une cible (comme une mèche de cheveux, une affiche de recherche ou une plume), un porte-bonheur pour éloigner le mal (comme un capteur de rêves, des gousses d’ail ou une chaîne en argent), une tenue de voyageur et une bourse contenant 50 g.
+
+**Aptitude : Fléau des damnés**
+
+Lorsque vous enquêtez sur les sources du mal, vous connaissez bien les divinités, les dieux, les protecteurs et les origines courantes d’où provient le mal. Même si vous n’êtes pas en mesure de déterminer une source exacte à partir d’effets surnaturels ou d’un autre monde, vous pouvez souvent l’associer à une divinité ou à un groupe spécifique.
