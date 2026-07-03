@@ -246,11 +246,6 @@
 % de la colonne courante comme n'importe quel autre titre.
 \makeatletter
 \renewcommand\tableofcontents{%
-    \vspace*{20\p@}%
-    {\parindent\z@ \raggedright \normalfont
-     \interlinepenalty\@M
-     \tocfontsize\bfseries \contentsname \par\nobreak
-     \vskip 20\p@}%
     \@mkboth{\MakeUppercase\contentsname}{\MakeUppercase\contentsname}%
     \@starttoc{toc}%
     }
