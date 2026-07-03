@@ -100,27 +100,19 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 
 *Coût des points de caractéristiques*{.table-title}
 
-<div class="grid my-grid" markdown>
-
 | Score | Coût |
 | :----:| :--: |
 | 8     | 0    |
 | 9     | 1    |
 | 10    | 2    |
 | 11    | 3    |
-
-| Score | Coût |
-| :----:| :--: |
 | 12    | 4    |
 | 13    | 5    |
 | 14    | 7    |
 | 15    | 9    |
 
-</div>
 
 *Scores caractéristiques et modificateur*{.table-title}
-
-<div class="grid my-grid" markdown>
 
 | Score | Modificateur |
 | :----:| :----------: |
@@ -132,9 +124,6 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 10-11 | 0            |
 | 12-13 | +1           |
 | 14-15 | +2           |
-
-| Score | Modificateur |
-| :----:| :----------: |
 | 16-17 | +3           |
 | 18-19 | +4           |
 | 20-21 | +5           |
@@ -143,8 +132,6 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 26-27 | +8           |
 | 28-29 | +9           |
 | 30    | +10          |
-
-</div>
 
 #### Etape 4. Décrivez votre personnage
 

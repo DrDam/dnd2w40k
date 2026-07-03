@@ -4,4 +4,5 @@ docs/I.Manuel-joueur/1-perso.md
 docs/I.Manuel-joueur/Especes/*.md
 docs/I.Manuel-joueur/Classes/*.md
 docs/I.Manuel-joueur/Origines/*.md
+docs/I.Manuel-joueur/Equipement/*.md
 docs/credits.md
