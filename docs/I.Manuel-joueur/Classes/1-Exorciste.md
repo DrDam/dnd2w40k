@@ -45,32 +45,6 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) un sac de prêtre ou (b) un sac d’explorateur
 - Une armure de combat et des outils de calligraphe
 
-
-*Les aptitudes de l'Exorciste*{.table-title .wide}
-
-| Niveau | Bonus de Maîtrise | Aptitudes | Frappe du warp | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
-| :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
-| 1 | +2 | Lanceur de sort psychique, Manifestation de l’Immaterium, Vision de sorcière | -- | 5 | 2 | 1 |
-| 2 | +2 | Style de combat, Frappe du Warp | 2d8 | 7 | 4 | 1 |
-| 3 | +2 | Ordre des exorcistes | 2d8 | 9 | 6 | 1 |
-| 4 | +2 | Amélioration des caractéristiques | 2d8 | 10 | 8 | 1 |
-| 5 | +3 | Attaque supplémentaire, Rituel de purification | 3d8 | 12 | 10 | 2 |
-| 6 | +3 | Aura de protection | 3d8 | 13 | 12 | 2 |
-| 7 | +3 | Amélioration de l'Ordre des exorcistes | 3d8 | 14 | 14 | 2 |
-| 8 | +3 | Amélioration des caractéristiques | 3d8 | 15 | 16 | 2 |
-| 9 | +4 | -- | 4d8 | 17 | 18 | 3 |
-| 10 | +4 | Aura de courage | 4d8 | 18 | 20 | 3 |
-| 11 | +4 | Frappe du Warp améliorée | 4d8 | 19 | 22 | 3 |
-| 12 | +4 | Amélioration des caractéristiques | 4d8 | 20 | 24 | 3 |
-| 13 | +5 | -- | 5d8 | 22 | 26 | 4 |
-| 14 | +5 | Toucher purificateur | 5d8 | 23 | 28 | 4 |
-| 15 | +5 | Amélioration de l'Ordre des exorcistes | 5d8 | 24 | 30 | 4 |
-| 16 | +5 | Amélioration des caractéristiques | 5d8 | 25 | 32 | 4 |
-| 17 | +6 | -- | 6d8 | 27 | 28 | 5 |
-| 18 | +6 | Améliorations d’aura | 6d8 | 28 | 36 | 5 |
-| 19 | +6 | Amélioration des caractéristiques | 6d8 | 29 | 38 | 5 |
-| 20 | +6 | Amélioration de l'Ordre des exorcistes | 6d8 | 30 | 40 | 5 |
-
 #### Aptitudes de l'Exorciste
 
 ##### Lancement de sorts Psychique
@@ -97,6 +71,31 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 
 - DC de sauvegarde psychique = 8 + votre bonus de compétence + votre modificateur de lanceur de sort Psychique
 - Modificateur d’attaque psychique = votre bonus de compétence + votre modificateur de lanceur de sort Psychique
+
+*Les aptitudes de l'Exorciste*{.table-title .wide}
+
+| Niveau | Bonus de Maîtrise | Aptitudes | Frappe du warp | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
+| :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
+| 1 | +2 | Lanceur de sort psychique, Manifestation de l’Immaterium, Vision de sorcière | -- | 5 | 2 | 1 |
+| 2 | +2 | Style de combat, Frappe du Warp | 2d8 | 7 | 4 | 1 |
+| 3 | +2 | Ordre des exorcistes | 2d8 | 9 | 6 | 1 |
+| 4 | +2 | Amélioration des caractéristiques | 2d8 | 10 | 8 | 1 |
+| 5 | +3 | Attaque supplémentaire, Rituel de purification | 3d8 | 12 | 10 | 2 |
+| 6 | +3 | Aura de protection | 3d8 | 13 | 12 | 2 |
+| 7 | +3 | Amélioration de l'Ordre des exorcistes | 3d8 | 14 | 14 | 2 |
+| 8 | +3 | Amélioration des caractéristiques | 3d8 | 15 | 16 | 2 |
+| 9 | +4 | -- | 4d8 | 17 | 18 | 3 |
+| 10 | +4 | Aura de courage | 4d8 | 18 | 20 | 3 |
+| 11 | +4 | Frappe du Warp améliorée | 4d8 | 19 | 22 | 3 |
+| 12 | +4 | Amélioration des caractéristiques | 4d8 | 20 | 24 | 3 |
+| 13 | +5 | -- | 5d8 | 22 | 26 | 4 |
+| 14 | +5 | Toucher purificateur | 5d8 | 23 | 28 | 4 |
+| 15 | +5 | Amélioration de l'Ordre des exorcistes | 5d8 | 24 | 30 | 4 |
+| 16 | +5 | Amélioration des caractéristiques | 5d8 | 25 | 32 | 4 |
+| 17 | +6 | -- | 6d8 | 27 | 28 | 5 |
+| 18 | +6 | Améliorations d’aura | 6d8 | 28 | 36 | 5 |
+| 19 | +6 | Amélioration des caractéristiques | 6d8 | 29 | 38 | 5 |
+| 20 | +6 | Amélioration de l'Ordre des exorcistes | 6d8 | 30 | 40 | 5 |
 
 
 ##### Manifestation de l’Immaterium

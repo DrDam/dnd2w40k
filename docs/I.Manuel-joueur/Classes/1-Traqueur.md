@@ -49,8 +49,29 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) un fusil d’assaut et deux chargeurs ou (b) un fusil laser et deux piles
 - Un sac d’explorateur et deux poignards
 
+#### Aptitudes du Traqueur
 
-*Les aptitudes du Traqueur*{.table-title .wide .newpage}
+##### Formation de Traqueur
+
+À partir du niveau 1, vous êtes difficile à cerner au combat. Vous pouvez vous déplacer jusqu’à la moitié de votre vitesse en réaction lorsqu’un ennemi termine son tour à moins de 1,5 mètres de vous. Ce déplacement ne provoque pas d’attaques d’opportunité.
+
+De plus, choisissez l’une des compétences dans lesquelles vous êtes compétent. Vous pouvez ajouter le double de votre bonus de compétence aux jets effectués avec cette compétence.
+
+##### Verrouillage de cible
+
+Au niveau 1, votre technologie unique vous permet de suivre vos ennemis et de porter des coups avec une précision redoutable. En tant qu’action bonus, vous pouvez activer votre verrouillage de cible et bénéficier des avantages suivants :
+
+- Vos attaques à l’arme infligent 1d6 points de dégâts supplémentaires du même type que votre arme.
+- Vous bénéficiez d’un avantage aux jets de Perception visant à détecter des créatures.
+- Vos attaques ignorent la couverture partielle et les trois quarts de couverture.
+
+Votre « verrouillage de cible » dure 1 minute. Il prend fin prématurément si vous êtes mis hors de combat, ou si vous y mettez fin prématurément en tant qu’action bonus.
+
+Vous pouvez utiliser cette capacité deux fois, et vous pouvez l’utiliser plus souvent à des niveaux supérieurs, comme indiqué dans la colonne « Utilisations du verrouillage de cible » du tableau du Traqueur. Vous récupérez toutes les utilisations dépensées lorsque vous terminez un long repos.
+
+Au niveau 9, ces dégâts passent à 1d8, et vous pouvez voir les créatures invisibles situées à moins de 9 mètres de vous tant que cette capacité est activée. Au niveau 17, les dégâts passent à 1d10, et vous pouvez voir à travers les illusions, les métamorphes et dans l’immaterium jusqu’à une portée de 9 mètres tant que cette capacité est activée.
+
+*Les aptitudes du Traqueur*{.table-title .wide}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Cible de verrouillage | Nombre de pouvoir technologiques connu | Nombre de point de lanceur de sort | Niveau maximal des pouvoir tech |
 | :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
@@ -75,27 +96,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 19 | +6 | Amélioration des caractéristiques | 6 | 29 | 38 | 5 |
 | 20 | +6 | Maître Traqueur | 6 | 30 | 40 | 5 |
 
-#### Aptitudes du Traqueur
 
-##### Formation de Traqueur
-
-À partir du niveau 1, vous êtes difficile à cerner au combat. Vous pouvez vous déplacer jusqu’à la moitié de votre vitesse en réaction lorsqu’un ennemi termine son tour à moins de 1,5 mètres de vous. Ce déplacement ne provoque pas d’attaques d’opportunité.
-
-De plus, choisissez l’une des compétences dans lesquelles vous êtes compétent. Vous pouvez ajouter le double de votre bonus de compétence aux jets effectués avec cette compétence.
-
-##### Verrouillage de cible
-
-Au niveau 1, votre technologie unique vous permet de suivre vos ennemis et de porter des coups avec une précision redoutable. En tant qu’action bonus, vous pouvez activer votre verrouillage de cible et bénéficier des avantages suivants :
-
-- Vos attaques à l’arme infligent 1d6 points de dégâts supplémentaires du même type que votre arme.
-- Vous bénéficiez d’un avantage aux jets de Perception visant à détecter des créatures.
-- Vos attaques ignorent la couverture partielle et les trois quarts de couverture.
-
-Votre « verrouillage de cible » dure 1 minute. Il prend fin prématurément si vous êtes mis hors de combat, ou si vous y mettez fin prématurément en tant qu’action bonus.
-
-Vous pouvez utiliser cette capacité deux fois, et vous pouvez l’utiliser plus souvent à des niveaux supérieurs, comme indiqué dans la colonne « Utilisations du verrouillage de cible » du tableau du Traqueur. Vous récupérez toutes les utilisations dépensées lorsque vous terminez un long repos.
-
-Au niveau 9, ces dégâts passent à 1d8, et vous pouvez voir les créatures invisibles situées à moins de 9 mètres de vous tant que cette capacité est activée. Au niveau 17, les dégâts passent à 1d10, et vous pouvez voir à travers les illusions, les métamorphes et dans l’immaterium jusqu’à une portée de 9 mètres tant que cette capacité est activée.
 
 ##### Style de combat
 

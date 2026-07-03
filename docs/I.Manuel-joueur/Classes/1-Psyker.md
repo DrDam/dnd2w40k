@@ -45,31 +45,6 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - Une armure en mailles et deux dagues
 
 
-*Les aptitudes du Psyker*{.table-title .wide}
-
-| Niveau | Bonus de Maîtrise | Aptitudes | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
-| :-: | :---: | ---------------- | :----: | :----: | :----: |
-| 1 | +2 | Lancement de sorts psychiques, Récupération de puissance | 9 | 4 | 1 |
-| 2 | +2 | Lancement de sorts renforcé par le Warp, Barrière télékinétique | 11 | 8 | 1 |
-| 3 | +2 | Discipline psychique | 13 | 12 | 2 |
-| 4 | +2 | Amélioration des caractéristiques | 15 | 16 | 2 |
-| 5 | +3 | -- | 17 | 20 | 3 |
-| 6 | +3 | Amélioration de la Discipline psychique | 19 | 24 | 3 |
-| 7 | +3 | --  | 21 | 28 | 4 |
-| 8 | +3 | Amélioration des caractéristiques | 23 | 32 | 4 |
-| 9 | +4 | -- |  25 | 36 | 5 |
-| 10 | +4 | Lancement de sorts renforcé par le Warp (3 options) | 26 | 40 | 5 |
-| 11 | +4 | -- |  28 | 44 | 6 |
-| 12 | +4 | Amélioration des caractéristiques |  29 | 48 | 6 |
-| 13 | +5 | -- |  31 | 52 | 7 |
-| 14 | +5 | Amélioration de la Discipline psychique |  32 | 56 | 7 |
-| 15 | +5 | -- | 34 | 60 | 8 |
-| 16 | +5 | Amélioration des caractéristiques | 35 | 64 | 8 |
-| 17 | +6 | Lancement de sorts renforcé par le Warp (4 options) | 37 | 68 | 9 |
-| 18 | +6 | Amélioration de la Discipline psychique | 38 | 72 | 9 |
-| 19 | +6 | Amélioration des caractéristiques | 39 | 76 | 9 |
-| 20 | +6 | Maîtrise psychique | 40 | 80 | 9 |
-
 #### Aptitudes du Psyker
 
 ##### Lancement de sorts Psychique
@@ -96,6 +71,31 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 
 - DC de sauvegarde psychique = 8 + votre bonus de compétence + votre modificateur de lanceur de sort Psychique
 - Modificateur d’attaque psychique = votre bonus de compétence + votre modificateur de lanceur de sort Psychique
+
+*Les aptitudes du Psyker*{.table-title .wide}
+
+| Niveau | Bonus de Maîtrise | Aptitudes | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
+| :-: | :---: | ---------------- | :----: | :----: | :----: |
+| 1 | +2 | Lancement de sorts psychiques, Récupération de puissance | 9 | 4 | 1 |
+| 2 | +2 | Lancement de sorts renforcé par le Warp, Barrière télékinétique | 11 | 8 | 1 |
+| 3 | +2 | Discipline psychique | 13 | 12 | 2 |
+| 4 | +2 | Amélioration des caractéristiques | 15 | 16 | 2 |
+| 5 | +3 | -- | 17 | 20 | 3 |
+| 6 | +3 | Amélioration de la Discipline psychique | 19 | 24 | 3 |
+| 7 | +3 | --  | 21 | 28 | 4 |
+| 8 | +3 | Amélioration des caractéristiques | 23 | 32 | 4 |
+| 9 | +4 | -- |  25 | 36 | 5 |
+| 10 | +4 | Lancement de sorts renforcé par le Warp (3 options) | 26 | 40 | 5 |
+| 11 | +4 | -- |  28 | 44 | 6 |
+| 12 | +4 | Amélioration des caractéristiques |  29 | 48 | 6 |
+| 13 | +5 | -- |  31 | 52 | 7 |
+| 14 | +5 | Amélioration de la Discipline psychique |  32 | 56 | 7 |
+| 15 | +5 | -- | 34 | 60 | 8 |
+| 16 | +5 | Amélioration des caractéristiques | 35 | 64 | 8 |
+| 17 | +6 | Lancement de sorts renforcé par le Warp (4 options) | 37 | 68 | 9 |
+| 18 | +6 | Amélioration de la Discipline psychique | 38 | 72 | 9 |
+| 19 | +6 | Amélioration des caractéristiques | 39 | 76 | 9 |
+| 20 | +6 | Maîtrise psychique | 40 | 80 | 9 |
 
 ##### Récupération d'énergie
 

@@ -50,8 +50,23 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) un sac de cambrioleur, (b) un sac d’explorateur de ruines ou (c) un sac d’explorateur
 - Une armure de mailles, deux dagues et un kit de sécurité
 
+#### Aptitudes de l'Agent
 
-*Les aptitudes de l'Agent*{.table-title .wide .newpage}
+##### Expertise
+
+Au niveau 1, choisissez deux de vos compétences, ou une de vos compétences et votre maîtrise du kit de sécurité. Votre bonus de maîtrise est doublé pour tout test de capacité que vous effectuez et qui fait appel à l’une des compétences choisies.
+
+Au niveau 6, vous pouvez choisir deux autres de vos compétences (ou votre maîtrise du kit de sécurité) pour bénéficier de cet avantage.
+
+##### Attaque sournoise
+
+À partir du niveau 1, vous savez frapper avec subtilité et tirer parti de la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 1d6 points de dégâts supplémentaires à une créature que vous touchez avec une attaque si vous bénéficiez d’un avantage au jet d’attaque. L’attaque doit être effectuée avec une arme de finesse ou une arme à distance.
+
+Vous n’avez pas besoin d’avantage au jet d’attaque si un autre ennemi de la cible se trouve à moins de 1,5 mètres de celle-ci, que cet ennemi n’est pas hors de combat et que vous n’avez pas de désavantage au jet d’attaque.
+
+Le montant des dégâts supplémentaires augmente à mesure que vous gagnez des niveaux dans cette classe, comme indiqué dans la colonne « Attaque sournoise » du tableau de l'Agent.
+
+*Les aptitudes de l'Agent*{.table-title .wide}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Attaque sournoise |
 | :-: | :---: | ---------------- | :----: |
@@ -76,21 +91,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 19 | +6 | Amélioration des caractéristiques | 10d6 |
 | 20 | +6 | Coup de chance | 10d6 |
 
-#### Aptitudes de l'Agent
 
-##### Expertise
-
-Au niveau 1, choisissez deux de vos compétences, ou une de vos compétences et votre maîtrise du kit de sécurité. Votre bonus de maîtrise est doublé pour tout test de capacité que vous effectuez et qui fait appel à l’une des compétences choisies.
-
-Au niveau 6, vous pouvez choisir deux autres de vos compétences (ou votre maîtrise du kit de sécurité) pour bénéficier de cet avantage.
-
-##### Attaque sournoise
-
-À partir du niveau 1, vous savez frapper avec subtilité et tirer parti de la distraction d’un adversaire. Une fois par tour, vous pouvez infliger 1d6 points de dégâts supplémentaires à une créature que vous touchez avec une attaque si vous bénéficiez d’un avantage au jet d’attaque. L’attaque doit être effectuée avec une arme de finesse ou une arme à distance.
-
-Vous n’avez pas besoin d’avantage au jet d’attaque si un autre ennemi de la cible se trouve à moins de 1,5 mètres de celle-ci, que cet ennemi n’est pas hors de combat et que vous n’avez pas de désavantage au jet d’attaque.
-
-Le montant des dégâts supplémentaires augmente à mesure que vous gagnez des niveaux dans cette classe, comme indiqué dans la colonne « Attaque sournoise » du tableau de l'Agent.
 
 ##### Action astucieuse
 

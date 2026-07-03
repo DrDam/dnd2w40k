@@ -45,6 +45,34 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure en mailles ou (b) une armure de soldat
 - Une dague, un pistolet laser et deux cellules d'énergie, ainsi qu'un kit de sécurité
 
+#### Aptitudes du Mécanicien
+
+
+##### Lancement de sorts technologiques
+
+À partir du niveau 1, vous avez appris à utiliser la technologie pour lancer des pouvoirs technologiques.
+
+*Pouvoirs technologiques connus*
+
+Vous apprenez 9 pouvoirs technologiques de votre choix, puis d’autres à mesure que vous progressez en niveau, comme indiqué dans la colonne « Pouvoirs technologiques connus » du tableau du Mécanicien. Vous ne pouvez pas apprendre de pouvoir technologique d’un niveau supérieur à votre niveau de pouvoir maximal.
+
+*Points de pouvoir technologiques*
+
+Vous disposez d’un nombre de points techniques égal à votre niveau de mécanicien multiplié par 4, comme indiqué dans la colonne « Points techniques » du tableau du mécanicien. Lorsque vous lancez un pouvoir, vous dépensez un nombre de points techniques égal à 1 + le niveau du pouvoir. Vous récupérez tous les points techniques dépensés à la fin d’un long repos.
+
+*Niveau de pouvoir maximal*
+
+De nombreux pouvoirs technologiques peuvent être surpuissants, consommant davantage de points technologiques pour produire un effet plus important. Vous pouvez rendre ces capacités surpuissantes jusqu’à un niveau maximal, qui augmente à mesure que vous progressez en niveau, comme indiqué dans la colonne « Niveau maximal du pouvoir » du tableau du Mécanicien.
+
+Vous ne pouvez lancer des pouvoirs technologiques de niveau 6, 7, 8 et 9 qu’une seule fois. Vous retrouvez la capacité de le faire après un long repos.
+
+*Capacité de lancement technologique*
+
+Votre capacité de lancement de pouvoirs technologiques est le score de capacité que vous utilisez pour lancer des pouvoirs technologiques. Votre capacité de lancement de pouvoirs technologiques est l’Intelligence. Vous utilisez ce modificateur de score de capacité chaque fois qu’un pouvoir fait référence à votre capacité de lancement de pouvoirs technologiques. De plus, vous utilisez ce modificateur de score de capacité lorsque vous déterminez le DD de jet de sauvegarde pour un pouvoir technologique que vous lancez et lorsque vous effectuez un jet d’attaque avec celui-ci.
+
+- DD de sauvegarde technique = 8 + votre bonus de maîtrise + votre modificateur de lancement de sorts techniques
+- Modificateur d’attaque technique = votre bonus de maîtrise + votre modificateur de lancement de sorts techniques
+
 
 *Les aptitudes du Mécanicien*{.table-title .wide}
 
@@ -71,7 +99,6 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 19 | +6 | Amélioration des caractéristiques | 5 | 39 | 76 | 9 |
 | 20 | +6 | Analyse supérieure | 5 | 40 | 80 | 9 |
 
-#### Aptitudes du Mécanicien
 
 ##### Analyse critique
 Vous pouvez utiliser vos compétences tactiques pour aider vos alliés, tant sur le champ de bataille qu’en dehors. Pour ce faire, vous utilisez une action bonus pendant votre tour pour choisir une créature autre que vous-même, située à moins de 19 mètres de vous et capable de vous entendre. Cette créature gagne un dé d’Analyse critique, un d6.
@@ -81,37 +108,6 @@ Une fois au cours des 10 minutes suivantes, la créature peut lancer ce dé et a
 Vous pouvez utiliser cette capacité un nombre de fois égal à votre modificateur d’Intelligence (au minimum une fois). Vous récupérez les utilisations épuisées lorsque vous terminez un long repos.
 
 Votre dé d’Analyse critique change lorsque vous atteignez certains niveaux dans cette classe. Le dé devient un d8 au niveau 5, un d10 au niveau 10 et un d12 au niveau 15.
-
-##### Formation de Traqueur
-
-À partir du niveau 1, vous êtes difficile à cerner au combat. Vous pouvez vous déplacer jusqu’à la moitié de votre vitesse en réaction lorsqu’un ennemi termine son tour à moins de 1,5 mètres de vous. Ce déplacement ne provoque pas d’attaques d’opportunité.
-
-De plus, choisissez l’une des compétences dans lesquelles vous êtes compétent. Vous pouvez ajouter le double de votre bonus de compétence aux jets effectués avec cette compétence.
-
-##### Lancement de sorts technologiques
-
-À partir du niveau 1, vous avez appris à utiliser la technologie pour lancer des pouvoirs technologiques.
-
-*Pouvoirs technologiques connus*
-
-Vous apprenez 9 pouvoirs technologiques de votre choix, puis d’autres à mesure que vous progressez en niveau, comme indiqué dans la colonne « Pouvoirs technologiques connus » du tableau du Mécanicien. Vous ne pouvez pas apprendre de pouvoir technologique d’un niveau supérieur à votre niveau de pouvoir maximal.
-
-*Points de pouvoir technologiques*
-
-Vous disposez d’un nombre de points techniques égal à votre niveau de mécanicien multiplié par 4, comme indiqué dans la colonne « Points techniques » du tableau du mécanicien. Lorsque vous lancez un pouvoir, vous dépensez un nombre de points techniques égal à 1 + le niveau du pouvoir. Vous récupérez tous les points techniques dépensés à la fin d’un long repos.
-
-*Niveau de pouvoir maximal*
-
-De nombreux pouvoirs technologiques peuvent être surpuissants, consommant davantage de points technologiques pour produire un effet plus important. Vous pouvez rendre ces capacités surpuissantes jusqu’à un niveau maximal, qui augmente à mesure que vous progressez en niveau, comme indiqué dans la colonne « Niveau maximal du pouvoir » du tableau du Mécanicien.
-
-Vous ne pouvez lancer des pouvoirs technologiques de niveau 6, 7, 8 et 9 qu’une seule fois. Vous retrouvez la capacité de le faire après un long repos.
-
-*Capacité de lancement technologique*
-
-Votre capacité de lancement de pouvoirs technologiques est le score de capacité que vous utilisez pour lancer des pouvoirs technologiques. Votre capacité de lancement de pouvoirs technologiques est l’Intelligence. Vous utilisez ce modificateur de score de capacité chaque fois qu’un pouvoir fait référence à votre capacité de lancement de pouvoirs technologiques. De plus, vous utilisez ce modificateur de score de capacité lorsque vous déterminez le DD de jet de sauvegarde pour un pouvoir technologique que vous lancez et lorsque vous effectuez un jet d’attaque avec celui-ci.
-
-- DD de sauvegarde technique = 8 + votre bonus de maîtrise + votre modificateur de lancement de sorts techniques
-- Modificateur d’attaque technique = votre bonus de maîtrise + votre modificateur de lancement de sorts techniques
 
 ##### Modifications cybernétiques
 

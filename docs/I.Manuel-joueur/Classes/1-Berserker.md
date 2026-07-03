@@ -52,7 +52,27 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - Un sac d’explorateur et cinq javelots
 
 
-*Les aptitudes du Berserker*{.table-title .wide .newpage}
+##### Défense sans armure
+
+Lorsque vous ne portez aucune armure, votre classe d’armure est égale à 10 + votre modificateur de Dextérité + votre modificateur de Constitution. Vous pouvez utiliser un bouclier tout en bénéficiant de cet avantage.
+
+##### Rage
+
+Au combat, vous vous battez avec une fureur primitive. À votre tour, vous pouvez entrer en rage en tant qu’action bonus.
+
+Lorsque vous êtes en rage, vous bénéficiez des avantages suivants :
+
+- Vous bénéficiez d’un avantage aux tests de Force et aux jets de sauvegarde de Force.
+- Lorsque vous effectuez une attaque au corps à corps en utilisant votre Force, vous bénéficiez d’un bonus de +2 au jet de dégâts. Ce bonus augmente à mesure que vous gagnez des niveaux.
+- Vous bénéficiez d’une résistance aux dégâts d’énergie et cinétiques.
+
+Si vous êtes capable de lancer des pouvoirs, vous ne pouvez ni les lancer ni vous concentrer dessus tant que vous êtes en rage.
+
+Votre rage dure 1 minute. Elle prend fin prématurément si vous êtes assommé ou si votre tour se termine sans que vous ayez attaqué une créature hostile depuis votre dernier tour ou subi des dégâts depuis lors. Vous pouvez également mettre fin à votre rage lors de votre tour en tant qu’action bonus.
+
+Une fois que vous avez atteint le nombre maximal de fois où vous pouvez entrer en rage correspondant à votre niveau de berserker, vous devez effectuer un long repos avant de pouvoir entrer à nouveau en rage. Vous pouvez utiliser la rage 2 fois au niveau 1, 3 fois au niveau 3, 4 fois au niveau 6, 5 fois au niveau 12 et 6 fois au niveau 17.
+
+*Les aptitudes du Berserker*{.table-title .wide}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Rage | Dégâts en Rage |
 | :-: | :---: | ---------------- | :----: | :----: |
@@ -78,26 +98,6 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 20 | +6 | Champion de la guerre | illimité | +4 |
 
 #### Aptitudes du Berserker
-
-##### Défense sans armure
-
-Lorsque vous ne portez aucune armure, votre classe d’armure est égale à 10 + votre modificateur de Dextérité + votre modificateur de Constitution. Vous pouvez utiliser un bouclier tout en bénéficiant de cet avantage.
-
-##### Rage
-
-Au combat, vous vous battez avec une fureur primitive. À votre tour, vous pouvez entrer en rage en tant qu’action bonus.
-
-Lorsque vous êtes en rage, vous bénéficiez des avantages suivants :
-
-- Vous bénéficiez d’un avantage aux tests de Force et aux jets de sauvegarde de Force.
-- Lorsque vous effectuez une attaque au corps à corps en utilisant votre Force, vous bénéficiez d’un bonus de +2 au jet de dégâts. Ce bonus augmente à mesure que vous gagnez des niveaux.
-- Vous bénéficiez d’une résistance aux dégâts d’énergie et cinétiques.
-
-Si vous êtes capable de lancer des pouvoirs, vous ne pouvez ni les lancer ni vous concentrer dessus tant que vous êtes en rage.
-
-Votre rage dure 1 minute. Elle prend fin prématurément si vous êtes assommé ou si votre tour se termine sans que vous ayez attaqué une créature hostile depuis votre dernier tour ou subi des dégâts depuis lors. Vous pouvez également mettre fin à votre rage lors de votre tour en tant qu’action bonus.
-
-Une fois que vous avez atteint le nombre maximal de fois où vous pouvez entrer en rage correspondant à votre niveau de berserker, vous devez effectuer un long repos avant de pouvoir entrer à nouveau en rage. Vous pouvez utiliser la rage 2 fois au niveau 1, 3 fois au niveau 3, 4 fois au niveau 6, 5 fois au niveau 12 et 6 fois au niveau 17.
 
 ##### Sens du danger
 

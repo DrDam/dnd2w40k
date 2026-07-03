@@ -50,7 +50,23 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure en mailles ou (b) une armure de soldat
 - Une trousse de mécanicien
 
-*Les aptitudes de l'Augmentiste*{.table-title .wide .newpage}
+#### Aptitudes de l'Augmentiste
+
+##### Arme intégrée
+
+Au niveau 1, vous pouvez intégrer jusqu’à deux armes à votre corps. L’intégration d’une arme prend 1 heure et peut être effectuée pendant un repos court. L’arme doit se trouver à votre portée, et vous l’intégrez à votre corps au bout d’une heure. Vous ne pouvez pas intégrer à votre corps des armes dotées de la propriété « à deux mains ».
+
+Tant que l’arme est intégrée, vous bénéficiez des avantages suivants :
+
+- Vous pouvez dégainer une ou plusieurs de vos armes intégrées dans le cadre de l’action d’attaque à votre tour, et vous n’avez pas besoin d’une main libre pour manier une arme intégrée.
+- Lorsque vous rangez l’arme, elle est indétectable par des moyens normaux.
+- Tant que vous êtes conscient, vos armes intégrées ne peuvent pas être retirées de votre corps contre votre volonté.
+
+Vous pouvez retirer une arme intégrée en l’espace d’une minute.
+
+A partir du niveau 9, vous pouvez intégrer jusqu’à 3 armes à votre corps. A partir niveau 13, vous pouvez intégrer jusqu’à 4 armes à votre corps à la fois.
+
+*Les aptitudes de l'Augmentiste*{.table-title .wide}
 
 | Niveau | Bonus de Maitrise | Aptitudes | Augmentations de combat | Points de sur surcadençage  | Déplacement amélioré |
 | :-: | :---: | ---------------- | :----: | :----: | :---: |
@@ -75,21 +91,6 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 | 19 | +6 | Amélioration des caractéristiques | d12 | 19 | + 9m|
 | 20 | +6 | Améliorations parfaites | d12 | 20 | + 9m|
 
-#### Aptitudes de l'Augmentiste
-
-##### Arme intégrée
-
-Au niveau 1, vous pouvez intégrer jusqu’à deux armes à votre corps. L’intégration d’une arme prend 1 heure et peut être effectuée pendant un repos court. L’arme doit se trouver à votre portée, et vous l’intégrez à votre corps au bout d’une heure. Vous ne pouvez pas intégrer à votre corps des armes dotées de la propriété « à deux mains ».
-
-Tant que l’arme est intégrée, vous bénéficiez des avantages suivants :
-
-- Vous pouvez dégainer une ou plusieurs de vos armes intégrées dans le cadre de l’action d’attaque à votre tour, et vous n’avez pas besoin d’une main libre pour manier une arme intégrée.
-- Lorsque vous rangez l’arme, elle est indétectable par des moyens normaux.
-- Tant que vous êtes conscient, vos armes intégrées ne peuvent pas être retirées de votre corps contre votre volonté.
-
-Vous pouvez retirer une arme intégrée en l’espace d’une minute.
-
-A partir du niveau 9, vous pouvez intégrer jusqu’à 3 armes à votre corps. A partir niveau 13, vous pouvez intégrer jusqu’à 4 armes à votre corps à la fois.
 
 ##### Améliorations de combat
 

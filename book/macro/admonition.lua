@@ -33,12 +33,23 @@ function Div(el)
         title = titles_fr[adm_type] or adm_type
       end
 
+      -- `enhanced,breakable` (même combinaison que \monsterblock, voir
+      -- preamble.tex) : autorise tcolorbox à couper la boîte sur la
+      -- colonne/page suivante si son contenu est trop long pour tenir
+      -- d'une seule pièce -- comportement standard de tcolorbox une
+      -- fois `breakable` activé (bordure/fond redessinés proprement de
+      -- part et d'autre de la coupure, titre non répété par défaut).
+      -- Remplace l'ancien \begin{samepage}...\end{samepage}, qui
+      -- interdisait justement toute coupure (samepage = "refuse un
+      -- saut de page à l'intérieur de ce bloc"), forçant l'admonition
+      -- à déborder silencieusement si elle dépassait la hauteur
+      -- restante de la colonne.
       local before = pandoc.RawBlock("latex",
         string.format(
-          "\\begin{samepage}\\begin{tcolorbox}[colback=%s!5!white,colframe=%s!75!black,title={%s},before upper={\\setlength{\\parskip}{6pt}}]",
+          "\\begin{tcolorbox}[enhanced,breakable,colback=%s!5!white,colframe=%s!75!black,title={%s},before upper={\\setlength{\\parskip}{6pt}}]",
           color, color, escape_latex(title)
         ))
-      local after = pandoc.RawBlock("latex", "\\end{tcolorbox}\\end{samepage}")
+      local after = pandoc.RawBlock("latex", "\\end{tcolorbox}")
 
       table.insert(el.content, 1, before)
       table.insert(el.content, after)

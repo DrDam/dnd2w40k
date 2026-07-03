@@ -63,15 +63,52 @@
 --      PAS reporter son contenu sur la page suivante s'il ne rentre pas
 --      dans l'espace RESTANT de la page courante (pas la page entière).
 --      Un tableau .wide un peu haut, arrivant au milieu d'une page déjà
---      bien remplie, déclenche alors "LaTeX Warning: Optional argument
---      of \twocolumn too tall" et "Text page N contains only floats".
---      Si ça arrive, ajouter .newpage à la légende :
+--      bien remplie, déclencherait alors "LaTeX Warning: Optional
+--      argument of \twocolumn too tall" et "Text page N contains only
+--      floats".
+--
+--      Solution retenue : un test CONDITIONNEL via le package
+--      `needspace` (\needspace{N\baselineskip}, voir need_space_latex
+--      plus bas) est inséré juste avant CHAQUE tableau .wide. Il ne
+--      déclenche un saut QUE si la place manque réellement -- jamais de
+--      saut de colonne/page perdu pour un petit tableau qui tenait déjà
+--      largement (ex: un tableau de 3 lignes). S'il faut sauter,
+--      \needspace utilise en interne le même \newpage que LaTeX
+--      utiliserait spontanément en mode `twocolumn` : avance seulement
+--      jusqu'à la colonne suivante si on est en colonne de gauche (sans
+--      perdre le contenu de celle-ci), et seulement jusqu'à une page
+--      neuve si on est déjà en colonne de droite -- jamais le
+--      \clearpage complet (deux colonnes perdues) qu'utilisait une
+--      version antérieure de ce filtre.
+--
+--      N (le nombre de lignes demandées à \needspace) est estimé
+--      dynamiquement à partir du tableau réel : nombre de lignes de
+--      données, plus les retours à la ligne attendus pour les cellules
+--      trop longues pour leur colonne (voir count_table_rows/
+--      estimate_row_lines), plus une marge de sécurité fixe
+--      (NEEDSPACE_EXTRA_LINES) pour la légende et les espacements.
+--
+--      Remarque historique : une itération précédente de ce filtre a
+--      conclu à tort que `needspace` ne fonctionnait pas du tout en
+--      mode `twocolumn`, sur la base d'un test isolé utilisant un
+--      \rule brut pour simuler une page presque pleine -- un \rule
+--      n'alimente pas le compteur de page (\pagegoal/\pagetotal) de la
+--      même façon que du texte réel composé en paragraphes, ce qui
+--      faussait entièrement ce test. Un nouveau test avec du texte réel
+--      (paquets `lipsum`) a confirmé que `needspace` fonctionne
+--      correctement -- l'échec initial sur ce document venait en fait
+--      d'une estimation de lignes trop basse (sous-estimation des
+--      retours à la ligne dans les cellules), pas du mécanisme lui-même.
+--
+--      .newpage (flag explicite sur la légende) reste disponible en
+--      complément, pour forcer un VRAI saut de PAGE (\clearpage) plutôt
+--      que le comportement par défaut -- utile pour un choix éditorial
+--      délibéré (tableau volontairement en tête de page) :
 --        *Titre*{.table-title .wide .newpage}
---      force un \clearpage juste avant le tableau, qui démarre alors en
---      haut d'une page vierge avec le \textheight complet disponible.
---      Ne règle pas le cas extrême d'un tableau plus haut qu'une page
---      entière (aucune solution avec `strip` dans ce cas : il faudrait
---      alléger le tableau, ou revenir à un vrai float `table*`).
+--      Ne règle pas non plus le cas extrême d'un tableau plus haut
+--      qu'une page entière (aucune solution avec `strip` dans ce cas :
+--      il faudrait alléger le tableau, ou revenir à un vrai float
+--      `table*`).
 
 --
 --   3. Légende + Div MkDocs Material `grid` contenant DEUX tableaux ->
@@ -440,6 +477,101 @@ end
 -- avec pagination automatique (en-tête de colonnes répété) s'il déborde
 -- sur la page/colonne suivante.
 --
+-- Force un saut de COLONNE (pas de page) juste avant le tableau, via
+-- \newpage -- PAS \clearpage. Différence cruciale en mode `twocolumn` :
+-- \newpage ne fait avancer le flux QUE jusqu'au sommet de la colonne
+-- SUIVANTE (celle de droite si on est dans celle de gauche -- sans
+-- toucher à la colonne de gauche, qui garde son contenu normal) ; il ne
+-- déclenche un vrai saut de PAGE que si on se trouve déjà dans la
+-- colonne de droite. \clearpage, à l'inverse, vide systématiquement
+-- TOUTE la page (les deux colonnes), même quand seule la colonne
+-- courante posait problème -- c'est ce qui laissait une page à moitié
+-- vide dans les tests précédents.
+--
+-- Pourquoi inconditionnel (plus de test \needspace) : `needspace` s'est
+-- avéré ne pas fonctionner de façon fiable en mode `twocolumn` natif
+-- (\pagegoal/\pagetotal ne sont pas mis à jour de façon fiable avant
+-- que le moteur de sortie de page ne se déclenche réellement -- vérifié
+-- en isolation, hors de ce document). Un `\newpage` systématique avant
+-- CHAQUE tableau .wide reste largement acceptable en coût : dans le pire
+-- cas (déjà en colonne de droite), il coûte l'équivalent d'un
+-- \clearpage classique ; dans le cas courant (colonne de gauche), il ne
+-- coûte RIEN de plus qu'un saut de colonne normal, sans aucun texte
+-- perdu. Le tableau démarre alors systématiquement en haut d'une
+-- colonne, avec au minimum \textheight de hauteur disponible -- largement
+-- suffisant pour n'importe quel tableau .wide raisonnable, ce qui
+-- élimine le warning "too tall"/"only floats" sans mesure ni estimation.
+--
+-- \mbox{} avant \newpage : même précaution que newpage.lua/part_cover.lua
+-- face au piège \clearpage/strip de cuted (voir newpage.lua) -- par
+-- prudence, appliquée aussi à \newpage au cas où ce tableau .wide
+-- suivrait immédiatement un autre tableau/image .wide.
+-- Nombre estimé de caractères tenant sur UNE ligne pleine largeur
+-- (\textwidth entier, fraction = 1.0) en \tablefontsize (\small).
+-- Valeur volontairement PRUDENTE (basse) : elle sous-estime le nombre
+-- de caractères par ligne, donc SURESTIME le nombre de lignes -- un
+-- \needspace un peu trop généreux (page/colonne tournée un peu tôt)
+-- est un défaut bien plus tolérable qu'un \needspace insuffisant
+-- (retour du warning "too tall"/"only floats").
+local TEXTWIDTH_CHARS_AT_SMALL = 100
+
+-- Estime le nombre de lignes qu'occupera une Row une fois composée,
+-- en tenant compte du retour à la ligne DANS CHAQUE CELLULE selon la
+-- largeur réelle de sa colonne.
+local function estimate_row_lines(row, col_fractions)
+  local max_lines = 1
+  for i, cell in ipairs(row.cells) do
+    local char_count = #blocks_to_plain_text(cell.contents)
+    local col_fraction = col_fractions[i] or (1.0 / #row.cells)
+    local col_chars = math.max(1, math.floor(col_fraction * TEXTWIDTH_CHARS_AT_SMALL))
+    local lines = math.ceil(char_count / col_chars)
+    if lines < 1 then lines = 1 end
+    if lines > max_lines then max_lines = lines end
+  end
+  return max_lines
+end
+
+-- Compte le nombre total de lignes composées (en-tête + corps, retours
+-- à la ligne inclus) d'un Table Pandoc.
+local function count_table_rows(tbl)
+  local col_fractions = compute_column_widths(tbl, 1.0)
+  local total = 0
+  for _, row in ipairs(tbl.head.rows) do
+    total = total + estimate_row_lines(row, col_fractions)
+  end
+  for _, body in ipairs(tbl.bodies) do
+    for _, row in ipairs(body.body) do
+      total = total + estimate_row_lines(row, col_fractions)
+    end
+  end
+  return total
+end
+
+-- Marge de sécurité (en \baselineskip), en plus des lignes de données,
+-- pour couvrir la légende, l'espacement \vspace{0.3em}, l'en-tête du
+-- tableau et l'espacement avant/après \strip.
+local NEEDSPACE_EXTRA_LINES = 6
+
+-- \needspace{N\baselineskip} ne fait RIEN si la page/colonne a assez de
+-- place restante (le tableau continue dans le flux normal, sans saut
+-- ni espace perdu) ; sinon, il déclenche LUI-MÊME un saut -- vers la
+-- colonne suivante s'il en existe une sur la page courante (voir
+-- comportement de \newpage en mode twocolumn, décrit plus haut), sinon
+-- vers une page neuve. C'est un test CONDITIONNEL : contrairement à un
+-- \newpage systématique, il ne coûte RIEN quand le tableau tient déjà
+-- (cas des petits tableaux, ex. 3 lignes -- qui ne doivent jamais être
+-- poussés inutilement).
+--
+-- Évalué à l'intérieur d'un groupe {\tablefontsize ...} : \needspace
+-- lit \baselineskip au moment de son appel, donc ce groupe garantit que
+-- l'estimation utilise l'interligne réel du corps du tableau (\small).
+--
+-- Nécessite \usepackage{needspace} (voir book/preamble.tex).
+local function need_space_latex(tbl)
+  local lines = count_table_rows(tbl) + NEEDSPACE_EXTRA_LINES
+  return string.format("{\\tablefontsize\\needspace{%d\\baselineskip}}\n", lines)
+end
+
 -- Un tableau standalone n'a normalement aucun moyen d'être marqué .wide
 -- dans ce document (le flag .wide n'est lu que sur le paragraphe de
 -- légende, voir has_wide_flag) -- mais on vérifie tout de même
@@ -452,7 +584,8 @@ local function standalone_table_to_latex(tbl)
 
   if wide then
     local tabular = table_to_tabular_lines(tbl, 0.87, "textwidth")
-    local latex = "\\begin{strip}\n\\centering\n\\tablefontsize\n" .. tabular .. "\n\\end{strip}"
+    local body = "\\centering\n\\tablefontsize\n" .. tabular
+    local latex = need_space_latex(tbl) .. "\\begin{strip}\n" .. body .. "\n\\end{strip}"
     return pandoc.RawBlock("latex", latex)
   end
 
@@ -482,18 +615,27 @@ end
 -- Légende et tableau sont regroupés dans un seul \begin{strip}...\end{strip}
 -- avec \nopagebreak entre les deux, pour qu'ils ne puissent jamais être
 -- séparés par une coupure de page.
+-- `newpage` (flag .newpage explicite sur la légende) reste un
+-- déclenchement MANUEL et INCONDITIONNEL de \clearpage, prioritaire sur
+-- le test \needspace : utile pour un tableau volontairement placé en
+-- tête de page (mise en page éditoriale), ou si un tableau est si haut
+-- qu'il ne tiendrait de toute façon jamais dans une page (\needspace ne
+-- peut rien y faire, voir need_space_latex). En dehors de ce cas
+-- explicite, \needspace teste automatiquement l'espace restant et ne
+-- saute une page QUE si le tableau n'y tient réellement pas -- c'est
+-- ce test qui remplace l'ancien besoin d'ajuster .newpage à la main au
+-- cas par cas.
 local function captioned_table_wide(caption_latex, tbl, newpage)
   local tabular = table_to_tabular_lines(tbl, 0.87, "textwidth")
-  local clearpage = newpage and "\\mbox{}\\clearpage\n" or ""
-  local latex = string.format([[
-%s\begin{strip}
+  local body = string.format([[
 \centering
 {\tablecaptionfontsize %s}\par
 \vspace{0.3em}
 \nopagebreak
 \tablefontsize
-%s
-\end{strip}]], clearpage, caption_latex, tabular)
+%s]], caption_latex, tabular)
+  local space_check = newpage and "\\mbox{}\\clearpage\n" or need_space_latex(tbl)
+  local latex = space_check .. "\\begin{strip}\n" .. body .. "\n\\end{strip}"
   return pandoc.RawBlock("latex", latex)
 end
 

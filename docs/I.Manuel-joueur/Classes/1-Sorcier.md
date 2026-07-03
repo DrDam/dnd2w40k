@@ -1,4 +1,4 @@
-![Un Sorcier éxalté des Thousand-Sons](../../assets/classes/Exalted_Sorcerer.png){.newpage}
+![Un Sorcier éxalté des Thousand-Sons](../../assets/classes/Exalted_Sorcerer.png){.newpage height=8cm}
 
 ### Sorcier
 
@@ -45,38 +45,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - une armure en mailles, n'importe quelle arme simple et deux dagues
 
 
-*Les aptitudes du Sorcier*{.table-title .wide}
-
-| Niveau | Bonus de Maîtrise | Aptitudes | Invocations occultes | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
-| :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
-| 1 | +2 | Lanceur de sort psychique, Pacte avec le Warp | -- | 9 | 4 | 1 |
-| 2 | +2 | Invocations occultes | 2 | 11 | 8 | 1 |
-| 3 | +2 | Familier | 2 | 13 | 12 | 2 |
-| 4 | +2 | Amélioration des caractéristiques | 2 | 15 | 16 | 2 |
-| 5 | +3 | -- | 3 | 17 | 20 | 3 |
-| 6 | +3 | Amélioration du pacte | 3 | 19 | 24 | 3 |
-| 7 | +3 | -- | 4 | 21 | 28 | 4 |
-| 8 | +3 | Amélioration des caractéristiques | 4 | 23 | 32 | 4 |
-| 9 | +4 | -- | 5 | 25 | 36 | 5 |
-| 10 | +4 | Amélioration du pacte | 5 | 26 | 40 | 5 |
-| 11 | +4 | -- | 5 | 28 | 44 | 6 |
-| 12 | +4 | Amélioration des caractéristiques | 6 | 29 | 48 | 6 |
-| 13 | +5 | -- | 6 | 31 | 52 | 7 |
-| 14 | +5 | Amélioration du pacte | 6 | 32 | 56 | 7 |
-| 15 | +5 | -- | 7 | 34 | 60 | 8 |
-| 16 | +5 | Amélioration des caractéristiques | 7 | 35 | 64 | 7 |
-| 17 | +6 | -- | 7 | 37 | 68 | 7 |
-| 18 | +6 | Invocation du Warp | 8 | 38 | 72 | 8 |
-| 19 | +6 | Amélioration des caractéristiques | 8 | 39 | 76 | 8 |
-| 20 | +6 | Maître du Warp | 8 | 40 | 80 | 8 |
-
 #### Aptitudes du Sorcier
-
-##### Pacte avec le Warp
-
-Au niveau 1, vous avez conclu un pacte avec une entité du Warp de votre choix, telle que le Changeur des Voies ou le Grand Immonde. Bien que ces protecteurs soient le plus souvent des démons, votre patron peut également être un puissant Primarque-Démon, un démon mineur d’une influence considérable, un saint vivant, ou même un autre sorcier aux pouvoirs incommensurables.
-
-Le choix de votre patron vous confère des aptitudes au niveau 1, puis de nouveau aux niveaux 6, 10 et 14.
 
 ##### Lancement de sorts Psychique
 
@@ -103,6 +72,38 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 - DC de sauvegarde psychique = 8 + votre bonus de compétence + votre modificateur de lanceur de sort Psychique
 - Modificateur d’attaque psychique = votre bonus de compétence + votre modificateur de lanceur de sort Psychique
 
+
+
+*Les aptitudes du Sorcier*{.table-title .wide}
+
+| Niveau | Bonus de Maîtrise | Aptitudes | Invocations occultes | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
+| :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
+| 1 | +2 | Lanceur de sort psychique, Pacte avec le Warp | -- | 9 | 4 | 1 |
+| 2 | +2 | Invocations occultes | 2 | 11 | 8 | 1 |
+| 3 | +2 | Familier | 2 | 13 | 12 | 2 |
+| 4 | +2 | Amélioration des caractéristiques | 2 | 15 | 16 | 2 |
+| 5 | +3 | -- | 3 | 17 | 20 | 3 |
+| 6 | +3 | Amélioration du pacte | 3 | 19 | 24 | 3 |
+| 7 | +3 | -- | 4 | 21 | 28 | 4 |
+| 8 | +3 | Amélioration des caractéristiques | 4 | 23 | 32 | 4 |
+| 9 | +4 | -- | 5 | 25 | 36 | 5 |
+| 10 | +4 | Amélioration du pacte | 5 | 26 | 40 | 5 |
+| 11 | +4 | -- | 5 | 28 | 44 | 6 |
+| 12 | +4 | Amélioration des caractéristiques | 6 | 29 | 48 | 6 |
+| 13 | +5 | -- | 6 | 31 | 52 | 7 |
+| 14 | +5 | Amélioration du pacte | 6 | 32 | 56 | 7 |
+| 15 | +5 | -- | 7 | 34 | 60 | 8 |
+| 16 | +5 | Amélioration des caractéristiques | 7 | 35 | 64 | 7 |
+| 17 | +6 | -- | 7 | 37 | 68 | 7 |
+| 18 | +6 | Invocation du Warp | 8 | 38 | 72 | 8 |
+| 19 | +6 | Amélioration des caractéristiques | 8 | 39 | 76 | 8 |
+| 20 | +6 | Maître du Warp | 8 | 40 | 80 | 8 |
+
+##### Pacte avec le Warp
+
+Au niveau 1, vous avez conclu un pacte avec une entité du Warp de votre choix, telle que le Changeur des Voies ou le Grand Immonde. Bien que ces protecteurs soient le plus souvent des démons, votre patron peut également être un puissant Primarque-Démon, un démon mineur d’une influence considérable, un saint vivant, ou même un autre sorcier aux pouvoirs incommensurables.
+
+Le choix de votre patron vous confère des aptitudes au niveau 1, puis de nouveau aux niveaux 6, 10 et 14.
 
 ##### Invocations occultes
 
