@@ -1,6 +1,6 @@
 ![Une soldat de la Death Korps de Krieg](../../assets/classes/Krieg_Soldat.png){.newpage height=8cm}
 
-### Soldat
+### Soldat {#soldat}
 
 Alors que les détonations de l’artillerie martelant les tranchées se font de plus en plus pressantes, les gardes-marines poursuivent leur avancée, baïonnettes au poing, contraints à jamais d’affronter l’ennemi. Les guerriers de feu Tau déchaînent un barrage d’énergie bleue depuis leurs armes tandis qu’ils se jettent dans la mêlée contre ces étranges créatures à la peau rouge qui semblent surgir de nulle part. Les Space Marines marchent à l’unisson vers la force écrasante de milliers de Tyranides qui chargent dans leur direction.
 

@@ -1,4 +1,4 @@
-## Les Space Marines
+## Les Space Marines {#space-marines}
 
 ![Un groupe de SpaceMarines du chapitre des Ultramarines](../../assets/humanity/New40kDarkImpPrimaris.png){.wide  height=4cm}
 

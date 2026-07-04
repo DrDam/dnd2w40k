@@ -1,6 +1,6 @@
 ![Ela Ashbel, Grande Prophétesse des Asuryani](../../assets/classes/Farseer_Ela_Ashbel.png){.newpage height=8cm}
 
-### Psyker
+### Psyker {#psyker}
 
 Le psyker impérial se tient aux côtés du commissaire, attendant le signal. Alors qu’il tend les mains vers l’avant, des décharges électriques crépitent sur tout son corps, culminant au bout de ses doigts, et déciment les ennemis devant lui grâce à la puissance du Warp. Un Eldar pose ses mains sur ses alliés tombés au combat, refermant leurs blessures et les remettant en état de combattre. Un prêtre électro invoque la puissance des machines, provoquant une décharge électrique qui jaillit et encercle ses ennemis tandis qu’ils hurlent de douleur.
 

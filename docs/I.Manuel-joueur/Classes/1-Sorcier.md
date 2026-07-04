@@ -1,6 +1,6 @@
 ![Un Sorcier éxalté des Thousand-Sons](../../assets/classes/Exalted_Sorcerer.png){.newpage height=8cm}
 
-### Sorcier
+### Sorcier {#sorcier}
 
 L’humain corrompu lève les mains vers le ciel, invoquant une boule de feu colossale. Contemplant les gardes chétifs étendus devant lui, leurs fusils laser tremblants, il projette la boule de feu dans leur direction, ne laissant derrière lui que cendres et poussière.
 

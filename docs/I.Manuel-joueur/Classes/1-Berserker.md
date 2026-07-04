@@ -1,6 +1,6 @@
 ![Le chef Ork Ghazghkull Mag Uruk Thraka](../../assets/classes/Warlord_Ghazkull_Thraka.png){.newpage height=8cm}
 
-### Berserker
+### Berserker {#berserker}
 
 Un grand membre d’une tribu humaine avance à grands pas à travers les tempêtes de neige, enveloppé de fourrures et brandissant sa hache. Il rit en chargeant vers le groupe d’Orques qui ont osé attaquer les villages de son monde sauvage.
 

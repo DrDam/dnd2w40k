@@ -1,4 +1,4 @@
-## Espèces : L'humanité
+## Espèces : L'humanité {#humanite}
 
 ![Exemple de forces de la garde impériale (Catachans, Caridens, Soldats de Krieg)](../../assets/humanity/imperial_guard.jpg){.wide}
 

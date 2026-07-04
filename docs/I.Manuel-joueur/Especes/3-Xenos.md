@@ -1,4 +1,4 @@
-## Espèces : Les Xenos
+## Espèces : Les Xenos {#xenos}
 
 ![Collection de Xenos](../../assets/xenos/banner.jpg){.wide}
 

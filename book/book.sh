@@ -49,6 +49,7 @@ preprocess_one() {
   mkdir -p "$(dirname "$dest_file")"
   python3 book/macro/admonition_to_div.py "$src_file" \
     | python3 book/macro/resolve_image_paths.py "$src_file" \
+    | python3 book/macro/resolve_internal_links.py \
     > "$dest_file"
   PREPROCESSED_FILES+=("$dest_file")
 }

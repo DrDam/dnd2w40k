@@ -1,6 +1,6 @@
 ![Un Exorciste de l'Ordo Hereticus](../../assets/classes/Exorcist.jpg){.newpage}
 
-### Exorciste
+### Exorciste {#exorciste}
 
 Vêtu d’une armure lourde, un Space Marine projette une vague de flammes du Warp, réduisant ses ennemis en cendres. Un Eldar affronte des démons, avant de les renvoyer hurlants dans le Warp. L’Inquisiteur appuie son fer rouge contre le dos de l’hôte démoniaque, scandant des litanies de fureur et invoquant l’Empereur, pour faire sortir le démon, dont le corps difforme est arraché de force de celui de son hôte.
 

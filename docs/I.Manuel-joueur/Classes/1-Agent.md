@@ -1,6 +1,6 @@
 ![Un agent Ratling](../../assets/classes/Ratling_Fixer.png){.newpage height=8cm}
 
-### Agent
+### Agent {#agent}
 
 Un espion ratling prend un instant pour ajuster ses lunettes de vision nocturne. Balayant du regard les contours de la pièce, il enjambe avec agilité les capteurs désormais visibles qui tapissent le sol, pour atteindre la console principale. En un clin d’œil, il sort une panoplie d’outils et se met à forcer et à arracher les cogitateurs et les rouages jusqu’à ce que la machine émette un dernier grincement et cesse de fonctionner. Après avoir rangé ses outils dans ses poches, il surveille sa tablette de données tandis que ses alliés enfoncent les portes du complexe, tirant à tout va.
 

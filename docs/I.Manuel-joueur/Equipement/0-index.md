@@ -1,4 +1,4 @@
-## Équipement
+## Équipement {#equipement}
 
 ### Équipement de départ
 

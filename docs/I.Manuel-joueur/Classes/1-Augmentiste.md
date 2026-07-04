@@ -1,6 +1,6 @@
 ![Le techno-prêtre Fatshark](../../assets/classes/fatshark-mechanicus-class.png){.newpage height=8cm}
 
-### Augmentiste
+### Augmentiste {#augmentiste}
 
 Ses poings, tels des toupies, s’abattent sur une pluie de balles qui s’abat sur lui ; un homme, fait plus de métal que de chair, bondit par-dessus la barricade de police et se jette dans les rangs serrés des arbitres. Son mouvement est un éclair qui projette les arbitres au loin, jusqu’à ce qu’il se retrouve seul debout.
 

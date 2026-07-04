@@ -1,6 +1,6 @@
 ![Une chanoinesse de l'Adepta Sororitas](../../assets/classes/Mother_Superior_Sisters_of_Battle.png){.newpage height=8cm}
 
-### Croisé
+### Croisé {#croise}
 
 Au milieu des armées en guerre, quelques voix se font entendre par-dessus les tirs d’artillerie et les explosions des projectiles. Ces voix sonnent juste, inspirant ceux qui les entourent, transformant même l’homme du peuple en guerrier assoiffé de vengeance, prêt à abattre les ennemis qui les cernent. Les croisés inspirent ceux qui les entourent à accomplir des actes courageux, à se renforcer face aux hordes d’ennemis qui approchent et à infliger un châtiment juste à ceux qui osent s’opposer à leur cause. En cas d’extrême nécessité, un croisé peut même implorer son dieu ou sa divinité de lui venir en aide, faisant descendre un ange ou un démon d’une grande puissance pour le servir, ou provoquant l’apparition d’un miracle.
 

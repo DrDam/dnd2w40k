@@ -71,6 +71,10 @@ nav:
         - les Historiques: I.Manuel-joueur/Origines/2-Historiques.md
         - les Chapitre/Légion: I.Manuel-joueur/Origines/3-OrigineSM.md
         - les Roles opérationnels: I.Manuel-joueur/Origines/4-RoleOperationnel.md
+      - 8. Équipement:
+        - Préambule: I.Manuel-joueur/Equipement/0-index.md
+        - les Armures: I.Manuel-joueur/Equipement/1-armures.md
+        - les Armes: I.Manuel-joueur/Equipement/2-armes.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/index.md
   - "Livre 3 : Manuel des montres":

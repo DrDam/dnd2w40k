@@ -1,6 +1,6 @@
 ![Traqueurs Nécron](../../assets/classes/Necron_Deathmarks.png){.newpage height=8cm}
 
-### Traqueur
+### Traqueur {#traqueur}
 
 Épuisé mais déterminé, un humain arpente les ruelles de la cité-ruche, à la poursuite de la proie qu’il sait être à l’origine des meurtres commis dans le bloc d’habitation. Un pistolet serré à deux mains, il s’engouffre dans la ruelle grouillant de mutants et de membres de gangs. Pivotant sur lui-même, il se transforme en un véritable ouragan de balles, terrassant ses ennemis les uns après les autres.
 

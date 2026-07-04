@@ -1,6 +1,6 @@
 ![Un techno-prêtre du Mechanicus à la tête d’un maniple de la Legio Cybernetica pendant la Grande Croisade](../../assets/classes/Mecanicus.png){.newpage height=8cm}
 
-### Mécanicien
+### Mécanicien {#mecanicien}
 
 Un Mekboy orque s’avance, son corps formant un mélange tordu de métal rouillé et de peau verte, avant de lancer une bombe instable sur une horde de gardes, réduisant leurs corps en cendres. Un tecnho-prêtre lève les yeux vers les guerriers de feu Tau qui approchent et brandit rapidement une sphère. Alors qu’il tourne ses cadrans et murmure une incantation en binaire, les guerriers de feu sont submergés par le poids de la gravité, jusqu’à ce que celle-ci les écrase et les emprisonne dans leur armure comme dans des cercueils.
 
