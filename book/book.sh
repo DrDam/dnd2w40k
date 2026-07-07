@@ -114,4 +114,4 @@ duree=$((fin - debut))
 # Clean directory
 rm -rf $BUILD_DIR
 
-echo "PDF '$OUT' généré en $duree secondes -> build/books/$OUT.pdf"
+echo "PDF '$OUT' généré en $duree secondes -> build/$OUT.pdf"
