@@ -36,33 +36,33 @@
 
 | Armes | Coût | Dégâts | Poids | Propriétés |
 | ------ | :-: | :--:| :-:| ---------- |
-| **Armes de corps à corps courantes** | | | | |
+| **Armes de corps à corps courantes** |
 | Gourdin | 1 g | 1d4 cinétique | 1 kg | Légère |
 | Dague | 20 g | 1d4 cinétique | 0,5 kg | Finesse, légère, lancer (portée 6/18 m) |
 | Grand gourdin | 2 g | 1d8 cinétique | 5 kg | À deux mains |
 | Hachette | 5 g | 1d6 cinétique | 1 kg | Légère, lancer (portée 6/18 m) |
 | Javelot | 5 g | 1d6 cinétique | 1 kg | Lancer (portée 9/36 m) |
-| Masse | 50 g | 1d6 cinétique | 2 kg | Polyvalente (1d8) |
+| Masse légère | 50 g | 1d6 cinétique | 2 kg | Polyvalente (1d8) |
 | Bâton | 2 g | 1d6 cinétique | 2 kg | Polyvalent (1d8) |
 | Frappe à mains nues | — | 1 cinétique | — | — |
-| **Armes de corps à corps de guerre** | | | | |
+| **Armes de corps à corps de guerre** |
 | Griffes | 150 g | 1d6 cinétique | 0,5 kg | Finesse, légère |
 | Glaive | 200 g | 1d10 cinétique | 3 kg | Allonge, à deux mains |
 | Hache d'armes | 300 g | 1d12 cinétique | 3,5 kg | À deux mains |
 | Espadon | 500 g | 2d6 cinétique | 3 kg | À deux mains |
 | Épée longue | 150 g | 1d8 cinétique | 1,5 kg | Polyvalente (1d10) |
-| Maillet | 500 g | 2d6 cinétique | 5 kg | À deux mains |
+| Masse d'arme | 500 g | 2d6 cinétique | 5 kg | À deux mains |
 | Rapière | 250 g | 1d8 cinétique | 1 kg | Finesse |
 | Épée courte | 100 g | 1d6 cinétique | 1 kg | Finesse, légère |
 | Marteau de guerre | 150 g | 1d8 cinétique | 1,5 kg | Polyvalent (1d10) |
 | Fouet | 20 g | 1d4 cinétique | 1 kg | Finesse, allonge |
 | Gantelet léger | 75 g | 1d6 cinétique | 1 kg | Légère |
 | Gantelet | 150 g | 1d8 cinétique | 1,5 kg | — |
-| **Armes à distance courantes** | | | | |
+| **Armes à distance courantes** |
 | Carabine | 225 g | 1d8 cinétique | 3 kg | Munitions (portée 24/100 m), rechargement 12, à deux mains |
 | Fusil à pompe scié | 175 g | 2d4 cinétique | 1 kg | Munitions (portée 5/18 m), rechargement 2 |
-| Pistolet semi-automatique | 100 g | 1d4 cinétique | 1 kg | Munitions (portée 12/50 m), légère, rechargement 8 |
-| **Armes à distance de guerre** | | | | |
+| Pistolet léger | 100 g | 1d4 cinétique | 1 kg | Munitions (portée 12/50 m), légère, rechargement 8 |
+| **Armes à distance de guerre** |
 | Canon d'assaut | 500 g | 2d6 cinétique | 6 kg | Munitions (portée 24/100 m), rechargement 8, à deux mains, Force 11 |
 | Arme de poing | 350 g | 1d8 cinétique | 1 kg | Munitions (portée 12/50 m), rechargement 6 |
 | Filet | 10 g | — | 1 kg | Spéciale, lancer (portée 1,5/5 m) |
@@ -70,10 +70,10 @@
 | Fusil de précision | 475 g | 1d12 cinétique | 4 kg | Munitions (portée 45/180 m), chargement, rechargement 4, à deux mains |
 | Fusil d'assaut | 375 g | 1d10 cinétique | 3 kg | Munitions (portée 30/120 m), rechargement 12, à deux mains |
 | Fusil de combat | 380 g | 1d12 cinétique | 3 kg | Munitions (portée 9/36 m), rechargement 4, à deux mains |
-| **Armes à énergie courantes** | | | | |
+| **Armes à énergie courantes**|
 | Carabine laser | 200 g | 1d8 énergétique | 2,5 kg | Munitions (portée 24/100 m), rechargement 12, à deux mains |
 | Carabine à impulsion | 450 g | 2d4 énergétique | 2 kg | Munitions (portée 30/120 m), chargement, rechargement 4, à deux mains |
-| **Armes à énergie de guerre** | | | | |
+| **Armes à énergie de guerre** |
 | Lance-flammes | 500 g | 1d8 feu | 1,5 kg | Munitions (ligne de 3 mètres), rechargement 4, spéciale, à deux mains |
 | Arme de poing laser | 300 g | 1d8 énergétique | 1 kg | Munitions (portée 12/50 m), rechargement 6 |
 | Pistolet laser | 200 g | 1d6 énergétique | 0,5 kg | Munitions (portée 12/50 m), légère, rechargement 6 |
@@ -94,28 +94,3 @@ Un objet ne ressemblant à aucune arme inflige 1d4 dégâts (le MJ détermine le
 Certaines créatures immunisées ou résistantes aux armes non améliorées restent vulnérables aux armes bénies. Les chasseurs de sorcières les plus prudents dépensent donc davantage de gelt afin de faire consacrer leur équipement.
 
 Vous pouvez faire bénir une arme ou dix munitions pour 1 000 gelt. Ce coût couvre non seulement les huiles saintes, onguents et autres substances sacrées nécessaires au rituel, mais également le temps et l'expertise indispensables pour accomplir les rites et cérémonies appropriés.
-
-##### Armes à bolts (armes rares)
-
-*Arme (toute arme à distance infligeant des dégâts cinétiques), rare*
-
-Les créatures qui subissent des dégâts de cette arme subissent également **1d6 dégâts de feu** supplémentaires. Ces dégâts de feu peuvent être infligés à **deux créatures supplémentaires** situées à **1,50 m** de la cible initialement touchée, les **munitions bolts** explosant à l'impact.
-
-Chaque arme bolter peut être équipée de différentes modifications. À la fin d'un **repos court** ou d'un **repos long**, vous pouvez remplacer l'une des propriétés de votre arme par une autre propriété de la même catégorie.
-
-Choisissez **une propriété offensive** et **une propriété utilitaire** parmi les options ci-dessous :
-
-Propriétés offensives :
-
-- **Rayon d'explosion.** Les dégâts supplémentaires de cette arme peuvent être répartis entre **trois créatures** situées à **3 m** de la cible initialement touchée.
-- **Hautement explosif.** Les dégâts supplémentaires affectent **toutes les créatures** situées à **1,50 m** de la cible touchée.
-- **Perforant.** Les dégâts supplémentaires passent de **1d6** à **2d6**.
-- **Modèle fiable.** Cette arme bénéficie d'un **bonus de +1** aux jets d'attaque et aux jets de dégâts.
-
-Propriétés utilitaire :
-
-- **Tireur d'élite.** Les portées normale et maximale de cette arme sont doublées.
-- **Munitions Psy.** Les dégâts supplémentaires deviennent des **dégâts psychiques** au lieu de dégâts de feu. Une créature blessée par cette arme perd également **1d4 points de Psyker**, si elle en possède.
-- **Munitions purifiées.** Les dégâts supplémentaires deviennent des **dégâts radiants** au lieu de dégâts de feu. Les **Démons** blessés par cette arme émettent une faible lumière dans un rayon de **1,50 m** et ne peuvent pas bénéficier de l'état **Invisible** pendant **1 minute**.
-- **Munitions Tempête.** Les dégâts supplémentaires deviennent des **dégâts de foudre** au lieu de dégâts de feu. Une créature blessée perd également **1d4 points de Technologie**, si elle en possède. Ces dégâts de foudre ignorent les résistances aux dégâts de cette arme dont pourraient bénéficier les **Constructs** ou les créatures **fusionnées à la technologie**
-

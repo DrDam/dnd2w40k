@@ -76,21 +76,21 @@ Un bouclier est une protection ronde ou rectangulaire destinée à s'interposer 
 
 | Armure | Coût | Classe d'Armure (CA) | Propriétés | Poids |
 | ---------------- | :---: | ---------------- | ---------------- | :---: |
-| **Armures légères** | | | | |
+| **Armures légères** |
 | Armure en mailles | 100 g | 11 + mod. Dex | — | 5 kg |
 | Armure en fibres | 450 g | 12 + mod. Dex | — | 6,5 kg |
 | Combinaison corporelle | 500 g | 12 + mod. Dex | Encombrante, Hermétique | 7,5 kg |
-| **Armures intermédiaires** | | | | |
+| **Armures intermédiaires** |
 | Cotte de mailles | 100 g | 12 + mod. Dex (max. +2) | — | 12,5 kg |
 | Armure pare-éclats | 500 g | 13 + mod. Dex (max. +2) | — | 10 kg |
 | Armure de troupe | 500 g | 14 + mod. Dex (max. +2) | Encombrante | 22,5 kg |
 | Armure carapace | 4 000 g | 14 + mod. Dex (max. +2) | — | 10 kg |
 | Armure énergétique légère | 7 500 g | 15 + mod. Dex (max. +2) | Encombrante, Hermétique | 25 kg |
-| **Armures lourdes** | | | | |
+| **Armures lourdes** |
 | Armure de plates féodale | 300 g | 14 | — | 15 kg |
 | Armure de bataille | 750 g | 16 | Encombrante, Force 13 | 17,5 kg |
 | Armure d'assaut | 2 000 g | 17 | Encombrante, Force 15 | 20 kg |
 | Armure énergétique | 15 000 g | 18 | Encombrante, Hermétique, Force 15 | 32,5 kg |
-| **Boucliers** | | | | |
+| **Boucliers** |
 | Bouclier | 100 g | +2 | — | 3 kg |
 

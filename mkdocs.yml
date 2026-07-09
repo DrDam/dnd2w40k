@@ -15,6 +15,14 @@ markdown_extensions:
   - toc:
       toc_depth: 2
 
+extra_css:
+  - stylesheets/extra.css
+
+hooks:
+  - docs/hooks/colspan_tables.py
+
+
+
 nav:
   - A propos : index.md
   - Note préliminaire : 0-disclaimer.md
@@ -76,10 +84,9 @@ nav:
         - les Armures: I.Manuel-joueur/Equipement/1-armures.md
         - les Armes: I.Manuel-joueur/Equipement/2-armes.md
   - "Livre 2 : Manuel du Maitre du jeu":
-      - avant-propos: II.Manuel-MJ/index.md
+      - avant-propos: II.Manuel-MJ/0-index.md
+      - les équipements avancés: II.Manuel-MJ/2-Equipement-avance.md
   - "Livre 3 : Manuel des montres":
       - avant-propos: III.Manuel-Monstres/index.md
   - Credits : credits.md
 
-extra_css:
-  - stylesheets/extra.css

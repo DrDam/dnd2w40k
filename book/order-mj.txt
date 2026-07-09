@@ -1,2 +1,2 @@
-docs/II.Manuel-MJ/index.md
+docs/II.Manuel-MJ/*.md
 docs/credits.md

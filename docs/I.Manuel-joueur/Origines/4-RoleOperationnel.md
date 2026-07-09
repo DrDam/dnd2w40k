@@ -2,7 +2,16 @@
 
 Bien que chaque Space Marine soit capable d’assumer pratiquement n’importe quel rôle nécessaire au combat, chacun est formé pour se spécialiser dans une mission spécifique afin de contribuer au mieux à l’effort de guerre. Au lieu de choisir un parcours, vous choisissez un rôle qui vous est attribué. De plus, vous commencez avec l’équipement prévu pour votre rôle plutôt qu’avec celui correspondant à votre classe de départ.
 
-Si un objet comporte un nom entre parenthèses, cela indique les caractéristiques d’arme associées à cet objet. Par exemple, l’équipement de l’apothicaire comprend un narthecium (épée courte), ce qui signifie que cet objet peut utiliser les caractéristiques de l’épée courte au combat.
+
+!!! note "Équipement des frères de bataille"
+
+    Le guerrier de l'Adeptus Astartes ne se définit pas uniquement par sa force, mais également par les instruments sacrés qui lui sont confiés. Chaque arme est un héritage, chaque pièce d'armure un reliquaire de gloire, chaque sceau de pureté le témoignage des serments prononcés devant l'Empereur. Ces artefacts ont traversé les âges, survécu à d'innombrables campagnes et portent encore les cicatrices des guerres dont les annales impériales ont depuis longtemps oublié le nom.
+
+
+Pour reflèter le caractère particulier de ces équipement, deux règles typographiques sont à bien comprendre :
+
+- Si un objet comporte un nom entre parenthèses, cela indique les caractéristiques d’arme associées à cet objet. Par exemple, l’équipement de l’apothicaire comprend un narthecium (épée courte), ce qui signifie que cet objet peut utiliser les caractéristiques de l’épée courte au combat.
+- Si l'objet est écris en *italique* c'est qu'il est considéré comme particulièrement rare et possède des effets spécifiques. Pour les connaître précisément il sera nécessaire de vous rendre à la section "*Équipement Avancé*" dans le supplément pour le Maître du jeu.
 
 Choisissez l’un des rôles suivants :
 
@@ -29,10 +38,10 @@ Vous êtes formé à l’extraction des glandes progenoïdes, appelées « genes
 En tant qu’apothicaire, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) un pistolet à boulons avec deux chargeurs ou (b) un pistolet à boulons avec deux chargeurs
-- (a) deux armes à chaîne ou (b) une arme à énergie
+- (a) un pistolet léger *à bolts* avec deux chargeurs ou (b) un pistolet *à bolts* avec deux chargeurs
+- (a) deux *armes tronçonneuse* ou (b) une *arme à énergie*
 - (a) un sac d’explorateur ou (b) un sac de technologue
-- Un casque de communication, un bouclier, un narthecium (griffes), deux grenades à fragmentation, deux trousses de secours supérieures, quatre doses d’injectables médicaux et un couteau de combat (épée courte)
+- Un casque de communication, un bouclier, un narthecium (griffes), deux grenades à fragmentation, deux *trousses de secours supérieures*, quatre *doses d’injectables médicaux* et un couteau de combat (épée courte)
 
 
 #### Marine d'assaut
@@ -56,10 +65,10 @@ Lors d’un déplacement narratif, vous et jusqu’à 9 compagnons dotés d’un
 En tant que Marine d’assaut, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) un pistolet à boulons avec deux chargeurs ou (b) un pistolet à boulons avec deux chargeurs
-- (a) deux armes à chaîne ou (b) une arme à énergie ou (c) une griffe foudroyante
+- (a) un pistolet léger *à bolts* avec deux chargeurs ou (b) un pistolet *à bolts* avec deux chargeurs
+- (a) deux *armes tronçonneuse* ou (b) une *arme à énergie* ou (c) une *griffe foudroyante*
 - (a) une cape en caméléoline ou (b) des lunettes de vision nocturne ou (c) un étouffeur de bruit
-- Un casque de communication, un sac d’explorateur, un propulseur de saut, deux grenades à fragmentation, un bouclier, deux grenades krak et un couteau de combat (épée courte).
+- Un casque de communication, un sac d’explorateur, un propulseur de saut, deux grenades à fragmentation, un bouclier, deux *grenades krak* et un couteau de combat (épée courte).
 
 #### Chaplain
 
@@ -81,10 +90,10 @@ Votre présence apaise vos frères d’armes. Au début de votre tour, vous supp
 En tant que chapelain, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) un pistolet à boulons avec deux chargeurs ou (b) un pistolet à boulons avec deux chargeurs
-- (a) une baguette de neutralisation ou (b) un champ de force personnel ou (c) un champ de résistance
+- (a) un pistolet léger *à bolts* avec deux chargeurs ou (b) un pistolet *à bolts* avec deux chargeurs
+- (a) une *baguette de neutralisation* ou (b) un *champ de force personnel* ou (c) un *champ de résistance*
 - (a) un sac de prêtre ou (b) un sac d’érudit
-- Un casque-communicateur, un crozius arcanum (masse énergétique, marteau de guerre ou marteau de combat), un livre de litanies, deux grenades à fragmentation et un couteau de combat (épée courte).
+- Un casque-communicateur, un crozius arcanum (masse légère *énergétique*, masse d'arme ou marteau de combat), un livre de litanies, deux grenades à fragmentation et un couteau de combat (épée courte).
 
 #### Librarian
 
@@ -109,9 +118,9 @@ Vous possédez une connaissance approfondie des monstres qui peuplent l’Immate
 En tant que Librarian, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) une arme à plasma ou (b) une arme à bolts
-- (a) un sort de protection contre la détection ou (b) un traducteur de scribe
-- Un casque de communication, un sac de savant, un tome ancien, un bouclier, deux grenades à fragmentation, un couteau de combat (épée courte) et une arme à force.
+- (a) une *arme à plasma* ou (b) une arme *à bolts*
+- (a) un *sceau de protection contre la détection* ou (b) un traducteur de scribe
+- Un casque de communication, un sac de savant, un grimoire ancien, un bouclier, deux grenades à fragmentation, un couteau de combat (épée courte) et une *arme de force*.
 
 #### Marine tactique
 
@@ -134,9 +143,9 @@ En tant que Marine tactique, vous pouvez identifier d’autres groupes d’extra
 En tant que Marine Tactique, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) une arme à plasma ou (b) une arme à bolts
-- (a) deux armes à chaîne et/ou (b) une arme à énergie ou (c) une griffe fulgurante
-- (a) deux grenades krak ou (b) deux trousses de secours améliorées ou (c) des lunettes de vision nocturne ou (d) un silencieux
+- (a) une *arme à plasma* ou (b) une arme *à bolts*
+- (a) deux *armes tronçonneuse* ou (b) une *arme à énergie* ou (c) une *griffe foudroyante*
+- (a) deux *grenades krak* ou (b) deux *trousses de secours améliorées* ou (c) des *lunettes de vision nocturne* ou (d) un *silencieux*
 - Un casque de communication, un sac d’explorateur, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).
 
 #### Marine Devastator
@@ -158,9 +167,9 @@ Lorsque vous observez un objet, une structure ou un véhicule de près (à moins
 En tant que Marine Dévastateur, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) un canon à plasma (canon d’assaut) avec deux cellules d’énergie ou (b) un canon à boulons (canon d’assaut) avec deux chargeurs
-- (a) des lunettes à détection automatique ou (b) des lunettes de vision nocturne
-- (a) une arme à chaîne ou (b) un pistolet à boulons avec deux chargeurs ou (c) un pistolet de poing à boulons avec deux chargeurs
+- (a) un canon *à plasma* (canon d’assaut) avec deux cellules d’énergie ou (b) un canon *à bolts* (canon d’assaut) avec deux chargeurs
+- (a) des *lunettes à détection automatique* ou (b) des *lunettes de vision nocturne*
+- (a) une arme *tronçonneuse* ou (b) un pistolet *à bolts* avec deux chargeurs ou (c) un pistolet léger *à bolts* avec deux chargeurs
 - Un casque de communication, un sac d’explorateur, deux grenades à fragmentation, un couteau de combat (épée courte).
 
 #### Techmarine
@@ -186,6 +195,6 @@ Vous possédez des implants cybernétiques issus du Culte de la Machine, qui vou
 En tant que Techmarine, vous commencez avec l’équipement suivant, à la place de celui fourni par votre classe :
 
 - (a) une armure énergétique légère ou (b) une armure énergétique
-- (a) un pistolet à plasma avec deux cellules d’énergie ou (b) un pistolet à plasma avec deux cellules d’énergie
-- (a) un omni-outil (déjà implanté) ou (b) un traducteur de scribe ou (c) des amplificateurs carpaux (déjà implantés)
-- Un casque de communication, une arme à boulons, un sac de technologue, une hache omnissienne, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).
+- (a) un pistolet leger *à plasma* avec deux cellules d’énergie ou (b) un pistolet *à plasma* avec deux cellules d’énergie
+- (a) un *omni-outil* (déjà implanté) ou (b) un *traducteur de scribe* ou (c) des *amplificateurs manuels* (déjà implantés)
+- Un casque de communication, une arme *à bolts*, un sac de technologue, une *hache omnissienne*, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).

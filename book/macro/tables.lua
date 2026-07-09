@@ -284,6 +284,33 @@ end
 -- en fraction de `width_unit` (\columnwidth pour les tableaux en flux
 -- normal d'une colonne de texte, \textwidth pour les tableaux .wide en
 -- pleine page, ou une largeur explicite pour les tableaux en grille).
+-- Détecte une ligne "titre de section" selon la convention déjà en
+-- place dans les .md (ex : | **Armes de corps à corps simples** | | | | |) :
+-- SEULE la première cellule contient du texte, toutes les autres sont
+-- vides. Sert à fusionner visuellement cette ligne sur toute la
+-- largeur du tableau (\multicolumn centré) au lieu de la laisser
+-- éparpillée sur la première colonne avec le reste de la ligne vide.
+--
+-- Volontairement strict (première cellule non vide ET toutes les
+-- suivantes vides) : une ligne "normale" avec juste une dernière
+-- colonne vide (ex : Propriétés manquantes sur une arme) ne doit PAS
+-- être fusionnée par erreur -- seule la convention "tout le reste de
+-- la ligne est vide" déclenche la fusion.
+local function is_section_header_row(cells)
+  if #cells < 2 then
+    return false
+  end
+  if cells[1]:gsub("%s", "") == "" then
+    return false
+  end
+  for i = 2, #cells do
+    if cells[i]:gsub("%s", "") ~= "" then
+      return false
+    end
+  end
+  return true
+end
+
 local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcolor)
   width_unit = width_unit or "columnwidth"
   local widths = compute_column_widths(tbl, total_target)
@@ -306,9 +333,16 @@ local function table_to_tabular_lines(tbl, total_target, width_unit, use_cellcol
   end
 
   local body_rows = collect_body_rows(tbl)
+  local ncols = #tbl.colspecs
   for idx, cells in ipairs(body_rows) do
     local shaded = (idx % 2 == 1)
-    if shaded and use_cellcolor then
+    if is_section_header_row(cells) then
+      local content = "\\multicolumn{" .. ncols .. "}{c}{" .. cells[1] .. "}"
+      if shaded then
+        table.insert(lines, "\\rowcolor{gray!12}")
+      end
+      table.insert(lines, content .. " \\\\[\\tablerowsep]")
+    elseif shaded and use_cellcolor then
       local colored_cells = {}
       for _, cell in ipairs(cells) do
         table.insert(colored_cells, "\\cellcolor{gray!12}" .. cell)
@@ -446,7 +480,11 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
     if shaded then
       table.insert(lines, "\\rowcolor{gray!12}")
     end
-    table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
+    if is_section_header_row(cells) then
+      table.insert(lines, "\\multicolumn{" .. ncols .. "}{c}{" .. cells[1] .. "} \\\\[\\tablerowsep]")
+    else
+      table.insert(lines, table.concat(cells, " & ") .. " \\\\[\\tablerowsep]")
+    end
   end
 
   table.insert(lines, "\\end{supertabular}")
@@ -579,13 +617,20 @@ end
 -- (`: Légende {.wide}`) serait utilisée un jour, ce qui peuple
 -- réellement l'Attr du Table lui-même. Dans ce cas, même traitement que
 -- captioned_table_wide (strip, pleine largeur), mais sans légende.
-local function standalone_table_to_latex(tbl)
+local function standalone_table_to_latex(tbl, force_clearpage)
   local wide = tbl.attr and tbl.attr.classes and tbl.attr.classes:includes("wide")
 
   if wide then
     local tabular = table_to_tabular_lines(tbl, 0.87, "textwidth")
     local body = "\\centering\n\\tablefontsize\n" .. tabular
-    local latex = need_space_latex(tbl) .. "\\begin{strip}\n" .. body .. "\n\\end{strip}"
+    -- \mbox{} après \end{strip} -- voir la note détaillée dans
+    -- captioned_table_wide plus bas : sans lui, ce tableau perd
+    -- SILENCIEUSEMENT tout son contenu s'il se trouve être le dernier
+    -- bloc substantiel avant \backmatter/\end{document}.
+    -- `force_clearpage` : voir captioned_table_wide -- même règle
+    -- d'adjacence à un strip précédent, needspace reste la norme sinon.
+    local space_check = force_clearpage and "\\mbox{}\\clearpage\n" or need_space_latex(tbl)
+    local latex = space_check .. "\\begin{strip}\n" .. body .. "\n\\end{strip}\n\\mbox{}"
     return pandoc.RawBlock("latex", latex)
   end
 
@@ -615,16 +660,45 @@ end
 -- Légende et tableau sont regroupés dans un seul \begin{strip}...\end{strip}
 -- avec \nopagebreak entre les deux, pour qu'ils ne puissent jamais être
 -- séparés par une coupure de page.
--- `newpage` (flag .newpage explicite sur la légende) reste un
--- déclenchement MANUEL et INCONDITIONNEL de \clearpage, prioritaire sur
--- le test \needspace : utile pour un tableau volontairement placé en
--- tête de page (mise en page éditoriale), ou si un tableau est si haut
--- qu'il ne tiendrait de toute façon jamais dans une page (\needspace ne
--- peut rien y faire, voir need_space_latex). En dehors de ce cas
--- explicite, \needspace teste automatiquement l'espace restant et ne
--- saute une page QUE si le tableau n'y tient réellement pas -- c'est
--- ce test qui remplace l'ancien besoin d'ajuster .newpage à la main au
--- cas par cas.
+--
+-- `newpage` : soit un flag .newpage explicite sur la légende, soit
+-- (voir la fonction Pandoc plus bas) une adjacence détectée avec un
+-- strip précédent -- déclenche un \clearpage inconditionnel. En
+-- dehors de ces cas, \needspace reste la norme : test conditionnel qui
+-- ne coûte AUCUN saut de page inutile pour un tableau isolé qui tient
+-- déjà dans la colonne courante.
+--
+-- ATTENTION -- piège cuted (needspace + strip), à ne traiter QUE dans
+-- les cas précis identifiés, pas en systématique (un \clearpage
+-- inconditionnel devant chaque tableau .wide a été essayé, mais
+-- gaspille une page à chaque petit tableau -- inacceptable) :
+--
+-- 1. Un strip placé en tout DERNIER bloc du document (rien de
+--    substantiel après avant \backmatter/\end{document}) perd tout
+--    son contenu : `cuted` reporte la mise en page de `strip` via une
+--    routine de sortie modifiée, qui n'est réellement "vidée" qu'au
+--    PROCHAIN saut de page déclenché par du contenu normal qui suit.
+--    Rien après -> le contenu en attente disparaît, sans la moindre
+--    erreur/warning à la compilation. Corrigé par le \mbox{}
+--    systématique après CHAQUE \end{strip} (voir plus bas) : coût nul,
+--    donc appliqué à tous les strips sans distinction.
+-- 2. Un tableau .wide placé juste après un TITRE (Header) qui suit
+--    lui-même un strip précédent peut, dans certaines positions de
+--    page, faire disparaître CE TITRE (pas le tableau) -- reproduit
+--    avec une structure locale identique (titre puis needspace+strip)
+--    où seule la variante needspace perdait le titre, jamais un
+--    \clearpage inconditionnel au même endroit.
+-- 3. Deux tableaux .wide consécutifs, séparés seulement par une ligne
+--    vide (aucun titre, aucun texte entre eux) : même symptôme.
+--
+-- Point commun aux cas 2 et 3 : le strip PRÉCÉDENT vient tout juste de
+-- se terminer, avec rien (ou juste un titre) entre les deux -- c'est
+-- CETTE adjacence spécifique qui met `cuted` dans un état instable,
+-- pas needspace en tant que tel (un tableau .wide isolé, précédé d'un
+-- vrai paragraphe, fonctionne très bien avec needspace -- voir le
+-- tableau des armes bolts). Le \clearpage n'est donc forcé QUE quand
+-- cette adjacence est détectée (voir Pandoc plus bas), jamais pour un
+-- tableau .wide "normal".
 local function captioned_table_wide(caption_latex, tbl, newpage)
   local tabular = table_to_tabular_lines(tbl, 0.87, "textwidth")
   local body = string.format([[
@@ -635,7 +709,7 @@ local function captioned_table_wide(caption_latex, tbl, newpage)
 \tablefontsize
 %s]], caption_latex, tabular)
   local space_check = newpage and "\\mbox{}\\clearpage\n" or need_space_latex(tbl)
-  local latex = space_check .. "\\begin{strip}\n" .. body .. "\n\\end{strip}"
+  local latex = space_check .. "\\begin{strip}\n" .. body .. "\n\\end{strip}\n\\mbox{}"
   return pandoc.RawBlock("latex", latex)
 end
 
@@ -679,6 +753,18 @@ function Pandoc(doc)
   local new_blocks = {}
   local i = 1
 
+  -- Vrai juste après avoir émis un strip .wide (tableau, ou --
+  -- indirectement -- un bloc monstre .wide déjà résolu en RawBlock par
+  -- statblock.lua, qui tourne avant ce filtre). Reste vrai à travers
+  -- un ou plusieurs Header consécutifs (un titre ne "sépare" pas
+  -- vraiment deux strips aux yeux de cuted, voir le piège documenté
+  -- dans captioned_table_wide), mais retombe à faux dès qu'un VRAI
+  -- bloc de contenu (paragraphe normal, liste, etc.) s'intercale --
+  -- dans ce cas, needspace fonctionne sans problème (confirmé : un
+  -- titre isolé, non précédé d'un strip, suivi d'un tableau .wide en
+  -- needspace s'affiche correctement).
+  local after_wide_strip = false
+
   while i <= #blocks do
     local b = blocks[i]
     local next_b = blocks[i + 1]
@@ -694,25 +780,42 @@ function Pandoc(doc)
       local caption_latex = blocks_to_latex({b})
       table.insert(new_blocks, captioned_table_grid(caption_latex, next_b.content[1], next_b.content[2]))
       i = i + 2 -- consomme la légende ET le Div grid
+      after_wide_strip = false -- grid = tabular classique, pas un strip
 
     elseif is_caption_candidate and next_is_table then
       local caption_latex = blocks_to_latex({b})
       local wide = has_wide_flag(b)
 
       if wide then
-        local newpage = has_newpage_flag(b)
+        -- ATTENTION -- piège cuted : voir la note détaillée dans
+        -- captioned_table_wide. `after_wide_strip` détecte précisément
+        -- le cas pathologique (ce tableau arrive juste après un autre
+        -- strip, éventuellement séparé par un simple titre) -- SEUL
+        -- cas où on force \clearpage ; sinon needspace reste la norme.
+        local newpage = has_newpage_flag(b) or after_wide_strip
         table.insert(new_blocks, captioned_table_wide(caption_latex, next_b, newpage))
       else
         table.insert(new_blocks, captioned_table_inline(caption_latex, next_b))
       end
       i = i + 2 -- consomme la légende ET le tableau
+      after_wide_strip = wide
 
     elseif b.t == "Table" then
-      table.insert(new_blocks, standalone_table_to_latex(b))
+      local wide = b.attr and b.attr.classes and b.attr.classes:includes("wide")
+      table.insert(new_blocks, standalone_table_to_latex(b, after_wide_strip))
       i = i + 1
+      after_wide_strip = wide
+
+    elseif b.t == "Header" then
+      -- Un titre ne réinitialise PAS after_wide_strip (voir note plus
+      -- haut) : on le laisse simplement passer tel quel.
+      table.insert(new_blocks, b)
+      i = i + 1
+
     else
       table.insert(new_blocks, b)
       i = i + 1
+      after_wide_strip = false
     end
   end
 
