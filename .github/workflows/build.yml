@@ -21,7 +21,7 @@ jobs:
 
       - name: Install tools
         run: |
-          pip install mkdocs mkdocs-material
+          pip install mkdocs mkdocs-material beautifulsoup4
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex
 
