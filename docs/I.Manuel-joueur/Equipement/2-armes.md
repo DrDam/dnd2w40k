@@ -35,7 +35,7 @@
 *Tableau des armes*{.table-title .wide}
 
 | Armes | Coût | Dégâts | Poids | Propriétés |
-| ------ | :-: | :--:| :-:| ---------- |
+| ----- | :-: | :--:| :-:| ---------- |
 | **Armes de corps à corps courantes** |
 | Gourdin | 1 g | 1d4 cinétique | 1 kg | Légère |
 | Dague | 20 g | 1d4 cinétique | 0,5 kg | Finesse, légère, lancer (portée 6/18 m) |

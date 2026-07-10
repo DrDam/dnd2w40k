@@ -94,6 +94,7 @@ pandoc \
   --number-sections \
   --top-level-division=part \
   --pdf-engine=xelatex \
+  --columns=1 \
   --metadata-file=book/metadata.yaml \
   --include-before-body=book/titlepage.tex \
   --resource-path=docs/assets \

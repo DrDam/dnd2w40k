@@ -36,7 +36,7 @@ Langage simple et direct des mondes féodaux et sauvages.
 *Les langues de l'Impérium*{.table-title .wide}
 
 | Langue | Locuteurs typiques | Écriture |
-| -- | ------------- | -- |
+| ---- | ------------- | -- |
 | Argot des marchands | Rogue Traders, mercenaires, marchands offworld, Stryxis, rangers Aeldari, esclavagistes | Gothique |
 | Bas gothique | Humains et races impériales (ogryn, ratlings, Space Marines) | Gothique |
 | Codes impériaux | Marine Impériale, Garde Impériale | Gothique |
