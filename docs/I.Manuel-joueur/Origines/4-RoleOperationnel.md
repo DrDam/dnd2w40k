@@ -40,7 +40,7 @@ En tant qu’apothicaire, vous commencez avec l’équipement suivant, à la pla
 - (a) une armure énergétique légère ou (b) une armure énergétique
 - (a) un pistolet léger *à bolts* avec deux chargeurs ou (b) un pistolet *à bolts* avec deux chargeurs
 - (a) deux *armes tronçonneuse* ou (b) une *arme à énergie*
-- (a) un sac d’explorateur ou (b) un sac de technologue
+- (a) un paquetage d’explorateur ou (b) un paquetage de technologue
 - Un casque de communication, un bouclier, un narthecium (griffes), deux grenades à fragmentation, deux *trousses de secours supérieures*, quatre *doses d’injectables médicaux* et un couteau de combat (épée courte)
 
 
@@ -68,7 +68,7 @@ En tant que Marine d’assaut, vous commencez avec l’équipement suivant, à l
 - (a) un pistolet léger *à bolts* avec deux chargeurs ou (b) un pistolet *à bolts* avec deux chargeurs
 - (a) deux *armes tronçonneuse* ou (b) une *arme à énergie* ou (c) une *griffe foudroyante*
 - (a) une cape en caméléoline ou (b) des lunettes de vision nocturne ou (c) un étouffeur de bruit
-- Un casque de communication, un sac d’explorateur, un propulseur de saut, deux grenades à fragmentation, un bouclier, deux *grenades krak* et un couteau de combat (épée courte).
+- Un casque de communication, un paquetage d’explorateur, un propulseur de saut, deux grenades à fragmentation, un bouclier, deux *grenades krak* et un couteau de combat (épée courte).
 
 #### Chaplain
 
@@ -92,7 +92,7 @@ En tant que chapelain, vous commencez avec l’équipement suivant, à la place 
 - (a) une armure énergétique légère ou (b) une armure énergétique
 - (a) un pistolet léger *à bolts* avec deux chargeurs ou (b) un pistolet *à bolts* avec deux chargeurs
 - (a) une *baguette de neutralisation* ou (b) un *champ de force personnel* ou (c) un *champ de résistance*
-- (a) un sac de prêtre ou (b) un sac d’érudit
+- (a) un paquetage de prêtre ou (b) un paquetage d’érudit
 - Un casque-communicateur, un crozius arcanum (masse légère *énergétique*, masse d'arme ou marteau de combat), un livre de litanies, deux grenades à fragmentation et un couteau de combat (épée courte).
 
 #### Librarian
@@ -120,7 +120,7 @@ En tant que Librarian, vous commencez avec l’équipement suivant, à la place 
 - (a) une armure énergétique légère ou (b) une armure énergétique
 - (a) une *arme à plasma* ou (b) une arme *à bolts*
 - (a) un *sceau de protection contre la détection* ou (b) un traducteur de scribe
-- Un casque de communication, un sac de savant, un grimoire ancien, un bouclier, deux grenades à fragmentation, un couteau de combat (épée courte) et une *arme de force*.
+- Un casque de communication, un paquetage de savant, un grimoire ancien, un bouclier, deux grenades à fragmentation, un couteau de combat (épée courte) et une *arme de force*.
 
 #### Marine tactique
 
@@ -146,7 +146,7 @@ En tant que Marine Tactique, vous commencez avec l’équipement suivant, à la 
 - (a) une *arme à plasma* ou (b) une arme *à bolts*
 - (a) deux *armes tronçonneuse* ou (b) une *arme à énergie* ou (c) une *griffe foudroyante*
 - (a) deux *grenades krak* ou (b) deux *trousses de secours améliorées* ou (c) des *lunettes de vision nocturne* ou (d) un *silencieux*
-- Un casque de communication, un sac d’explorateur, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).
+- Un casque de communication, un paquetage d’explorateur, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).
 
 #### Marine Devastator
 
@@ -170,7 +170,7 @@ En tant que Marine Dévastateur, vous commencez avec l’équipement suivant, à
 - (a) un canon *à plasma* (canon d’assaut) avec deux cellules d’énergie ou (b) un canon *à bolts* (canon d’assaut) avec deux chargeurs
 - (a) des *lunettes à détection automatique* ou (b) des *lunettes de vision nocturne*
 - (a) une arme *tronçonneuse* ou (b) un pistolet *à bolts* avec deux chargeurs ou (c) un pistolet léger *à bolts* avec deux chargeurs
-- Un casque de communication, un sac d’explorateur, deux grenades à fragmentation, un couteau de combat (épée courte).
+- Un casque de communication, un paquetage d’explorateur, deux grenades à fragmentation, un couteau de combat (épée courte).
 
 #### Techmarine
 
@@ -197,4 +197,4 @@ En tant que Techmarine, vous commencez avec l’équipement suivant, à la place
 - (a) une armure énergétique légère ou (b) une armure énergétique
 - (a) un pistolet leger *à plasma* avec deux cellules d’énergie ou (b) un pistolet *à plasma* avec deux cellules d’énergie
 - (a) un *omni-outil* (déjà implanté) ou (b) un *traducteur de scribe* ou (c) des *amplificateurs manuels* (déjà implantés)
-- Un casque de communication, une arme *à bolts*, un sac de technologue, une *hache omnissienne*, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).
+- Un casque de communication, une arme *à bolts*, un paquetage de technologue, une *hache omnissienne*, un bouclier, deux grenades à fragmentation et un couteau de combat (épée courte).

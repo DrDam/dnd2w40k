@@ -49,7 +49,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une grande hache ou (b) n’importe quelle arme de combat au corps à corps
 - (a) deux haches à une main ou (b) n’importe quelle arme simple ou (c) un bouclier
 - (a) une cotte de mailles à écailles ou (b) une cotte de mailles
-- Un sac d’explorateur et cinq javelots
+- Un paquetage d’explorateur et cinq javelots
 
 
 ##### Défense sans armure

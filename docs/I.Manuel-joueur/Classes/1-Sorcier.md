@@ -41,7 +41,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par votre historique :
 
 - (a) une carabine laser et 2 cellules d'énergie ou (b) n'importe quelle arme simple
-- (a) un sac de savant ou (b) un sac de prêtre
+- (a) un paquetage de savant ou (b) un paquetage de prêtre
 - une armure en mailles, n'importe quelle arme simple et deux dagues
 
 

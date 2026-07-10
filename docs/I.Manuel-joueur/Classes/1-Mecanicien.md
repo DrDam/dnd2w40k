@@ -41,7 +41,7 @@ Vous maîtrisez les objets suivants, en plus des compétences fournies par votre
 Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par votre historique :
 
 - (a) une rapière (b) une épée longue (c) une carabine laser et deux cellules d'énergie
-- (a) un sac de diplomate ou (b) un sac de technologue
+- (a) un paquetage de diplomate ou (b) un paquetage de technologue
 - (a) une armure en mailles ou (b) une armure de soldat
 - Une dague, un pistolet laser et deux cellules d'énergie, ainsi qu'un kit de sécurité
 

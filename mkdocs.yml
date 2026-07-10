@@ -83,6 +83,9 @@ nav:
         - Préambule: I.Manuel-joueur/Equipement/0-index.md
         - les Armures: I.Manuel-joueur/Equipement/1-armures.md
         - les Armes: I.Manuel-joueur/Equipement/2-armes.md
+        - les Équipement d'aventuriers: I.Manuel-joueur/Equipement/3-Equipement-aventure.md
+        - les Outils: I.Manuel-joueur/Equipement/4-Outils.md
+        - les Marchandises: I.Manuel-joueur/Equipement/5-Marchandises.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/0-index.md
       - les équipements avancés: II.Manuel-MJ/2-Equipement-avance.md

@@ -6,6 +6,8 @@ Lorsque vous créez votre personnage, vous recevez un équipement déterminé en
 
 C’est à vous de décider comment votre personnage s’est procuré cet équipement de départ. Il peut s’agir d’un héritage ou de biens qu’il a achetés au cours de son enfance. Vous avez peut-être reçu une arme, une armure et un sac à dos dans le cadre de votre service militaire. Vous avez peut-être même volé votre équipement. Une arme peut être un héritage familial, transmis de génération en génération jusqu’à ce que votre personnage reprenne le flambeau et suive les traces aventureuses d’un ancêtre.
 
+Si vous cherche éléments particulièrement rare et ou améliorer, veuillez vous rendre à la section "*Équipement Avancé*" dans le supplément pour le Maître du jeu.
+
 *Richesse par classe*{.table-title}
 
 | Classe | Fonds |
@@ -21,9 +23,9 @@ C’est à vous de décider comment votre personnage s’est procuré cet équip
 | Sorcier |  3d4 x 100g|
 | Traquer |5d4 x 100g|
 
-### La richesse
+### Les richesses
 
-La richesse se présente sous de nombreuses formes dans la galaxie. Les pièces de monnaie, les pierres précieuses, les marchandises, les objets d’art, les animaux et les biens immobiliers peuvent refléter la situation financière de votre personnage. Les membres des classes populaires font le commerce de marchandises, troquent ce dont ils ont besoin et paient la dîme en céréales et en fromage.
+Le richesses se présentent sous de nombreuses formes dans la galaxie. Les pièces de monnaie, les pierres précieuses, les marchandises, les objets d’art, les animaux et les biens immobiliers peuvent refléter la situation financière de votre personnage. Les membres des classes populaires font le commerce de marchandises, troquent ce dont ils ont besoin et paient la dîme en céréales et en fromage.
 
 Les membres de la noblesse font le commerce soit de droits légaux, tels que les droits sur une mine, un port ou des terres agricoles, soit de lingots d’or ou de pierres précieuses, mesurant l’or et les pierres précieuses à la livre plutôt qu’en pièces. Seuls les marchands, les aventuriers et ceux qui proposent des services professionnels à la demande traitent couramment en pièces.
 
@@ -31,7 +33,7 @@ Les membres de la noblesse font le commerce soit de droits légaux, tels que les
 
 La monnaie a été convertie en « gelt impérial », ou simplement « gelt ». Le taux de conversion est 10 gelt équivalent à 1 pièce d’or. Si un objet vaut 100 pièces d’or, multipliez ce chiffre par 10 pour obtenir sa valeur en gelt. Si l’aventure se déroule dans un cadre non impérial, la monnaie peut varier. Par exemple, au lieu du gelt, vous pouvez utiliser des dents d’ork.
 
-#### Vente de trésors
+### Vente de trésors
 
 Les occasions ne manquent pas de trouver des trésors, de l’équipement, des armes, des armures et bien plus encore dans les mondes que vous explorez. En règle générale, vous pouvez vendre vos trésors et vos bibelots lorsque vous retournez dans une ville ou une autre localité, à condition de trouver des acheteurs et des marchands intéressés par votre butin.
 

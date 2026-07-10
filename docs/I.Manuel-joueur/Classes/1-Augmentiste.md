@@ -46,7 +46,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 - (a) deux épées courtes ou (b) deux gantelets légers
 - (a) un pistolet laser et deux cellules d’énergie ou (b) un pistolet et deux chargeurs
-- (a) un sac de technologue ou (b) un sac d’explorateur
+- (a) un paquetage de technologue ou (b) un paquetage d’explorateur
 - (a) une armure en mailles ou (b) une armure de soldat
 - Une trousse de mécanicien
 

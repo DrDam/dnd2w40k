@@ -42,7 +42,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 - (a) une arme de combat et un bouclier ou (b) deux armes de combat
 - (a) cinq javelots ou (b) un pistolet avec deux chargeurs
-- (a) un sac de prêtre ou (b) un sac d’explorateur
+- (a) un paquetage de prêtre ou (b) un paquetage d’explorateur
 - Une armure de combat et des outils de calligraphe
 
 #### Aptitudes de l'Exorciste

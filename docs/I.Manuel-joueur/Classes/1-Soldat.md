@@ -43,7 +43,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure de combat ou (b) une armure en cotte de mailles, un fusil d’assaut et deux chargeurs
 - (a) une arme martiale et un bouclier ou (b) deux armes de guerre
 - (a) une carabine laser et deux cellules d’énergie ou (b) deux hachettes
-- (a) un sac d'explorateur de ruine ou (b) un sac d’explorateur
+- (a) un paquetage d'explorateur de ruine ou (b) un paquetage d’explorateur
 
 
 #### Aptitudes du Soldat

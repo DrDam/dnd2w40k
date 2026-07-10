@@ -41,7 +41,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure de combat ou (b) une armure en cotte de mailles, un fusil d’assaut et 2 chargeurs
 - (a) une arme martiale et un bouclier ou (b) deux armes martiales
 - (a) une carabine laser et 2 cellules d’énergie ou (b) deux haches de main
-- (a) un sac d’explorateur de ruines ou (b) un sac d’explorateur
+- (a) un paquetage d’explorateur de ruines ou (b) un paquetage d’explorateur
 
 
 #### Aptitudes du Croisé

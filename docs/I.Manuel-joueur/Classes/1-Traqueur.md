@@ -47,7 +47,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 - (a) une armure de soldat ou (b) une armure en cotte de mailles
 - (a) deux épées courtes ou (b) une arme de mêlée martiale et un bouclier
 - (a) un fusil d’assaut et deux chargeurs ou (b) un fusil laser et deux piles
-- Un sac d’explorateur et deux poignards
+- Un paquetage d’explorateur et deux poignards
 
 #### Aptitudes du Traqueur
 

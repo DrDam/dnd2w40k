@@ -47,7 +47,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 - (a) une rapière ou (b) une épée courte
 - (a) un pistolet et 2 chargeurs ou (b) une épée courte
-- (a) un sac de cambrioleur, (b) un sac d’explorateur de ruines ou (c) un sac d’explorateur
+- (a) un paquetage de cambrioleur, (b) un paquetage d’explorateur de ruines ou (c) un paquetage d’explorateur
 - Une armure de mailles, deux dagues et un kit de sécurité
 
 #### Aptitudes de l'Agent
