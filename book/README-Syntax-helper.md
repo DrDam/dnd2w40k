@@ -11,7 +11,7 @@
 | 2,700                   | 4      | +2                |
 | 6,500                   | 5      | +3                |
 
-## Tableau en pleine largeur de page
+##  Tableau en pleine largeur de page
 
 *Evolution des personnages*{.table-title .wide}
 

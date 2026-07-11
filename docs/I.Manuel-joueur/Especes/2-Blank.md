@@ -1,6 +1,6 @@
 ![Des soeurs du silence](../../assets/humanity/Sisters_of_Silence_art.png){.newpage}
 
-### Blank
+### Blank {#blank}
 
 Les « Blanks » sont des humains sans âme nés avec un pouvoir unique qui les rend résistants aux pouvoirs du Warp. Parfois appelés « parias », « nuls » ou « intouchables », ces humains possèdent le rare « gène du paria », dont la fréquence est estimée à un sur un milliard d’humains. Les personnes qui côtoient des « Blanks » ressentent une présence inquiétante émanant d’eux. De ce fait, de nombreux Blanks sont rejetés par leur société, ou meurent en bas âge après avoir été exilés.
 

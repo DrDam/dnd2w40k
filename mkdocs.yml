@@ -86,6 +86,10 @@ nav:
         - les Équipement d'aventuriers: I.Manuel-joueur/Equipement/3-Equipement-aventure.md
         - les Outils: I.Manuel-joueur/Equipement/4-Outils.md
         - les Marchandises: I.Manuel-joueur/Equipement/5-Marchandises.md
+      - 9. Options de personnalisation:
+        - Préambule: I.Manuel-joueur/Personalisation/0-intro.md
+        - le multiclassage: I.Manuel-joueur/Personalisation/1-multiclasse.md
+        - les Dons: I.Manuel-joueur/Personalisation/2-dons.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/0-index.md
       - les équipements avancés: II.Manuel-MJ/2-Equipement-avance.md
