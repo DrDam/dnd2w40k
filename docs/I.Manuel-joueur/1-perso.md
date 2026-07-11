@@ -114,6 +114,8 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 
 *Scores caractéristiques et modificateur*{.table-title}
 
+<div class="grid my-grid" markdown>
+
 | Score | Modificateur |
 | :----:| :----------: |
 | 1     | -5           |
@@ -124,6 +126,9 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 10-11 | 0            |
 | 12-13 | +1           |
 | 14-15 | +2           |
+
+| Score | Modificateur |
+| :----:| :----------: |
 | 16-17 | +3           |
 | 18-19 | +4           |
 | 20-21 | +5           |
@@ -132,6 +137,8 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 26-27 | +8           |
 | 28-29 | +9           |
 | 30    | +10          |
+
+</div>
 
 #### Etape 4. Décrivez votre personnage
 

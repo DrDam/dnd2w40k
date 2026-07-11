@@ -8,7 +8,7 @@ local colors = {
   tip = "green",
   warning = "orange",
   danger = "red",
-  info = "blue",
+  info = "lightgray",
   question = "purple",
 }
 

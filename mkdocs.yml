@@ -92,7 +92,7 @@ nav:
           - le multiclassage: I.Manuel-joueur/Personalisation/1-multiclasse.md
           - les Dons: I.Manuel-joueur/Personalisation/2-dons.md
       - "Partie 2 : Jouer au 40ième millénaire" :
-        - 10. Préambule: I.Manuel-joueur/Jouer/0-intro.md
+        - 10. Utiliser les valeurs de caractéristiques: I.Manuel-joueur/Jouer/0-carac.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/0-index.md
       - les équipements avancés: II.Manuel-MJ/2-Equipement-avance.md

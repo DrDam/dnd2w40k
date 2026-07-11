@@ -67,7 +67,7 @@ Vous ne pouvez lancer des pouvoirs psychiques de niveau 6, 7, 8 et 9 qu’une se
 
 *Capacité de lancement psychique*
 
-Votre capacité de lancement de pouvoirs psychiques est le score de capacité que vous utilisez pour lancer des pouvoirs psychiques. Votre capacité de lancement de pouvoirs psychiques peut être soit la Sagesse, soit le Charisme (à votre choix). Vous utilisez ce modificateur de score de capacité chaque fois qu’un pouvoir fait référence à votre capacité de lancement de pouvoirs psychiques. De plus, vous utilisez ce modificateur de score de capacité lorsque vous déterminez le DD de jet de sauvegarde d’un pouvoir psychique que vous lancez et lorsque vous effectuez un jet d’attaque avec celui-ci.
+Votre capacité de lancement de pouvoirs psychiques est le score de capacité que vous utilisez pour lancer des pouvoirs psychiques. Votre capacité de lancement de pouvoirs psychiques peut être soit la Sagesse, soit le Charisme (à votre choix). Ce choix doit être fait à la création du personnage et ne peux plus être modifié. Vous utilisez ce modificateur de score de capacité chaque fois qu’un pouvoir fait référence à votre capacité de lancement de pouvoirs psychiques. De plus, vous utilisez ce modificateur de score de capacité lorsque vous déterminez le DD de jet de sauvegarde d’un pouvoir psychique que vous lancez et lorsque vous effectuez un jet d’attaque avec celui-ci.
 
 - DC de sauvegarde psychique = 8 + votre bonus de compétence + votre modificateur de lanceur de sort Psychique
 - Modificateur d’attaque psychique = votre bonus de compétence + votre modificateur de lanceur de sort Psychique
