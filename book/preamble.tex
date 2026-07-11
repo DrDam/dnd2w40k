@@ -83,6 +83,13 @@
 % --- Table des matières ---
 \newcommand{\tocfontsize}{\Huge}            % titre "Table des matières"
 
+% --- Page de partie (book/macro/part_cover.lua) ---
+% Taille du "PARTIE X" et du titre affichés dans l'encart en haut de
+% l'image de couverture -- voir la section \PartCoverBanner plus bas
+% dans ce fichier pour le détail du mécanisme.
+\newcommand{\partcoverlabelfontsize}{\Large}  % "PARTIE X"
+\newcommand{\partcovertitlefontsize}{\Huge}   % titre de la partie
+
 % --- Bloc monstre (statblock.lua) ---
 % Ces deux commandes ne fixent PAS la taille du CONTENU du bloc (déjà
 % couverte par \tablefontsize via fontupper, voir note ci-dessus) --
@@ -224,6 +231,98 @@
 % haut de page).
 \titlespacing{\chapter}{0pt}{10pt}{10pt}
 
+% ============================================================
+% PAGE DE PARTIE -- ENCART DE TITRE (book/macro/part_cover.lua)
+% ============================================================
+% Comportement d'origine : le titre de partie (\part, niveau 1 Markdown
+% via --top-level-division=part) s'affichait tel quel, centré
+% VERTICALEMENT au milieu de l'image de fond -- comportement standard
+% de book.cls (\null\vfil ... \vfil de part et d'autre du titre dans
+% \@part/\@endpart). Résultat jugé décevant à l'usage : on veut un
+% encart de titre façon livre de règles (bandeau en haut de l'image),
+% pas un titre "flottant" au milieu.
+%
+% DEUX TENTATIVES RATÉES avant la solution retenue, notées ici pour ne
+% pas les reproduire :
+%
+%   - Vider \titleformat{\part} pour rendre le titre invisible : ÉCHEC
+%     -- \titleformat ne fait que changer le FORMAT (police, centrage,
+%     label) appliqué autour du texte du titre ; il ne supprime jamais
+%     le texte lui-même. Résultat observé : un titre minuscule, non
+%     centré, mais toujours bien présent (juste sans mise en forme).
+%
+%   - Insérer \PartCoverBanner comme bloc SÉPARÉ juste après le Header
+%     (dans part_cover.lua) : ÉCHEC -- \part se termine toujours en
+%     interne par \vfil\newpage (\@endpart de book.cls). Tout ce qui
+%     est inséré APRÈS le Header dans l'arbre Pandoc se retrouve donc
+%     mécaniquement composé sur la page SUIVANTE, décalé de l'image de
+%     fond (observé : le bandeau atterrissait sur la 2e page du couple
+%     image+titre au lieu de partager la même page que l'image).
+%
+% SOLUTION RETENUE : ne pas toucher à \part du tout (le patch etoolbox
+% de remise à zéro du compteur de chapitre, plus haut dans ce fichier,
+% reste donc pleinement valide -- \part n'est jamais redéfini). À la
+% place, \PartCoverBanner devient littéralement l'ARGUMENT AFFICHÉ de
+% \part, en utilisant la forme standard à deux arguments de book.cls :
+%
+%   \part[titre court, pour la TdM/les signets]{contenu réellement affiché}
+%
+% part_cover.lua compose donc directement \part[Titre]{\PartCoverBanner{...}}
+% en RawBlock (au lieu de laisser Pandoc générer \part{...} depuis le
+% Header). Deux bénéfices immédiats :
+%   - \PartCoverBanner est composé exactement au même endroit/à la
+%     même page que l'aurait été le titre par défaut (puisque c'en est
+%     littéralement l'argument) -- plus de décalage de page possible.
+%   - book.cls utilise l'argument optionnel [#1] (notre titre lisible)
+%     pour \addcontentsline{toc}{part}{\thepart\hspace{1em}#1} : la
+%     table des matières et les signets PDF affichent le VRAI titre en
+%     texte normal, indépendamment de ce qui est réellement composé
+%     sur la page (notre encart, qui lui contient du code tikz/raw
+%     LaTeX illisible tel quel -- inadapté à un signet PDF).
+%
+% \PartCoverBanner dessine l'encart en position ABSOLUE sur la page via
+% un tikzpicture "remember picture, overlay" ancré sur (current
+% page.north) -- même technique déjà utilisée par book/titlepage.tex
+% pour son propre fondu noir. Un overlay tikz est indépendant du flux
+% normal du document (aucun espace vertical consommé), donc sans
+% interaction avec les pièges \clearpage/cuted documentés dans
+% book/macro/newpage.lua.
+%
+% \arabic{part} (utilisé par part_cover.lua pour composer "PARTIE X")
+% est fiable ici car \PartCoverBanner s'exécute À L'INTÉRIEUR du corps
+% de \part, donc APRÈS le \refstepcounter{part} interne à \@part.
+\newcommand{\partcoverboxwidth}{0.78\paperwidth} % largeur de l'encart
+\newcommand{\partcoverboxyshift}{-2cm}           % distance depuis le haut de PAGE (pas de la colonne : \paperwidth/current page, indépendant du twocolumn)
+\newcommand{\partcoverboxcolor}{black}           % fond de l'encart (même couleur que le fondu de titlepage.tex)
+\newcommand{\partcoverboxopacity}{0.55}          % 0 = transparent, 1 = opaque
+
+% #1 = numéro de partie déjà composé en LaTeX (ex: "PARTIE 1"),
+% #2 = titre de la partie (déjà passé par pandoc.write coté Lua, donc
+% gras/italique éventuels du Markdown source sont préservés),
+% #3 = couleur du texte (reprend l'attribut textcolor="..." déjà
+% utilisé par part_cover.lua -- même valeur, un seul encart à
+% maintenir cohérent avec le reste du bandeau).
+\newcommand{\PartCoverBanner}[3]{%
+  \begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north, yshift=\partcoverboxyshift] at (current page.north) {%
+      \begin{tcolorbox}[
+        enhanced,
+        colback=\partcoverboxcolor,
+        opacityback=\partcoverboxopacity,
+        colframe=#3,
+        boxrule=1pt,
+        arc=2pt,
+        width=\partcoverboxwidth,
+        halign=center,
+        left=14pt, right=14pt, top=10pt, bottom=10pt,
+      ]
+        \color{#3}%
+        {\partcoverlabelfontsize\scshape #1}\\[4pt]
+        {\partcovertitlefontsize\bfseries #2}
+      \end{tcolorbox}%
+    };
+  \end{tikzpicture}%
+}
 % ============================================================
 % TABLE DES MATIÈRES EN DEUX COLONNES
 % ============================================================

@@ -2,6 +2,10 @@
 
 ## Credits
 
+##### Contenu
+
+Un grand merci à Klefgun pour la création de ce kit de conversion et le travail gigantesque que cela a du représenter pour obtenir quelque chose de cohérent.
+
 ##### Images :
 
 par ordre d'apparition

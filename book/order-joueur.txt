@@ -6,4 +6,6 @@ docs/I.Manuel-joueur/Classes/*.md
 docs/I.Manuel-joueur/Origines/*.md
 docs/I.Manuel-joueur/Equipement/*.md
 docs/I.Manuel-joueur/Personalisation/*.md
+book/parts_titles/Livre1-part2.md
+docs/I.Manuel-joueur/Jouer/*.md
 docs/credits.md
