@@ -726,6 +726,16 @@ end
 -- observé avant ce correctif) ; en pratique ces tableaux sont courts
 -- (quelques lignes de coûts/valeurs), donc les forcer entiers sur une
 -- même colonne/page ne pose pas de problème de place.
+--
+-- Séparation entre les deux tableaux : la colonne centrale de la
+-- tabular englobante utilise un séparateur `@{...}` explicite --
+-- espace (\tablegridsep) + filet vertical léger (\tablegridrulecolor)
+-- + espace -- plutôt que le \tabcolsep par défaut (trop fin pour
+-- marquer clairement la coupure entre deux tableaux à première vue,
+-- voir book/preamble.tex pour ces deux réglages centralisés). `@{}`
+-- remplace entièrement l'espacement par défaut de la colonne à cet
+-- endroit précis (d'où le \hspace explicite des deux côtés du filet,
+-- plutôt que de compter sur un \tabcolsep résiduel).
 local function captioned_table_grid(caption_latex, tbl1, tbl2)
   local tabular1 = table_to_tabular_lines(tbl1, 0.46, "columnwidth", true)
   local tabular2 = table_to_tabular_lines(tbl2, 0.46, "columnwidth", true)
@@ -735,7 +745,7 @@ local function captioned_table_grid(caption_latex, tbl1, tbl2)
 {\tablecaptionfontsize %s}\par
 \vspace{0.3em}
 \tablefontsize
-\begin{tabular}{cc}
+\begin{tabular}{c@{\hspace{\tablegridsep}\color{\tablegridrulecolor}\vrule width 0.4pt\hspace{\tablegridsep}}c}
 %s & %s
 \end{tabular}
 \end{center}

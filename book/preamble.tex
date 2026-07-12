@@ -100,6 +100,15 @@
 % ce \tablerowsep sert de séparation visuelle légère à la place.
 \newcommand{\tablerowsep}{1.5pt}
 
+% Séparation entre les deux tableaux d'une paire "grid" (deux tableaux
+% côte à côte sous une légende commune, voir captioned_table_grid dans
+% book/macro/tables.lua) : par défaut, seul l'espacement standard de
+% \tabcolsep (très fin) sépare les deux -- ajout d'un espacement dédié
+% et d'un filet vertical léger pour bien marquer visuellement la
+% coupure entre les deux tableaux.
+\newcommand{\tablegridsep}{1.2em}   % espace de part et d'autre du filet
+\newcommand{\tablegridrulecolor}{gray!40} % couleur du filet (même famille que le gris des lignes alternées, \tablerowsep ci-dessus)
+
 % --- Titres de section (Markdown) ---
 % Correspondance Markdown -> LaTeX : voir plus bas dans ce fichier
 % (\subsubsection pour #####, \chapter pour # via --top-level-division=part).
