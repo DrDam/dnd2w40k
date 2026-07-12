@@ -108,6 +108,16 @@
 % coupure entre les deux tableaux.
 \newcommand{\tablegridsep}{1.2em}   % espace de part et d'autre du filet
 \newcommand{\tablegridrulecolor}{gray!40} % couleur du filet (même famille que le gris des lignes alternées, \tablerowsep ci-dessus)
+% \tabcolsep RÉDUIT localement pour les deux tabulars imbriqués d'une
+% paire "grid" (book/macro/tables.lua, captioned_table_grid) : chacun
+% n'a que 2 colonnes (Score/Coût ou Score/Modificateur), donc 1 seule
+% jonction interne -- le \tabcolsep par défaut (6pt) y ajoutait 12pt de
+% largeur RÉELLE non budgétée par rapport à la largeur de contenu
+% visée, contribuant (avec d'autres marges non comptées, voir
+% captioned_table_grid) à un débordement dans la gouttière entre
+% colonnes de page. Même technique que \monsterblock/\statline dans
+% book/macro/statblock.lua.
+\newcommand{\tablegridcolsep}{2pt}
 
 % --- Titres de section (Markdown) ---
 % Correspondance Markdown -> LaTeX : voir plus bas dans ce fichier

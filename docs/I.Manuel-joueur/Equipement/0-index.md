@@ -10,18 +10,25 @@ Si vous cherche éléments particulièrement rare et ou améliorer, veuillez vou
 
 *Richesse par classe*{.table-title}
 
+<div class="grid my-grid" markdown>
+
 | Classe | Fonds |
-| :----:| :----------: |
+| ----| ----|
 | Agent | 4d4 x 100g|
 | Augmentiste | 2d4 x 100 g |
-| Berserker |  2d4 x 100 g |
+| Berserker | 2d4 x 100 g |
 | Croisé | 5d4 x 100g|
 | Exorcist | 5d4 x 100g|
+
+| Classe | Fonds |
+| ----| ----|
 | Mécanicien | 4d4 x 100g|
 | Psyker | 5d4 x 100g |
 | Soldat | 5d4 x 100g |
-| Sorcier |  3d4 x 100g|
+| Sorcier | 3d4 x 100g|
 | Traquer |5d4 x 100g|
+
+</div>
 
 ### Les richesses
 

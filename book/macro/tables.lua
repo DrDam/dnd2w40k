@@ -715,8 +715,9 @@ end
 
 -- Tableau AVEC légende préalable, mode "grid" : Div MkDocs Material
 -- `grid` contenant deux tableaux, affichés côte à côte sous une légende
--- commune. Chaque tableau vise la moitié de \columnwidth (avec marge
--- pour l'espacement entre les deux).
+-- commune. Chaque tableau vise `GRID_TABLE_WIDTH_TARGET` de
+-- \columnwidth (marge pour l'espacement entre les deux -- voir
+-- ci-dessous pour le détail du budget de largeur).
 -- Englobé dans un \begin{samepage}...\end{samepage} : ce bloc reste
 -- VOLONTAIREMENT en `tabular` classique (pas de titre "collant" multi-
 -- page -- supertabular ne peut pas être imbriqué comme cellule d'un
@@ -727,27 +728,41 @@ end
 -- (quelques lignes de coûts/valeurs), donc les forcer entiers sur une
 -- même colonne/page ne pose pas de problème de place.
 --
--- Séparation entre les deux tableaux : la colonne centrale de la
--- tabular englobante utilise un séparateur `@{...}` explicite --
--- espace (\tablegridsep) + filet vertical léger (\tablegridrulecolor)
--- + espace -- plutôt que le \tabcolsep par défaut (trop fin pour
--- marquer clairement la coupure entre deux tableaux à première vue,
--- voir book/preamble.tex pour ces deux réglages centralisés). `@{}`
--- remplace entièrement l'espacement par défaut de la colonne à cet
--- endroit précis (d'où le \hspace explicite des deux côtés du filet,
--- plutôt que de compter sur un \tabcolsep résiduel).
+-- BUDGET DE LARGEUR -- corrige un débordement dans la gouttière entre
+-- colonnes de page, constaté en test avec du texte réel des deux
+-- côtés (le \tabcolsep par défaut, invisible en soi, s'additionnait à
+-- plusieurs endroits sans qu'aucun ne soit budgété) :
+--   - Chaque tabular imbriqué (table_to_tabular_lines) a 2 colonnes
+--     (Score/Coût ou Score/Modificateur) -- donc 1 seule "jonction"
+--     interne, qui ajoute 2x\tabcolsep (12pt par défaut) à la largeur
+--     RÉELLE du tableau, EN PLUS de sa largeur de contenu visée
+--     (GRID_TABLE_WIDTH_TARGET*\columnwidth). Ce surplus n'était pas
+--     budgété. Corrigé en réduisant localement \tabcolsep à
+--     \tablegridcolsep (même technique que \monsterblock/\statline
+--     dans statblock.lua) pour les DEUX tabulars imbriqués.
+--   - Le tabular ENGLOBANT (celui-ci) gardait par défaut son propre
+--     \tabcolsep sur ses bords extérieurs (avant la 1re colonne, après
+--     la 2e) -- un espace inutile ici (le bloc est déjà centré via
+--     \begin{center}), maintenant retiré avec `@{}` aux deux extrémités
+--     (même convention que `@{}col_spec@{}` dans table_to_tabular_lines).
+-- Le séparateur central (\tablegridsep + filet, voir book/preamble.tex)
+-- reste inchangé -- lui EST budgété dès le départ via
+-- GRID_TABLE_WIDTH_TARGET (voir sa définition ci-dessous).
+local GRID_TABLE_WIDTH_TARGET = 0.42 -- par tableau (au lieu de 0.46) : laisse la marge nécessaire au séparateur central + au \tabcolsep local réduit de chaque tabular imbriqué
+
 local function captioned_table_grid(caption_latex, tbl1, tbl2)
-  local tabular1 = table_to_tabular_lines(tbl1, 0.46, "columnwidth", true)
-  local tabular2 = table_to_tabular_lines(tbl2, 0.46, "columnwidth", true)
+  local tabular1 = table_to_tabular_lines(tbl1, GRID_TABLE_WIDTH_TARGET, "columnwidth", true)
+  local tabular2 = table_to_tabular_lines(tbl2, GRID_TABLE_WIDTH_TARGET, "columnwidth", true)
   local latex = string.format([[
 \begin{samepage}
 \begin{center}
 {\tablecaptionfontsize %s}\par
 \vspace{0.3em}
 \tablefontsize
-\begin{tabular}{c@{\hspace{\tablegridsep}\color{\tablegridrulecolor}\vrule width 0.4pt\hspace{\tablegridsep}}c}
+{\setlength{\tabcolsep}{\tablegridcolsep}%%
+\begin{tabular}{@{}c@{\hspace{\tablegridsep}\color{\tablegridrulecolor}\vrule width 0.4pt\hspace{\tablegridsep}}c@{}}
 %s & %s
-\end{tabular}
+\end{tabular}}%%
 \end{center}
 \end{samepage}]], caption_latex, tabular1, tabular2)
   return pandoc.RawBlock("latex", latex)

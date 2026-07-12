@@ -104,14 +104,14 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 <div class="grid my-grid" markdown>
 
 | Score | Coût |
-| :----:| :--: |
+| :--:| :--: |
 | 8 | 0 |
 | 9 | 1 |
 | 10 | 2 |
 | 11 | 3 |
 
 | Score | Coût |
-| :----:| :--: |
+| :--:| :--: |
 | 12 | 4 |
 | 13 | 5 |
 | 14 | 7 |
@@ -124,7 +124,7 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 <div class="grid my-grid" markdown>
 
 | Score | Modificateur |
-| :----:| :----------: |
+| :--:| :----: |
 | 1 | -5 |
 | 2-3 | -4 |
 | 4-5 | -3 |
@@ -135,7 +135,7 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 | 14-15 | +2 |
 
 | Score | Modificateur |
-| :----:| :----------: |
+| :--:| :----: |
 | 16-17 | +3 |
 | 18-19 | +4 |
 | 20-21 | +5 |
@@ -266,7 +266,7 @@ Le tableau « Évolution du personnage » récapitule les XP nécessaires pour p
 
 **Niveaux de jeu**
 
-Les zones ombrées du tableau de progression du personnage indiquent les quatre niveaux de jeu. Ces niveaux ne sont associés à aucune règle particulière ; ils constituent une description générale de la manière dont l’expérience de jeu évolue à mesure que les personnages gagnent des niveaux.
+Du fais de l'évolution des personnage et du niveau de menace qu'ils peuvent rencontrer, on distingue souvent quatre niveaux de jeu. Ces niveaux ne sont associés à aucune règle particulière ; ils constituent une description générale de la manière dont l’expérience de jeu évolue à mesure que les personnages gagnent des niveaux.
 
 Au premier niveau (niveaux 1 à 4), les personnages sont en quelque sorte des apprentis aventuriers. Ils découvrent les caractéristiques qui les définissent en tant que membres de classes particulières, y compris les choix majeurs qui nuancent leurs caractéristiques de classe à mesure qu’ils progressent (tels que la Tradition technologique d’un technicien ou l’Archétype martial d’un combattant). Les menaces auxquelles ils sont confrontés sont relativement mineures, ne représentant généralement un danger que pour des villes locales ou des planètes obscures.
 

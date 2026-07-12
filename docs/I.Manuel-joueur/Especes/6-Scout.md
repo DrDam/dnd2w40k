@@ -4,7 +4,7 @@
 
 Les Space Marines sont des guerriers surhumains, fruits d’expériences biologiques et génétiques de haut vol. Ceux qui viennent d’entamer leur parcours pour devenir ces titans surhumains doivent d’abord commencer leur vie en tant que Scout Marine, après s’être déjà vu implanter de nouveaux organes qui leur confèrent une constitution plus résistante et plus robuste.
 
-!!! info "Au sujet des Scout Space Marines"
+!!! note "Au sujet des Scout Space Marines"
 
     **Équilibrage.** Les Scout Marines sont conçus pour être équilibrés vis-a-vis des autres espèces de ce livre de règle.
 

@@ -11,7 +11,7 @@ Certains négociants, cherchant à réaliser des profits rapides, peuvent se tou
 La table des marchandises commerciales indique la valeur des biens les plus couramment échangés.
 
 | Objet | Coût |
-| ---------- | :----: |
+| ---- | -- | -- |
 | Animal, commun | 100 g |
 | Animal d'élevage | 500 g |
 | Animal, peu commun | 2 000 g |

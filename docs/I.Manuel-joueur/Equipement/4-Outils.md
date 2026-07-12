@@ -7,7 +7,7 @@ Votre espèce, votre classe, votre historique ou vos dons vous confèrent la ma�
 L'utilisation d'un outil n'est pas liée à une seule caractéristique, car la maîtrise d'un outil représente une connaissance plus générale de son utilisation.
 
 | Objet | Coût | Poids |
-| ------ | :--: | :--: |
+| ---- | -- | -- |
 | Kit d'herboristerie | 250 g | 1 kg |
 | Outils de navigateur | 250 g | 1 kg |
 | Kit d'empoisonneur | 100 g | 1,5 kg |
@@ -29,7 +29,7 @@ La maîtrise d'un ensemble d'outils d'artisan vous permet d'ajouter votre bonus 
 Chaque type d'outil d'artisan nécessite une maîtrise distincte.
 
 | Objet | Coût | Poids |
-| ------- | :--: | :--: |
+| ---- | -- | -- |
 | Fournitures d'alchimiste | 500 g | 4,5 kg |
 | Fournitures de brasseur | 200 g | 4,5 kg |
 | Fournitures de calligraphe | 100 g | 2,5 kg |
@@ -75,7 +75,7 @@ Si vous maîtrisez un jeu, vous pouvez ajouter votre bonus de maîtrise aux test
 Chaque type de jeu nécessite une maîtrise distincte.
 
 | Objet | Coût | Poids |
-| ------ | :--: | :--: |
+| ---- | -- | -- |
 | Dés | 1 g | — |
 | Jeu de régicide | 100 g | 0,5 kg |
 | Cartes à jouer | 5 g | — |
@@ -96,7 +96,7 @@ Si vous maîtrisez un instrument de musique donné, vous pouvez ajouter votre bo
 Chaque type d'instrument nécessite une maîtrise distincte.
 
 | Objet | Coût | Poids |
-| ------ | :--: | :--: |
+| ---- | -- | -- |
 | Cornemuse | 300 g | 3 kg |
 | Tambour | 60 g | 1,5 kg |
 | Tympanon | 250 g | 5 kg |
@@ -131,7 +131,7 @@ La maîtrise de ces outils vous permet d'ajouter votre bonus de maîtrise à tou
 #### Gadgets technologiques
 
 | Objet | Coût | Poids |
-| ------ | :--: | :--: |
+| ---- | -- | -- |
 | Kit de démolition | 300 g | 2,5 kg |
 | Kit de piratage | 250 g | 1 kg |
 | Kit de mécanicien | 100 g | 2 kg |

@@ -60,7 +60,7 @@ Les munitions existent sous de nombreuses formes, mais se présentent le plus so
 À la discrétion du MJ, certaines munitions exotiques (comme les cartouches à plasma) peuvent être difficiles à trouver dans certaines régions, nécessiter des efforts supplémentaires pour être obtenues ou être vendues à un prix plus élevé.
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Sac à munitions | 250 g | 2,5 kg |
 | Fléchette | 1 g | — |
 | Chargeur | 10 g | — |
@@ -94,7 +94,7 @@ Le prométhéum est un combustible liquide, comparable à l'essence, utilisé po
 #### Communications
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Communicateur | 50 g | — |
 | Brouilleur de communications | 450 g | 0,5 kg |
 | Vox longue portée | 250 g | 2,5 kg |
@@ -133,7 +133,7 @@ Un micro-casque peut être intégré à un casque ou porté indépendamment. Il 
 #### Enregistrement et stockage de données
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Dataslate | 50 g | 1 kg |
 | Enregistreur pict | 150 g | 1,5 kg |
 | Enregistreur vocal | 75 g | 0,5 kg |
@@ -158,7 +158,7 @@ Pour conserver les données enregistrées, il doit être relié à une Dataslate
 
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Charge de brèche | 750 g | 2 kg |
 | Collier explosif | 500 g | 1,5 kg |
 | Grenade incapacitante | 250 g | 0,5 kg |
@@ -280,7 +280,7 @@ De plus, en cas d'échec, la créature tombe à terre.
 #### Systèmes de survie
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Respirateur aquatique | 100 g | 1 kg |
 | Combinaison environnementale | 2 000 g | 7,5 kg |
 | Combinaison de vol | 1 000 g | 2,5 kg |
@@ -317,7 +317,7 @@ Lorsque vous portez un respirateur, vous obtenez un avantage sur les jets de sau
 #### Fournitures médicales
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Kit antitoxines | 600 g | 2 kg |
 | Poison basique | 1 000 g | 0,5 kg |
 | Batterie d'urgence | 70 g | 2,5 kg |
@@ -396,7 +396,7 @@ Au prix d'une action, vous pouvez utiliser une charge du kit afin de rendre 2d4 
 #### Coût des conteneurs de stockage
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Sac à dos | 50 g | 2,5 kg |
 | Caisse | 20 g | 35 kg |
 | Coffre | 50 g | 12,5 kg |
@@ -405,7 +405,7 @@ Au prix d'une action, vous pouvez utiliser une charge du kit afin de rendre 2d4 
 #### Utilitaires
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Sac de couchage | 10 g | 3,5 kg |
 | Couverture | 50 g | 1,5 kg |
 | Chrono | 100 g |0,5 kg|
@@ -536,7 +536,7 @@ Lorsque l'unité de contrôle est inactive, le construct agit librement mais ne 
 #### Accessoires d'armes et d'armures
 
 | Objet | Coût | Poids |
-| ------ |  --: |  --: |
+| ---- | -- | -- |
 | Bandoulière porte-chargeurs | 100 g | 1 kg |
 | Bipied | 200 g | 1 kg |
 | Équipement à adhérence frictionnelle | 2 000 g | 6 kg |
