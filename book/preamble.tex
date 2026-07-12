@@ -6,7 +6,32 @@
 
 \usepackage{etoolbox}
 \makeatletter
-\patchcmd{\part}{\thispagestyle{plain}}{\thispagestyle{plain}\setcounter{chapter}{0}}{}{\errmessage{Patch de \string\part\space a échoué}}
+% \@part (classe extbook, cf. metadata.yaml -> documentclass: extbook)
+% imprime TOUJOURS, en plus de l'argument #2 qu'on lui donne, sa
+% propre ligne "\huge\bfseries \partname~\thepart" (ex: "Partie I")
+% -- indépendamment du contenu de #2. C'est ce résidu (visible en
+% petit, en noir, au milieu de l'image de couverture) qu'on neutralise
+% ici : #2 est désormais notre encart \PartCoverBanner (voir
+% book/macro/part_cover.lua et la section "PAGE DE PARTIE" plus bas
+% dans ce fichier), qui affiche déjà le numéro de partie lui-même --
+% cette ligne native ferait doublon.
+% On retire UNIQUEMENT cette ligne (patch ciblé sur son texte exact
+% dans extsizes/extbook.cls) : la numérotation de la table des
+% matières (\addcontentsline, plus haut dans \@part, hors de ce bloc)
+% n'est pas concernée et reste intacte.
+%
+% NOTE -- numérotation des chapitres : \part ne remet PLUS le compteur
+% de chapitre à zéro (un patch le faisait ici auparavant, retiré sur
+% demande) -- la numérotation des chapitres reste donc CONTINUE d'une
+% partie à l'autre (chapitre 1, 2, 3... peu importe combien de parties
+% séparent les chapitres), plutôt que de repartir à 1 à chaque
+% nouvelle partie.
+\patchcmd{\@part}
+  {\huge\bfseries \partname~\thepart
+   \par
+   \vskip 20\p@}
+  {}
+  {}{\errmessage{Patch de \string\@part\space a échoué (label "Partie N" non trouvé -- vérifier la version de la classe extbook)}}
 \makeatother
 
 \usepackage{wallpaper}
