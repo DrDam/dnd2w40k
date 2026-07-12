@@ -1,8 +1,9 @@
 ## Les personnages, étape par étape
 
-### Créer Krieg le soldat de Krieg
 
-Chaque étape de la création d’un personnage s’accompagne d’un exemple illustrant cette étape, avec un joueur nommé Bob qui crée son personnage humain, Krieg le soldat de Krieg.
+!!! note "Créer Krieg le soldat"
+
+    Chaque étape de la création d’un personnage s’accompagne d’un exemple illustrant cette étape, avec un joueur nommé Bob qui crée son personnage humain, Krieg le soldat de Krieg.
 
 #### Etape 1. Choisir une espèce
 
@@ -14,7 +15,7 @@ Votre espèce augmente également un ou plusieurs de vos scores de caractéristi
 
 Notez les traits conférés par votre espèce sur votre fiche de personnage. Veillez également à noter vos langues de départ et votre vitesse de base.
 
-!!! note "CRÉER KRIEG LE SOLDAT DE KIEG, ÉTAPE 1"
+!!! note "Créer Krieg le soldat, étape 1"
 
     Bob s’installe pour créer son personnage. Il décide qu’un humain bourru correspond au personnage qu’il souhaite incarner.
 
@@ -61,7 +62,7 @@ Votre classe détermine vos maîtrises d’armes, vos maîtrises de jets de sauv
 
 Votre bonus de maîtrise ne peut pas être ajouté plus d’une fois à un même jet de dé ou à un autre chiffre. Il arrive parfois que votre bonus de maîtrise soit modifié (doublé ou divisé par deux, par exemple) avant que vous ne l’appliquiez. Si une circonstance suggère que votre bonus de maîtrise s’applique plus d’une fois au même jet ou qu’il devrait être multiplié plus d’une fois, vous ne l’ajoutez néanmoins qu’une seule fois, ne le multipliez qu’une seule fois et ne le divisez par deux qu’une seule fois.
 
-!!! note "CRÉER KRIEG LE SOLDAT DE KRIEG, ÉTAPE 2"
+!!! note "Créer Krieg le soldat, étape 2"
 
     Bob imagine Krieg le soldat de Krieg se ruant au combat avec une pelle, couvert du sang de ses ennemis. Il fait de Krieg un soldat et note sur sa fiche de personnage les compétences propres à cette classe ainsi que ses caractéristiques de niveau 1.
 
@@ -81,7 +82,7 @@ Prenez maintenant vos six chiffres et inscrivez-les à côté de chacune des six
 
 Une fois vos scores de caractéristiques attribués, déterminez vos modificateurs de caractéristiques à l’aide du tableau « Scores de caractéristiques et modificateurs ». Pour déterminer un modificateur de caractéristique sans consulter le tableau, soustrayez 10 du score de caractéristique, puis divisez le résultat par 2 (en arrondissant à l’unité inférieure). Notez le modificateur à côté de chacun de vos scores.
 
-!!! note "CRÉER KRIEG LE SOLDAT DE KRIEG, ÉTAPE 3"
+!!! note "Créer Krieg le soldat, étape 3"
 
     Bob décide d’utiliser la série de scores standard (15, 14, 13, 12, 10, 8) pour les capacités de Krieg. Comme c’est un soldat, il attribue son score le plus élevé, 15, à la Force. Son deuxième score le plus élevé, 14, va à la Constitution. Krieg est peut-être un guerrier impétueux, mais Bob décide qu’il veut que ce personnage soit plus âgé, plus sage et un bon meneur ; il attribue donc des scores corrects à la Sagesse et au Charisme.
 
@@ -100,17 +101,23 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 
 *Coût des points de caractéristiques*{.table-title}
 
+<div class="grid my-grid" markdown>
+
 | Score | Coût |
 | :----:| :--: |
-| 8     | 0    |
-| 9     | 1    |
-| 10    | 2    |
-| 11    | 3    |
-| 12    | 4    |
-| 13    | 5    |
-| 14    | 7    |
-| 15    | 9    |
+| 8 | 0 |
+| 9 | 1 |
+| 10 | 2 |
+| 11 | 3 |
 
+| Score | Coût |
+| :----:| :--: |
+| 12 | 4 |
+| 13 | 5 |
+| 14 | 7 |
+| 15 | 9 |
+
+</div>
 
 *Scores caractéristiques et modificateur*{.table-title}
 
@@ -118,25 +125,25 @@ Cette méthode de détermination des scores de caractéristiques vous permet de 
 
 | Score | Modificateur |
 | :----:| :----------: |
-| 1     | -5           |
-| 2-3   | -4           |
-| 4-5   | -3           |
-| 6-7   | -2           |
-| 8-9   | -1           |
-| 10-11 | 0            |
-| 12-13 | +1           |
-| 14-15 | +2           |
+| 1 | -5 |
+| 2-3 | -4 |
+| 4-5 | -3 |
+| 6-7 | -2 |
+| 8-9 | -1 |
+| 10-11 | 0 |
+| 12-13 | +1 |
+| 14-15 | +2 |
 
 | Score | Modificateur |
 | :----:| :----------: |
-| 16-17 | +3           |
-| 18-19 | +4           |
-| 20-21 | +5           |
-| 22-23 | +6           |
-| 24-25 | +7           |
-| 26-27 | +8           |
-| 28-29 | +9           |
-| 30    | +10          |
+| 16-17 | +3 |
+| 18-19 | +4 |
+| 20-21 | +5 |
+| 22-23 | +6 |
+| 24-25 | +7 |
+| 26-27 | +8 |
+| 28-29 | +9 |
+| 30 | +10 |
 
 </div>
 
@@ -166,7 +173,7 @@ Un personnage doté d’une grande Sagesse fait preuve de bon sens, d’empathie
 
 Un personnage doté d’un grand Charisme respire la confiance en soi, généralement associée à une présence gracieuse ou intimidante. Un personnage dont le Charisme est faible peut paraître brusque, maladroit ou timide.
 
-!!! note "CRÉATION DE KRIEG LE SOLDAT DE KRIEG, ÉTAPE 4"
+!!! note "Créer Krieg le soldat, étape 4"
 
     Bob précise certaines caractéristiques de base de Krieg : son nom, son sexe (masculin), sa taille et son poids, ainsi que son alignement (neutre loyal). Sa Force et sa Constitution élevées suggèrent un corps athlétique et en bonne santé, tandis que son Intelligence faible laisse entrevoir une certaine tendance à l’oubli.
 
@@ -203,7 +210,7 @@ Lorsque vous effectuez une attaque avec une arme, vous lancez un d20 et ajoutez 
 - Pour les attaques avec des armes de mêlée, utilisez votre modificateur de Force pour les jets d’attaque et de dégâts. Une arme dotée de la propriété « finesse », comme une rapière, peut utiliser votre modificateur de Dextérité à la place.
 - Pour les attaques avec des armes à distance, utilisez votre modificateur de Dextérité pour les jets d’attaque et de dégâts. Une arme de mêlée dotée de la propriété « lancée », comme une hache de main, peut utiliser votre modificateur de Force à la place.
 
-!!! note "CRÉATION DE KRIEG LE SOLDAT DE KRIEG, ÉTAPE 5"
+!!! note "Créer Krieg le soldat, étape 5"
 
     Bob note l'équipement de départ correspondant à la classe de soldat et au historique de héros populaire. Son équipement de départ comprend une cotte de mailles et un bouclier, qui, combinés, confèrent à Krieg une classe d'armure de 18.
 
@@ -213,7 +220,9 @@ Lorsque vous effectuez une attaque avec une arme, vous lancez un d20 et ajoutez 
 
 #### Etape 6. Se rassembler
 
-La plupart des personnages n’agissent pas seuls. Chaque personnage joue un rôle au sein d’un groupe, une équipe d’aventuriers travaillant ensemble vers un objectif commun. Le travail d’équipe et la coopération améliorent considérablement les chances de votre groupe de survivre aux nombreux périls qui guettent dans les mondes de Warhammer 40 000. Discutez avec vos camarades de jeu et votre MJ pour décider si vos personnages se connaissent, comment ils se sont rencontrés et quel genre de missions le groupe pourrait entreprendre.
+La plupart des personnages n’agissent pas seuls. Chaque personnage joue un rôle au sein d’un groupe, une équipe d’aventuriers travaillant ensemble vers un objectif commun. Le travail d’équipe et la coopération améliorent considérablement les chances de votre groupe de survivre aux nombreux périls qui guettent dans les mondes de Warhammer 40 000.
+
+Discutez avec vos camarades de jeu et votre MJ pour décider si vos personnages se connaissent, comment ils se sont rencontrés et quel genre de missions le groupe pourrait entreprendre.
 
 ### Au-delà du niveau 1
 
@@ -231,6 +240,30 @@ Lorsque votre modificateur de Constitution augmente de 1, votre maximum de point
 
 Le tableau « Évolution du personnage » récapitule les XP nécessaires pour passer du niveau 1 au niveau 20, ainsi que le bonus de compétence correspondant à chaque niveau. Consultez les informations figurant dans la description de la classe de votre personnage pour connaître les autres améliorations que vous obtenez à chaque niveau.
 
+| Point d'expérience (XP) | Niveau | Bonus de maîtrise |
+| :--------: | :--: | :--------: |
+| 0 | 1 | +2 |
+| 300 | 2 | +2 |
+| 900 | 3 | +2 |
+| 2,700 | 4 | +2 |
+| 6,500 | 5 | +3 |
+| 14,000 | 6 | +3 |
+| 23,000 | 7 | +3 |
+| 34,000 | 8 | +3 |
+| 48,000 | 9 | +4 |
+| 64,000 | 10 | +4 |
+| 85,000 | 11 | +4 |
+| 100,000 | 12 | +4 |
+| 120,000 | 13 | +5 |
+| 140,000 | 14 | +5 |
+| 165,000 | 15 | +5 |
+| 195,000 | 16 | +5 |
+| 225,000 | 17 | +6 |
+| 265,000 | 18 | +6 |
+| 305,000 | 19 | +6 |
+| 355,000 | 20 | +6 |
+
+
 **Niveaux de jeu**
 
 Les zones ombrées du tableau de progression du personnage indiquent les quatre niveaux de jeu. Ces niveaux ne sont associés à aucune règle particulière ; ils constituent une description générale de la manière dont l’expérience de jeu évolue à mesure que les personnages gagnent des niveaux.
@@ -243,29 +276,5 @@ Au troisième palier (niveaux 11 à 16), les personnages ont atteint un niveau d
 
 Au quatrième palier (niveaux 17 à 20), les personnages atteignent l’apogée de leurs capacités de classe, devenant à part entière des archétypes héroïques (ou maléfiques). Le sort du secteur, voire l’ordre fondamental de la galaxie, peut être en jeu au cours de leurs aventures.
 
-*Evolution des personnages*{.table-title}
-
-| Point d'expérience (XP) | Niveau | Bonus de maîtrise |
-| :--------: | :--: | :--------: |
-| 0                       | 1      | +2                |
-| 300                     | 2      | +2                |
-| 900                     | 3      | +2                |
-| 2,700                   | 4      | +2                |
-| 6,500                   | 5      | +3                |
-| 14,000                  | 6      | +3                |
-| 23,000                  | 7      | +3                |
-| 34,000                  | 8      | +3                |
-| 48,000                  | 9      | +4                |
-| 64,000                  | 10     | +4                |
-| 85,000                  | 11     | +4                |
-| 100,000                 | 12     | +4                |
-| 120,000                 | 13     | +5                |
-| 140,000                 | 14     | +5                |
-| 165,000                 | 15     | +5                |
-| 195,000                 | 16     | +5                |
-| 225,000                 | 17     | +6                |
-| 265,000                 | 18     | +6                |
-| 305,000                 | 19     | +6                |
-| 355,000                 | 20     | +6                |
 
 
