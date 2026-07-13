@@ -417,6 +417,30 @@ end
 -- supertabular (voir standalone_table_to_latex), au lieu de repasser
 -- par un float table/table* qui peut se déplacer hors de sa place
 -- d'origine dans le texte.
+-- BUDGET DE LARGEUR -- même défaut que celui corrigé dans
+-- captioned_table_grid (voir sa note détaillée) : le \tabcolsep par
+-- défaut (6pt) s'ajoute à la largeur RÉELLE du tableau à CHAQUE
+-- jonction entre colonnes adjacentes (2x\tabcolsep par jonction), sans
+-- être budgété par `total_target`. Pour un tableau à 2 colonnes (1
+-- jonction), l'écart passe inaperçu ; pour un tableau à 3 colonnes ou
+-- plus (2+ jonctions, ex: "Point d'expérience / Niveau / Bonus de
+-- maîtrise"), il s'accumule au point de déborder visiblement dans la
+-- gouttière entre colonnes de page -- constaté en test avec du texte
+-- réel des deux côtés.
+-- Corrigé ici en réduisant \tabcolsep localement (\tablecolsep, book/
+-- preamble.tex) à l'intérieur du \begingroup/\endgroup qui scope déjà
+-- \tablefontsize (voir plus bas) -- même technique que
+-- \tablegridcolsep pour les tableaux "grid" et \monsterblock/
+-- \statline dans book/macro/statblock.lua -- et en ramenant
+-- STANDARD_TABLE_WIDTH_TARGET de 0.98 à 0.94, pour garder un peu de
+-- marge même sur un tableau à plusieurs colonnes.
+-- Note : ne concerne QUE ce mode "standard"/"captioned inline" (table
+-- SANS légende .wide, voir standalone_table_to_latex/
+-- captioned_table_inline) -- le mode "wide" (table_to_tabular_lines,
+-- 0.87 de \textwidth = pleine page) a déjà suffisamment de marge et
+-- n'est pas concerné par ce correctif.
+local STANDARD_TABLE_WIDTH_TARGET = 0.94
+
 local function table_to_supertabular_lines(tbl, total_target, width_unit, caption_latex)
   width_unit = width_unit or "columnwidth"
   local widths = compute_column_widths(tbl, total_target)
@@ -467,6 +491,7 @@ local function table_to_supertabular_lines(tbl, total_target, width_unit, captio
     -- \begin{supertabular}...\end{supertabular} n'ouvrent de groupe.
     "\\begingroup",
     "\\tablefontsize",
+    "\\setlength{\\tabcolsep}{\\tablecolsep}",
     firsthead,
     contthead,
     "\\tabletail{}",
@@ -634,7 +659,7 @@ local function standalone_table_to_latex(tbl, force_clearpage)
     return pandoc.RawBlock("latex", latex)
   end
 
-  return pandoc.RawBlock("latex", table_to_supertabular_lines(tbl, 0.98, "columnwidth"))
+  return pandoc.RawBlock("latex", table_to_supertabular_lines(tbl, STANDARD_TABLE_WIDTH_TARGET, "columnwidth"))
 end
 
 -- Tableau AVEC légende préalable, mode flux normal (par défaut).
@@ -650,7 +675,7 @@ end
 -- casserait sa pagination interne).
 local function captioned_table_inline(caption_latex, tbl)
   return pandoc.RawBlock("latex",
-    table_to_supertabular_lines(tbl, 0.98, "columnwidth", caption_latex))
+    table_to_supertabular_lines(tbl, STANDARD_TABLE_WIDTH_TARGET, "columnwidth", caption_latex))
 end
 
 -- Tableau AVEC légende préalable, mode pleine largeur (flag .wide).

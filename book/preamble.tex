@@ -100,6 +100,17 @@
 % ce \tablerowsep sert de séparation visuelle légère à la place.
 \newcommand{\tablerowsep}{1.5pt}
 
+% \tabcolsep RÉDUIT localement pour les tableaux "standard" (sans
+% .wide ni grid -- book/macro/tables.lua, table_to_supertabular_lines) :
+% le \tabcolsep par défaut (6pt) ajoute 2x\tabcolsep à la largeur RÉELLE
+% du tableau à CHAQUE jonction entre colonnes adjacentes, sans être
+% budgété par la largeur visée -- négligeable pour 2 colonnes, mais
+% s'accumule au point de déborder dans la gouttière entre colonnes de
+% page pour un tableau à 3 colonnes ou plus (ex : "Point d'expérience /
+% Niveau / Bonus de maîtrise"). Même technique que \tablegridcolsep
+% ci-dessous et \monsterblock/\statline dans book/macro/statblock.lua.
+\newcommand{\tablecolsep}{2pt}
+
 % Séparation entre les deux tableaux d'une paire "grid" (deux tableaux
 % côte à côte sous une légende commune, voir captioned_table_grid dans
 % book/macro/tables.lua) : par défaut, seul l'espacement standard de

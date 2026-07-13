@@ -105,7 +105,7 @@ Par exemple, un jet de Dextérité peut refléter la tentative d’un personnage
 Les compétences liées à chaque caractéristique sont répertoriées dans la liste suivante. (Aucune compétence n’est liée à la Constitution.) Reportez-vous à la description d’une caractéristique dans les sections suivantes de cette partie pour découvrir des exemples d’utilisation d’une compétence associée à une caractéristique.
 
 | Caractéristique | Compétences |
-| -- | ------ |
+| -- | ---- |
 | Force | Athlétisme |
 | Dextérité | Acrobatie, Discretion, Escamotage |
 | Intelligence | Connaissance, Investigation, Nature, Pilotage, Technologie |

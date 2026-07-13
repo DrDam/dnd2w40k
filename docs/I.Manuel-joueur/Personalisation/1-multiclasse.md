@@ -18,7 +18,7 @@ Au fur et à mesure que vous gagnez des niveaux, vous pouvez choisir de rester p
 Pour pouvoir accéder à une nouvelle classe, vous devez remplir les conditions préalables en matière de caractéristiques, tant pour votre classe actuelle que pour la nouvelle, comme indiqué dans le tableau « Conditions préalables au multiclassage ». Par exemple, un soldat qui décide de se multiclasser en classe de psyker doit avoir des scores de Force ou de Dextérité et de Sagesse ou de Charisme égaux ou supérieurs à 13. Sans avoir suivi la formation complète dispensée à un personnage débutant, vous devez être capable d’apprendre rapidement votre nouvelle classe, en faisant preuve d’une aptitude naturelle qui se traduit par des scores de caractéristiques supérieurs à la moyenne.
 
 | Classe | Seuil des score de caractéristiques |
-| -- | -------- |
+| --- | -------- |
 | Agent | Dextérité 13 |
 | Augmentiste | Force ou Dextérité 13 |
 | Berserker | Force 13 |
@@ -51,7 +51,7 @@ Si une capacité ou un don vous permet de renoncer à votre bonus de compétence
 Lorsque vous gagnez un niveau dans une classe autre que votre classe principale, vous n’acquérez qu’une partie des compétences de base de cette classe, comme indiqué dans le tableau « Compétences de multiclasse ».
 
 | Classe | Compétences acquises |
-| -- | -------- |
+| --- | ------- |
 | Agent | Armure légère, armes simples, deux compétences de la liste de la classe|
 | Augmentiste | Armure légère, griffes, épées courtes|
 | Berserker | Armure légère, armes simples, armes martiales|
@@ -99,7 +99,7 @@ Par exemple, si vous avez trois niveaux d’exorciste, qui correspondent à 1,5 
 Si vous disposez à la fois de pouvoirs psychiques et de pouvoirs technologiques, vous déterminez vos niveaux de puissance maximaux séparément, et ceux-ci ne peuvent être utilisés respectivement que pour lancer des pouvoirs psychiques ou technologiques.
 
 | Niveau de lanceur de sorts | Niveau maximal du sort|
-| ---- | -------- |
+| :--: | :--:|
 | 1er-2e | 1er |
 | 3e-4e | 2e |
 | 5e-6e | 3e |
