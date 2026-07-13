@@ -50,6 +50,7 @@ preprocess_one() {
   python3 book/macro/admonition_to_div.py "$src_file" \
     | python3 book/macro/resolve_image_paths.py "$src_file" \
     | python3 book/macro/resolve_internal_links.py \
+    |  BUILD_DIR="$BUILD_DIR" python3 book/macro/optimize_images.py \
     > "$dest_file"
   PREPROCESSED_FILES+=("$dest_file")
 }
