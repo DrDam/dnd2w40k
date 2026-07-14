@@ -94,6 +94,11 @@ nav:
       - "Partie 2 : Jouer au 40ième millénaire" :
         - 10. Utiliser les valeurs de caractéristiques: I.Manuel-joueur/Jouer/0-carac.md
         - 11. Partir à l'aventure: I.Manuel-joueur/Jouer/1-aventure.md
+        - 12. Les combats: I.Manuel-joueur/Jouer/2-combat.md
+      - "Partie 3 : Les pouvoirs psychiques et technologiques" :
+        - 13. Utiliser les pouvoirs: I.Manuel-joueur/Powers/0-intro.md
+        - 14. Les pouvoirs psychiques: I.Manuel-joueur/Powers/1-psy.md
+        - 15. Les pouvoirs technologiques: I.Manuel-joueur/Powers/2-tech.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/0-index.md
       - les équipements avancés: II.Manuel-MJ/2-Equipement-avance.md

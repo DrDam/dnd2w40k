@@ -6,6 +6,8 @@
 
 Un grand merci à Klefgun pour la création de ce kit de conversion et le travail gigantesque que cela a du représenter pour obtenir quelque chose de cohérent.
 
+Le Chapitre 12-Combat est en grande partie une copie de la traduction effectué par Xirui et Jyah pour le site www.aidedd.org
+
 ##### Images :
 
 par ordre d'apparition
