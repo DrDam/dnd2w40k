@@ -10,4 +10,6 @@ book/parts_titles/Livre1-part2.md
 docs/I.Manuel-joueur/Jouer/*.md
 book/parts_titles/Livre1-part3.md
 docs/I.Manuel-joueur/Powers/*.md
+book/parts_titles/Livre1-annexes.md
+docs/I.Manuel-joueur/conditions.md
 docs/credits.md
