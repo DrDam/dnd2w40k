@@ -4,7 +4,7 @@ Le fracas d'une épée frappant contre un bouclier. Le crissement déchirant de 
 
 ### Ordre de combat
 
-Un combat typique est un choc entre deux parties, une frénésie de coups d'armes, de feintes, de parades, de jeux de jambes et de jets de sorts. Le jeu organise le chaos des combats en un cycle de rounds et de tours. Un round représente environ six secondes dans le monde du jeu. Pendant un round, chaque participant à la bataille prend un tour. L'ordre des tours est déterminé au début de la rencontre, quand chacun lance l'initiative. Une fois que chacun a joué son tour, le combat continue avec le prochain round si aucun côté n'a battu l'autre.
+Un combat typique est un choc entre deux parties, une frénésie de coups d'armes, de feintes, de parades, de jeux de jambes et de jets de pouvoirs. Le jeu organise le chaos des combats en un cycle de rounds et de tours. Un round représente environ six secondes dans le monde du jeu. Pendant un round, chaque participant à la bataille prend un tour. L'ordre des tours est déterminé au début de la rencontre, quand chacun lance l'initiative. Une fois que chacun a joué son tour, le combat continue avec le prochain round si aucun côté n'a battu l'autre.
 
 !!! note "LE COMBAT, PAS À PAS"
 
@@ -32,7 +32,7 @@ Vous pouvez aussi décider de ne rien faire durant votre tour, que ce soit de ne
 
 ##### Actions bonus
 
-Certaines capacités de classes, sorts ou autres vous permettent d'obtenir à votre tour une action additionnelle appelée action bonus. La capacité Ruse, par exemple, permet au roublard de prendre une action bonus. Vous pouvez utiliser une action bonus seulement quand une capacité spéciale, un sort ou un autre mécanisme du jeu dit que vous pouvez faire quelque chose en tant qu'action bonus. Autrement, vous n'avez pas d'action bonus.
+Certaines capacités de classes, pouvoirs ou autres vous permettent d'obtenir à votre tour une action additionnelle appelée action bonus. La capacité Ruse, par exemple, permet au roublard de prendre une action bonus. Vous pouvez utiliser une action bonus seulement quand une capacité spéciale, un sort ou un autre mécanisme du jeu dit que vous pouvez faire quelque chose en tant qu'action bonus. Autrement, vous n'avez pas d'action bonus.
 
 Vous ne pouvez prendre qu'une action bonus par tour, donc vous devez choisir laquelle utiliser quand vous en avez plus d'une possible. Vous choisissez quand effectuer votre action durant votre tour sauf si le moment de l'action bonus est spécifié. Tout ce qui vous empêche d'effectuer une action vous empêche également de réaliser une action bonus.
 
@@ -70,7 +70,7 @@ Le MD peut demander à ce que vous utilisiez une action pour toute activité qui
 
 #### Réactions
 
-Certaines capacités spéciales, sorts ou situations vous permettent de réaliser une action appelée réaction. Une réaction est une réponse instantanée à un déclencheur et peut se produire pendant votre tour ou celui de quelqu'un d'autre. L'attaque d'opportunité, décrite plus loin dans le chapitre, est le type de réaction le plus commun.
+Certaines capacités spéciales, pouvoirs ou situations vous permettent de réaliser une action appelée réaction. Une réaction est une réponse instantanée à un déclencheur et peut se produire pendant votre tour ou celui de quelqu'un d'autre. L'attaque d'opportunité, décrite plus loin dans le chapitre, est le type de réaction le plus commun.
 
 Quand vous prenez une réaction, vous ne pouvez pas en prendre une autre avant le début de votre prochain tour. Si la réaction interrompt le tour d'une autre créature, celle-ci continue son tour juste après la réaction.
 
@@ -171,7 +171,7 @@ Quand vous choisissez l'action Esquiver, vous vous concentrez uniquement sur le 
 Quand vous entreprenez l'action Foncer, vous gagnez un mouvement supplémentaire pour le tour en cours. La distance supplémentaire est égale à votre vitesse à laquelle on ajoute vos éventuels modificateurs. Avec une vitesse de 9 mètres par exemple, vous pouvez vous déplacer de 18 mètres lors de votre tour si vous courez. Chaque augmentation ou diminution de votre vitesse change la distance additionnelle de la même quantité. Si votre vitesse de 9 mètres est réduite à 4,50 mètres par exemple, vous pouvez alors vous déplacer de 9 mètres en courant pour ce tour.
 
 #### Lancer un sort
-Les lanceurs de sorts comme les magiciens ou les clercs, de même que de nombreux monstres, ont accès à des sorts et peuvent les utiliser pour provoquer des effets en combat. Chaque sort possède un temps d'incantation qui détermine si le lanceur doit utiliser une action, une réaction, des minutes voire même des heures pour lancer le sort. Lancer un sort n'est donc pas systématiquement une action, même si la plupart des sorts ont un temps d'incantation d'une action donc un lanceur de sorts utilise souvent son action à cet effet (voir Magie).
+Les lanceurs de pouvoirs comme les magiciens ou les clercs, de même que de nombreux monstres, ont accès à des pouvoirs et peuvent les utiliser pour provoquer des effets en combat. Chaque sort possède un temps d'incantation qui détermine si le lanceur doit utiliser une action, une réaction, des minutes voire même des heures pour lancer le sort. Lancer un sort n'est donc pas systématiquement une action, même si la plupart des pouvoirs ont un temps d'incantation d'une action donc un lanceur de pouvoirs utilise souvent son action à cet effet (voir Magie).
 
 #### Se cacher
 Quand vous décidez d'utiliser l'action Se cacher, vous devez faire un jet de Dextérité (Discrétion) pour tenter de vous cacher, suivant les règles pour se cacher. Si vous réussissez, vous gagnez certains avantages, comme décrit dans la section « Attaquants et cibles non visibles » plus loin dans ce chapitre.
@@ -199,7 +199,7 @@ Vous interagissez normalement avec les objets lorsque vous faites certaines acti
 Que vous frappiez avec une arme de corps à corps, que vous attaquiez à distance ou que votre jet d'attaque fasse partie d'un sort, chaque attaque à une structure simple :
 
 1. Choisissez votre cible. Choisissez une cible qui est à votre portée : une créature, un objet, un lieu.
-2. Déterminez les modificateurs. Le MD détermine si la cible a un abri et si vous avez un avantage ou un désavantage sur elle. De plus, les sorts, les capacités spéciales et d'autres effets peuvent donner des bonus ou des malus à votre jet d'attaque.
+2. Déterminez les modificateurs. Le MD détermine si la cible a un abri et si vous avez un avantage ou un désavantage sur elle. De plus, les pouvoirs, les capacités spéciales et d'autres effets peuvent donner des bonus ou des malus à votre jet d'attaque.
 3. Résolvez l'attaque. Lancez le jet d'attaque. Si vous touchez, lancez les dégâts, à moins que l'attaque soit particulière et que les règles spécifient le contraire. Certaines attaques causent des effets particuliers en plus ou à la place des dégâts.
 
 S'il y a un doute sur le fait que ce que vous faites compte comme une attaque, la règle est simple : si vous faites un jet d'attaque, vous êtes en train d'attaquer.
@@ -210,7 +210,7 @@ Quand vous faites une attaque, votre jet d'attaque détermine si l'attaque touch
 ##### Modificateurs du jet
 Quand un personnage fait un jet d'attaque, les deux modificateurs du jet les plus fréquents sont les modificateurs de caractéristique et le bonus de maîtrise. Quand un monstre fait un jet d'attaque, il utilise les modificateurs indiqués dans ses statistiques.
 
-**Modificateur de caractéristique.** Le modificateur de caractéristique utilisé pour les attaques au corps à corps est celui de la Force, et le modificateur de caractéristique utilisé pour les attaques à distance est celui de Dextérité. Les armes qui ont la propriété finesse ou lancer cassent cette règle. Certains sorts demandent également un jet d'attaque. Le modificateur de caractéristique utilisé pour un sort dépend de la caractéristique d'incantation du lanceur, comme expliqué dans le chapitre sur la Magie.
+**Modificateur de caractéristique.** Le modificateur de caractéristique utilisé pour les attaques au corps à corps est celui de la Force, et le modificateur de caractéristique utilisé pour les attaques à distance est celui de Dextérité. Les armes qui ont la propriété finesse ou lancer cassent cette règle. Certains pouvoirs demandent également un jet d'attaque. Le modificateur de caractéristique utilisé pour un sort dépend de la caractéristique d'incantation du lanceur, comme expliqué dans le chapitre sur la Magie.
 
 **Bonus de maîtrise.** Vous ajoutez votre bonus au jet d'attaque si vous attaquez avec une arme que vous maîtrisez, ainsi que lorsque vous attaquez avec un sort.
 
@@ -221,7 +221,7 @@ Parfois le destin bénit ou maudit un combattant, faisant toucher le débutant o
 Les combattants essaient souvent de se dérober du regard de leurs ennemis en se cachant, en utilisant le sort invisibilité ou en se fondant dans l'ombre. Quand vous attaquez une cible que vous ne voyez pas, vous avez un désavantage à vos jets d'attaque. C'est le cas si vous attaquez une cible que vous entendez mais que vous ne voyez pas, ou si vous devinez l'emplacement de votre cible. Si la cible n'est pas à l'endroit que vous visez, vous ratez automatiquement, mais le MD vous dira juste que votre attaque rate, pas que vous n'avez pas trouvé la cible. Quand une créature ne peut pas vous voir, vous avez un avantage à vos jets d'attaque contre elle. Si vous êtes caché, qu'on ne vous voit pas et qu'on ne vous entend pas, votre position est dévoilée lorsque vous attaquez, que l'attaque touche ou non.
 
 #### Attaques à distance
-Quand vous faites une attaque à distance, que ce soit en utilisant un arc ou une arbalète, ou en lançant une hachette, vous lancez un projectile pour toucher un ennemi à distance. Un monstre peut envoyer des épines de sa queue. Beaucoup de sorts incluent une attaque à distance.
+Quand vous faites une attaque à distance, que ce soit en utilisant un arc ou une arbalète, ou en lançant une hachette, vous lancez un projectile pour toucher un ennemi à distance. Un monstre peut envoyer des épines de sa queue. Beaucoup de pouvoirs incluent une attaque à distance.
 
 ##### Portée
 Vous pouvez faire des attaques à distance seulement contre des cibles à votre portée. Si une attaque à distance, comme celle que vous pourriez faire avec un sort, possède une seule portée, vous ne pouvez attaquer une cible au-delà de cette portée.
@@ -232,7 +232,7 @@ Certaines attaques de distance, comme celles faites avec un arc long ou court, o
 Viser pour une attaque à distance est plus difficile quand un ennemi est proche de vous. Quand vous faites une attaque à distance avec une arme, un sort ou autre, vous avez un désavantage au jet d'attaque si vous êtes 1,50 mètre ou moins d'une créature hostile qui peut vous voir et qui n'est pas incapable d'agir.
 
 #### Attaques au corps à corps
-Utilisée dans les combats de contact, une attaque au corps à corps vous autorise à attaquer un ennemi dans votre zone d'allonge. Une attaque au corps à corps utilise généralement une arme tenue en main comme une épée, un marteau ou une hache. Un monstre typique effectue une attaque au corps à corps quand il frappe avec ses griffes, ses cornes, ses dents, ses tentacules ou autre partie de son corps. Certains sorts sont aussi considérés comme des attaques au corps à corps.
+Utilisée dans les combats de contact, une attaque au corps à corps vous autorise à attaquer un ennemi dans votre zone d'allonge. Une attaque au corps à corps utilise généralement une arme tenue en main comme une épée, un marteau ou une hache. Un monstre typique effectue une attaque au corps à corps quand il frappe avec ses griffes, ses cornes, ses dents, ses tentacules ou autre partie de son corps. Certains pouvoirs sont aussi considérés comme des attaques au corps à corps.
 
 La plupart des créatures ont une allonge de 1,50 mètre et peuvent donc attaquer des cibles dans un rayon de 1,50 mètre autour d'elles quand elles font une attaque au corps à corps. Certaines créatures (généralement celles de taille supérieure à M) ont toutefois une allonge supérieure à 1,50 mètre, comme indiqué dans leur description.
 
@@ -274,7 +274,7 @@ Une cible qui a un abri partiel (50%) obtient un bonus de +2 à la CA et aux jet
 
 Une cible avec un abri important (75%) obtient un bonus de +5 à la CA et aux jets de sauvegarde de Dextérité. Une cible a un abri important si environ les trois-quarts de celle-ci sont abrités par un obstacle. L'obstacle peut être une herse, une meurtrière ou un tronc d'arbre épais.
 
-Une cible avec un abri total (100%) ne peut être visée directement par une attaque ou un sort, mais certains sorts peuvent toutefois l'atteindre en l'incluant dans la zone d'effet. Une cible a un abri total si elle est complètement cachée par un obstacle.
+Une cible avec un abri total (100%) ne peut être visée directement par une attaque ou un sort, mais certains pouvoirs peuvent toutefois l'atteindre en l'incluant dans la zone d'effet. Une cible a un abri total si elle est complètement cachée par un obstacle.
 
 ### Dégâts et guérison
 Les blessures et le risque de mort sont des compagnons constants de ceux qui explorent les mondes de D&D. Un coup d'épée, une flèche bien placée ou l'explosion de flammes du sort boule de feu ont le potentiel de blesser voire même tuer les créatures les plus robustes.
@@ -287,7 +287,7 @@ Quand une créature prend des dégâts, ceux-ci sont soustraits de ses points de
 #### Jets de dégâts
 Chaque arme, sort ou capacité offensive de monstre décrit le type de dégâts qu'il inflige. Lancez le ou les dés de dégâts, ajoutez les éventuels modificateurs et appliquez les dégâts à votre cible. Des armes magiques, capacités spéciales ou autres facteurs peuvent accorder des bonus aux dégâts.
 
-Quand vous attaquez avec une arme, ajoutez votre modificateur de caractéristique (le même modificateur que celui utilisé pour faire le jet d'attaque) aux dégâts. Les sorts indiquent quels dés utiliser pour les dégâts et s'il convient d'ajouter un quelconque modificateur. Si un sort ou un autre effet inflige des dégâts à plus d'une cible à la fois, lancez une seule fois les dégâts pour le total d'entre elles. Par exemple, quand un magicien lance boule de feu ou un clerc colonne de flamme, le jet de dégâts est effectué une seule fois pour l'ensemble des cibles prises dans l'explosion.
+Quand vous attaquez avec une arme, ajoutez votre modificateur de caractéristique (le même modificateur que celui utilisé pour faire le jet d'attaque) aux dégâts. Les pouvoirs indiquent quels dés utiliser pour les dégâts et s'il convient d'ajouter un quelconque modificateur. Si un sort ou un autre effet inflige des dégâts à plus d'une cible à la fois, lancez une seule fois les dégâts pour le total d'entre elles. Par exemple, quand un magicien lance boule de feu ou un clerc colonne de flamme, le jet de dégâts est effectué une seule fois pour l'ensemble des cibles prises dans l'explosion.
 
 ##### Coups critiques
 Quand vous faites un coup critique, vous pouvez lancer des dés supplémentaires pour les dégâts de l'attaque contre la cible. Lancez deux fois tous les dés de dégâts de l'attaque et additionnez-les, puis ajoutez les modificateurs habituels. Pour accélérer le jeu, vous pouvez lancer tous les dés en une seule fois. Par exemple, si vous faites un coup critique avec une dague, lancez 2d4 en guise de dégâts, au lieu de 1d4, et ajoutez le modificateur de caractéristique utilisé pour l'attaque. Si l'attaque implique d'autres dés, comme ceux de l’attaque sournoise du roublard, vous lancez aussi deux fois les dés.
@@ -298,7 +298,7 @@ Quand vous faites un coup critique, vous pouvez lancer des dés supplémentaires
     Le MD peut décrire la perte de points de vie de différentes manières. Quand votre total de point de vie est au-dessus de la moitié de votre maximum, vous ne montrez pas particulièrement de signe de blessure. Quand vous tombez en dessous de la moitié de votre total de point de vie, vous commencez à avoir des plaies comme des coupures ou des contusions. Une attaque qui réduit vos points de vie à 0 vous touche directement, infligeant une blessure profonde ou d'autres traumatismes, ou simplement vous met hors de combat.
 
 ##### Types de dégâts
-Les attaques, sorts de dégâts ou autres effets offensifs infligent différents types de dégâts. Les types de dégâts n'ont pas de règles propres, mais d'autres règles comme la résistance sont basées sur ces types. Voici une liste des types de dégâts avec des exemples pour aider le MD à assigner un type de dégât pour un nouvel effet.
+Les attaques, pouvoirs de dégâts ou autres effets offensifs infligent différents types de dégâts. Les types de dégâts n'ont pas de règles propres, mais d'autres règles comme la résistance sont basées sur ces types. Voici une liste des types de dégâts avec des exemples pour aider le MD à assigner un type de dégât pour un nouvel effet.
 
 **Acide.** Le jet corrosif d’une arme à plasma et les enzymes dissolvantes sécrétées par certains Tyranides infligent des dégâts d’acide.
 
@@ -306,15 +306,15 @@ Les attaques, sorts de dégâts ou autres effets offensifs infligent différents
 
 **Energie.** Un fusil laser du garde impérial ou l’épée énergétique d’un inquisiteur, brûlent la chair comme le feu. Correspond au type "radiant" classique.
 
-**Feu.** Les lance-flammes et de nombreux sorts tels que « Éclair de feu » utilisent les flammes pour infliger des dégâts de feu.
+**Feu.** Les lance-flammes et de nombreux pouvoirs tels que « Éclair de feu » utilisent les flammes pour infliger des dégâts de feu.
 
-**Force.** La force est de l’énergie pure amplifiée, concentrée sous une forme destructrice. La plupart des effets infligeant des dégâts de force sont des sorts, notamment « Missile psychique » et « Force funeste » ; des technologies de pointe telles que les armes à impulsions Tau infligent également des dégâts de force.
+**Force.** La force est de l’énergie pure amplifiée, concentrée sous une forme destructrice. La plupart des effets infligeant des dégâts de force sont des pouvoirs, notamment « Missile psychique » et « Force funeste » ; des technologies de pointe telles que les armes à impulsions Tau infligent également des dégâts de force.
 
 **Foudre.** Le sort « Éclair » et certains canons à rail infligent des dégâts de foudre.
 
-**Froid.** La température glaciale à l’intérieur d’une chambre de cryostase et les sorts psychiques tels que « Tempête de glace » infligent des dégâts de froid.
+**Froid.** La température glaciale à l’intérieur d’une chambre de cryostase et les pouvoirs psychiques tels que « Tempête de glace » infligent des dégâts de froid.
 
-**Nécrotique.** Les dégâts nécrotiques, infligés par certains morts-vivants, par des sorts tels que « Toucher glacial » ou par de fortes doses de radiation, détruisent la matière et même l’âme.
+**Nécrotique.** Les dégâts nécrotiques, infligés par certains morts-vivants, par des pouvoirs tels que « Toucher glacial » ou par de fortes doses de radiation, détruisent la matière et même l’âme.
 
 **Poison.** Les piqûres venimeuses et le gaz toxique provenant de la gueule venimeuse d’un tyranide infligent des dégâts de poison.
 
@@ -342,7 +342,7 @@ D'énormes dégâts peuvent vous tuer instantanément. Quand des dégâts vous a
 Si les dégâts vous amènent à 0 point de vie sans vous tuer, vous devenez inconscient. Cette inconscience se termine si vous regagnez des points de vie.
 
 ##### Jets de sauvegarde contre la mort
-Quand vous commencez votre tour avec 0 point de vie, vous devez faire un jet de sauvegarde spécial, appelé jet de sauvegarde contre la mort, pour déterminer si vous vous approchez de la mort ou si vous vous raccrochez à la vie. À la différence des autres jets de sauvegarde, celui-là n'est pas lié à vos caractéristiques. Vous êtes entre les mains du destin maintenant, et n'êtes aidé que par des sorts ou des capacités qui augmentent vos chances de réussir votre jet de sauvegarde.
+Quand vous commencez votre tour avec 0 point de vie, vous devez faire un jet de sauvegarde spécial, appelé jet de sauvegarde contre la mort, pour déterminer si vous vous approchez de la mort ou si vous vous raccrochez à la vie. À la différence des autres jets de sauvegarde, celui-là n'est pas lié à vos caractéristiques. Vous êtes entre les mains du destin maintenant, et n'êtes aidé que par des pouvoirs ou des capacités qui augmentent vos chances de réussir votre jet de sauvegarde.
 
 **Lancez un dé 20.** Si le résultat est supérieur ou égal à 10, vous réussissez. Sinon vous ratez. Un succès ou un échec en lui-même ne change rien. Au troisième succès vous serez stabilisé (voir ci-dessous). Au troisième échec, vous mourrez. Les succès et les échecs n'ont pas besoin d'être consécutifs ; notez tous les essais jusqu'à ce que vous ayez trois résultats identiques. Ces deux « compteurs » sont remis à 0 si vous gagnez des points de vie ou devenez stabilisé.
 
@@ -360,7 +360,7 @@ La plupart des MD font mourir un monstre dès lors qu'il est à 0 point de vie, 
 Parfois un attaquant veut handicaper un ennemi plutôt que de le tuer. Quand un attaquant réduit les points de vie d'une créature à 0 avec une attaque au corps à corps, l'attaquant peut la mettre KO. L'attaquant peut faire ce choix au moment d'appliquer les dégâts. La créature tombe alors inconsciente et stable.
 
 #### Points de vie temporaires
-Certains sorts et capacités spéciales confèrent des points de vie temporaires à une créature. Ces points de vie temporaires ne sont pas les points de vie courants ; ils représentent un tampon contre les dégâts, une réserve de points de vie qui vous protègent des blessures. Lorsque vous avez des points de vie temporaires et que vous subissez des dégâts, ces points temporaires sont perdus en premier, et tous les dégâts restants sont infligés à vos points de vie normaux. Par exemple, si vous avez 5 points de vie temporaires et que vous prenez 7 points de dégâts, vous perdez tous les points temporaires et deux de vos points de vie normaux.
+Certains pouvoirs et capacités spéciales confèrent des points de vie temporaires à une créature. Ces points de vie temporaires ne sont pas les points de vie courants ; ils représentent un tampon contre les dégâts, une réserve de points de vie qui vous protègent des blessures. Lorsque vous avez des points de vie temporaires et que vous subissez des dégâts, ces points temporaires sont perdus en premier, et tous les dégâts restants sont infligés à vos points de vie normaux. Par exemple, si vous avez 5 points de vie temporaires et que vous prenez 7 points de dégâts, vous perdez tous les points temporaires et deux de vos points de vie normaux.
 
 Les points de vie temporaires étant séparés de vos points de vie normaux, ils peuvent être supérieurs à votre maximum de points de vie. Un personnage peut donc être à son maximum de points de vie et avoir des points de vie temporaires. Les soins ne redonnent pas de points de vie temporaires, et ils ne peuvent pas se cumuler. Si vous avez déjà des points de vie temporaires et que vous en recevez de nouveaux, vous décidez si vous préférez garder ceux que vous avez ou si vous prenez les nouveaux. Par exemple, si un sort vous donne 12 points de vie temporaires et que vous en aviez déjà 10, vous pouvez en avoir soit 10, soit 12, mais pas 22.
 

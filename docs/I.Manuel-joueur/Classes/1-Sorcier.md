@@ -47,7 +47,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 #### Aptitudes du Sorcier
 
-##### Lancement de sorts Psychique
+##### Lancement de pouvoirs Psychique
 
 Vous avez acquis la capacité de canaliser l’Immaterium pour alimenter vos pouvoirs psychiques. Reportez-vous au chapitre XX pour les règles générales relatives à l’utilisation des pouvoirs et au chapitre XX pour la liste des pouvoirs psychiques.
 

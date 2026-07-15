@@ -47,7 +47,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 
 #### Aptitudes du Psyker
 
-##### Lancement de sorts Psychique
+##### Lancement de pouvoirs Psychique
 
 Vous avez acquis la capacité de canaliser l’Immaterium pour alimenter vos pouvoirs psychiques. Reportez-vous au chapitre XX pour les règles générales relatives à l’utilisation des pouvoirs et au chapitre XX pour la liste des pouvoirs psychiques.
 
@@ -76,8 +76,8 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Nombre de pouvoir psychique connu | Nombre de point de pouvoir psychique | Niveau maximal des pouvoir psychique |
 | :-: | :---: | ---------------- | :----: | :----: | :----: |
-| 1 | +2 | Lancement de sorts psychiques, Récupération de puissance | 9 | 4 | 1 |
-| 2 | +2 | Lancement de sorts renforcé par le Warp, Barrière télékinétique | 11 | 8 | 1 |
+| 1 | +2 | Lancement de pouvoirs psychiques, Récupération de puissance | 9 | 4 | 1 |
+| 2 | +2 | Lancement de pouvoirs renforcé par le Warp, Barrière télékinétique | 11 | 8 | 1 |
 | 3 | +2 | Discipline psychique | 13 | 12 | 2 |
 | 4 | +2 | Amélioration des caractéristiques | 15 | 16 | 2 |
 | 5 | +3 | -- | 17 | 20 | 3 |
@@ -85,14 +85,14 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 | 7 | +3 | --  | 21 | 28 | 4 |
 | 8 | +3 | Amélioration des caractéristiques | 23 | 32 | 4 |
 | 9 | +4 | -- |  25 | 36 | 5 |
-| 10 | +4 | Lancement de sorts renforcé par le Warp (3 options) | 26 | 40 | 5 |
+| 10 | +4 | Lancement de pouvoirs renforcé par le Warp (3 options) | 26 | 40 | 5 |
 | 11 | +4 | -- |  28 | 44 | 6 |
 | 12 | +4 | Amélioration des caractéristiques |  29 | 48 | 6 |
 | 13 | +5 | -- |  31 | 52 | 7 |
 | 14 | +5 | Amélioration de la Discipline psychique |  32 | 56 | 7 |
 | 15 | +5 | -- | 34 | 60 | 8 |
 | 16 | +5 | Amélioration des caractéristiques | 35 | 64 | 8 |
-| 17 | +6 | Lancement de sorts renforcé par le Warp (4 options) | 37 | 68 | 9 |
+| 17 | +6 | Lancement de pouvoirs renforcé par le Warp (4 options) | 37 | 68 | 9 |
 | 18 | +6 | Amélioration de la Discipline psychique | 38 | 72 | 9 |
 | 19 | +6 | Amélioration des caractéristiques | 39 | 76 | 9 |
 | 20 | +6 | Maîtrise psychique | 40 | 80 | 9 |
@@ -101,7 +101,7 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 
 Dès le niveau 1, vous avez appris à récupérer une partie de votre énergie en méditant brièvement. À la fin d'un repos court, vous pouvez récupérer un nombre de points psioniques égal à la moitié de votre niveau de psyker (arrondi à l'unité inférieure) + votre modificateur de lanceur de sort psychique. Une fois que vous avez utilisé cette capacité, vous devez effectuer un repos long avant de pouvoir l'utiliser à nouveau.
 
-##### Lancement de sorts renforcé par le Warp
+##### Lancement de pouvoirs renforcé par le Warp
 
 À partir du niveau 2, vous acquérez la capacité de manipuler le Warp à votre guise. Lorsque vous lancez un pouvoir psychique, vous pouvez dépenser des points de psyker supplémentaires pour modifier ce pouvoir. Vous choisissez trois des options de « Lancement de pouvoirs renforcé par le Warp » suivantes. Vous en obtenez une autre aux niveaux 9 et 17.
 

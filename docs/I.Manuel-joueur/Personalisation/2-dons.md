@@ -184,7 +184,7 @@ De plus, choisissez un pouvoir de niveau 1 dans cette même liste. Vous apprenez
 
 Votre capacité de lancement technique pour les pouvoirs techniques est l’Intelligence, et votre capacité de lancement psychique pour les pouvoirs psychiques est la Sagesse ou le Charisme (à votre choix).
 
-#### Lanceur de sorts de combat
+#### Lanceur de pouvoirs de combat
 
 *Prérequis : être capable de lancer au moins un pouvoir*
 
@@ -278,7 +278,7 @@ Vous maîtrisez le combat à deux armes, ce qui vous confère les avantages suiv
 
 Lorsque vous obtenez ce don, choisissez l’un des types de dégâts suivants : acide, froid, feu, foudre ou tonnerre.
 
-Les sorts que vous lancez ignorent la résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dés pour déterminer les dégâts d’un pouvoir que vous lancez et qui inflige des dégâts de ce type, vous pouvez considérer tout 1 obtenu sur un dé de dégâts comme un 2.
+Les pouvoirs que vous lancez ignorent la résistance aux dégâts du type choisi. De plus, lorsque vous lancez les dés pour déterminer les dégâts d’un pouvoir que vous lancez et qui inflige des dégâts de ce type, vous pouvez considérer tout 1 obtenu sur un dé de dégâts comme un 2.
 
 Vous pouvez choisir ce don plusieurs fois. À chaque fois, vous devez choisir un type de dégâts différent.
 

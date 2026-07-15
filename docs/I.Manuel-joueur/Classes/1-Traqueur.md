@@ -76,7 +76,7 @@ Au niveau 9, ces dégâts passent à 1d8, et vous pouvez voir les créatures inv
 | Niveau | Bonus de Maîtrise | Aptitudes | Cible de verrouillage | Nombre de pouvoir technologiques connu | Nombre de point de lanceur de sort | Niveau maximal des pouvoir tech |
 | :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
 | 1 | +2 | Entraînement de Traqueur, Verrouillage de cible | 2 | -- | -- | -- |
-| 2 | +2 | Style de combat, Lancement de sorts technologiques | 2 | 7 | 4 | 1 |
+| 2 | +2 | Style de combat, Lancement de pouvoirs technologiques | 2 | 7 | 4 | 1 |
 | 3 | +2 | Technique de Traqueur | 2 | 9 | 6 | 1 |
 | 4 | +2 | Amélioration des caractéristiques | 2 | 10 | 8 | 1 |
 | 5 | +3 | Attaque supplémentaire | 3 | 12 | 10 | 2 |
@@ -111,7 +111,7 @@ Au niveau 9, ces dégâts passent à 1d8, et vous pouvez voir les créatures inv
 - *Combat à deux armes.* Lorsque vous combattez à deux armes, vous pouvez ajouter votre modificateur de capacité aux dégâts de la deuxième attaque. De plus, le fait de vous trouver à moins de 1,5 mètre d’une créature hostile ne vous impose pas de désavantage lors de vos jets d’attaque à distance avec des armes à une main.
 - *Combat à mains nues.* Vos coups à mains nues peuvent infliger des dégâts contondants égaux à 1d6 + votre modificateur de Force en cas de coup réussi. Si vous ne maniez aucune arme ni aucun bouclier au moment du jet d’attaque, le d6 devient un d8. Au début de chacun de vos tours, vous pouvez infliger 1d4 dégâts contondants à une créature que vous avez immobilisée.
 
-##### Lancement de sorts technologiques
+##### Lancement de pouvoirs technologiques
 
 Lorsque vous atteignez le niveau 2, vous avez appris à utiliser la technologie pour lancer des pouvoirs technologiques, à l’instar d’un savant.
 

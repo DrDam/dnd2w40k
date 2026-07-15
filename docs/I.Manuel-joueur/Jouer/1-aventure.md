@@ -216,7 +216,7 @@ L’interaction d’un personnage avec les objets présents dans un environnemen
 
 Par exemple, un personnage peut décider d’actionner un levier, ce qui peut, à son tour, lever une herse, inonder une pièce ou ouvrir une porte secrète dans un mur voisin. Si le levier est rouillé et bloqué, cependant, le personnage devra peut-être forcer. Dans ce cas, le MJ peut demander un jet de Force pour déterminer si le personnage parvient à débloquer le levier. Le MJ fixe la difficulté (DC) de ce test en fonction de la complexité de la tâche.
 
-Les personnages peuvent également endommager des objets avec leurs armes et leurs sorts. Les objets sont immunisés contre le poison et les dégâts psychiques, mais ils peuvent par ailleurs être affectés par les attaques physiques et améliorées, tout comme les créatures.
+Les personnages peuvent également endommager des objets avec leurs armes et leurs pouvoirs. Les objets sont immunisés contre le poison et les dégâts psychiques, mais ils peuvent par ailleurs être affectés par les attaques physiques et améliorées, tout comme les créatures.
 
 Le MJ détermine la classe d’armure et les points de vie d’un objet, et peut décider que certains objets possèdent une résistance ou une immunité à certains types d’attaques. (Il est par exemple difficile de couper une corde avec une massue.) Les objets échouent systématiquement aux jets de sauvegarde de Force et de Dextérité, et ils sont immunisés contre les effets nécessitant d’autres jets de sauvegarde. Lorsqu’un objet tombe à 0 point de vie, il se brise.
 
@@ -286,7 +286,7 @@ Tenez compte de vos compétences lorsque vous réfléchissez à la manière dont
 
 ### Repos
 
-Aussi héroïques soient-ils, les aventuriers ne peuvent pas passer chaque heure de la journée à explorer, à interagir avec les autres ou à combattre. Ils ont besoin de repos : du temps pour dormir et manger, soigner leurs blessures, se ressourcer mentalement et spirituellement pour lancer des sorts, et se préparer à de nouvelles aventures.
+Aussi héroïques soient-ils, les aventuriers ne peuvent pas passer chaque heure de la journée à explorer, à interagir avec les autres ou à combattre. Ils ont besoin de repos : du temps pour dormir et manger, soigner leurs blessures, se ressourcer mentalement et spirituellement pour lancer des pouvoirs, et se préparer à de nouvelles aventures.
 
 Les aventuriers, tout comme les autres créatures, peuvent prendre des repos courts au cours de la journée et un repos long pour la terminer.
 
@@ -298,7 +298,7 @@ Un repos court est une période de repos d’au moins une heure, durant laquelle
 
 #### Long Repos
 
-Un long repos est une période de repos prolongée, d'au moins 8 heures, pendant laquelle un personnage dort au moins 6 heures et ne pratique pas plus de 2 heures d'activité légère, telle que lire, discuter, manger ou monter la garde. Si le repos est interrompu par une période d’activité intense — au moins 1 heure de marche, de combat, de lancement de sorts ou d’activité d’aventure similaire —, les personnages doivent recommencer le repos pour en tirer pleinement profit.
+Un long repos est une période de repos prolongée, d'au moins 8 heures, pendant laquelle un personnage dort au moins 6 heures et ne pratique pas plus de 2 heures d'activité légère, telle que lire, discuter, manger ou monter la garde. Si le repos est interrompu par une période d’activité intense — au moins 1 heure de marche, de combat, de lancement de pouvoirs ou d’activité d’aventure similaire —, les personnages doivent recommencer le repos pour en tirer pleinement profit.
 
 À la fin d’un long repos, un personnage récupère tous ses points de vie perdus. Il récupère également ses dés de vie dépensés, à hauteur d’un nombre de dés égal à la moitié de son nombre total de dés de vie (avec un minimum d’un dé). Par exemple, si un personnage dispose de huit dés de vie, il peut récupérer quatre dés de vie dépensés à l’issue d’un long repos.
 

@@ -48,7 +48,7 @@ Vous commencez avec les objets suivants, auxquels s’ajoutent ceux fournis par 
 #### Aptitudes du Mécanicien
 
 
-##### Lancement de sorts technologiques
+##### Lancement de pouvoirs technologiques
 
 À partir du niveau 1, vous avez appris à utiliser la technologie pour lancer des pouvoirs technologiques.
 
@@ -70,15 +70,15 @@ Vous ne pouvez lancer des pouvoirs technologiques de niveau 6, 7, 8 et 9 qu’un
 
 Votre capacité de lancement de pouvoirs technologiques est le score de capacité que vous utilisez pour lancer des pouvoirs technologiques. Votre capacité de lancement de pouvoirs technologiques est l’Intelligence. Vous utilisez ce modificateur de score de capacité chaque fois qu’un pouvoir fait référence à votre capacité de lancement de pouvoirs technologiques. De plus, vous utilisez ce modificateur de score de capacité lorsque vous déterminez le DD de jet de sauvegarde pour un pouvoir technologique que vous lancez et lorsque vous effectuez un jet d’attaque avec celui-ci.
 
-- DD de sauvegarde technique = 8 + votre bonus de maîtrise + votre modificateur de lancement de sorts techniques
-- Modificateur d’attaque technique = votre bonus de maîtrise + votre modificateur de lancement de sorts techniques
+- DD de sauvegarde technique = 8 + votre bonus de maîtrise + votre modificateur de lancement de pouvoirs techniques
+- Modificateur d’attaque technique = votre bonus de maîtrise + votre modificateur de lancement de pouvoirs techniques
 
 
 *Les aptitudes du Mécanicien*{.table-title .wide}
 
 | Niveau | Bonus de Maîtrise | Aptitudes | Modification cybernétique | Nombre de pouvoir technologique connu | Nombre de point de pouvoir technologique | Niveau maximal des pouvoir tech |
 | :-: | :---: | ---------------- | :----: | :----: | :----: | :----: |
-| 1 | +2 | Analyse critique, Lancement de sorts technologiques | -- | 9 | 4 | 1 |
+| 1 | +2 | Analyse critique, Lancement de pouvoirs technologiques | -- | 9 | 4 | 1 |
 | 2 | +2 | Modifications cybernétiques, Imprégner un objet (+1) | 2 | 11 | 8 | 1 |
 | 3 | +2 | Expertise, École de mécanique | 2 | 13 | 12 | 2 |
 | 4 | +2 | Amélioration des caractéristiques | 2 | 15 | 16 | 2 |

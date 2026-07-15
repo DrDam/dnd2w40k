@@ -9,7 +9,7 @@
 
 Chaque personnage appartient à une espèce, l’une des nombreuses espèces humanoïdes intelligentes de l’univers de Warhammer 40k. Les espèces des personnages joueurs les plus courantes sont les humains, les Eldars, les Tau et les Orques. Certaines races comportent également des sous-races, comme les Eldars des Mondes-Ateliers ou les Weirdboys orques. La section « Espèces » fournit davantage d’informations sur ces espèces.
 
-La espèces que vous choisissez contribue de manière importante à l’identité de votre personnage, en définissant son apparence générale et les talents naturels hérités de sa culture et de ses ancêtres. L'espèce de votre personnage lui confère des traits particuliers, tels que des sens développés, une maîtrise de certaines armes ou de certains outils, une maîtrise d’une ou plusieurs compétences, ou encore la capacité à lancer des sorts mineurs. Ces traits s’accordent parfois parfaitement avec les capacités de certaines classes (voir l’étape 2). Par exemple, les traits raciaux des Ratlings « Lightfoot » en font d’exceptionnels voleurs, tandis que les Eldars « Sages » ont tendance à être de puissants psioniques. Parfois, jouer à contre-courant peut aussi être amusant. Les « paragons » ratlings et les barbares Tau, par exemple, peuvent être des personnages inhabituels mais mémorables.
+La espèces que vous choisissez contribue de manière importante à l’identité de votre personnage, en définissant son apparence générale et les talents naturels hérités de sa culture et de ses ancêtres. L'espèce de votre personnage lui confère des traits particuliers, tels que des sens développés, une maîtrise de certaines armes ou de certains outils, une maîtrise d’une ou plusieurs compétences, ou encore la capacité à lancer des pouvoirs mineurs. Ces traits s’accordent parfois parfaitement avec les capacités de certaines classes (voir l’étape 2). Par exemple, les traits raciaux des Ratlings « Lightfoot » en font d’exceptionnels voleurs, tandis que les Eldars « Sages » ont tendance à être de puissants psioniques. Parfois, jouer à contre-courant peut aussi être amusant. Les « paragons » ratlings et les barbares Tau, par exemple, peuvent être des personnages inhabituels mais mémorables.
 
 Votre espèce augmente également un ou plusieurs de vos scores de caractéristiques, que vous déterminerez à l’étape 3. Notez ces augmentations et n’oubliez pas de les appliquer plus tard.
 
@@ -27,7 +27,7 @@ Notez les traits conférés par votre espèce sur votre fiche de personnage. Vei
 
 Chaque personnage appartient à une classe. La classe définit globalement la vocation d’un personnage, les talents particuliers qu’il possède et les tactiques qu’il est le plus susceptible d’employer lorsqu’il explore des ruines antiques, combat des monstres ou mène une négociation tendue. Les classes de personnages sont décrites dans la section « Classes ».
 
-Votre personnage bénéficie d’un certain nombre d’avantages liés à votre choix de classe. Bon nombre de ces avantages sont des *caractéristiques de classe* — des capacités (y compris le lancement de sorts) qui distinguent votre personnage des membres d’autres classes. Vous acquérez également un certain nombre de *compétences* : armures, armes, compétences, jets de sauvegarde et parfois outils. Vos compétences définissent bon nombre des choses que votre personnage sait particulièrement bien faire, qu’il s’agisse d’utiliser certaines armes ou de raconter un mensonge convaincant.
+Votre personnage bénéficie d’un certain nombre d’avantages liés à votre choix de classe. Bon nombre de ces avantages sont des *caractéristiques de classe* — des capacités (y compris le lancement de pouvoirs) qui distinguent votre personnage des membres d’autres classes. Vous acquérez également un certain nombre de *compétences* : armures, armes, compétences, jets de sauvegarde et parfois outils. Vos compétences définissent bon nombre des choses que votre personnage sait particulièrement bien faire, qu’il s’agisse d’utiliser certaines armes ou de raconter un mensonge convaincant.
 
 Sur votre fiche de personnage, notez toutes les caractéristiques que votre classe vous confère au niveau 1.
 
@@ -52,11 +52,11 @@ Notez les points de vie de votre personnage sur votre fiche de personnage. Notez
 Le tableau figurant dans la description de votre classe indique votre bonus de maîtrise, qui est de +2 pour un personnage de niveau 1. Votre bonus de maîtrise s'applique à de nombreuses valeurs que vous devrez noter sur votre fiche de personnage :
 
 - les jets d’attaque avec les armes que vous maîtrisez ;
-- les jets d’attaque avec les sorts que vous lancez ;
+- les jets d’attaque avec les pouvoirs que vous lancez ;
 - les tests de capacité utilisant les compétences que vous maîtrisez ;
 - les tests de capacité utilisant les outils que vous maîtrisez ;
 - les jets de sauvegarde que vous maîtrisez ;
-- les DD de jet de sauvegarde pour les sorts que vous lancez (expliqués dans chaque classe de lanceur de sorts)
+- les DD de jet de sauvegarde pour les pouvoirs que vous lancez (expliqués dans chaque classe de lanceur de pouvoirs)
 
 Votre classe détermine vos maîtrises d’armes, vos maîtrises de jets de sauvegarde, ainsi que certaines de vos maîtrises de compétences et d’outils. (Les compétences sont décrites dans la section « Utilisation des scores de caractéristiques », les outils dans la section « Équipement ».) Votre passé vous confère des maîtrises supplémentaires de compétences et d’outils, et certaines races vous en accordent davantage. Veillez à noter toutes ces maîtrises, ainsi que votre bonus de maîtrise, sur votre feuille de personnage.
 
@@ -199,7 +199,7 @@ Sans armure ni bouclier, la CA de votre personnage est égale à 10 + son modifi
 
 Votre personnage doit posséder une compétence en armure et en bouclier pour pouvoir les porter et les utiliser efficacement ; ces compétences sont déterminées par votre classe. Le port d’une armure ou d’un bouclier présente des inconvénients si vous ne disposez pas de la compétence requise, comme expliqué dans la section « Équipement ».
 
-Certains sorts et capacités de classe vous offrent une autre méthode de calcul de votre CA. Si vous disposez de plusieurs capacités vous proposant différentes méthodes de calcul, vous choisissez celle que vous souhaitez utiliser.
+Certains pouvoirs et capacités de classe vous offrent une autre méthode de calcul de votre CA. Si vous disposez de plusieurs capacités vous proposant différentes méthodes de calcul, vous choisissez celle que vous souhaitez utiliser.
 
 **Armes**
 
@@ -270,9 +270,9 @@ Du fais de l'évolution des personnage et du niveau de menace qu'ils peuvent ren
 
 Au premier niveau (niveaux 1 à 4), les personnages sont en quelque sorte des apprentis aventuriers. Ils découvrent les caractéristiques qui les définissent en tant que membres de classes particulières, y compris les choix majeurs qui nuancent leurs caractéristiques de classe à mesure qu’ils progressent (tels que la Tradition technologique d’un technicien ou l’Archétype martial d’un combattant). Les menaces auxquelles ils sont confrontés sont relativement mineures, ne représentant généralement un danger que pour des villes locales ou des planètes obscures.
 
-Au deuxième palier (niveaux 5 à 10), les personnages prennent toute leur ampleur. De nombreux lanceurs de sorts accèdent aux sorts de niveau 3 dès le début de ce palier, franchissant ainsi un nouveau seuil de puissance grâce à des sorts tels que « boule de feu » et « éclair ». À ce palier, de nombreuses classes utilisant des armes acquièrent la capacité d’effectuer plusieurs attaques en un même tour. Ces personnages sont désormais essentiels, confrontés à des dangers qui menacent des planètes et des mondes entiers.
+Au deuxième palier (niveaux 5 à 10), les personnages prennent toute leur ampleur. De nombreux lanceurs de pouvoirs accèdent aux pouvoirs de niveau 3 dès le début de ce palier, franchissant ainsi un nouveau seuil de puissance grâce à des pouvoirs tels que « boule de feu » et « éclair ». À ce palier, de nombreuses classes utilisant des armes acquièrent la capacité d’effectuer plusieurs attaques en un même tour. Ces personnages sont désormais essentiels, confrontés à des dangers qui menacent des planètes et des mondes entiers.
 
-Au troisième palier (niveaux 11 à 16), les personnages ont atteint un niveau de puissance qui les place bien au-dessus de la population ordinaire et les rend exceptionnels, même parmi les aventuriers. Au niveau 11, de nombreux lanceurs de sorts ont accès à des sorts de niveau 6, dont certains produisent des effets jusqu’alors impossibles à réaliser pour les personnages-joueurs. D’autres personnages acquièrent des capacités qui leur permettent d’effectuer davantage d’attaques ou de réaliser des exploits plus impressionnants grâce à ces attaques. Ces puissants aventuriers affrontent souvent des menaces pesant sur des systèmes solaires et des régions entières.
+Au troisième palier (niveaux 11 à 16), les personnages ont atteint un niveau de puissance qui les place bien au-dessus de la population ordinaire et les rend exceptionnels, même parmi les aventuriers. Au niveau 11, de nombreux lanceurs de pouvoirs ont accès à des pouvoirs de niveau 6, dont certains produisent des effets jusqu’alors impossibles à réaliser pour les personnages-joueurs. D’autres personnages acquièrent des capacités qui leur permettent d’effectuer davantage d’attaques ou de réaliser des exploits plus impressionnants grâce à ces attaques. Ces puissants aventuriers affrontent souvent des menaces pesant sur des systèmes solaires et des régions entières.
 
 Au quatrième palier (niveaux 17 à 20), les personnages atteignent l’apogée de leurs capacités de classe, devenant à part entière des archétypes héroïques (ou maléfiques). Le sort du secteur, voire l’ordre fondamental de la galaxie, peut être en jeu au cours de leurs aventures.
 

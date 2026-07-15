@@ -29,7 +29,7 @@ Les classes ont été revues, à l’exception du [Soldat](Classes/1-Soldat.md#s
 - Le *[Berserker](Classes/1-Berserker.md#berserker)* correspond au barbare, mais ses sous-classes ont été légèrement modifiées pour s’adapter à l’univers du jeu.
 - Le *[Croisé](Classes/1-Berserker.md#berserker)* est une nouvelle classe qui mêle des aspects du combattant et du barde pour créer une classe axée sur le combat au corps à corps, capable de soutenir ses alliés par des actes héroïques.
 - L'*[Exorciste](Classes/1-Exorciste.md#exorciste)* s’inspire du paladin et dispose de nouvelles capacités qui s’intègrent parfaitement à l’univers et à son archétype consistant à exorciser les démons et à bannir les créatures d’un autre monde.
-- Le *[Mécanicien](Classes/1-Mecanicien.md#mecanicien)* est un lanceur de sorts axé sur la technologie qui exploite pleinement la puissance de celle-ci pour ses effets et peut augmenter ses capacités physiques grâce à des modifications cybernétiques.
+- Le *[Mécanicien](Classes/1-Mecanicien.md#mecanicien)* est un lanceur de pouvoirs axé sur la technologie qui exploite pleinement la puissance de celle-ci pour ses effets et peut augmenter ses capacités physiques grâce à des modifications cybernétiques.
 - Le *[Psyker](Classes/1-Psyker.md#psyker)* utilise les pouvoirs du Warp pour manipuler leurs capacités et leurs effets, et étudie les disciplines psychiques afin d’obtenir des effets spéciaux.
 - Le *[Sorcier](Classes/1-Sorcier.md#sorcier)* conclue des pactes avec des démons et d’autres êtres du Warp pour acquérir ou renforcer ses pouvoirs psychiques.
 - Le *[Traqueur](Classes/1-Traqueur.md#traqueur)* s’inspire vaguement du ranger, mais utilise la technologie pour alimenter ses effets uniques.
@@ -48,7 +48,7 @@ Les armes, armures et objets les plus courants sont répertoriés au chapitre «
 
 ##### Magie
 
-Les effets magiques /sorts sont classés en deux catégories : techniques ou psychiques. Les sorts sont appelés « pouvoirs » et sont répartis en deux listes : les pouvoirs techniques et les pouvoirs psychiques. Les objets magiques sont des objets améliorés.
+Les effets magiques /pouvoirs sont classés en deux catégories : techniques ou psychiques. Les pouvoirs sont appelés « pouvoirs » et sont répartis en deux listes : les pouvoirs techniques et les pouvoirs psychiques. Les objets magiques sont des objets améliorés.
 
 Afin de mieux refléter la fatigue lié à l'usage de ces catégories de pouvoir, un système de "point de pouvoir" à été mis en place.
 Chaque sort de niveau 1 et plus demandera de dépenser ces points de pouvoir.

@@ -65,7 +65,7 @@ Lorsque vous gagnez un niveau dans une classe autre que votre classe principale,
 
 #### Caractéristiques de classe
 
-Lorsque vous gagnez un nouveau niveau dans une classe, vous bénéficiez des caractéristiques propres à ce niveau. Certaines caractéristiques sont toutefois soumises à des règles supplémentaires en cas de multiclasse : « Attaque supplémentaire », « Dé de supériorité », « Défense sans armure » et les sorts de type « Force » ou « Tech ».
+Lorsque vous gagnez un nouveau niveau dans une classe, vous bénéficiez des caractéristiques propres à ce niveau. Certaines caractéristiques sont toutefois soumises à des règles supplémentaires en cas de multiclasse : « Attaque supplémentaire », « Dé de supériorité », « Défense sans armure » et les pouvoirs psychique ou technologique.
 
 #### Attaque supplémentaire
 
@@ -75,9 +75,9 @@ Si vous obtenez la caractéristique de classe « Attaque supplémentaire » de p
 
 Si vous disposez déjà de la caractéristique « Défense sans armure », vous ne pouvez pas l’obtenir à nouveau d’une autre classe.
 
-#### Lancement de sorts (psychique ou technologique)
+#### Lancement de pouvoirs (psychique ou technologique)
 
-Votre capacité en matière de lanceur de sort psychique et technologique dépend en partie de la somme des niveaux que vous possédez dans toutes vos classes de lanceur de sorts, et en partie de vos niveaux individuels dans ces classes. Si vous disposez de la capacité de lanceur de sort issue de plusieurs classes, appliquez les règles ci-dessous. Si vous êtes multiclasse mais que vous ne disposez de la capacité de lanceur de sort que d’une seule classe, suivez les règles décrites dans cette classe.
+Votre capacité en matière de lanceur de sort psychique et technologique dépend en partie de la somme des niveaux que vous possédez dans toutes vos classes de lanceur de pouvoirs, et en partie de vos niveaux individuels dans ces classes. Si vous disposez de la capacité de lanceur de sort issue de plusieurs classes, appliquez les règles ci-dessous. Si vous êtes multiclasse mais que vous ne disposez de la capacité de lanceur de sort que d’une seule classe, suivez les règles décrites dans cette classe.
 
 **Pouvoirs connus**
 
@@ -85,20 +85,20 @@ Vous déterminez les pouvoirs que vous connaissez et pouvez préparer pour chaqu
 
 Chaque pouvoir que vous maîtrisez est associé à l’une de vos classes, et vous utilisez la capacité de lancement de sort de cette classe lorsque vous lancez ce pouvoir.
 
-**Points de sorts**
+**Points de pouvoirs**
 
 Vous déterminez le nombre de points sort psychique ou technologique dont vous disposez en additionnant les quantités attribuées par chaque classe.
 Si vous disposez à la fois de points de pouvoir psyhique et des points de pouvoir technologique, vous conservez ces réserves séparées, et elles ne peuvent être utilisées que pour alimenter respectivement des pouvoirs psychiques ou technologique.
 
 **Niveau de puissance maximal**
 
-Lorsque vous optez pour une multiclasse, vous déterminez votre niveau de puissance maximal en calculant d’abord votre total de niveaux de lancement de sorts. Pour calculer ce total, vous additionnez l’ensemble de vos niveaux de sort psychique ou technologique, puis vous arrondissez le résultat final à l’unité inférieure. Les exorcistes et les traqueurs ne comptent que pour la moitié d’un niveau de lanceur de sort psychique ou technologique. Enfin, vous consultez le tableau « Niveau de puissance maximal en multiclasse » ci-dessous.
+Lorsque vous optez pour une multiclasse, vous déterminez votre niveau de puissance maximal en calculant d’abord votre total de niveaux de lancement de pouvoirs. Pour calculer ce total, vous additionnez l’ensemble de vos niveaux de sort psychique ou technologique, puis vous arrondissez le résultat final à l’unité inférieure. Les exorcistes et les traqueurs ne comptent que pour la moitié d’un niveau de lanceur de sort psychique ou technologique. Enfin, vous consultez le tableau « Niveau de puissance maximal en multiclasse » ci-dessous.
 
-Par exemple, si vous avez trois niveaux d’exorciste, qui correspondent à 1,5 niveau de lanceur de sort psychique, et trois niveaux de psyker, qui correspondent à 3 niveaux de lanceur de sort psychique, votre niveau total de lanceur de sort psychique est de 4,5, arrondi à 4. Vous comparez ensuite ce résultat au tableau des niveaux de puissance maximaux en multiclasse et constatez qu’en tant que lanceur de sorts de niveau 4, votre niveau de puissance maximal est le niveau 2.
+Par exemple, si vous avez trois niveaux d’exorciste, qui correspondent à 1,5 niveau de lanceur de sort psychique, et trois niveaux de psyker, qui correspondent à 3 niveaux de lanceur de sort psychique, votre niveau total de lanceur de sort psychique est de 4,5, arrondi à 4. Vous comparez ensuite ce résultat au tableau des niveaux de puissance maximaux en multiclasse et constatez qu’en tant que lanceur de pouvoirs de niveau 4, votre niveau de puissance maximal est le niveau 2.
 
 Si vous disposez à la fois de pouvoirs psychiques et de pouvoirs technologiques, vous déterminez vos niveaux de puissance maximaux séparément, et ceux-ci ne peuvent être utilisés respectivement que pour lancer des pouvoirs psychiques ou technologiques.
 
-| Niveau de lanceur de sorts | Niveau maximal du sort|
+| Niveau de lanceur de pouvoirs | Niveau maximal du sort|
 | :--: | :--:|
 | 1er-2e | 1er |
 | 3e-4e | 2e |
@@ -110,6 +110,6 @@ Si vous disposez à la fois de pouvoirs psychiques et de pouvoirs technologiques
 | 15e-16e | 8e |
 | 17e-18e-19e-20e | 9e |
 
-**Lancement de sorts de haut niveau**
+**Lancement de pouvoirs de haut niveau**
 
-Pour déterminer le nombre de sorts de haut niveau que vous pouvez lancer avant d’avoir besoin d’un long repos, consultez les règles de lancement de sorts de la classe dans laquelle vous avez le plus de niveaux.
+Pour déterminer le nombre de pouvoirs de haut niveau que vous pouvez lancer avant d’avoir besoin d’un long repos, consultez les règles de lancement de pouvoirs de la classe dans laquelle vous avez le plus de niveaux.
