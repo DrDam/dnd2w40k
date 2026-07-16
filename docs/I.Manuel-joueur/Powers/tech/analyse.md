@@ -1,4 +1,4 @@
-#### Analyse
+#### Analyse {#analyse}
 
 *Pouvoir de niveau 1*
 

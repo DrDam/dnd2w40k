@@ -1,4 +1,4 @@
-#### Aide
+#### Aide {#aide}
 
 *Pouvoir de niveau 2*
 

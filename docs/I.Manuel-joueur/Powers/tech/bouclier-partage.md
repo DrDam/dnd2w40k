@@ -1,4 +1,4 @@
-#### Bouclier partagé
+#### Bouclier partagé {#bouclier-partage}
 
 *Pouvoir de niveau 2*
 

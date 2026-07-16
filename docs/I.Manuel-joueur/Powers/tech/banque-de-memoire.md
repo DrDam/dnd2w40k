@@ -1,4 +1,4 @@
-#### Banque de mémoire
+#### Banque de mémoire {#banque-de-memoire}
 
 *Pouvoir de niveau 5*
 

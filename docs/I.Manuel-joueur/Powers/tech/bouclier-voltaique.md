@@ -1,4 +1,4 @@
-#### Bouclier voltaïque
+#### Bouclier voltaïque {#bouclier-voltaique}
 
 *Pouvoir de niveau 1*
 

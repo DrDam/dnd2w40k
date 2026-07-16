@@ -1,4 +1,4 @@
-#### Analyse de combat
+#### Analyse de combat {#analyse-de-combat}
 
 *Pouvoir de niveau 1*
 

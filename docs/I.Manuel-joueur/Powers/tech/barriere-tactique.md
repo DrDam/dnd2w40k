@@ -1,4 +1,4 @@
-#### Barrière tactique
+#### Barrière tactique {#barriere-tactique}
 
 *Pouvoir de niveau 1*
 

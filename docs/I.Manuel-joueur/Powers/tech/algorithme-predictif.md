@@ -1,4 +1,4 @@
-#### Algorithme prédictif
+#### Algorithme prédictif {#algorithme-predictif}
 
 *Pouvoir de niveau 9*
 

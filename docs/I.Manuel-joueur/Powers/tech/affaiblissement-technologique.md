@@ -1,4 +1,4 @@
-#### Affaiblissement technologique
+#### Affaiblissement technologique {#affaiblissement-technologique}
 
 *Pouvoir de niveau 3*
 

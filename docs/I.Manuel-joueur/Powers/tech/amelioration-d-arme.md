@@ -1,4 +1,4 @@
-#### Amélioration d'arme
+#### Amélioration d'arme {#amelioration-d-arme}
 
 *Pouvoir de niveau 2*
 
