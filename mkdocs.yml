@@ -97,8 +97,8 @@ nav:
         - 12. Les combats: I.Manuel-joueur/Jouer/2-combat.md
       - "Partie 3 : Les pouvoirs psychiques et technologiques" :
         - 13. Utiliser les pouvoirs: I.Manuel-joueur/Powers/0-intro.md
-        - 14. Les pouvoirs psychiques: I.Manuel-joueur/Powers/1-psy.md
-        - 15. Les pouvoirs technologiques: I.Manuel-joueur/Powers/2-tech.md
+        - 14. Les pouvoirs psychiques: I.Manuel-joueur/Powers/psy/000.md
+        - 15. Les pouvoirs technologiques: I.Manuel-joueur/Powers/tech/000.md
       - "Annexe : Les Etats" : I.Manuel-joueur/conditions.md
   - "Livre 2 : Manuel du Maitre du jeu":
       - avant-propos: II.Manuel-MJ/0-index.md
