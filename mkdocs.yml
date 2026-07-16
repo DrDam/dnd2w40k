@@ -21,7 +21,9 @@ extra_css:
 hooks:
   - docs/hooks/colspan_tables.py
 
-
+validation:
+  nav:
+    omitted_files: ignore
 
 nav:
   - A propos : index.md
