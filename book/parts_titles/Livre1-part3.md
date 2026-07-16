@@ -1,1 +1,1 @@
-# Les pouvoirs psychiques et technologiques {background="book/assets/Primaris_Psyker.png" textcolor="white"}
+# Utiliser des pouvoirs {background="book/assets/Primaris_Psyker.png" textcolor="white"}

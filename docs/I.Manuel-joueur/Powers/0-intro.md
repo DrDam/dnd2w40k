@@ -1,4 +1,4 @@
-## Utiliser les pouvoirs
+## Les règles d'utilisation des pouvoirs
 
 Ce chapitre présente les règles relatives à l’utilisation de deux types de pouvoirs : ceux conférés par la technologie, et ceux conférés par le Warp et les capacités psychiques. Bien que plusieurs classes utilisent le Warp ou la technologie pour alimenter leurs pouvoirs, ce sont là les deux seules sources possibles. Quoi qu’il en soit, les pouvoirs obéissent aux règles exposées ici.
 
@@ -20,7 +20,7 @@ Le niveau du pouvoir et le niveau du personnage ne correspondent pas directement
 
 Avant qu’un lanceur de sort psychique ou technologique puisse utiliser un pouvoir, il doit l’avoir appris ou y avoir accès grâce à un objet amélioré. Une fois qu’un pouvoir est appris, il est toujours préparé. Le nombre de pouvoirs qu’un lanceur de pouvoirs peut posséder à un moment donné dépend du niveau du personnage.
 
-Lorsque vous apprenez un pouvoir, qu’il s’agisse d’un pouvoir à volonté, de niveau 1 ou supérieur, vous le choisissez parmi la liste des pouvoirs fournie aux chapitres 14 et 15. Vous pouvez apprendre des pouvoirs de n’importe quel niveau jusqu’à votre niveau de pouvoir maximal, y compris les pouvoirs à volonté. Le nombre total de pouvoirs que vous apprenez de cette manière ne peut pas dépasser le nombre de pouvoirs psychiques ou technologiques connus de votre classe.
+Lorsque vous apprenez un pouvoir, qu’il s’agisse d’un pouvoir mineur, de niveau 1 ou supérieur, vous le choisissez parmi la liste des pouvoirs fournie aux chapitres 14 et 15. Vous pouvez apprendre des pouvoirs de n’importe quel niveau jusqu’à votre niveau de pouvoir maximal, y compris les pouvoirs à volonté. Le nombre total de pouvoirs que vous apprenez de cette manière ne peut pas dépasser le nombre de pouvoirs psychiques ou technologiques connus de votre classe.
 
 Si un pouvoir vous est accordé par une caractéristique de classe, ce pouvoir n’est pas comptabilisé dans vos pouvoirs connus et vous ne pouvez pas le désapprendre volontairement. Si vous connaissez déjà ce pouvoir, vous pouvez apprendre un pouvoir supplémentaire qui vous est accessible.
 De plus, chaque fois que vous apprenez un nouveau pouvoir en gagnant un niveau, vous pouvez choisir l’un des pouvoirs que vous connaissez et le remplacer par un autre pouvoir du même type, à condition que ce pouvoir ne soit pas d’un niveau supérieur à votre niveau de pouvoir maximal.
@@ -63,9 +63,9 @@ De nombreux pouvoirs ont des effets plus puissants lorsqu’ils sont lancés à 
 !!! info "Lancer un pouvoir en armure"
     En raison de la concentration mentale et des gestes précis requis pour le préparer et lancer de pouvoir, vous devez maîtriser l’armure que vous portez pour lancer un pouvoir. Sinon, vous êtes trop distrait et physiquement gêné par votre armure pour utiliser des pouvoirs.
 
-#### Pouvoirs à volonté
+#### Pouvoirs mineurs
 
-Un pouvoir à volonté est un pouvoir qui peut être lancé sans dépenser de points de pouvoir. Une pratique répétée a ancré ce pouvoir dans l’esprit du lanceur. Le niveau d’un pouvoir à volonté est de 0.
+Un pouvoir mineur est un pouvoir qui peut être lancé sans dépenser de points de pouvoir. Une pratique répétée a ancré ce pouvoir dans l’esprit du lanceur. Le niveau d’un pouvoir mineur est de 0.
 
 ### Lancer un pouvoir
 
