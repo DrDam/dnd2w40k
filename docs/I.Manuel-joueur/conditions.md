@@ -1,4 +1,4 @@
-## Les états
+### Les états
 
 Les états modifient les capacités d'une créature de différentes manières, et peuvent résulter d'un sort, d'une capacité de classe, de l'attaque d'un monstre ou d'un autre effet. La plupart des états, comme aveuglé, sont préjudiciables, mais quelques-uns, comme invisible, peuvent être des avantages. Un état ​​dure jusqu'à ce qu'il soit contré (l'état À terre est contré par le fait de se relever par exemple) ou pour une durée déterminée par l'effet qui a imposé l'état.
 

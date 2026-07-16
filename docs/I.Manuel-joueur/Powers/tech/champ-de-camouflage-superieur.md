@@ -1,4 +1,4 @@
-#### Champ de camouflage supérieur {#champ-de-camouflage@superieur}
+#### Champ de camouflage supérieur {#champ-de-camouflage-superieur}
 
 *Pouvoir de niveau 4*
 
