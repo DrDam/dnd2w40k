@@ -94,3 +94,62 @@
   font-style: italic;
   font-weight: 700;
 }
+
+/* powerlist.css — Rendu façon "Liste des Sorts" d'aidedd, en pur CSS,
+   SANS toucher aux fichiers .md : la page reste une simple liste
+   (## titre + #### Niveau X + - [lien](...)).
+
+   Le ciblage se fait via l'ancre du titre h2, générée automatiquement
+   par l'extension "toc" à partir du texte du titre existant
+   (## Pouvoirs Psychique -> #pouvoirs-psychique). Pour appliquer ce
+   style à une nouvelle page de liste de pouvoirs/sorts, il suffit
+   d'ajouter son "#ancre-du-titre" à chaque sélecteur ci-dessous
+   (vérifiable en survolant le lien correspondant dans la table des
+   matières de droite). */
+
+#pouvoirs-psychique~h4+ul,
+#pouvoirs-technologique~h4+ul {
+  list-style: none;
+  margin: 0.2em 0 1.1em 0;
+  padding: 0;
+  line-height: 2;
+}
+
+#pouvoirs-psychique~h4+ul li,
+#pouvoirs-technologique~h4+ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 0.82rem;
+}
+
+#pouvoirs-psychique~h4+ul li a,
+#pouvoirs-technologique~h4+ul li a {
+  text-decoration: none;
+  color: var(--md-typeset-a-color, #4051b5);
+}
+
+#pouvoirs-psychique~h4+ul li a:hover,
+#pouvoirs-technologique~h4+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* séparateur discret entre chaque pouvoir, comme sur aidedd */
+#pouvoirs-psychique~h4+ul li:not(:last-child)::after,
+#pouvoirs-technologique~h4+ul li:not(:last-child)::after {
+  content: " · ";
+  color: var(--md-default-fg-color--light, #999);
+}
+
+/* Titres de niveau : plus discrets et compacts, comme les
+   intercalaires "- A -" d'aidedd */
+#pouvoirs-psychique~h4,
+#pouvoirs-technologique~h4 {
+  font-size: 0.95em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest, #ddd);
+  padding-bottom: 0.2em;
+  margin-top: 1.3em;
+  margin-bottom: 0.3em;
+}
