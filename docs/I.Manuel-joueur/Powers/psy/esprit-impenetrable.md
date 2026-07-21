@@ -1,4 +1,4 @@
-#### Esprit impénétrable {#esprit-impenetrable}
+#### Esprit impénétrable {#esprit-impenetrable-psy-power}
 
 *Pouvoir de niveau 8*
 
