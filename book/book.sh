@@ -48,6 +48,7 @@ preprocess_one() {
   local dest_file="$PREPROCESSED_DIR/$src_file"
   mkdir -p "$(dirname "$dest_file")"
   python3 book/macro/admonition_to_div.py "$src_file" \
+    | python3 book/macro/multicol_markers.py \
     | python3 book/macro/resolve_image_paths.py "$src_file" \
     | python3 book/macro/resolve_internal_links.py \
     |  BUILD_DIR="$BUILD_DIR" python3 book/macro/optimize_images.py \
@@ -100,6 +101,7 @@ pandoc \
   --include-before-body=book/titlepage.tex \
   --resource-path=docs/assets \
   --lua-filter=book/macro/admonition.lua \
+  --lua-filter=book/macro/multicol.lua \
   --lua-filter=book/macro/statblock.lua \
   --lua-filter=book/macro/tables.lua \
   --lua-filter=book/macro/newpage.lua \
