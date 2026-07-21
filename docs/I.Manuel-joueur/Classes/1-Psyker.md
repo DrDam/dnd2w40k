@@ -4,7 +4,7 @@
 
 Le psyker impérial se tient aux côtés du commissaire, attendant le signal. Alors qu’il tend les mains vers l’avant, des décharges électriques crépitent sur tout son corps, culminant au bout de ses doigts, et déciment les ennemis devant lui grâce à la puissance du Warp. Un Eldar pose ses mains sur ses alliés tombés au combat, refermant leurs blessures et les remettant en état de combattre. Un prêtre électro invoque la puissance des machines, provoquant une décharge électrique qui jaillit et encercle ses ennemis tandis qu’ils hurlent de douleur.
 
-Les psioniques manifestent la puissance du Warp pour alimenter leurs effets, chacun à sa manière. Chaque psionique possède sa propre discipline unique dans laquelle il peut s’entraîner, et peut même développer des façons totalement originales de manifester ses capacités.
+Les psykers manifestent la puissance du Warp pour alimenter leurs effets, chacun à sa manière. Chaque psyker possède sa propre discipline unique dans laquelle il peut s’entraîner, et peut même développer des façons totalement originales de manifester ses capacités.
 
 **Création Rapide**
 
@@ -57,11 +57,11 @@ Vous apprenez 5 pouvoirs psychiques de votre choix, et vous en apprenez d’autr
 
 *Points de pouvoir psychique*
 
-Vous disposez d’un nombre de points psioniques égal à votre niveau d’exorciste multiplié par 2, comme indiqué dans la colonne « Points psioniques » du tableau des exorcistes. Lorsque vous lancez un pouvoir, vous dépensez un nombre de points psioniques égal à 1 + le niveau du pouvoir. Vous récupérez tous les points psioniques dépensés à la fin d’un long repos.
+Vous disposez d’un nombre de points de pouvoir psychiques égal à votre niveau d’exorciste multiplié par 2, comme indiqué dans la colonne « Points de pouvoir psychiques » du tableau des exorcistes. Lorsque vous lancez un pouvoir, vous dépensez un nombre de points de pouvoir psychiques égal à 1 + le niveau du pouvoir. Vous récupérez tous les points de pouvoir psychiques dépensés à la fin d’un long repos.
 
 *Niveau de pouvoir maximal*
 
-De nombreux pouvoirs psychiques peuvent être surpuissants, consommant davantage de points psioniques pour produire un effet plus important. Vous pouvez rendre ces capacités surpuissantes jusqu’à un niveau maximal, qui augmente à mesure que vous progressez en niveau, comme indiqué dans la colonne « Niveau maximal du pouvoir » du tableau de l’exorciste.
+De nombreux pouvoirs psychiques peuvent être surpuissants, consommant davantage de points de pouvoir psychiques pour produire un effet plus important. Vous pouvez rendre ces capacités surpuissantes jusqu’à un niveau maximal, qui augmente à mesure que vous progressez en niveau, comme indiqué dans la colonne « Niveau maximal du pouvoir » du tableau de l’exorciste.
 
 Vous ne pouvez lancer des pouvoirs psychiques de niveau 6, 7, 8 et 9 qu’une seule fois. Vous retrouvez la capacité de le faire après un long repos.
 
@@ -99,7 +99,7 @@ Votre capacité de lancement de pouvoirs psychiques est le score de capacité qu
 
 ##### Récupération d'énergie
 
-Dès le niveau 1, vous avez appris à récupérer une partie de votre énergie en méditant brièvement. À la fin d'un repos court, vous pouvez récupérer un nombre de points psioniques égal à la moitié de votre niveau de psyker (arrondi à l'unité inférieure) + votre modificateur de lanceur de sort psychique. Une fois que vous avez utilisé cette capacité, vous devez effectuer un repos long avant de pouvoir l'utiliser à nouveau.
+Dès le niveau 1, vous avez appris à récupérer une partie de votre énergie en méditant brièvement. À la fin d'un repos court, vous pouvez récupérer un nombre de points de pouvoir psychiques égal à la moitié de votre niveau de psyker (arrondi à l'unité inférieure) + votre modificateur de lanceur de sort psychique. Une fois que vous avez utilisé cette capacité, vous devez effectuer un repos long avant de pouvoir l'utiliser à nouveau.
 
 ##### Lancement de pouvoirs renforcé par le Warp
 
@@ -119,7 +119,7 @@ Dès le niveau 1, vous avez appris à récupérer une partie de votre énergie e
 
 **Pouvoir de rattrapage.** Si vous ratez un pouvoir psychique nécessitant un jet d’attaque, vous pouvez dépenser 2 points de pouvoir psychique pour relancer le jet d’attaque. Vous devez utiliser le nouveau résultat. Vous pouvez utiliser le pouvoir « Recherche » même si vous avez déjà utilisé une autre option de lancement renforcé par la Force lors du lancement du pouvoir.
 
-**Pouvoir jumelé.** Lorsque vous lancez un pouvoir qui ne cible qu’une seule créature et qui n’a pas une portée « soi-même », vous pouvez dépenser un nombre de points psioniques égal au niveau du pouvoir pour cibler une deuxième créature à portée avec le même pouvoir (1 point pouvoir psychique s’il s’agit d’un pouvoir à volonté). Pour être éligible, un pouvoir doit être incapable de cibler plus d’une créature à son niveau actuel. Par exemple, « Rayon brûlant » n’est pas éligible, mais « Rayon de givre » l’est.
+**Pouvoir jumelé.** Lorsque vous lancez un pouvoir qui ne cible qu’une seule créature et qui n’a pas une portée « soi-même », vous pouvez dépenser un nombre de points de pouvoir psychiques égal au niveau du pouvoir pour cibler une deuxième créature à portée avec le même pouvoir (1 point pouvoir psychique s’il s’agit d’un pouvoir à volonté). Pour être éligible, un pouvoir doit être incapable de cibler plus d’une créature à son niveau actuel. Par exemple, « Rayon brûlant » n’est pas éligible, mais « Rayon de givre » l’est.
 
 #####  Barrière télékinétique
 

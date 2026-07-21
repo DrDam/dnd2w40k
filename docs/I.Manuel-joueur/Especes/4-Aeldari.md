@@ -36,7 +36,7 @@ Après la chute de l’Empire Aeldari et la naissance de Slaanesh, connue sous l
 
 **Patrimoine artistique.** Vous maîtrisez un instrument de musique et un ensemble d’outils d’artisanat de votre choix.
 
-**Esprit clair.** Vous bénéficiez d’une résistance aux dégâts psioniques et d’un avantage aux jets de sauvegarde contre les effets de charme.
+**Esprit clair.** Vous bénéficiez d’une résistance aux dégâts psychiques et d’un avantage aux jets de sauvegarde contre les effets de charme.
 
 **Agilité surnaturelle.** Vos réflexes et votre agilité vous permettent de vous déplacer avec une accélération fulgurante. Lorsque vous vous déplacez pendant votre tour au combat, vous pouvez doubler votre vitesse jusqu’à la fin du tour. Une fois que vous avez utilisé ce trait, vous ne pouvez pas l’utiliser à nouveau tant que vous ne vous êtes pas déplacé de 0 pieds lors d’un de vos tours.
 

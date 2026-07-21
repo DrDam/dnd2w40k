@@ -57,11 +57,11 @@ Vous apprenez 5 pouvoirs psychiques de votre choix, et vous en apprenez d’autr
 
 *Points de pouvoir psychique*
 
-Vous disposez d’un nombre de points psioniques égal à votre niveau d’exorciste multiplié par 2, comme indiqué dans la colonne « Points psioniques » du tableau des exorcistes. Lorsque vous lancez un pouvoir, vous dépensez un nombre de points psioniques égal à 1 + le niveau du pouvoir. Vous récupérez tous les points psioniques dépensés à la fin d’un long repos.
+Vous disposez d’un nombre de points de pouvoir psychiques égal à votre niveau d’exorciste multiplié par 2, comme indiqué dans la colonne « Points de pouvoir psychiques » du tableau des exorcistes. Lorsque vous lancez un pouvoir, vous dépensez un nombre de points de pouvoir psychiques égal à 1 + le niveau du pouvoir. Vous récupérez tous les points de pouvoir psychiques dépensés à la fin d’un long repos.
 
 *Niveau de pouvoir maximal*
 
-De nombreux pouvoirs psychiques peuvent être surpuissants, consommant davantage de points psioniques pour produire un effet plus important. Vous pouvez rendre ces capacités surpuissantes jusqu’à un niveau maximal, qui augmente à mesure que vous progressez en niveau, comme indiqué dans la colonne « Niveau maximal du pouvoir » du tableau de l’exorciste.
+De nombreux pouvoirs psychiques peuvent être surpuissants, consommant davantage de points de pouvoir psychiques pour produire un effet plus important. Vous pouvez rendre ces capacités surpuissantes jusqu’à un niveau maximal, qui augmente à mesure que vous progressez en niveau, comme indiqué dans la colonne « Niveau maximal du pouvoir » du tableau de l’exorciste.
 
 Vous ne pouvez lancer des pouvoirs psychiques de niveau 6, 7, 8 et 9 qu’une seule fois. Vous retrouvez la capacité de le faire après un long repos.
 
@@ -109,7 +109,7 @@ Vous pouvez manifester vos énergies du Warp sous la forme de deux effets diffé
 
 ##### Vision de sorcière
 
-Vous pouvez détecter la présence de créatures du Warp et de psioniques à proximité. En tant qu’action, vous pouvez ouvrir votre conscience pour détecter ces êtres d’un autre monde. Jusqu’à la fin de votre prochain tour, vous connaissez l’emplacement de tout démon ou mort-vivant situé à moins de 18 mètres de vous et qui ne se trouve pas derrière un abri total. Vous connaissez le type (par exemple, démon ou mort-vivant) de tout être dont vous percevez la présence, mais pas son identité (le Primarque démon Angron, par exemple). Dans ce même rayon, vous détectez également la présence de toute créature dotée de la capacité « lanceur de pouvoirs psychique ».
+Vous pouvez détecter la présence de créatures du Warp et de psychiques à proximité. En tant qu’action, vous pouvez ouvrir votre conscience pour détecter ces êtres d’un autre monde. Jusqu’à la fin de votre prochain tour, vous connaissez l’emplacement de tout démon ou mort-vivant situé à moins de 18 mètres de vous et qui ne se trouve pas derrière un abri total. Vous connaissez le type (par exemple, démon ou mort-vivant) de tout être dont vous percevez la présence, mais pas son identité (le Primarque démon Angron, par exemple). Dans ce même rayon, vous détectez également la présence de toute créature dotée de la capacité « lanceur de pouvoirs psychique ».
 
 Vous pouvez utiliser cette capacité un nombre de fois égal à 1 + votre bonus de compétence. Lorsque vous terminez un long repos, vous récupérez tous les usages dépensés.
 

@@ -66,7 +66,7 @@ Les Dark Angels sont considérés comme l’un des chapitres de Space Marines le
 
 **Forteresse mentale.** Vous bénéficiez d’un avantage lors des jets de sauvegarde pour résister au charme et à la possession. Vous êtes immunisé contre la lecture de vos pensées, notamment par le pouvoir « Détection des pensées ». Les créatures ont un désavantage lors des tests de Perspicacité effectués à votre encontre.
 
-**Résistance psychique.** Vous disposez d’une résistance aux dégâts psioniques.
+**Résistance psychique.** Vous disposez d’une résistance aux dégâts psychiques.
 
 **Langue supplémentaire.** Vous pouvez parler, lire et écrire les codes impériaux.
 
@@ -226,11 +226,11 @@ Réputés pour leur fierté, leur fureur et leur robustesse, les Space Wolves fo
 
 ![Épaulière de la légion des Thousand Sons](../../assets/origin-SM/Thousand_Sons_Post-Heresy_Armorial.png){height=3cm}
 
-Les Thousand Sons sont les fils de Magnus le Rouge, l’un des psioniques les plus puissants que l’on ait jamais connus, et ont hérité d’une fraction de son immense pouvoir.
+Les Thousand Sons sont les fils de Magnus le Rouge, l’un des psychiques les plus puissants que l’on ait jamais connus, et ont hérité d’une fraction de son immense pouvoir.
 
 **Augmentation de caractéristique.** Votre score d’Intelligence augmente de 1.
 
-**Esprit protégé.** Vous bénéficiez d’un avantage aux jets de sauvegarde de Sagesse et de Charisme contre les pouvoirs psioniques.
+**Esprit protégé.** Vous bénéficiez d’un avantage aux jets de sauvegarde de Sagesse et de Charisme contre les pouvoirs psychiques.
 
 **Potentiel psychique.** Vous maîtrisez un pouvoir psychique à volonté de votre choix.
 

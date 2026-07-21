@@ -57,7 +57,7 @@ Vous apprenez 9 pouvoirs psychiques de votre choix, et vous en apprenez d’autr
 
 *Points de pouvoir psychique*
 
-Vous disposez d’un nombre de points de pouvoir psychique égal à votre niveau de Sorcier multiplié par 4, comme indiqué dans la colonne « Nombre de point de pouvoir psychique » du tableau du Sorcier. Lorsque vous lancez un pouvoir, vous dépensez un nombres de point de pouvoir psychique égal à 1 + le niveau du pouvoir. Vous récupérez tous les points psioniques dépensés à la fin d’un long repos.
+Vous disposez d’un nombre de points de pouvoir psychique égal à votre niveau de Sorcier multiplié par 4, comme indiqué dans la colonne « Nombre de point de pouvoir psychique » du tableau du Sorcier. Lorsque vous lancez un pouvoir, vous dépensez un nombres de point de pouvoir psychique égal à 1 + le niveau du pouvoir. Vous récupérez tous les points de pouvoir psychiques dépensés à la fin d’un long repos.
 
 *Niveau de pouvoir maximal*
 
@@ -211,7 +211,7 @@ Au niveau 1, vous avez acquis la capacité de communiquer par télépathie avec 
 Ce lien télépathique dure jusqu’à ce que vous y mettiez fin prématurément (aucune action requise) et peut s’étendre jusqu’à une portée de 1,5 km. Le lien prend fin prématurément si vous établissez une connexion avec une autre créature ou si vous ne vous trouvez plus sur le même plan d’existence que l’autre créature.
 Esprit protégé
 
-Au niveau 6, vos pensées ne peuvent être lues par télépathie ou par tout autre moyen, sauf si vous l’autorisez. Vous bénéficiez également d’une résistance aux dégâts psioniques et d’un avantage aux jets de sauvegarde contre les effets de charme ou d’effroi.
+Au niveau 6, vos pensées ne peuvent être lues par télépathie ou par tout autre moyen, sauf si vous l’autorisez. Vous bénéficiez également d’une résistance aux dégâts psychiques et d’un avantage aux jets de sauvegarde contre les effets de charme ou d’effroi.
 
 **Réécrire le destin**
 
@@ -223,7 +223,7 @@ Une fois que vous avez utilisé cette capacité, vous ne pouvez pas l’utiliser
 
 À partir du niveau 14, lorsque vous touchez une créature avec une attaque, vous pouvez utiliser cette capacité pour transporter instantanément la cible à travers le labyrinthe de cristal sans fin situé dans le royaume de Tzeentch. La créature disparaît et est précipitée dans un labyrinthe cauchemardesque pendant ce qui semble être des années.
 
-À la fin de votre prochain tour, la cible revient à la case qu’elle occupait auparavant, ou à la case inoccupée la plus proche. Si la cible n’est pas un démon de Tzeentch, elle subit 10d10 points de dégâts psioniques, encore sous le choc de cette expérience horrifiante.
+À la fin de votre prochain tour, la cible revient à la case qu’elle occupait auparavant, ou à la case inoccupée la plus proche. Si la cible n’est pas un démon de Tzeentch, elle subit 10d10 points de dégâts psychiques, encore sous le choc de cette expérience horrifiante.
 
 Une fois que vous avez utilisé cette capacité, vous ne pouvez pas l’utiliser à nouveau avant d’avoir terminé un long repos.
 

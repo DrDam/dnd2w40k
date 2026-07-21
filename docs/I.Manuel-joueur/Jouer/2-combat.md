@@ -318,7 +318,7 @@ Les attaques, pouvoirs de dégâts ou autres effets offensifs infligent différe
 
 **Poison.** Les piqûres venimeuses et le gaz toxique provenant de la gueule venimeuse d’un tyranide infligent des dégâts de poison.
 
-**Psychiques.** Les capacités mentales telles qu’une explosion psionique ou le fait de fixer le Warp infligent des dégâts psychiques.
+**Psychiques.** Les capacités mentales telles qu’une explosion psychique ou le fait de fixer le Warp infligent des dégâts psychiques.
 
 **Tonnerre.** Une déflagration sonore, telle que l’effet du sort « onde de tonnerre », inflige des dégâts de tonnerre.
 

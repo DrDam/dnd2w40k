@@ -28,7 +28,7 @@ Les Corrompus subsistent en petites minorités aux marges de la civilisation. Su
 
 #### Marqué par Khorne
 
-Vous avez été corrompu par le dieu de la haine, du meurtre, du sang et de la guerre. Une haine éternelle envers les psioniques habite votre être même.
+Vous avez été corrompu par le dieu de la haine, du meurtre, du sang et de la guerre. Une haine éternelle envers les psykers habite votre être même.
 
 **Augmentation des caractéristiques.** Votre score de Force augmente de 1.
 
@@ -52,7 +52,7 @@ Vous avez été corrompu par le dieu du plaisir et de l'excès.
 
 **Augmentation des caractéristiques.** Votre score de Dextérité augmente de 1.
 
-**Résistance psionique.** Vous bénéficiez d'une résistance aux dégâts psioniques.
+**Résistance psychique.** Vous bénéficiez d'une résistance aux dégâts psychiques.
 
 **Vitesse accrue.** Votre vitesse de marche augmente de 1,5 mètres
 

@@ -194,7 +194,7 @@ Lorsque tu choisis cette voie au niveau 3, tu apprends les pouvoirs technologiqu
 
 **Armure cutanée**
 
-Toujours au niveau 3, vous gagnez une armure cutanée capable de se durcir sous l’effet d’un stress extrême, donnant à votre peau un aspect métallique. Lorsque vous êtes en rage, vous bénéficiez d’une résistance à tous les dégâts, à l’exception des dégâts psioniques.
+Toujours au niveau 3, vous gagnez une armure cutanée capable de se durcir sous l’effet d’un stress extrême, donnant à votre peau un aspect métallique. Lorsque vous êtes en rage, vous bénéficiez d’une résistance à tous les dégâts, à l’exception des dégâts psychiques.
 
 **Cybernétique de soutien**
 
