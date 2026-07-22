@@ -8,6 +8,6 @@
 
 **Durée** : instantanée
 
-Alors que vous envoyez plusieurs drones soignants à usage unique, jusqu'à six créatures de votre choix que vous pouvez voir à portée récupèrent un nombre de points de vie égal à 1d4 + votre modificateur de caractéristique d'incantation technologique. Ce pouvoir n'a aucun effet sur les morts-vivants ou les constructions.
+Alors que vous envoyez plusieurs drones soignants à usage unique, jusqu'à six créatures de votre choix que vous pouvez voir à portée récupèrent un nombre de points de vie égal à 1d4 + votre modificateur de caractéristique d'incantation technologique. Ce pouvoir n'a aucun effet sur les morts-vivants ou les constructs.
 
 **Aux niveaux supérieurs.** Lorsque vous lancez ce pouvoir au niveau 4 ou supérieur, les soins augmentent de 1d4 pour chaque niveau au-dessus du niveau 3.

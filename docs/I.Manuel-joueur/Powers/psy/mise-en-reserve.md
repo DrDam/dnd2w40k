@@ -14,4 +14,4 @@ Si la cible est une créature, elle sombre dans un état d'animation suspendue. 
 
 Vous pouvez fixer une condition mettant fin au pouvoir plus tôt. Cette condition peut être n'importe laquelle de votre choix, mais elle doit se produire ou être visible à moins d'un 1,5 kilomètre de la cible. Par exemple : « après 1 000 ans » ou « lorsque le primarque s'éveillera ». Ce pouvoir prend également fin si la cible subit des dégâts.
 
-Pour lancer ce pouvoir, vous devez dépenser 50 000 guelds d'encens ou d'autres offrandes, que le pouvoir consomme.
+Pour lancer ce pouvoir, vous devez dépenser 50 000 gelds d'encens ou d'autres offrandes, que le pouvoir consomme.

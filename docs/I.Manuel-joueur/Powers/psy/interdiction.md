@@ -14,4 +14,4 @@ De plus, ce pouvoir inflige des dégâts aux types de créatures que vous choisi
 
 Lorsque vous lancez ce pouvoir, vous pouvez désigner un mot de passe. Une créature qui prononce le mot de passe en entrant dans la zone ne subit aucun dégât du pouvoir.
 
-La zone de ce pouvoir ne peut pas chevaucher la zone d'un autre pouvoir interdiction. Si vous lancez interdiction chaque jour pendant 30 jours au même endroit, le pouvoir dure jusqu'à ce qu'il soit dissipé, et vous devez disposer d'au moins 10 000 guelds d'encens rare et d'eau bénite ou maudite, que le pouvoir consomme le 30e jour.
+La zone de ce pouvoir ne peut pas chevaucher la zone d'un autre pouvoir interdiction. Si vous lancez interdiction chaque jour pendant 30 jours au même endroit, le pouvoir dure jusqu'à ce qu'il soit dissipé, et vous devez disposer d'au moins 10 000 gelds d'encens rare et d'eau bénite ou maudite, que le pouvoir consomme le 30e jour.

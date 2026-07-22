@@ -8,7 +8,7 @@
 
 **Durée** : instantanée
 
-Une énergie nécromantique submerge une créature de votre choix que vous pouvez voir à portée, drainant son humidité et sa vitalité. La cible doit effectuer un jet de sauvegarde de Constitution. Elle subit 8d8 dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Ce pouvoir n'a aucun effet sur les morts-vivants ou les constructions.
+Une énergie nécromantique submerge une créature de votre choix que vous pouvez voir à portée, drainant son humidité et sa vitalité. La cible doit effectuer un jet de sauvegarde de Constitution. Elle subit 8d8 dégâts nécrotiques en cas d'échec, ou la moitié de ces dégâts en cas de réussite. Ce pouvoir n'a aucun effet sur les morts-vivants ou les constructs.
 
 Si vous ciblez une créature végétale ou une plante améliorée, elle effectue le jet de sauvegarde avec désavantage, et le pouvoir lui inflige les dégâts maximaux.
 
