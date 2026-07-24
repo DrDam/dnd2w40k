@@ -1,4 +1,4 @@
-![Un Vespide au combat](../../assets/xenos/VespidStingwing.png){.newpage}
+![Un Vespide au combat](../assets/xenos/VespidStingwing.png){.newpage}
 
 ### Vespide
 

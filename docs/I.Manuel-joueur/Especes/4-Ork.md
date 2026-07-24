@@ -1,4 +1,4 @@
-![Un Boy ork](../../assets/xenos/OrkBoy1.png){.newpage}
+![Un Boy ork](../assets/xenos/OrkBoy1.png){.newpage}
 
 ### Ork
 

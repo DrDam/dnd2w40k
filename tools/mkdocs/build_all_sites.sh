@@ -1,24 +1,25 @@
 #!/usr/bin/env bash
 
 set -uo pipefail
-# Note : pas de -e ici, on veut pouvoir continuer même si un livre échoue
+# Note : pas de -e ici, on veut pouvoir continuer même si un site échoue
 # et faire le bilan à la fin.
 
-LIVRES=(joueur mj monstres)
+SITES=(full)
+# LIVRES=(joueur mj monstres)
 
 debut_total=$(date +%s)
 
 echec=()
 reussite=()
 
-for livre in "${LIVRES[@]}"; do
-  echo "- Livre $livre : Génération ..."
+for site in "${SITES[@]}"; do
+  echo "- Site $site : Génération ..."
 
-  if ./book/book.sh "$livre"; then
-    reussite+=("$livre")
+  if ./tools/mkdocs/build_site.sh "$site"; then
+    reussite+=("$site")
   else
-    echo "ÉCHEC lors de la génération de : $livre" >&2
-    echec+=("$livre")
+    echo "ÉCHEC lors de la génération de : $site" >&2
+    echec+=("$site")
   fi
   echo
 done
@@ -38,4 +39,4 @@ if [ "${#echec[@]}" -gt 0 ]; then
   exit 1
 fi
 
-echo "Tous les livres ont été générés avec succès."
+echo "Tous les sites ont été générés avec succès."

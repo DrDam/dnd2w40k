@@ -1,4 +1,4 @@
-![Les nécron émergeant de leur long sommeil](../../assets/xenos/Necron_Warriors_vs_UM.png){.newpage}
+![Les nécron émergeant de leur long sommeil](../assets/xenos/Necron_Warriors_vs_UM.png){.newpage}
 
 ### Necron
 

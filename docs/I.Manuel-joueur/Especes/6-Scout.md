@@ -1,4 +1,4 @@
-![Un Scout Space Marine du chapitre des ImpérialFists](../../assets/humanity/ScoutMarineIF.png){.newpage height=8cm}
+![Un Scout Space Marine du chapitre des ImpérialFists](../assets/humanity/ScoutMarineIF.png){.newpage height=8cm}
 
 ### Scout Space Marine
 

@@ -1,4 +1,4 @@
-![Un techno-prêtre de l'Adeptus Mechanicus](../../assets/humanity/Adeptus_mechanicus_by_cribs-d4b4afs.png){.newpage height=7cm}
+![Un techno-prêtre de l'Adeptus Mechanicus](../assets/humanity/Adeptus_mechanicus_by_cribs-d4b4afs.png){.newpage height=7cm}
 
 ### Technofusionné
 

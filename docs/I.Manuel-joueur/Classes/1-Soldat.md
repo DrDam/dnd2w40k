@@ -1,4 +1,4 @@
-![Une soldat de la Death Korps de Krieg](../../assets/classes/Krieg_Soldat.png){.newpage height=8cm}
+![Une soldat de la Death Korps de Krieg](../assets/classes/Krieg_Soldat.png){.newpage height=8cm}
 
 ### Soldat {#soldat}
 

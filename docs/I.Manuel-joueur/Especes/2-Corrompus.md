@@ -1,4 +1,4 @@
-![Un SpaceMarine corrompu par Nurgle](../../assets/humanity/The-Tainted.jpg){.newpage}
+![Un SpaceMarine corrompu par Nurgle](../assets/humanity/The-Tainted.jpg){.newpage}
 
 ### Corrompus
 

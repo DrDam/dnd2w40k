@@ -1,4 +1,4 @@
-![Un Sorcier éxalté des Thousand-Sons](../../assets/classes/Exalted_Sorcerer.png){.newpage height=8cm}
+![Un Sorcier éxalté des Thousand-Sons](../assets/classes/Exalted_Sorcerer.png){.newpage height=8cm}
 
 ### Sorcier {#sorcier}
 

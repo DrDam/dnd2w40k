@@ -1,4 +1,4 @@
-![Un fabriquant d'arme Jokaero](../../assets/xenos/Jokaero_Weaponsmith.png){.newpage}
+![Un fabriquant d'arme Jokaero](../assets/xenos/Jokaero_Weaponsmith.png){.newpage}
 
 ### Jokaero
 

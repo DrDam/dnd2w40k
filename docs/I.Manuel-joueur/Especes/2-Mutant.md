@@ -1,4 +1,4 @@
-![Un mutant de Nurgle](../../assets/humanity/NurgleMutant.png){.newpage height=8cm}
+![Un mutant de Nurgle](../assets/humanity/NurgleMutant.png){.newpage height=8cm}
 
 ### Mutant
 

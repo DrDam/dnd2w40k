@@ -1,0 +1,86 @@
+INHERIT: mkdocs-base.yml
+
+site_name: Warhammer 40 000 conversion - Manuel du joueur
+site_url: https://DrDam.github.io/dnd2w40k/manuel-du-joueur
+
+docs_dir: ../../docs/I.Manuel-joueur
+site_dir: ../../site/manuel-du-joueur
+
+nav:
+#  - A propos : index.md
+#  - Note préliminaire : 0-disclaimer.md
+  - "Partie 1 : Création de Personnage" :
+    - 1. Préambule: intro/0-preambule.md
+    - 2. Les personnages, étape par étape: intro/1-perso.md
+    - 3. Les espèces - L'humanité :
+      - A propos : Especes/1-Humanite.md
+      - Les Blanks: Especes/2-Blank.md
+      - Les Corrompus: Especes/2-Corrompus.md
+      - Les hommes-bêtes: Especes/2-Homme-bete.md
+      - Les humains: Especes/2-Humain.md
+      - Les Mutants: Especes/2-Mutant.md
+      - Les Ogryns: Especes/2-Ogryn.md
+      - Les Ratlings: Especes/2-Ratling.md
+      - Les Technofusionnés: Especes/2-Techfused.md
+    - 4. Les Espèces - Les Xenos:
+      - A propos : Especes/3-Xenos.md
+      - Les Aeldari : Especes/4-Aeldari.md
+      - Les Cognats: Especes/4-Cognat.md
+      - Les Genestealers: Especes/4-Genestealers.md
+      - Les Hommes-Rats: Especes/4-Hommes-rats.md
+      - Les Gretchins: Especes/4-Gretchin.md
+      - Les Jokaeros: Especes/4-Jokaero.md
+      - Les Kroots: Especes/4-Kroot.md
+      - Les Lacrymoles: Especes/4-Lacrymole.md
+      - Les Necrons: Especes/4-Necron.md
+      - Les Orks: Especes/4-Ork.md
+      - Les Stryxis: Especes/4-Stryxis.md
+      - Les Tarellians: Especes/4-Tarellian.md
+      - Les Tau: Especes/4-Tau.md
+      - Les Thyrrus: Especes/4-Thyrrus.md
+      - Les Vespides: Especes/4-Vespide.md
+      - Les Viskeons: Especes/4-Viskeon.md
+    - 5. Les Space Marines:
+      - A propos : Especes/5-SpaceMarines.md
+      - Les Scouts Space Marines: Especes/6-Scout.md
+      - Les Space Marines: Especes/6-SpaceMarine.md
+    - 6. Les classes:
+      - les classes: Classes/0-Classes.md
+      - les Agents: Classes/1-Agent.md
+      - les Augmentistes: Classes/1-Augmentiste.md
+      - les Berserkers : Classes/1-Berserker.md
+      - les Croisés : Classes/1-Croise.md
+      - les Exorcistes : Classes/1-Exorciste.md
+      - les Mécaniciens : Classes/1-Mecanicien.md
+      - les Psykers : Classes/1-Psyker.md
+      - les Soldats : Classes/1-Soldat.md
+      - les Sorciers : Classes/1-Sorcier.md
+      - les Traqueurs : Classes/1-Traqueur.md
+    - 7. Personnalité et historique:
+      - Préambule: Origines/0-title.md
+      - les Langues: Origines/1-Langues.md
+      - les Historiques: Origines/2-Historiques.md
+      - les Chapitre/Légion: Origines/3-OrigineSM.md
+      - les Roles opérationnels: Origines/4-RoleOperationnel.md
+    - 8. Équipement:
+      - Préambule: Equipement/0-index.md
+      - les Armures: Equipement/1-armures.md
+      - les Armes: Equipement/2-armes.md
+      - les Équipement d'aventuriers: Equipement/3-Equipement-aventure.md
+      - les Outils: Equipement/4-Outils.md
+      - les Marchandises: Equipement/5-Marchandises.md
+    - 9. Options de personnalisation:
+      - Préambule: Personalisation/0-intro.md
+      - le multiclassage: Personalisation/1-multiclasse.md
+      - les Dons: Personalisation/2-dons.md
+  - "Partie 2 : Jouer au 40ième millénaire" :
+    - 10. Utiliser les valeurs de caractéristiques: Jouer/0-carac.md
+    - 11. Partir à l'aventure: Jouer/1-aventure.md
+    - 12. Les combats: Jouer/2-combat.md
+  - "Partie 3 : Les pouvoirs psychiques et technologiques" :
+    - 13. Utiliser les pouvoirs: Powers/0-intro.md
+    - 14. Les pouvoirs psychiques: Powers/psy/000.md
+    - 15. Les pouvoirs technologiques: Powers/tech/000.md
+  - "Annexe : Les Etats" : conditions.md
+#  - Credits : credits.md
+

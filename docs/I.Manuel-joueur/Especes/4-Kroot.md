@@ -1,4 +1,4 @@
-![Un guerrier Kroot](../../assets/xenos/Kroot2.png){.newpage}
+![Un guerrier Kroot](../assets/xenos/Kroot2.png){.newpage}
 
 ### Kroot
 

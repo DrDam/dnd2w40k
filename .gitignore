@@ -1,6 +1,5 @@
 site
 build/*
-.vscode
+build.sh
 
-book/order-test.txt
-book/book-test.sh
+.vscode

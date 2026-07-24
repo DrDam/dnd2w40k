@@ -1,4 +1,4 @@
-![Un techno-prêtre du Mechanicus à la tête d’un maniple de la Legio Cybernetica pendant la Grande Croisade](../../assets/classes/Mecanicus.png){.newpage height=8cm}
+![Un techno-prêtre du Mechanicus à la tête d’un maniple de la Legio Cybernetica pendant la Grande Croisade](../assets/classes/Mecanicus.png){.newpage height=8cm}
 
 ### Mécanicien {#mecanicien}
 

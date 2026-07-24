@@ -1,4 +1,4 @@
-![Un Autarque du vaisseau monde Biel-Tan](../../assets/xenos/AsuryaniWarrior.png){.newpage height=8cm}
+![Un Autarque du vaisseau monde Biel-Tan](../assets/xenos/AsuryaniWarrior.png){.newpage height=8cm}
 
 ### Aeldari
 

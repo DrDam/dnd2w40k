@@ -1,4 +1,4 @@
-![Un Kin dans son armure du vide](../../assets/xenos/KInandCOG.png){.newpage height=8cm}
+![Un Kin dans son armure du vide](../assets/xenos/KInandCOG.png){.newpage height=8cm}
 
 ### Cognat
 

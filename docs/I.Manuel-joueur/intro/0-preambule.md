@@ -12,9 +12,9 @@ Il comportera un certain nombre de différences.
 Les *espèces* s’inspirent de celles présentes dans la galaxie.
 Pour des raisons d'organisation, elles ont été découpé en trois groupes :
 
-- [L'humanité](Especes/1-Humanite.md#humanite)
-- [Les Xenos](Especes/3-Xenos.md#xenos)
-- [Les Spaces Marines](Especes/5-SpaceMarines.md#space-marines)
+- [L'humanité](../Especes/1-Humanite.md#humanite)
+- [Les Xenos](../Especes/3-Xenos.md#xenos)
+- [Les Spaces Marines](../Especes/5-SpaceMarines.md#space-marines)
 
 Cette séparation permet de structurer l'ensemble des espèces et permettre de facilement les retrouver.
 Notez tout de fois que certaines *espèces exotiques* pourraient ne pas convenir à votre campagne.
@@ -23,20 +23,20 @@ Par ailleurs, la séparation des Space Marines des autres espèces de l'humanit�
 
 **Classes**
 
-Les classes ont été revues, à l’exception du [Soldat](Classes/1-Soldat.md#soldat) (Guerrier) et de [l'Agent](Classes/1-Agent.md#agent) (Voleur).
+Les classes ont été revues, à l’exception du [Soldat](../Classes/1-Soldat.md#soldat) (Guerrier) et de [l'Agent](../Classes/1-Agent.md#agent) (Voleur).
 
-- L'*[Augmentiste](Classes/1-Augmentiste.md#augmentiste)* s’apparente au moine, mais exploite la technologie pour améliorer son corp, ce qui déclenche des effets spéciaux.
-- Le *[Berserker](Classes/1-Berserker.md#berserker)* correspond au barbare, mais ses sous-classes ont été légèrement modifiées pour s’adapter à l’univers du jeu.
-- Le *[Croisé](Classes/1-Berserker.md#berserker)* est une nouvelle classe qui mêle des aspects du combattant et du barde pour créer une classe axée sur le combat au corps à corps, capable de soutenir ses alliés par des actes héroïques.
-- L'*[Exorciste](Classes/1-Exorciste.md#exorciste)* s’inspire du paladin et dispose de nouvelles capacités qui s’intègrent parfaitement à l’univers et à son archétype consistant à exorciser les démons et à bannir les créatures d’un autre monde.
-- Le *[Mécanicien](Classes/1-Mecanicien.md#mecanicien)* est un lanceur de pouvoirs axé sur la technologie qui exploite pleinement la puissance de celle-ci pour ses effets et peut augmenter ses capacités physiques grâce à des modifications cybernétiques.
-- Le *[Psyker](Classes/1-Psyker.md#psyker)* utilise les pouvoirs du Warp pour manipuler leurs capacités et leurs effets, et étudie les disciplines psychiques afin d’obtenir des effets spéciaux.
-- Le *[Sorcier](Classes/1-Sorcier.md#sorcier)* conclue des pactes avec des démons et d’autres êtres du Warp pour acquérir ou renforcer ses pouvoirs psychiques.
-- Le *[Traqueur](Classes/1-Traqueur.md#traqueur)* s’inspire vaguement du ranger, mais utilise la technologie pour alimenter ses effets uniques.
+- L'*[Augmentiste](../Classes/1-Augmentiste.md#augmentiste)* s’apparente au moine, mais exploite la technologie pour améliorer son corp, ce qui déclenche des effets spéciaux.
+- Le *[Berserker](../Classes/1-Berserker.md#berserker)* correspond au barbare, mais ses sous-classes ont été légèrement modifiées pour s’adapter à l’univers du jeu.
+- Le *[Croisé](../Classes/1-Berserker.md#berserker)* est une nouvelle classe qui mêle des aspects du combattant et du barde pour créer une classe axée sur le combat au corps à corps, capable de soutenir ses alliés par des actes héroïques.
+- L'*[Exorciste](../Classes/1-Exorciste.md#exorciste)* s’inspire du paladin et dispose de nouvelles capacités qui s’intègrent parfaitement à l’univers et à son archétype consistant à exorciser les démons et à bannir les créatures d’un autre monde.
+- Le *[Mécanicien](../Classes/1-Mecanicien.md#mecanicien)* est un lanceur de pouvoirs axé sur la technologie qui exploite pleinement la puissance de celle-ci pour ses effets et peut augmenter ses capacités physiques grâce à des modifications cybernétiques.
+- Le *[Psyker](../Classes/1-Psyker.md#psyker)* utilise les pouvoirs du Warp pour manipuler leurs capacités et leurs effets, et étudie les disciplines psychiques afin d’obtenir des effets spéciaux.
+- Le *[Sorcier](../Classes/1-Sorcier.md#sorcier)* conclue des pactes avec des démons et d’autres êtres du Warp pour acquérir ou renforcer ses pouvoirs psychiques.
+- Le *[Traqueur](../Classes/1-Traqueur.md#traqueur)* s’inspire vaguement du ranger, mais utilise la technologie pour alimenter ses effets uniques.
 
 **Autres Éléments**
 
-Les *[langues](Origines/1-Langues.md#langues)* et les *[Historiques](Origines/2-Historiques.md#historiques)* ont été adaptées au contexte, et les *Historiques* proposent un choix de 4 compétences.
+Les *[langues](../Origines/1-Langues.md#langues)* et les *[Historiques](../Origines/2-Historiques.md#historiques)* ont été adaptées au contexte, et les *Historiques* proposent un choix de 4 compétences.
 
 Les *Dons* ont été légèrement modifiés et quelques-uns ont été ajoutés.
 
@@ -44,7 +44,7 @@ Les *Dons* ont été légèrement modifiés et quelques-uns ont été ajoutés.
 
 La monnaie standard est le *Gelt* abrégé en *g*. 10 gelts équivalent à 1 pièce d'or.
 
-Les armes, armures et objets les plus courants sont répertoriés au chapitre « [Équipement](Equipement/0-index.md#equipement) ». Tout le reste se trouve dans la section « Objets améliorés » dans le livre du Maître du Jeu.
+Les armes, armures et objets les plus courants sont répertoriés au chapitre « [Équipement](../Equipement/0-index.md#equipement) ». Tout le reste se trouve dans la section « Objets améliorés » dans le livre du Maître du Jeu.
 
 ##### Magie
 

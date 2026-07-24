@@ -1,4 +1,4 @@
-![Un Lacrymole prenant l'apparence d'un humain](../../assets/xenos/Lacrymole_pic.png){.newpage}
+![Un Lacrymole prenant l'apparence d'un humain](../assets/xenos/Lacrymole_pic.png){.newpage}
 
 ### Lacrymole
 

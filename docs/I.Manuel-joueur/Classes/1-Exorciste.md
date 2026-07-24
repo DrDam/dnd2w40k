@@ -1,4 +1,4 @@
-![Un Exorciste de l'Ordo Hereticus](../../assets/classes/Exorcist.jpg){.newpage}
+![Un Exorciste de l'Ordo Hereticus](../assets/classes/Exorcist.jpg){.newpage}
 
 ### Exorciste {#exorciste}
 

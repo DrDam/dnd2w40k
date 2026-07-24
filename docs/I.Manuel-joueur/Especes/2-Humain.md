@@ -1,4 +1,4 @@
-![L'inquisiteur Gregor Eisenhorn](../../assets/humanity/Eisenhorn6.png){.newpage height=8cm}
+![L'inquisiteur Gregor Eisenhorn](../assets/humanity/Eisenhorn6.png){.newpage height=8cm}
 
 ### Humains
 

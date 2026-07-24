@@ -1,4 +1,4 @@
-![Le chef Ork Ghazghkull Mag Uruk Thraka](../../assets/classes/Warlord_Ghazkull_Thraka.png){.newpage height=8cm}
+![Le chef Ork Ghazghkull Mag Uruk Thraka](../assets/classes/Warlord_Ghazkull_Thraka.png){.newpage height=8cm}
 
 ### Berserker {#berserker}
 

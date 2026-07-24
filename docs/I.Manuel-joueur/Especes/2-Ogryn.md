@@ -1,4 +1,4 @@
-![Un Ogryn servant dans l'astra militarum](../../assets/humanity/Ogryn-0.png){.newpage height=8cm}
+![Un Ogryn servant dans l'astra militarum](../assets/humanity/Ogryn-0.png){.newpage height=8cm}
 
 ### Ogryn
 

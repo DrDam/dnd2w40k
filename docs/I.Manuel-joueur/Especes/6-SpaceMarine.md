@@ -1,4 +1,4 @@
-![Un Intercessor SpaceMarine du chapitre des UltraMarines](../../assets/humanity/UM_Primaris_Space_Marine.png){.newpage height=8cm}
+![Un Intercessor SpaceMarine du chapitre des UltraMarines](../assets/humanity/UM_Primaris_Space_Marine.png){.newpage height=8cm}
 
 ### Space Marine
 

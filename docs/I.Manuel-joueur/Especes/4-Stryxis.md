@@ -1,4 +1,4 @@
-![Un stryxis vendant une arme Tau](../../assets/xenos/Stryxis.png){.newpage}
+![Un stryxis vendant une arme Tau](../assets/xenos/Stryxis.png){.newpage}
 
 ### Stryxis
 

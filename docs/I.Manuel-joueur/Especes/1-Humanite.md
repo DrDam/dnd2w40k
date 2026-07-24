@@ -1,6 +1,6 @@
 ## Espèces : L'humanité {#humanite}
 
-![Exemple de forces de la garde impériale (Catachans, Caridens, Soldats de Krieg)](../../assets/humanity/imperial_guard.jpg){.wide}
+![Exemple de forces de la garde impériale (Catachans, Caridens, Soldats de Krieg)](../assets/humanity/imperial_guard.jpg){.wide}
 
 L'Imperium de l'Humanité s'étend sur près d'un million de mondes et rassemble une population innombrable. Si la majorité de ses citoyens sont des humains ordinaires, l'évolution, les environnements extrêmes, les modifications génétiques et les traditions propres à chaque planète ont donné naissance à une grande variété de lignées humaines.
 

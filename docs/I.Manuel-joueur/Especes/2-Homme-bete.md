@@ -1,4 +1,4 @@
-![Un homme bête](../../assets/humanity/BeastmenArt.png){.newpage height=8cm}
+![Un homme bête](../assets/humanity/BeastmenArt.png){.newpage height=8cm}
 
 ### Homme-bête
 

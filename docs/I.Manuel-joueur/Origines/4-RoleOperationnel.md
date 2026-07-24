@@ -17,7 +17,7 @@ Choisissez l’un des rôles suivants :
 
 #### Apothicaire
 
-![Un apothicaire White Scars](../../assets/role-SM/Apothecary1.png){height=6cm}
+![Un apothicaire White Scars](../assets/role-SM/Apothecary1.png){height=6cm}
 
 Afin de servir au mieux vos frères d’armes, vous veillez à leur santé physique et vous vous assurez qu’ils puissent se remettre le plus rapidement possible, tant au cœur des combats qu’après les missions. Vous êtes chargé de veiller à la santé de vos frères et, s’ils viennent à perdre la vie au combat, de récupérer leur précieuse graine génétique afin de créer de nouveaux frères d’armes pour compenser les pertes.
 
@@ -46,7 +46,7 @@ En tant qu’apothicaire, vous commencez avec l’équipement suivant, à la pla
 
 #### Marine d'assaut
 
-![Un Marine d'assaut des Ultramarines](../../assets/role-SM/AssaultMarineUltramarines.png){height=6cm}
+![Un Marine d'assaut des Ultramarines](../assets/role-SM/AssaultMarineUltramarines.png){height=6cm}
 
 Les marines d'assaut constituent le bras armé du chapitre ; ils mettent à profit leurs accélérations fulgurantes pour percer les rangs ennemis en un clin d'œil. Recourant au combat rapproché et aux explosifs, ils passent souvent rapidement d'un objectif à l'autre, semant le chaos et la destruction grâce à leurs propulseurs de saut.
 
@@ -72,7 +72,7 @@ En tant que Marine d’assaut, vous commencez avec l’équipement suivant, à l
 
 #### Chaplain
 
-![Un Chapelain des Dark Angels](../../assets/role-SM/DarkAngelsPrimarisChaplain.png){height=6cm}
+![Un Chapelain des Dark Angels](../assets/role-SM/DarkAngelsPrimarisChaplain.png){height=6cm}
 
 En tant que Chapelain, votre mission consiste à veiller sur les reliques et les exploits historiques de votre chapitre, ainsi qu’à préserver sa glorieuse histoire. Vous devez notamment vous assurer que vos frères connaissent toujours leurs devoirs et qu’ils ne s’écartent jamais de la voie de la dévotion et de la droiture.
 
@@ -97,7 +97,7 @@ En tant que chapelain, vous commencez avec l’équipement suivant, à la place 
 
 #### Librarian
 
-![Un Librarian des Salamanders](../../assets/role-SM/Salamanders_Librarian.png){height=6cm}
+![Un Librarian des Salamanders](../assets/role-SM/Salamanders_Librarian.png){height=6cm}
 
 Vous êtes Librarian, l’un des psykers engagés par vos frères Space Marines pour votre maîtrise et votre connaissance de l’Immaterium, ainsi que des créatures qui y vivent. Votre rôle en tant que Librarian consiste à gérer et à conserver les archives du chapitre, tout en utilisant vos pouvoirs uniques et destructeurs pour semer la mort parmi vos ennemis.
 
@@ -124,7 +124,7 @@ En tant que Librarian, vous commencez avec l’équipement suivant, à la place 
 
 #### Marine tactique
 
-![Un Marine Tactique des Ultramarines](../../assets/role-SM/UM_Tactical_Squad.png){height=6cm}
+![Un Marine Tactique des Ultramarines](../assets/role-SM/UM_Tactical_Squad.png){height=6cm}
 
 En tant que marine tactique, vous êtes le pilier du chapitre. Capable de vous adapter à toutes les situations, vous êtes envoyé pour servir et exceller dans n’importe quelle zone de combat, que ce soit face à des hordes d’extraterrestres, à des adversaires furtifs ou à des ennemis venus d’au-delà.
 
@@ -150,7 +150,7 @@ En tant que Marine Tactique, vous commencez avec l’équipement suivant, à la 
 
 #### Marine Devastator
 
-![Un Marine Devastator des Blood Angels servant dans la DeathWatch](../../assets/role-SM/Blood_Angel_DW_Devastator_Brother2.png){height=6cm}
+![Un Marine Devastator des Blood Angels servant dans la DeathWatch](../assets/role-SM/Blood_Angel_DW_Devastator_Brother2.png){height=6cm}
 
 En tant que marine Devastator, votre mission principale consiste à manier les armes de destruction au service de vos frères d’armes. Formé à l’art de la destruction et du chaos, vous anéantissez vos adversaires à distance et sapez les rangs ennemis depuis des positions fortifiées.
 
@@ -174,7 +174,7 @@ En tant que Marine Dévastateur, vous commencez avec l’équipement suivant, à
 
 #### Techmarine
 
-![Un Techmarine des Black Templar](../../assets/role-SM/Black_Templar_DW_Techmarine_Brother.png){height=6cm}
+![Un Techmarine des Black Templar](../assets/role-SM/Black_Templar_DW_Techmarine_Brother.png){height=6cm}
 
 En tant que Techmarine, vous faites le lien entre le Culte du Dieu-Machine et les Space Marines dont vous êtes le frère d’armes. Vous assurez l’entretien des armures, des armes, des véhicules et des machines que vos frères d’armes utilisent au combat, et vos implants cybernétiques uniques vous permettent de communiquer avec les esprits des machines qui résident au sein des équipements dont vous assurez la maintenance.
 

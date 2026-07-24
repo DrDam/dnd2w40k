@@ -1,4 +1,4 @@
-![Un Ratling servant dans l'astra militarum](../../assets/humanity/Ratling_tracker.png){.newpage height=8cm}
+![Un Ratling servant dans l'astra militarum](../assets/humanity/Ratling_tracker.png){.newpage height=8cm}
 
 ### Ratling
 

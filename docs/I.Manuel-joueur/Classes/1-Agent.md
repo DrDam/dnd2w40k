@@ -1,4 +1,4 @@
-![Un agent Ratling](../../assets/classes/Ratling_Fixer.png){.newpage height=8cm}
+![Un agent Ratling](../assets/classes/Ratling_Fixer.png){.newpage height=8cm}
 
 ### Agent {#agent}
 

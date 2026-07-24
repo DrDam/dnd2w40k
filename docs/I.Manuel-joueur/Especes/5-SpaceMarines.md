@@ -1,6 +1,6 @@
 ## Les Space Marines {#space-marines}
 
-![Un groupe de SpaceMarines du chapitre des Ultramarines](../../assets/humanity/New40kDarkImpPrimaris.png){.wide  height=4cm}
+![Un groupe de SpaceMarines du chapitre des Ultramarines](../assets/humanity/New40kDarkImpPrimaris.png){.wide  height=4cm}
 
 Les Space Marines, ou Adeptus Astartes, sont des guerriers transhumains créés par l'Empereur pour défendre l'Humanité. Recrutés dès leur plus jeune âge, ils subissent de profondes modifications génétiques et chirurgicales qui font d'eux des combattants d'une force, d'une endurance et d'une longévité bien supérieures à celles d'un humain ordinaire.
 

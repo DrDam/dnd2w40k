@@ -1,4 +1,4 @@
-![Le techno-prêtre Fatshark](../../assets/classes/fatshark-mechanicus-class.png){.newpage height=8cm}
+![Le techno-prêtre Fatshark](../assets/classes/fatshark-mechanicus-class.png){.newpage height=8cm}
 
 ### Augmentiste {#augmentiste}
 

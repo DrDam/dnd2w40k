@@ -1,29 +1,10 @@
+INHERIT: mkdocs-base.yml
+
 site_name: Warhammer 40 000 conversion
 site_url: https://DrDam.github.io/dnd2w40k/
-theme:
-  name: material
-  features:
-    - navigation.expand
-    - toc.integrate
 
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - toc:
-      toc_depth: 2
-
-extra_css:
-  - stylesheets/extra.css
-
-hooks:
-  - docs/hooks/colspan_tables.py
-
-validation:
-  nav:
-    omitted_files: ignore
+docs_dir: ../../docs
+site_dir: ../../site
 
 nav:
   - A propos : index.md

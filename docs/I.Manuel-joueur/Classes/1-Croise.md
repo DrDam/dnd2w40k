@@ -1,4 +1,4 @@
-![Une chanoinesse de l'Adepta Sororitas](../../assets/classes/Mother_Superior_Sisters_of_Battle.png){.newpage height=8cm}
+![Une chanoinesse de l'Adepta Sororitas](../assets/classes/Mother_Superior_Sisters_of_Battle.png){.newpage height=8cm}
 
 ### Croisé {#croise}
 

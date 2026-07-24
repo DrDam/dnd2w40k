@@ -1,4 +1,4 @@
-![Des soeurs du silence](../../assets/humanity/Sisters_of_Silence_art.png){.newpage}
+![Des soeurs du silence](../assets/humanity/Sisters_of_Silence_art.png){.newpage}
 
 ### Blank {#blank}
 

@@ -1,4 +1,4 @@
-![Un Genestealer Pur-souche](../../assets/xenos/Genestealer1.png){.newpage height=8cm}
+![Un Genestealer Pur-souche](../assets/xenos/Genestealer1.png){.newpage height=8cm}
 
 ### Genestealer
 

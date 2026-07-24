@@ -1,4 +1,4 @@
-![Un travailleur Gretchin](../../assets/xenos/Grotpic.png){.newpage}
+![Un travailleur Gretchin](../assets/xenos/Grotpic.png){.newpage}
 
 ### Gretchin
 

@@ -1,4 +1,4 @@
-![Un Guerrier-du-feu T'au en armure complète](../../assets/xenos/TauFireWarrior.png){.newpage}
+![Un Guerrier-du-feu T'au en armure complète](../assets/xenos/TauFireWarrior.png){.newpage}
 
 ### T'au
 

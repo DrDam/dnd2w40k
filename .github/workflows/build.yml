@@ -26,13 +26,16 @@ jobs:
           sudo apt-get install -y pandoc texlive-xetex
 
       - name: Build MkDocs
-        run: mkdocs build
+        run: |
+          chmod +x tools/mkdocs/build_site.sh
+          chmod +x tools/mkdocs/build_all_site.sh
+          ./tools/mkdocs/build_all_site
 
       - name: Build PDF
         run: |
-          chmod +x book/book.sh
-          chmod +x book/build_all_books.sh
-          ./book/build_all_books.sh
+          chmod +x tools/book/book.sh
+          chmod +x tools/book/build_all_books.sh
+          ./tools/book/build_all_books.sh
 
       - name: Move PDF into MkDocs
         run: |

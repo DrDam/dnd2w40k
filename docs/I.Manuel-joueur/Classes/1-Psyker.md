@@ -1,4 +1,4 @@
-![Ela Ashbel, Grande Prophétesse des Asuryani](../../assets/classes/Farseer_Ela_Ashbel.png){.newpage height=8cm}
+![Ela Ashbel, Grande Prophétesse des Asuryani](../assets/classes/Farseer_Ela_Ashbel.png){.newpage height=8cm}
 
 ### Psyker {#psyker}
 

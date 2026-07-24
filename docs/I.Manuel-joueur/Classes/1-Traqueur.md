@@ -1,4 +1,4 @@
-![Traqueurs Nécron](../../assets/classes/Necron_Deathmarks.png){.newpage height=8cm}
+![Traqueurs Nécron](../assets/classes/Necron_Deathmarks.png){.newpage height=8cm}
 
 ### Traqueur {#traqueur}
 
