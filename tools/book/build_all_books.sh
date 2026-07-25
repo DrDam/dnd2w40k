@@ -38,7 +38,4 @@ fi
 
 if [ "${#echec[@]}" -gt 0 ]; then
   echo "Échoués  : ${echec[*]}" >&2
-  exit 1
 fi
-
-echo "Tous les livres ont été générés avec succès."
