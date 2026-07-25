@@ -1,0 +1,19 @@
+title: ""
+subtitle: Rulebook
+author: DrDam
+date: 2026
+
+lang: en
+
+number-sections: true
+
+colorlinks: true
+geometry: margin=2.5cm
+
+titlepage: false
+
+documentclass: extbook
+classoption:
+  - oneside
+  - twocolumn
+  - 8pt

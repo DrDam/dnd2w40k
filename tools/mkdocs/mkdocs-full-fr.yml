@@ -8,11 +8,11 @@ site_dir: ../../site
 
 nav:
   - A propos : index.md
-  - Note préliminaire : 0-disclaimer.md
+  - Note préliminaire : disclaimer.md
   - "Livre 1 : Manuel du joueur":
       - "Partie 1 : Création de Personnage" :
-        - 1. Préambule: I.Manuel-joueur/0-preambule.md
-        - 2. Les personnages, étape par étape: I.Manuel-joueur/1-perso.md
+        - 1. Préambule: I.Manuel-joueur/intro/0-preambule.md
+        - 2. Les personnages, étape par étape: I.Manuel-joueur/intro/1-perso.md
         - 3. Les espèces - L'humanité :
           - A propos : I.Manuel-joueur/Especes/1-Humanite.md
           - Les Blanks: I.Manuel-joueur/Especes/2-Blank.md
@@ -89,4 +89,3 @@ nav:
   - "Livre 3 : Manuel des montres":
       - avant-propos: III.Manuel-Monstres/index.md
   - Credits : credits.md
-

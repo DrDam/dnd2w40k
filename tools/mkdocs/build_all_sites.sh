@@ -4,8 +4,8 @@ set -uo pipefail
 # Note : pas de -e ici, on veut pouvoir continuer même si un site échoue
 # et faire le bilan à la fin.
 
-SITES=(full)
-# LIVRES=(joueur mj monstres)
+SITES=(joueur mj monstres)
+LANGS=(fr en)
 
 debut_total=$(date +%s)
 
@@ -13,15 +13,17 @@ echec=()
 reussite=()
 
 for site in "${SITES[@]}"; do
-  echo "- Site $site : Génération ..."
+  for lang in "${LANGS[@]}"; do
+    echo "- Site $site [$lang] : Génération ..."
 
-  if ./tools/mkdocs/build_site.sh "$site"; then
-    reussite+=("$site")
-  else
-    echo "ÉCHEC lors de la génération de : $site" >&2
-    echec+=("$site")
-  fi
-  echo
+    if ./tools/mkdocs/build_site.sh "$site" "$lang"; then
+      reussite+=("$site-$lang")
+    else
+      echo "ÉCHEC lors de la génération de : $site [$lang]" >&2
+      echec+=("$site-$lang")
+    fi
+    echo
+  done
 done
 
 fin_total=$(date +%s)

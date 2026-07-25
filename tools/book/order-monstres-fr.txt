@@ -1,0 +1,2 @@
+docs/fr/III.Manuel-Monstres/index.md
+docs/fr/III.Manuel-Monstres/credits.md

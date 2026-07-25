@@ -1,0 +1,17 @@
+tools/book/parts_titles/fr/joueur/part1.md
+docs/fr/I.Manuel-joueur/intro/0-preambule.md
+docs/fr/I.Manuel-joueur/intro/1-perso.md
+docs/fr/I.Manuel-joueur/Especes/*.md
+docs/fr/I.Manuel-joueur/Classes/*.md
+docs/fr/I.Manuel-joueur/Origines/*.md
+docs/fr/I.Manuel-joueur/Equipement/*.md
+docs/fr/I.Manuel-joueur/Personalisation/*.md
+tools/book/parts_titles/fr/joueur/part2.md
+docs/fr/I.Manuel-joueur/Jouer/*.md
+tools/book/parts_titles/fr/joueur/part3.md
+docs/fr/I.Manuel-joueur/Powers/0-intro.md
+docs/fr/I.Manuel-joueur/Powers/psy/*.md
+docs/fr/I.Manuel-joueur/Powers/tech/*.md
+tools/book/parts_titles/fr/annexes.md
+docs/fr/I.Manuel-joueur/conditions.md
+docs/fr/I.Manuel-joueur/credits.md

@@ -3,12 +3,12 @@ INHERIT: mkdocs-base.yml
 site_name: Warhammer 40 000 conversion - Manuel du joueur
 site_url: https://DrDam.github.io/dnd2w40k/manuel-du-joueur
 
-docs_dir: ../../docs/I.Manuel-joueur
-site_dir: ../../site/manuel-du-joueur
+docs_dir: ../../docs/fr/I.Manuel-joueur
+site_dir: ../../site/fr/manuel-du-joueur
 
 nav:
-#  - A propos : index.md
-#  - Note préliminaire : 0-disclaimer.md
+  - A propos : index.md
+  - Note préliminaire : disclaimer.md
   - "Partie 1 : Création de Personnage" :
     - 1. Préambule: intro/0-preambule.md
     - 2. Les personnages, étape par étape: intro/1-perso.md
@@ -82,5 +82,5 @@ nav:
     - 14. Les pouvoirs psychiques: Powers/psy/000.md
     - 15. Les pouvoirs technologiques: Powers/tech/000.md
   - "Annexe : Les Etats" : conditions.md
-#  - Credits : credits.md
+  - Credits : credits.md
 

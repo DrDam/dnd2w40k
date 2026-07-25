@@ -5,6 +5,7 @@ set -uo pipefail
 # et faire le bilan à la fin.
 
 LIVRES=(joueur mj monstres)
+LANGS=(fr en)
 
 debut_total=$(date +%s)
 
@@ -12,15 +13,17 @@ echec=()
 reussite=()
 
 for livre in "${LIVRES[@]}"; do
-  echo "- Livre $livre : Génération ..."
+  for lang in "${LANGS[@]}"; do
+    echo "- Livre $livre [$lang] : Génération ..."
 
-  if ./tools/book/book.sh "$livre"; then
-    reussite+=("$livre")
-  else
-    echo "ÉCHEC lors de la génération de : $livre" >&2
-    echec+=("$livre")
-  fi
-  echo
+    if ./tools/book/book.sh "$livre" "$lang"; then
+      reussite+=("$livre-$lang")
+    else
+      echo "ÉCHEC lors de la génération de : $livre [$lang]" >&2
+      echec+=("$livre-$lang")
+    fi
+    echo
+  done
 done
 
 fin_total=$(date +%s)
