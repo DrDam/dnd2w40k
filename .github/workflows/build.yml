@@ -42,7 +42,7 @@ jobs:
       - name: Move PDF into MkDocs
         run: |
           mkdir -p site/assets/pdf
-          cp -r build/*.pdf site/assets/pdf/
+          cp -r build/* site/assets/pdf/
 
       - name: Deploy wiki
         uses: peaceiris/actions-gh-pages@v4
