@@ -27,14 +27,16 @@ jobs:
 
       - name: Build MkDocs
         run: |
-          chmod +x tools/mkdocs/build_site.sh
-          chmod +x tools/mkdocs/build_all_site.sh
+          pwd
+          chmod +x ./tools/mkdocs/build_site.sh
+          chmod +x ./tools/mkdocs/build_all_sites.sh
           ./tools/mkdocs/build_all_site
 
       - name: Build PDF
         run: |
-          chmod +x tools/book/book.sh
-          chmod +x tools/book/build_all_books.sh
+          pwd
+          chmod +x ./tools/book/book.sh
+          chmod +x ./tools/book/build_all_books.sh
           ./tools/book/build_all_books.sh
 
       - name: Move PDF into MkDocs
