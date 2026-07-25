@@ -1,0 +1,10 @@
+site_name: Accueil FR
+docs_dir: ../../docs/portails/fr
+site_dir: ../../site/fr
+
+theme:
+  name: material
+  language: fr
+
+nav:
+  - Accueil: index.md

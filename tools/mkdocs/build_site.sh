@@ -4,25 +4,32 @@ set -euo pipefail
 
 BASE_DIR="./tools/mkdocs"
 
-# Usage : ./build_site.sh <joueur|mj|monstres>  <fr|en>
-SITE="${1:?Usage: $0 <joueur|mj|monstres|full>}"
-LANG_CODE="${2:?Usage: $0 <joueur|mj|monstres|full> <fr|en>}"
+# Usage : ./build_site.sh <joueur|mj|monstres|portal>  <fr|en|root>
+SITE="${1:?Usage: $0 <joueur|mj|monstres|portal> <fr|en|root>}"
+LANG_CODE="${2:?Usage: $0 <joueur|mj|monstres|portal> <fr|en|root>}"
 
 case "$SITE" in
   full) SITE_TITLE="Full" ;;
   joueur) SITE_TITLE="Manuel du Joueur" ;;
   mj) SITE_TITLE="Manuel du MJ" ;;
   monstres) SITE_TITLE="Manuel des monstres" ;;
+  portal) SITE_TITLE="Portail" ;;
   *)
-    echo "Site inconnu : '$SITE' (attendu : joueur, mj, monstres)" >&2
+    echo "Site inconnu : '$SITE' (attendu : joueur, mj, monstres, portal)" >&2
     exit 1
     ;;
 esac
 
 case "$LANG_CODE" in
   fr|en) ;;
+  root)
+    if [ "$SITE" != "portal" ]; then
+      echo "La langue 'root' n'est valable que pour le site 'portal'" >&2
+      exit 1
+    fi
+    ;;
   *)
-    echo "Langue inconnue : '$LANG_CODE' (attendu : fr, en)" >&2
+    echo "Langue inconnue : '$LANG_CODE' (attendu : fr, en, root)" >&2
     exit 1
     ;;
 esac

@@ -12,17 +12,34 @@ debut_total=$(date +%s)
 echec=()
 reussite=()
 
+build_one() {
+  local site="$1" lang="$2"
+  echo "- Site $site [$lang] : Génération ..."
+  if ./tools/mkdocs/build_site.sh "$site" "$lang"; then
+    reussite+=("$site-$lang")
+  else
+    echo "ÉCHEC lors de la génération de : $site [$lang]" >&2
+    echec+=("$site-$lang")
+  fi
+  echo
+}
+
+# IMPORTANT : ordre de build.
+# mkdocs nettoie (clean) son propre site_dir à chaque build.
+# On construit donc du plus "englobant" au plus "spécifique" :
+#   1) portail racine   -> site_dir = site/            (nettoie tout le site/)
+#   2) portails fr / en  -> site_dir = site/fr, site/en  (nettoie leur sous-dossier)
+#   3) livres fr / en    -> site_dir = site/fr/joueur, etc. (nettoie leur propre sous-dossier)
+# Si on inversait l'ordre, un portail construit après les livres
+# effacerait leurs pages en nettoyant son site_dir parent.
+
+build_one portal root
+build_one portal fr
+build_one portal en
+
 for site in "${SITES[@]}"; do
   for lang in "${LANGS[@]}"; do
-    echo "- Site $site [$lang] : Génération ..."
-
-    if ./tools/mkdocs/build_site.sh "$site" "$lang"; then
-      reussite+=("$site-$lang")
-    else
-      echo "ÉCHEC lors de la génération de : $site [$lang]" >&2
-      echec+=("$site-$lang")
-    fi
-    echo
+    build_one "$site" "$lang"
   done
 done
 

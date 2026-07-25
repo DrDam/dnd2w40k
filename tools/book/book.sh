@@ -29,12 +29,12 @@ declare -A BOOKTITLES=(
 # Noms de fichiers de sortie par combinaison livre x langue
 # (le nom de sortie peut différer du simple "titre-lang", ex. traduction du titre)
 declare -A OUT_NAMES=(
-  [joueur_fr]="manuel-du-joueur-fr"
-  [joueur_en]="players-handbook-en"
-  [mj_fr]="manuel-du-mj-fr"
-  [mj_en]="game-masters-guide-en"
-  [monstres_fr]="manuel-des-monstres-fr"
-  [monstres_en]="monster-manual-en"
+  [joueur_fr]="manuel-du-joueur"
+  [joueur_en]="players-handbook"
+  [mj_fr]="manuel-du-mj"
+  [mj_en]="game-masters-guide"
+  [monstres_fr]="manuel-des-monstres"
+  [monstres_en]="monster-manual"
 )
 
 BOOKTITLE="${BOOKTITLES[${LIVRE}_${LANG_CODE}]:-}"
@@ -129,7 +129,7 @@ mkdir -p "$OUT_DIR"
 
 pandoc \
   "${PREPROCESSED_FILES[@]}" \
-  -o "$OUT_DIR/$OUT.pdf" \
+  -o "./build/$OUT.pdf" \
   --number-sections \
   --top-level-division=part \
   --pdf-engine=xelatex \
