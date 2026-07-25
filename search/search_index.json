@@ -1,0 +1,1 @@
+{"config":{"lang":["fr"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"Bienvenue","text":"<p>Choisissez votre langue :</p> <ul> <li>\ud83c\uddeb\ud83c\uddf7 Version fran\u00e7aise</li> <li>\ud83c\uddec\ud83c\udde7 English version</li> </ul>"}]}

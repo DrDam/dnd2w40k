@@ -1,0 +1,1 @@
+{"config":{"lang":["fr"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"Manuels disponibles","text":"<ul> <li>Manuel du Joueur</li> <li>Manuel du MJ</li> <li>Manuel des monstres</li> </ul> <p>\u2b05 Retour \u00e0 l'accueil g\u00e9n\u00e9ral</p>"}]}
