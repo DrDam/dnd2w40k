@@ -1,7 +1,7 @@
 INHERIT: mkdocs-base.yml
 
 site_name: Warhammer 40 000 conversion - Manuel du joueur
-site_url: https://DrDam.github.io/dnd2w40k/manuel-du-joueur
+site_url: https://DrDam.github.io/dnd2w40k/fr/manuel-du-joueur
 
 docs_dir: ../../docs/fr/I.Manuel-joueur
 site_dir: ../../site/fr/manuel-du-joueur
