@@ -1,2 +1,3 @@
-docs/fr/II.Manuel-MJ/*.md
+docs/fr/II.Manuel-MJ/Variants.md
+docs/fr/II.Manuel-MJ/Equipement-avance.md
 docs/fr/II.Manuel-MJ/credits.md

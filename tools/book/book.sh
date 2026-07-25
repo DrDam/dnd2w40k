@@ -20,8 +20,8 @@ esac
 declare -A BOOKTITLES=(
   [joueur_fr]="Manuel du Joueur"
   [joueur_en]="Player's Handbook"
-  [mj_fr]="Manuel du Maître du Jeu"
-  [mj_en]="Game Master's Guide"
+  [mj_fr]="Supplément pour le Maître du Jeu"
+  [mj_en]="Dungeon Master's Supplies"
   [monstres_fr]="Manuel des Monstres"
   [monstres_en]="Monster Manual"
 )
@@ -31,8 +31,8 @@ declare -A BOOKTITLES=(
 declare -A OUT_NAMES=(
   [joueur_fr]="manuel-du-joueur"
   [joueur_en]="players-handbook"
-  [mj_fr]="manuel-du-mj"
-  [mj_en]="game-masters-guide"
+  [mj_fr]="supplement-pour-mj"
+  [mj_en]="game-masters-supplies"
   [monstres_fr]="manuel-des-monstres"
   [monstres_en]="monster-manual"
 )

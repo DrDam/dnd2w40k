@@ -4,7 +4,7 @@
 - [GM's Handbook](mj/)
 - [Monster Manual](monstres/) -->
 
-!!! note
+!!! note "work in progress"
 
     Under construction
 

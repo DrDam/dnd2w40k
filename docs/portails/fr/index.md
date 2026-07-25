@@ -8,7 +8,7 @@ Les sources de ce site repose sur un [dépot github](https://drdam.github.io/dnd
 # Manuels disponibles
 
 - [Manuel du Joueur](manuel-du-joueur/)
-<!--- - [Manuel du MJ](mj/) -->
+- [Manuel du MJ](supplement-du-mj/)
 <!--- - [Manuel des monstres](monstres/) -->
 
 # Versions PDF

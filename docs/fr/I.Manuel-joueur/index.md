@@ -1,6 +1,6 @@
 # Bienvenue dans le Manuel du Joueur de DnD2W40K.
 
-Cet ouvrage rassemble les règles nécessaires pour jouer des aventures dans l'univers de Warhammer 40 000 en s'appuyant sur les mécaniques de Donjons & Dragons 5e. Son objectif n'est pas de reproduire à l'identique les systèmes de jeu existants de Warhammer 40 000, mais de proposer une adaptation cohérente, accessible et équilibrée pour raconter des histoires dans ce sombre futur.
+Ces pages rassemblent les règles nécessaires pour jouer des aventures dans l'univers de Warhammer 40 000 en s'appuyant sur les mécaniques de Donjons & Dragons 5e. Leur objectif n'est pas de reproduire à l'identique les systèmes de jeu existants de Warhammer 40 000, mais de proposer une adaptation cohérente, accessible et équilibrée pour raconter des histoires dans ce sombre futur.
 
 Vous y trouverez les règles adaptées, les options de création de personnage, les équipements, les pouvoirs, ainsi que toutes les informations utiles pour évoluer au sein de la galaxie et des nombreux dangers qui l'entourent.
 

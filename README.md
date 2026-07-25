@@ -6,7 +6,7 @@
 
 **D&D 5e to Warhammer 40,000** est un projet communautaire visant à développer et maintenir un kit de conversion permettant de jouer dans l'univers de Warhammer 40,000 avec les règles de Donjons & Dragons 5e.
 
-Initialement créé en 2020 par **u/Uberfailure** sur reddit (et toujours disponible sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA)) et repris depuis par la communauté, ce dépôt rassemble désormais les versions **anglaise** et **française** du projet. Son objectif est d'offrir un point central où chacun peut proposer des corrections, des améliorations, de nouveaux contenus (profils de créatures, équipements, règles, scénarios, etc.) ou des traductions, afin de faire évoluer le système de manière collaborative.
+Initialement créé en 2020 par **Klefgun** (ou **u/Uberfailure** sur reddit) - toujours disponible sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA) - et repris depuis par la communauté, ce dépôt rassemble désormais les versions **anglaise** et **française** du projet. Son objectif est d'offrir un point central où chacun peut proposer des corrections, des améliorations, de nouveaux contenus (profils de créatures, équipements, règles, scénarios, etc.) ou des traductions, afin de faire évoluer le système de manière collaborative.
 
 L'ensemble du contenu est consultable à l'adresse suivante : https://drdam.github.io/dnd2w40k/fr.
 
@@ -21,7 +21,7 @@ De ce fait, ce contenu est totalement **non-officiel et n'est en aucun cas appro
 
 **D&D 5e to Warhammer 40,000** is a community-driven project dedicated to developing and maintaining a conversion toolkit that brings the Warhammer 40,000 universe to Dungeons & Dragons 5th Edition.
 
-Originally created in 2020 by  **u/Uberfailure** on reddit (Original materials are available on [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA)) and later taken over by the community, this repository now hosts both the **English** and **French** versions of the project. Its goal is to provide a central place where anyone can contribute improvements, translations, bug fixes, new rules, creatures, equipment, adventures, or any other content that helps expand and refine the system.
+Originally created in 2020 by **Klefgun** (or **u/Uberfailure** on reddit) -  Original materials are available on [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA) - and later taken over by the community, this repository now hosts both the **English** and **French** versions of the project. Its goal is to provide a central place where anyone can contribute improvements, translations, bug fixes, new rules, creatures, equipment, adventures, or any other content that helps expand and refine the system.
 
 The complete documentation is available at: https://drdam.github.io/dnd2w40k/en.
 

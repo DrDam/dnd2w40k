@@ -1,0 +1,15 @@
+INHERIT: mkdocs-base.yml
+
+site_name: Warhammer 40 000 conversion - Supplément pour le Maître du jeu
+site_url: https://DrDam.github.io/dnd2w40k/fr/supplement-du-mj
+
+docs_dir: ../../docs/fr/II.Manuel-MJ
+site_dir: ../../site/fr/supplement-du-mj
+
+nav:
+  - A propos : index.md
+  - Note préliminaire : disclaimer.md
+  - 1. Règles alternatives : Variants.md
+  - 2. Équipement Avancé : Equipement-avance.md
+  - Credits : credits.md
+

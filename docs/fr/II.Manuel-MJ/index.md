@@ -1,12 +1,15 @@
-# A propos
+# Bienvenue dans le Supplément pour le Maître du jeu de DnD2W40K.
 
-Ce site à pour vocation de proposer une adaptation en français du pack de conversion proposé
-initialement en 2020 par Klefgun en langue anglaise sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA).
+Ce supplément propose des règles alternatives et des outils pour enrichir vos campagnes dans l'univers de Warhammer 40 000 avec le moteur de Donjons & Dragons 5e.
 
-Les sources de ce site repose sur un [dépot github](https://drdam.github.io/dnd2w40k/) permettant à la communauté de le corriger et en étendre certains éléments (en particulier le manuel des monstre).
+Vous y trouverez des variantes de règles, des systèmes de bénédictions et malédictions, ainsi que des options pour gérer les équipements hors normes : véhicules blindés, artillerie et autres machines de guerre.
 
-Le contenu de ce site est également téléchargeable au format PDF sous la forme du triptyque classique :
+Ce manuel explore également les objets rares et mystérieux, qu'il s'agisse de reliques oubliées, de technologies perdues ou d'artefacts aux origines inconnues.
 
-- [le manuel du joueur](assets/pdf/manuel-du-joueur.pdf)
-- [le manuel du Maitre du Jeu](assets/pdf/manuel-du-mj.pdf)
-- [le manuel des Monstres](assets/pdf/manuel-des-monstres.pdf)
+L'objectif est d'offrir au Maître de Jeu les outils nécessaires pour créer des aventures plus riches, plus dangereuses et plus immersives, tout en conservant la flexibilité du système D&D 5e.
+
+Ces règles sont des propositions : utilisez-les, adaptez-les et combinez-les selon les besoins de votre campagne.
+
+Dans les ténèbres d'un lointain futur, le rôle du Maître de Jeu est de donner vie aux guerres, aux mystères et aux horreurs qui attendent les joueurs.
+
+Vous pouvez le retrouver en version pdf [ici](../../assets/pdf/supplement-pour-mj.pdf)
