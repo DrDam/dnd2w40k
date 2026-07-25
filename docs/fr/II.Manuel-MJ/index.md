@@ -13,3 +13,6 @@ Ces règles sont des propositions : utilisez-les, adaptez-les et combinez-les se
 Dans les ténèbres d'un lointain futur, le rôle du Maître de Jeu est de donner vie aux guerres, aux mystères et aux horreurs qui attendent les joueurs.
 
 Vous pouvez le retrouver en version pdf [ici](../../assets/pdf/supplement-pour-mj.pdf)
+
+
+[⬅ Retour à l'accueil](/dnd2w40k/fr)

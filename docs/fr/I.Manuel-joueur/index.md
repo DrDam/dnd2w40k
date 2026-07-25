@@ -15,3 +15,4 @@ Prenez le temps de créer votre personnage, équipez-vous, préparez-vous à aff
 Vous pouvez le retrouver en version pdf [ici](../../assets/pdf/manuel-du-joueur.pdf)
 
 
+[⬅ Retour à l'accueil](/dnd2w40k/fr)

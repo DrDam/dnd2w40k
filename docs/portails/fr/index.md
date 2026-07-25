@@ -16,7 +16,7 @@ Les sources de ce site repose sur un [dépot github](https://drdam.github.io/dnd
 Le contenu de ce site est également téléchargeable au format PDF sous la forme du triptyque classique :
 
 - [le manuel du joueur](../assets/pdf/manuel-du-joueur.pdf)
-- [le manuel du Maitre du Jeu](../assets/pdf/manuel-du-mj.pdf)
+- [le supplément pour le Maitre du Jeu](../assets/pdf/supplement-pour-mj.pdf)
 - [le manuel des Monstres](../assets/pdf/manuel-des-monstres.pdf)
 
 
