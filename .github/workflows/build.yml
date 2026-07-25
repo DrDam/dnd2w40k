@@ -30,7 +30,7 @@ jobs:
           pwd
           chmod +x ./tools/mkdocs/build_site.sh
           chmod +x ./tools/mkdocs/build_all_sites.sh
-          ./tools/mkdocs/build_all_site
+          ./tools/mkdocs/build_all_sites
 
       - name: Build PDF
         run: |
