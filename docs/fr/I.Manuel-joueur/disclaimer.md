@@ -1,4 +1,3 @@
-
 # Note préliminaire
 
 Ceci est une adaptation en Français du pack de conversion de donjons & Dragons 5em édition pour l'univers de warhammer 40k proposé initialement en 2020 par Klefgun/unofficialmarshall, disponible sur [google-drive](https://drive.google.com/drive/folders/1AT8ULp7qcFHrVLDQB4iKrGdvRcQSodNA)

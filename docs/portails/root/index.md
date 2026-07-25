@@ -2,5 +2,5 @@
 
 Choisissez votre langue :
 
-- [🇫🇷 Version française](fr/)
-- [🇬🇧 English version](en/)
+- [Version française](fr/)
+<!--- - [English version](en/) -->
