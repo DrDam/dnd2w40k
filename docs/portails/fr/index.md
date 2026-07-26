@@ -5,13 +5,13 @@ initialement en 2020 par Klefgun en langue anglaise sur [google-drive](https://d
 
 Les sources de ce site repose sur un [dépot github](https://drdam.github.io/dnd2w40k/) permettant à la communauté de le corriger et en étendre certains éléments (en particulier le manuel des monstre).
 
-# Manuels disponibles
+## Manuels disponibles
 
 - [Manuel du Joueur](manuel-du-joueur/)
 - [Manuel du MJ](supplement-du-mj/)
 <!--- - [Manuel des monstres](monstres/) -->
 
-# Versions PDF
+## Versions PDF
 
 Le contenu de ce site est également téléchargeable au format PDF sous la forme du triptyque classique :
 

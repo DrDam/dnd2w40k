@@ -1,0 +1,11 @@
+INHERIT: mkdocs-base.yml
+
+site_name: Warhammer 40,000 conversion - Dungeon Master's Supplies
+site_url: https://DrDam.github.io/dnd2w40k/en/DM-supplies
+
+docs_dir: ../../docs/en/II.DM_supplies
+site_dir: ../../site/en/DM-supplies
+
+nav:
+  - Disclaimer : disclaimer.md
+  - Variant Rules : Variants.md

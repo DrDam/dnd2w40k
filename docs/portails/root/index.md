@@ -1,6 +1,6 @@
 # Bienvenue
 
-Choisissez votre langue :
+Choisissez votre langue / Choose your language :
 
 - [Version française](fr/)
-<!--- - [English version](en/) -->
+- [English version](en/)
