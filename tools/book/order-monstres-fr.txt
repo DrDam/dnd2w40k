@@ -1,3 +1,4 @@
 docs/fr/III.Manuel-Monstres/changes.md
 docs/fr/III.Manuel-Monstres/how-use.md
+docs/fr/III.Manuel-Monstres/Monstres/*
 docs/fr/III.Manuel-Monstres/credits.md

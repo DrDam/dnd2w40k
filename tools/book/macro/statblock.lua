@@ -259,6 +259,32 @@ function Div(el)
   -- fichier pour la raison impérative de ce choix.
   local monster_latex = render_monster(el)
 
+  -- Bloc monstre .newcol : force un changement de COLONNE (jamais de
+  -- page) juste avant le bloc, même logique que .newpage
+  -- (newpage.lua) mais avec \newpage au lieu de \clearpage. Le
+  -- document compilant en documentclass: book, option twocolumn
+  -- (voir metadata.yaml / note en tête de ce fichier sur .statline),
+  -- \newpage y a un comportement différent de \clearpage : il clôt la
+  -- colonne courante et repart en haut de la colonne suivante -- s'il
+  -- reste de la place sur la même page, seule la colonne change, pas
+  -- la page ; s'il n'y a plus de colonne libre sur la page, LaTeX
+  -- passe alors naturellement à la page suivante. \clearpage, lui,
+  -- force TOUJOURS une nouvelle page (et vide les flottants en
+  -- attente), ce qui n'est pas ce qu'on veut ici pour un simple calage
+  -- de colonne.
+  --
+  -- \mbox{} devant : même précaution que newpage.lua face au piège
+  -- \clearpage/\newpage après un \end{strip} laissé par cuted
+  -- (tables.lua / wide_image.lua pour les tableaux/images .wide) --
+  -- voir newpage.lua pour le détail complet du mécanisme.
+  --
+  -- Combinable avec .wide (l'ordre \newpage puis \begin{strip} est
+  -- correct : on veut d'abord caler sur la bonne colonne/page, PUIS
+  -- ouvrir la bannière pleine largeur).
+  if el.classes:includes("newcol") then
+    monster_latex = "\\mbox{}\\newpage\n" .. monster_latex
+  end
+
   -- Bloc monstre .wide : pleine largeur de PAGE plutôt que pleine
   -- largeur de COLONNE (comportement par défaut). Réutilise le même
   -- mécanisme que les images .wide (wide_image.lua) et les tableaux

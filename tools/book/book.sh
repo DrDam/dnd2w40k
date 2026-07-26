@@ -99,15 +99,20 @@ while IFS= read -r entry; do
   # Ignore les lignes vides éventuelles dans order.txt
   [ -z "$entry" ] && continue
 
-  # Retire un éventuel suffixe "/*.md" pour ne garder que le chemin du dossier
+  # Retire un éventuel suffixe "/*.md" ou "/*" pour ne garder que le chemin du dossier
   dir_candidate="${entry%/\*.md}"
+  dir_candidate="${dir_candidate%/\*}"
 
   if [ -d "$dir_candidate" ]; then
-    # C'est un dossier : on prend tous les .md, triés alphabétiquement
+    # C'est un dossier : on prend tous les .md, y compris dans les
+    # sous-dossiers (recherche récursive, sans -maxdepth), triés
+    # alphabétiquement sur le chemin complet.
     # Le tri en LC_COLLATE=C entraîne un tri en ordre ASCII strict (indépendant de la locale système)
+    # et, portant sur le chemin complet, regroupe naturellement les fichiers
+    # par sous-dossier (ex: Monstres/Aboleth/*.md avant Monstres/Dragon/*.md).
     while IFS= read -r -d '' md_file; do
       preprocess_one "$md_file"
-    done < <(find "$dir_candidate" -maxdepth 1 -name '*.md' -print0 | LC_COLLATE=C sort -z)
+    done < <(find "$dir_candidate" -name '*.md' -print0 | LC_COLLATE=C sort -z)
   else
     # Fichier .md unique
     preprocess_one "$entry"

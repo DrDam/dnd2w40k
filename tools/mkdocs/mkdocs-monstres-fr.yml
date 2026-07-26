@@ -11,5 +11,11 @@ nav:
   - Note préliminaire : disclaimer.md
   - Les changements : changes.md
   - Utiliser ce manuel : how-use.md
+  - Les monstres :
+    - Forces du Chaos :
+      - Les Démons mineurs :
+        - Généralités : Monstres/Chaos/Demons-mineurs/000-intro.md
+        - Les Horreurs de Tzeench : Monstres/Chaos/Demons-mineurs/Horreur.md
+        - Les Sanguinaires de Khorne : Monstres/Chaos/Demons-mineurs/Sanguinaire.md
   - Credits : credits.md
 
