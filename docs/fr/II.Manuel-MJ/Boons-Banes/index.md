@@ -1,0 +1,3 @@
+## Faveurs & Fléaux
+
+Dans les ténèbres du 41e millénaire, nul pouvoir n'est accordé sans laisser une empreinte. Les faveurs sont les dons exceptionnels accordés par les grandes puissances de la galaxie — dieux, démons, l'Empereur-Dieu, l'Omnimessie ou d'autres forces insondables — à ceux dont les actes bouleversent le destin. Mais toute puissance a un prix. Les fléaux sont les marques, afflictions ou imperfections qui accompagnent parfois ces dons, témoignant de l'influence durable de leur bienfaiteur. Qu'elles soient une récompense, une épreuve ou la conséquence d'un pacte, les faveurs comme les fléaux distinguent les êtres promis à un destin hors du commun.
