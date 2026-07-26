@@ -9,12 +9,13 @@ site_dir: ../../site/fr/supplement-du-mj
 nav:
   - A propos : index.md
   - Note préliminaire : disclaimer.md
-  - 1. Règles alternatives : Variants.md
-  - 2. Faveurs & Fleaux :
+  - Règles alternatives : Variants.md
+  - Faveurs & Fleaux :
     - A propos : Boons-Banes/index.md
     - Les Faveurs: Boons-Banes/Faveurs.md
     - Les Fleaux: Boons-Banes/Fleaux.md
     - Creation : Boons-Banes/Creation.md
-  - 3. Équipement Avancé : Equipement-avance.md
+  - Artillerie & Véhicules : artillerie-vehicules.md
+  - Équipement Avancé : Equipement-avance.md
   - Credits : credits.md
 

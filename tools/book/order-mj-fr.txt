@@ -3,5 +3,6 @@ docs/fr/II.Manuel-MJ//Boons-Banes/index.md
 docs/fr/II.Manuel-MJ//Boons-Banes/Faveurs.md
 docs/fr/II.Manuel-MJ//Boons-Banes/Fleaux.md
 docs/fr/II.Manuel-MJ//Boons-Banes/Creation.md
+docs/fr/II.Manuel-MJ//artillerie-vehicules.md
 docs/fr/II.Manuel-MJ/Equipement-avance.md
 docs/fr/II.Manuel-MJ/credits.md
