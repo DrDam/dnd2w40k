@@ -1,13 +1,8 @@
-### Credits {.newpage}
+## Credits {.newpage}
 
 ##### Contenu
 
 Un grand merci à Klefgun pour la création de ce kit de conversion et le travail gigantesque que cela a du représenter pour obtenir quelque chose de cohérent.
-
-**Manuel du joueur**
-
-- Le *Chapitre 12 - Combat* est en grande partie une copie de la traduction effectué par **Xirui et Jyah** pour le site www.aidedd.org
-- Le *Chapitre 16 - Les états* est en grande partie une copie de la traduction effectué pour le site www.aidedd.org
 
 ##### Images :
 

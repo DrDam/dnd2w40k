@@ -1,0 +1,15 @@
+INHERIT: mkdocs-base.yml
+
+site_name: Warhammer 40 000 conversion - Manuel des Monstres
+site_url: https://DrDam.github.io/dnd2w40k/fr/manuel-des-monstres
+
+docs_dir: ../../docs/fr/III.Manuel-Monstres
+site_dir: ../../site/fr/manuel-des-monstres
+
+nav:
+  - A propos : index.md
+  - Note préliminaire : disclaimer.md
+  - Les changements : changes.md
+  - Utiliser ce manuel : how-use.md
+  - Credits : credits.md
+
