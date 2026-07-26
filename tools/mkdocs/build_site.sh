@@ -10,7 +10,7 @@ LANG_CODE="${2:?Usage: $0 <joueur|mj|monstres|portal> <fr|en|root>}"
 
 # path par combinaison site x langue
 declare -A SITE_NAMES=(
-  [joueur_fr]="manuel-du-joueu"
+  [joueur_fr]="manuel-du-joueur"
   [joueur_en]="player-handbook"
   [mj_fr]="supplement-du-mj"
   [mj_en]="DM-supplies"
@@ -47,7 +47,6 @@ esac
 SITE_NAME="${SITE_NAMES[${SITE}_${LANG_CODE}]:-}"
 if [ -z "$SITE_NAME" ] ; then
   echo "Combinaison inconnue : site='$SITE' langue='$LANG_CODE'" >&2
-  exit 1
 fi
 
 CONFIG_FILE="$BASE_DIR/mkdocs-${SITE}-${LANG_CODE}.yml"
