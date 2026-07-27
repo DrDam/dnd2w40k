@@ -1,4 +1,4 @@
-#### Démonette {.newpage}
+#### Démonette {#demonette .newpage}
 
 ![Un choeur de démonettes](../../../assets/Daemonette_Chorus.png){height=8cm}
 

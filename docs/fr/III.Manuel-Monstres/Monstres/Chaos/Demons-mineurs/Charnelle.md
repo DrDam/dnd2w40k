@@ -1,4 +1,4 @@
-#### Charnelle de Slaanesh (Fiend) {.newpage}
+#### Charnelle de Slaanesh (Fiend) {#charnelle-de-slaanesh .newpage}
 
 ![Une Charnelle de Slaanesh](../../../assets/FiendofSlaanesh.png){height=8cm}
 

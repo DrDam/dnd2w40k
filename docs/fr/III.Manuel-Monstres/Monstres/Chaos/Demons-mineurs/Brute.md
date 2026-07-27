@@ -1,4 +1,4 @@
-#### Brute {.newpage}
+#### Brute {#brute .newpage}
 
 ![Des brutes](../../../assets/RuinstormDaemonBrutes.png){height=8cm}
 

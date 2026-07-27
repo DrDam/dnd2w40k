@@ -1,4 +1,4 @@
-#### Sanguinaire de Khorne {.newpage}
+#### Sanguinaire de Khorne {#sanguinaire .newpage}
 
 ![Un Sanguinaire avec sa lame infernale](../../../assets/BloodletterHellblade.png){height=8cm}
 

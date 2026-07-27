@@ -1,4 +1,4 @@
-#### Exarch Vengeur Lugubre
+#### Exarch Vengeur Lugubre {#exarch}
 
 ![Un Exarch Vengeur Lugubre](../../../assets/Dire_Avenger_Exarch-0.png){height=8cm}
 

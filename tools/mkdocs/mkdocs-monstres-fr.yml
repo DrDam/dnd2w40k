@@ -12,12 +12,13 @@ nav:
   - Les changements : changes.md
   - Utiliser ce manuel : how-use.md
   - Les monstres :
+    - Aeldari :
+      - Les Asuryani : Monstres/Aeldari/Asuryani/000-intro.md
+      - Les Drukhari : Monstres/Aeldari/Drukhari/000-intro.md
     - Forces du Chaos :
-      - Les Démons mineurs :
-        - Généralités : Monstres/Chaos/Demons-mineurs/000-intro.md
-        - Les Brutes : Monstres/Chaos/Demons-mineurs/Brute.md
-        - Les Démonettes : Monstres/Chaos/Demons-mineurs/Demonette.md
-        - Les Horreurs de Tzeench : Monstres/Chaos/Demons-mineurs/Horreur.md
-        - Les Sanguinaires de Khorne : Monstres/Chaos/Demons-mineurs/Sanguinaire.md
+      - Les Démons mineurs : Monstres/Chaos/Demons-mineurs/000-intro.md
+      - Les Humanoïdes : Monstres/Chaos/Humanoides/000-intro.md
+    - L'Impérium de l'humanité :
+      - L'Adeptus Arbites : Monstres/Chaos/Demons-mineurs/000-intro.md
   - Credits : credits.md
 

@@ -1,4 +1,4 @@
-#### Porteur de la Peste {.newpage}
+#### Porteur de la Peste {#porteur-peste .newpage}
 
 ![Un porteur de la Peste de Nurgle](../../../assets/Plaguebearer.png){height=8cm}
 

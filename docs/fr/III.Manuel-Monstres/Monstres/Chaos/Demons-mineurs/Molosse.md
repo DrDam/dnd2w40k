@@ -1,4 +1,4 @@
-#### Molosse de Khorne {.newpage}
+#### Molosse de Khorne {#molosse .newpage}
 
 ![Un Molosse de Khorne en chasse](../../../assets/FleshHoundofKhorne1.png){height=8cm}
 

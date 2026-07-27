@@ -1,4 +1,4 @@
-#### Esclavagiste
+#### Esclavagiste {#esclavagiste}
 
 **Les esclavagistes.** Les Drukhari considèrent les esclaves comme une marchandise, une main-d’œuvre et des objets de torture. Des groupes de chasseurs peuvent mener des raids complexes dans le seul but de capturer des esclaves, blessant et neutralisant délibérément leurs victimes plutôt que de les tuer sur-le-champ.
 

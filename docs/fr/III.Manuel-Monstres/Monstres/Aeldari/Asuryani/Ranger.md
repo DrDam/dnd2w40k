@@ -1,4 +1,4 @@
-#### Ranger
+#### Ranger {#ranger}
 
 ![Une Ranger Asuryani](../../../assets/EldarRanger.png){height=8cm}
 

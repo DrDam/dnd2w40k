@@ -1,4 +1,4 @@
-#### Vengeur Lugubre
+#### Vengeur Lugubre {#vengeur}
 
 ![Un Vengeur Lugubre du vaisseau-monde Ulthwé](../../../assets/UlthwF_Dire_Avengers.png){height=8cm}
 

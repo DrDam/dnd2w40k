@@ -1,4 +1,4 @@
-#### Furie (bêtes du chaos) {.newpage}
+#### Furie (bêtes du chaos) {#furie .newpage}
 
 ![Une furie en vol](../../../assets/Fury_demon.png){height=8cm}
 

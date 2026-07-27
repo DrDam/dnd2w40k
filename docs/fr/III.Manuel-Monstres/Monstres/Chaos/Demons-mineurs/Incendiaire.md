@@ -1,4 +1,4 @@
-#### Incendiaire {.newpage}
+#### Incendiaire {#incendiaire .newpage}
 
 ![Un Incendiaire de Tzeentch](../../../assets/FlamerTzeentch.png){height=8cm}
 

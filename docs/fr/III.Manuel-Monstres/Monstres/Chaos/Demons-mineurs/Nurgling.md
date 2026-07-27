@@ -1,4 +1,4 @@
-#### Nurgling {.newpage}
+#### Nurgling {#nurgling .newpage}
 
 ![Une horde de Nurglings utilisant un psyker comme portail](../../../assets/Nurgling_invasion.png){height=8cm}
 

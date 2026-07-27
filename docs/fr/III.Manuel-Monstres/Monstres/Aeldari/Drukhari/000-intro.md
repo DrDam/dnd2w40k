@@ -7,3 +7,10 @@
 **Les parties de chasse.** Les parties de chasse drukhari se forment lorsque le désir d’esclaves s’intensifie, ou lorsque le besoin d’infliger des souffrances à des créatures inférieures se fait sentir. Ces parties de chasse ne s’attardent pas plus longtemps que nécessaire ; elles vont et viennent souvent avant même que les renforts n’aient le temps d’arriver, et parfois avant même que la victime ne se rende compte qu’elle a été frappée.
 
 
+*Liste des fiches* {.table-title .wide}
+
+| Facteur de puissance | Nom | Description |
+|---|---|---|
+| 5 (1 800 XP) | [Esclavagiste](Esclavagiste.md#esclavagiste) | Humanoïde (Drukhari) de taille moyenne, tout alignement mauvais |
+
+

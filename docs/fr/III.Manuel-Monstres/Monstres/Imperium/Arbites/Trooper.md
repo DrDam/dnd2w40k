@@ -1,4 +1,4 @@
-#### Arbitrator Trooper
+#### Arbitrator Trooper {#trooper}
 
 <div class="monster" markdown="1">
 

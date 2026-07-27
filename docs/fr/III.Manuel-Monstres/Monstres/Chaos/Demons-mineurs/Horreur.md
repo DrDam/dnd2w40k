@@ -1,4 +1,4 @@
-#### Horreur de Tzeentch {.newpage}
+#### Horreur de Tzeentch {#horeur-tzeentch .newpage}
 
 ![Un groupe d'horreurs de Tzeentch (roses, bleues, soufres)](../../../assets/HorrorsofTzeentch.png){height=8cm}
 
@@ -8,7 +8,7 @@ Les horreurs de Tzeentch sont de petits démons ressemblant à des masses inform
 
 **Hiérarchie colorée.** Les horreurs obéissent à une logique de division bien précise. Au sommet de la hiérarchie des horreurs se trouve l’horreur rose. Lorsque l’horreur rose est tuée, elle se divise en deux horreurs bleues, et lorsque celles-ci sont tuées, elles se divisent à leur tour en petites boules de feu appelées « horreurs de soufre ».
 
-<div class="monster wide" markdown="1">
+<div class="monster newcol" markdown="1">
 
 #### Horreur de Tzeentch
 

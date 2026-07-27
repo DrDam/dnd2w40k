@@ -1,4 +1,4 @@
-#### Cultiste du Chaos {.newpage}
+#### Cultiste du Chaos {#cultiste .newpage}
 
 ![Des cultistes de Khorne](../../../assets/Sanguinary_Cultist.png){height=8cm}
 
