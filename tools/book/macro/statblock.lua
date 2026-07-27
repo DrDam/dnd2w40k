@@ -199,12 +199,102 @@ local function render_section(blocks, name_level)
   return table.concat(parts, "\n\n")
 end
 
+-- Constantes pour l'estimation \needspace d'un bloc monstre .wide (voir
+-- fin de la note de render_monster, section LIMITE ASSUMÉE) -- même
+-- logique que TEXTWIDTH_CHARS_AT_SMALL / NEEDSPACE_EXTRA_LINES dans
+-- tables.lua : volontairement PRUDENTES (basses), pour SURESTIMER le
+-- nombre de lignes plutôt que le sous-estimer -- un \needspace un peu
+-- trop généreux (saut de colonne/page un peu tôt) est un défaut bien
+-- plus tolérable qu'un \needspace insuffisant (retour du cadre qui
+-- déborde, voir historique dans Div(el)).
+--
+-- Deux valeurs séparées car le nombre de caractères qui tiennent sur
+-- une ligne dépend de la largeur réellement occupée par le texte :
+--   - MONSTER_CHARS_PER_LINE_SPLIT : cas normal (plus d'une section),
+--     le contenu est réparti sur 2 \minipage (voir render_monster) --
+--     chacune fait à peu près la largeur d'une colonne de document.
+--   - MONSTER_CHARS_PER_LINE_FULL : cas rare d'un bloc .wide à une
+--     seule section (rien à répartir, voir la branche `else` plus
+--     bas) -- le texte occupe alors toute la largeur du cadre, environ
+--     le double.
+local MONSTER_CHARS_PER_LINE_SPLIT = 55
+local MONSTER_CHARS_PER_LINE_FULL = 110
+
+-- Marge de sécurité (en \baselineskip), en plus des lignes de contenu
+-- estimées, pour couvrir le nom du monstre, les bordures du cadre
+-- (\monsterblock) et les espacements internes.
+local MONSTER_NEEDSPACE_EXTRA_LINES = 4
+
+local function estimate_needspace_lines(char_count, chars_per_line)
+  return math.ceil(char_count / chars_per_line) + MONSTER_NEEDSPACE_EXTRA_LINES
+end
+
 -- Construit le LaTeX complet d'un Div .monster : parcourt son contenu
 -- au premier niveau (Header, Div .statline, Para, HorizontalRule...),
 -- regroupe les blocs par section (voir render_section), délègue
 -- chaque type de bloc au bon renderer, et assemble le tout en une
 -- seule chaîne, encadrée par \begin{monsterblock}...\end{monsterblock}.
-local function render_monster(div)
+--
+-- is_wide (bool) : si vrai, le CONTENU du cadre (nom, stats, sections)
+-- est réparti sur 2 colonnes, EN PLUS du cadre lui-même qui passe en
+-- pleine largeur de page (voir Div(el), qui ouvre le \begin{strip}
+-- correspondant autour du résultat de cette fonction). Les deux
+-- mécanismes sont bien distincts :
+--   - .wide (Div(el))       -> le CADRE occupe toute la largeur de
+--                              page au lieu d'une colonne du document.
+--   - is_wide (ici)         -> à L'INTÉRIEUR de ce cadre élargi, le
+--                              texte est réparti sur 2 colonnes plutôt
+--                              que d'être composé en lignes très
+--                              longues sur toute cette largeur.
+--
+-- POURQUOI DEUX \minipage CÔTE À CÔTE, ET PAS \begin{multicols}{2}
+-- (tentative initiale, abandonnée) -- `tcolorbox` en mode `breakable`
+-- (\monsterblock, preamble.tex) N'EST PAS COMPATIBLE avec `multicols`
+-- imbriqué à l'intérieur : constaté en test, le cadre (fond + bordure)
+-- ne s'étire pas sur la hauteur réelle du contenu -- son calcul de
+-- hauteur se base sur un flux vertical classique, alors que multicols
+-- répartit son contenu via \vsplit (mécanisme de bas niveau, invisible
+-- du calcul de hauteur de tcolorbox) -- résultat observé : la colonne
+-- la plus longue (ex: la section "Actions") déborde hors du cadre, et
+-- le \begin{samepage}...\end{samepage} de render_section n'est plus
+-- respecté non plus (une section peut alors se retrouver coupée en
+-- deux, son titre dans une colonne et son corps dans l'autre).
+--
+-- Solution retenue : un découpage MANUEL, décidé ICI en Lua plutôt que
+-- délégué à un mécanisme LaTeX automatique -- chaque section (déjà
+-- rendue par render_section, donc déjà un bloc \samepage intact et
+-- indivisible) est assignée EN ENTIER à la colonne de gauche ou de
+-- droite, jamais scindée. Pas de conflit possible avec tcolorbox
+-- (une \minipage est un simple bloc de contenu, pas un mécanisme de
+-- pagination comme multicols), et plus aucun risque qu'une section
+-- soit coupée en deux entre les colonnes.
+--
+-- Équilibrage : voir la boucle "greedy" dans render_monster -- à
+-- défaut de connaître la hauteur réelle de chaque section sans
+-- compiler (ce que ferait \vsplit, mais qu'on a justement écarté),
+-- on utilise la longueur du LaTeX généré comme proxy approximatif de
+-- la hauteur, et on assigne chaque section à la colonne actuellement
+-- la plus courte -- résultat raisonnablement équilibré en pratique,
+-- sans garantie d'équilibre parfait (compromis assumé, comme pour
+-- STATLINE_WIDTH_TARGET ou le \tabcolsep plus haut dans ce fichier).
+--
+-- LIMITE ASSUMÉE -- pagination : .wide s'appuie sur `strip` (cuted),
+-- qui n'est pas prévu pour franchir une limite de page. Une \minipage
+-- ne se coupe jamais non plus entre deux pages. Une \minipage (les 2
+-- côte à côte) étant un bloc ATOMIQUE et INSÉCABLE, `breakable`
+-- (tcolorbox, préambule) ne peut de toute façon rien y scinder : voir
+-- Div(el) pour comment ce fait est traité (\needspace, PAS un
+-- \clearpage systématique -- même logique que les tableaux .wide dans
+-- tables.lua). Reste un cas extrême non couvert : un bloc monstre
+-- .wide dont le contenu dépasserait la hauteur d'une PAGE ENTIÈRE
+-- vierge -- aucune solution avec `strip`/`minipage` dans ce cas
+-- (il faudrait alléger le bloc, ou revenir à un vrai float).
+--
+-- Cette fonction retourne 2 valeurs : le LaTeX du bloc monstre, et (si
+-- is_wide) une estimation du nombre de lignes \needspace nécessaires
+-- (nil sinon, ou si le bloc ne fait qu'une seule section -- rien à
+-- estimer de spécial, voir plus bas).
+local function render_monster(div, is_wide)
   -- Niveau du premier Header rencontré = niveau du "nom du monstre"
   -- (voir note dans render_header). nil tant qu'aucun Header n'a
   -- encore été vu -- fixé une seule fois, à la première rencontre,
@@ -236,12 +326,65 @@ local function render_monster(div)
     table.insert(groups, current)
   end
 
-  local parts = {"\\begin{monsterblock}"}
+  -- Rendu de chaque section indépendamment -- nécessaire ici (et pas
+  -- seulement au moment de l'assemblage final) car en mode is_wide on
+  -- a besoin de la longueur de chaque section déjà rendue pour
+  -- l'équilibrage gauche/droite (voir note en tête de fonction).
+  local rendered_groups = {}
   for _, group in ipairs(groups) do
-    table.insert(parts, render_section(group, name_level))
+    table.insert(rendered_groups, render_section(group, name_level))
   end
+
+  local parts = {"\\begin{monsterblock}"}
+  local needspace_lines = nil
+
+  if is_wide and #rendered_groups > 1 then
+    -- Équilibrage "greedy" par longueur de LaTeX généré (proxy de la
+    -- hauteur, voir note en tête de fonction) : chaque section, dans
+    -- son ordre d'origine, est assignée EN ENTIER à la colonne
+    -- actuellement la plus courte. Une section ne peut donc jamais se
+    -- retrouver scindée entre les deux colonnes.
+    local left, right = {}, {}
+    local left_len, right_len = 0, 0
+    for _, rendered in ipairs(rendered_groups) do
+      if left_len <= right_len then
+        table.insert(left, rendered)
+        left_len = left_len + #rendered
+      else
+        table.insert(right, rendered)
+        right_len = right_len + #rendered
+      end
+    end
+
+    -- La hauteur réellement critique est celle de la colonne la PLUS
+    -- LONGUE (l'autre, plus courte, ne pose pas de problème de place).
+    needspace_lines = estimate_needspace_lines(
+      math.max(left_len, right_len), MONSTER_CHARS_PER_LINE_SPLIT
+    )
+
+    table.insert(parts, string.format(
+      "\\noindent\\begin{minipage}[t]{0.48\\linewidth}\n%s\n\\end{minipage}\\hfill\n" ..
+      "\\begin{minipage}[t]{0.48\\linewidth}\n%s\n\\end{minipage}",
+      table.concat(left, "\n\n"), table.concat(right, "\n\n")
+    ))
+  else
+    -- Mode normal (non wide), ou un seul groupe en mode wide (rien à
+    -- équilibrer, voir note en tête de fonction) : flux vertical
+    -- classique, inchangé par rapport à avant.
+    if is_wide then
+      local total_len = 0
+      for _, rendered in ipairs(rendered_groups) do
+        total_len = total_len + #rendered
+      end
+      needspace_lines = estimate_needspace_lines(total_len, MONSTER_CHARS_PER_LINE_FULL)
+    end
+    for _, rendered in ipairs(rendered_groups) do
+      table.insert(parts, rendered)
+    end
+  end
+
   table.insert(parts, "\\end{monsterblock}")
-  return table.concat(parts, "\n\n")
+  return table.concat(parts, "\n\n"), needspace_lines
 end
 
 function Div(el)
@@ -257,7 +400,8 @@ function Div(el)
 
   -- Sérialisation en UN SEUL RawBlock opaque -- voir note en tête de
   -- fichier pour la raison impérative de ce choix.
-  local monster_latex = render_monster(el)
+  local is_wide = el.classes:includes("wide")
+  local monster_latex, needspace_lines = render_monster(el, is_wide)
 
   -- Bloc monstre .newcol : force un changement de COLONNE (jamais de
   -- page) juste avant le bloc, même logique que .newpage
@@ -278,9 +422,12 @@ function Div(el)
   -- (tables.lua / wide_image.lua pour les tableaux/images .wide) --
   -- voir newpage.lua pour le détail complet du mécanisme.
   --
-  -- Combinable avec .wide (l'ordre \newpage puis \begin{strip} est
-  -- correct : on veut d'abord caler sur la bonne colonne/page, PUIS
-  -- ouvrir la bannière pleine largeur).
+  -- Combinable avec .wide sans souci particulier : .wide utilise
+  -- désormais \needspace (voir plus bas), un test conditionnel qui ne
+  -- coûte rien si la place est déjà suffisante -- si .newcol vient
+  -- de caler le flux en haut d'une colonne/page fraîche juste avant,
+  -- \needspace constatera simplement qu'il y a assez de place et ne
+  -- déclenchera aucun saut supplémentaire (pas de page blanche).
   if el.classes:includes("newcol") then
     monster_latex = "\\mbox{}\\newpage\n" .. monster_latex
   end
@@ -294,16 +441,87 @@ function Div(el)
   -- déplacer. Le tcolorbox \monsterblock se redimensionne tout seul
   -- (il est défini en \linewidth, qui vaut alors la largeur de page
   -- complète à l'intérieur de strip) -- aucun changement requis côté
-  -- preamble.tex pour ce cas.
+  -- preamble.tex pour ce cas. `monster_latex` contient déjà, à ce
+  -- stade, le découpage en 2 \minipage construit par render_monster
+  -- (voir sa note pour le détail de la répartition en 2 colonnes DANS
+  -- ce cadre élargi) -- ce bloc ne fait qu'ouvrir la pleine largeur de
+  -- PAGE autour, il ne touche pas au colonnage interne.
   --
-  -- \mbox{} avant \begin{strip} : même précaution que newpage.lua et
-  -- part_cover.lua face au piège \clearpage/strip de cuted (voir
-  -- newpage.lua pour le détail) -- ici appliquée par prudence avant
-  -- l'ouverture du strip lui-même, au cas où le bloc monstre .wide
-  -- suivrait immédiatement un autre tableau/image .wide.
-  if el.classes:includes("wide") then
-    monster_latex = "\\mbox{}\\begin{strip}\n" .. monster_latex .. "\n\\end{strip}"
+  -- \needspace{N\baselineskip}, PAS un \clearpage systématique -- même
+  -- logique que les tableaux .wide dans tables.lua (voir need_space_
+  -- latex là-bas) : un test CONDITIONNEL, qui ne déclenche un saut de
+  -- colonne/page QUE si la place manque réellement. Une tentative
+  -- précédente forçait un \clearpage inconditionnel avant tout bloc
+  -- .wide -- corrigé ici, pour ne pas gâcher de la place (ni sauter à
+  -- une page neuve) quand le bloc tient déjà très bien où il est (cas
+  -- Horreur.md, peu de contenu). `needspace_lines` (retourné par
+  -- render_monster) estime le nombre de lignes nécessaires à partir de
+  -- la colonne la plus longue -- voir sa note pour le détail du calcul
+  -- et le pourquoi (rappel du problème observé sans lui : `tcolorbox`
+  -- ne peut rien scinder dans nos 2 \minipage, qui sont un bloc
+  -- atomique -- si la place manque, le cadre se dessine à une hauteur
+  -- erronée et le contenu réel atterrit hors du cadre, plus loin dans
+  -- la page).
+  --
+  -- \mbox{} AVANT \needspace -- ajouté suite à un cas cassé en
+  -- pratique (Champion.md, avec un titre {.newpage} juste avant
+  -- l'image/intro qui précèdent ce bloc monstre .wide) : rendu
+  -- éclaté sur plusieurs pages (bandes de cadre quasi vides, contenu
+  -- réel atterrissant 2 pages plus loin, hors cadre). Hypothèse
+  -- retenue (non vérifiée par compilation ici, donc à confirmer) :
+  -- piège documenté du package needspace lui-même -- juste après un
+  -- \clearpage, \pagegoal/\pagetotal ne sont pas encore fiables tant
+  -- qu'aucun contenu réel n'a été composé sur la page fraîche ;
+  -- \needspace peut alors se tromper sur la place disponible, ce qui,
+  -- combiné au caractère atomique de nos 2 \minipage (voir plus haut),
+  -- donne ce rendu incohérent. tables.lua ne met pas ce \mbox{} devant
+  -- son propre \needspace, mais n'a probablement jamais été exercé
+  -- dans cette configuration précise (immédiatement après un titre
+  -- .newpage) -- ajouté ici par prudence, par symétrie avec les
+  -- autres \mbox{} de ce fichier face aux pièges cuted/page-break.
+  -- Coût nul si la page n'a rien de spécial ; à surveiller si le
+  -- problème persiste malgré ça (auquel cas il faudrait inspecter le
+  -- .tex généré / le log xelatex pour confirmer la cause exacte).
+  --
+  -- Reste un AUTRE cas d'adjacence non couvert par ce \mbox{} : un bloc
+  -- monstre .wide collé JUSTE APRÈS un autre élément .wide (image,
+  -- tableau, ou un autre bloc monstre), sans contenu réel entre les
+  -- deux -- piège spécifique documenté dans tables.lua sous le nom
+  -- `after_wide_strip`, traité là-bas par un \clearpage explicite dans
+  -- CE cas précis. Pas répliqué ici pour l'instant ; si ce cas se
+  -- présente, préférer .newcol/.newpage en Markdown pour forcer un
+  -- calage explicite plutôt que de compter sur \needspace.
+  --
+  -- `unbreakable` FORCÉ EN LOCAL (\tcbset{monsterblock/.append style=
+  -- {unbreakable}}, dans un groupe {...} qui limite l'effet à CE bloc
+  -- précis -- les blocs monstre non-wide gardent `breakable` tel que
+  -- défini dans preamble.tex) -- ajouté suite à un nouveau cas cassé
+  -- observé en pratique (Champion.md, texte d'accompagnement pourtant
+  -- allongé) malgré le \mbox{} déjà en place devant \needspace : même
+  -- symptôme qu'avant (bandes de cadre vides, contenu réel atterrissant
+  -- des pages plus loin, hors cadre). Diagnostic révisé : l'estimation
+  -- de \needspace (comptage de caractères, voir MONSTER_CHARS_PER_LINE_*)
+  -- est probablement trop imprécise pour du texte de bloc monstre
+  -- (paragraphes de longueur variable, contrairement aux lignes de
+  -- tableau régulières de tables.lua) -- si elle sous-estime la
+  -- hauteur réelle, \needspace conclut à tort qu'il y a assez de place,
+  -- et `tcolorbox` (breakable) se retrouve à devoir scinder un contenu
+  -- qui reste, de toute façon, atomique (nos 2 \minipage) : IMPOSSIBLE
+  -- à couper proprement, d'où le rendu éclaté. En forçant `unbreakable`
+  -- ici, tcolorbox n'essaie plus jamais cette coupure impossible -- au
+  -- pire (si \needspace se trompe malgré tout), on obtient un simple
+  -- débordement (avertissement de compilation), jamais plus ce rendu
+  -- incohérent sur plusieurs pages.
+  if is_wide then
+    local space_check = needspace_lines
+      and string.format("\\mbox{}\\needspace{%d\\baselineskip}\n", needspace_lines)
+      or ""
+    monster_latex = space_check .. "\\begin{strip}\n"
+      .. "{\\tcbset{monsterblock/.append style={unbreakable}}\n"
+      .. monster_latex .. "\n}"
+      .. "\n\\end{strip}\n\\mbox{}"
   end
+
 
   return pandoc.RawBlock("latex", monster_latex)
 end

@@ -29,6 +29,10 @@
 -- Comportement SANS .wide : l'image reste dans le flux de la colonne
 -- courante, centrée, dimensionnée à \columnwidth par défaut (sa
 -- largeur naturelle si elle est plus petite, gérée par keepaspectratio).
+-- Protégée par \samepage (voir normal_image_to_latex) : sans ça, un
+-- saut de colonne/page peut tomber pile entre l'image et sa légende,
+-- qui se retrouve alors seule, détachée, en haut de la colonne
+-- suivante.
 --
 -- Hauteur personnalisée (images SANS .wide uniquement) : l'attribut
 -- Markdown standard `height=` permet de fixer une hauteur précise tout
@@ -116,7 +120,21 @@ local function normal_image_to_latex(img)
   if not height or not height:match("^%d+%.?%d*%a+$") then
     height = "\\textheight"
   end
+  -- \begin{samepage}...\end{samepage} autour de l'image ET de sa
+  -- légende : sans lui, rien n'empêche LaTeX d'insérer un saut de
+  -- colonne/page ENTRE l'image et sa légende si ce point tombe pile à
+  -- la limite de la colonne -- l'image reste alors seule dans une
+  -- colonne, la légende atterrit isolée en haut de la colonne
+  -- suivante, complètement détachée. Passé inaperçu tant qu'un texte
+  -- d'accompagnement assez long décalait ce point de coupure ailleurs
+  -- dans le document -- redevient visible dès que ce texte est plus
+  -- court (constaté sur Champion.md). Même technique de protection que
+  -- render_section dans statblock.lua pour les sections du bloc
+  -- monstre, pour la même raison (un saut de colonne, en mode
+  -- `twocolumn` natif de ce document, est traité par LaTeX via le même
+  -- mécanisme qu'un saut de page -- samepage s'applique donc aux deux).
   local parts = {
+    "\\begin{samepage}",
     "\\begin{center}",
     string.format(
       "\\includegraphics[width=\\columnwidth,height=%s,keepaspectratio]{%s}",
@@ -128,6 +146,7 @@ local function normal_image_to_latex(img)
     table.insert(parts, "\\emph{" .. caption_latex .. "}")
   end
   table.insert(parts, "\\end{center}")
+  table.insert(parts, "\\end{samepage}")
   return pandoc.RawBlock("latex", table.concat(parts, "\n"))
 end
 

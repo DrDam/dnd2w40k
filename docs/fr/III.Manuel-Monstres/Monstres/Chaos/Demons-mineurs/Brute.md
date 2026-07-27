@@ -6,7 +6,7 @@ Depuis l'Hérésie d'Horus et la Longue Guerre, les brutes ont émergé du maels
 
 <div class="monster newcol" markdown="1">
 
-#### Brutes
+#### Brute
 
 *Démon (Chaos indivisible) de taille grande, chaotique mauvais*
 

@@ -118,8 +118,17 @@ De plus, lorsque vous gagnez un niveau dans cette classe, vous pouvez choisir l�
 Au niveau 3, votre protecteur d’un autre monde vous accorde un familiar loyal à votre service. Vous apprenez le pouvoir psychique « Invoquer un familiar ». Ce pouvoir n’est pas comptabilisé dans le nombre de pouvoirs que vous connaissez.
 Lorsque vous lancez ce pouvoir, vous pouvez choisir l’une des formes normales pour votre familier ou utiliser la forme spéciale suivante, détaillée dans la fiche de caractéristiques du familier du pacte. C’est vous qui choisissez l’apparence de cette créature. Par exemple, un sorcier du Grand Impur pourrait faire prendre à son familier la forme d’un nurgling, tandis qu’un sorcier du Changeur des Chemins pourrait avoir pour familier une horreur bleue.
 
+##### Amélioration des caractéristiques
 
-<div class="monster" markdown="1">
+Lorsque vous atteignez le niveau 4, puis à nouveau aux niveaux 8, 12, 16 et 19, vous pouvez choisir parmis les modifications suivantes :
+
+- Augmenter de 2 points une caractéristique de votre choix
+- Augmenter d’un point deux caractéristiques de votre choix
+- Choisir un Don
+
+Comme d’habitude, si vous choisissez d'augmenter vos caractéristiques, vous ne pouvez pas le faire au-delà de 20 via de cette capacité.
+
+<div class="monster wide" markdown="1">
 
 #### Familier
 
@@ -167,16 +176,6 @@ FOR    | DEX    | CON    | INT    | SAG    | CHA
 
 **Invisibilité.** Le familier devient psychiquement invisible jusqu’à ce qu’il attaque ou que sa concentration prenne fin (comme s’il se concentrait sur un pouvoir). Tout équipement que le familier porte ou transporte avec lui est invisible.
 </div>
-
-##### Amélioration des caractéristiques
-
-Lorsque vous atteignez le niveau 4, puis à nouveau aux niveaux 8, 12, 16 et 19, vous pouvez choisir parmis les modifications suivantes :
-
-- Augmenter de 2 points une caractéristique de votre choix
-- Augmenter d’un point deux caractéristiques de votre choix
-- Choisir un Don
-
-Comme d’habitude, si vous choisissez d'augmenter vos caractéristiques, vous ne pouvez pas le faire au-delà de 20 via de cette capacité.
 
 ##### Invocation du Warp
 
