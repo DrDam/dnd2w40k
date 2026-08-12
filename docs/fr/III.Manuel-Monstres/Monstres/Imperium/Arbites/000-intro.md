@@ -5,7 +5,7 @@ L'Adeptus Arbites est la force de maintien de l'ordre de l'Imperium chargée de 
 *Liste des fiches* {.table-title .wide}
 
 | Facteur de puissance | Nom | Description |
-|---|---|---|
+|:-:|-----|------------|
 | 1/2 (100 XP) | [Arbitrator Trooper](Trooper.md#trooper) | Humain (toute planète d'origine) de taille moyenne, tout alignement loyal |
 
 

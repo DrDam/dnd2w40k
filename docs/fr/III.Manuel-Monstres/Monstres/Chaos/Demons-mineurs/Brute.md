@@ -1,6 +1,6 @@
 #### Brute {#brute .newpage}
 
-![Des brutes](../../../assets/RuinstormDaemonBrutes.png){height=8cm}
+![Des brutes](../../../assets/RuinstormDaemonBrutes.png){height=5cm}
 
 Depuis l'Hérésie d'Horus et la Longue Guerre, les brutes ont émergé du maelström des tempêtes du Warp qui ont sévi. Ces créatures, qui surpassent même les Space Marines en taille, manient aussi bien des haches gravées de runes démoniaques que des massues fabriquées à partir de barres d'armature arrachées à des infrastructures détruites ; elles constituent l'avant-garde de la horde des démons du Chaos.
 

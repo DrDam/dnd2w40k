@@ -1,6 +1,6 @@
 #### Molosse de Khorne {#molosse .newpage}
 
-![Un Molosse de Khorne en chasse](../../../assets/FleshHoundofKhorne1.png){height=8cm}
+![Un Molosse de Khorne en chasse](../../../assets/FleshHoundofKhorne1.png){height=5cm}
 
 Les molosses de Khorne sont des bêtes voraces à quatre pattes, semblables à des loups, dont la peau semble collée à leur corps, dévoilant leurs traits émaciés et leurs muscles tordus. Ces molosse, comme de nombreux démons de Khorne, nourrissent une haine innée envers les psykers et sont envoyés en meute pour les traquer lorsque l’occasion se présente.
 

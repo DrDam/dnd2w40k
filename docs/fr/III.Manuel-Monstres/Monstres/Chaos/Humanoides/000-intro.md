@@ -5,7 +5,7 @@ Les serviteurs humains du Chaos sont aussi variés que nombreux : cultistes fana
 *Liste des fiches* {.table-title .wide}
 
 | Facteur de puissance | Nom | Description |
-|---|---|---|
+|:-:|-----|------------|
 | 1/8 (25 XP) | [Cultiste du Chaos](Cultiste.md#cultiste) | Humain (humain ou corrompu) de taille moyenne, chaotique mauvais |
 | 10 (5 900 XP) | [Champion du Chaos](Champion.md#champion) | Humain (Corrompu) de taille grande, chaotique mauvais |
 

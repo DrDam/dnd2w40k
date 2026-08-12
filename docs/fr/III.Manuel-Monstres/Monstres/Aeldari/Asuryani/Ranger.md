@@ -1,6 +1,6 @@
 #### Ranger {#ranger}
 
-![Une Ranger Asuryani](../../../assets/EldarRanger.png){height=8cm}
+![Une Ranger Asuryani](../../../assets/EldarRanger.png){height=5cm}
 
 <div class="monster newcol" markdown="1">
 

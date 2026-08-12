@@ -1,6 +1,6 @@
-#### Charnelle de Slaanesh (Fiend) {#charnelle-de-slaanesh .newpage}
+#### Charnelle de Slaanesh {#charnelle-de-slaanesh .newpage}
 
-![Une Charnelle de Slaanesh](../../../assets/FiendofSlaanesh.png){height=8cm}
+![Une Charnelle de Slaanesh](../../../assets/FiendofSlaanesh.png){height=5cm}
 
 Les charnelles de Slaanesh sont des bêtes hideuses, qui se présentent sous la forme de torses humanoïdes associés à des corps de centaures, voire de monstres à multiples pattes dotés d'une seule bouche béante. Capables d'émettre d'horribles cris stridents, ces créatures peuvent paralyser et neutraliser leurs adversaires avant de leur soutirer vie et vitalité grâce à leur pouvoir d'aspiration d'âmes.
 

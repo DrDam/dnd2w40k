@@ -1,6 +1,6 @@
 #### Nurgling {#nurgling .newpage}
 
-![Une horde de Nurglings utilisant un psyker comme portail](../../../assets/Nurgling_invasion.png){height=8cm}
+![Une horde de Nurglings utilisant un psyker comme portail](../../../assets/Nurgling_invasion.png){height=5cm}
 
 Réputé pour sa bonne humeur comparé aux autres Puissances de la ruine, Nurgle, le dieu de la peste, de la misère et de la non-vie, engendre souvent de petites créatures sphériques, appelées nurglings, qui ont tendance à rouler partout et à répandre ses « bénédictions » sur ceux qui les entourent.
 

@@ -10,7 +10,7 @@
 *Liste des fiches* {.table-title .wide}
 
 | Facteur de puissance | Nom | Description |
-|---|---|---|
+|:-:|-----|------------|
 | 5 (1 800 XP) | [Esclavagiste](Esclavagiste.md#esclavagiste) | Humanoïde (Drukhari) de taille moyenne, tout alignement mauvais |
 
 

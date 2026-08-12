@@ -1,6 +1,6 @@
 #### Démonette {#demonette .newpage}
 
-![Un choeur de démonettes](../../../assets/Daemonette_Chorus.png){height=8cm}
+![Un choeur de démonettes](../../../assets/Daemonette_Chorus.png){height=5cm}
 
 Les Démonettes de Slaanesh sont des créatures humanoïdes difformes, recouvertes d'écailles roses, dotées de langues fourchues, de cornes tordues et de pinces semblables à celles d'un homard, capables de déchirer aussi bien l'armure que la chair. Ces Démonettes servent le dieu du plaisir en plaçant des victimes sans méfiance sous leur emprise, les poussant ainsi à fonder des cultes hédonistes.
 

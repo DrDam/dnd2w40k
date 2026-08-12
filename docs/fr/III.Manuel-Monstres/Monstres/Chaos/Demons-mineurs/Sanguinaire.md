@@ -1,6 +1,6 @@
 #### Sanguinaire de Khorne {#sanguinaire .newpage}
 
-![Un Sanguinaire avec sa lame infernale](../../../assets/BloodletterHellblade.png){height=8cm}
+![Un Sanguinaire avec sa lame infernale](../../../assets/BloodletterHellblade.png){height=5cm}
 
 Sur l'éternel champ de bataille, les Sanguinaires sont les démons mineurs du dieu de la guerre, du sang et du meurtre. Ces créatures à la peau rouge sont animées d'une rage dévorante qui les remplit à ras bord de haine. Vêtus de l'armure en laiton de leur dieu et d'une lame infernale sur laquelle sont gravées les entailles de leurs victimes, ces démons réagissent à toute situation par la violence.
 

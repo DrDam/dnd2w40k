@@ -1,6 +1,6 @@
 #### Cultiste du Chaos {#cultiste .newpage}
 
-![Des cultistes de Khorne](../../../assets/Sanguinary_Cultist.png){height=8cm}
+![Des cultistes de Khorne](../../../assets/Sanguinary_Cultist.png){height=5cm}
 
 Les cultistes du Chaos sont les plus nombreux et les plus méprisés des serviteurs des Puissances de la Ruine. Fanatiques jusqu'à la mort, ils abandonnent toute loyauté envers l'Imperium pour servir leurs maîtres obscurs, convaincus que leur dévotion leur vaudra un jour une récompense divine. Individuellement peu redoutables, ils compensent leur faiblesse par leur nombre, leur fanatisme et leur totale absence de peur face à la mort.
 

@@ -1,6 +1,6 @@
 #### Furie (bêtes du chaos) {#furie .newpage}
 
-![Une furie en vol](../../../assets/Fury_demon.png){height=8cm}
+![Une furie en vol](../../../assets/Fury_demon.png){height=5cm}
 
 Ces créatures volantes, semblables à des gargouilles, sont connues pour plonger depuis les tempêtes du Warp grâce à leurs ailes de cuir, semant le chaos sur les champs de bataille. Selon certaines hypothèses, ces créatures ne ressentiraient que quelques émotions, qui ne seraient toutes que des variantes déformées de la rage, de la haine et de la douleur éternelle.
 

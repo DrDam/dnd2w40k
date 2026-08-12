@@ -1,6 +1,6 @@
 #### Vengeur Lugubre {#vengeur}
 
-![Un Vengeur Lugubre du vaisseau-monde Ulthwé](../../../assets/UlthwF_Dire_Avengers.png){height=8cm}
+![Un Vengeur Lugubre du vaisseau-monde Ulthwé](../../../assets/UlthwF_Dire_Avengers.png){height=5cm}
 
 <div class="monster newcol" markdown="1">
 

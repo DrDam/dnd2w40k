@@ -15,7 +15,7 @@ Les démons mineurs du Chaos sont les plus nombreux parmi les démons. Jaillissa
 *Liste des fiches* {.table-title .wide}
 
 | Facteur de puissance | Nom | Description |
-|---|---|---|
+|:-:|-----|------------|
 | 1/2 (100 XP) | [Nurgling](Nurgling.md#nurgling) | Démon (Nurgle) de taille très petite, chaotique mauvais |
 | 3 (700 XP) | [Molosse de Khorne](Molosse.md#molosse) | Démon (Khorne) de taille grande, chaotique mauvais |
 | 4 (1 100 XP) | [Démonette](Demonette.md#demonette) | Démon (Slaanesh) de taille moyenne, chaotique neutre |
@@ -23,7 +23,7 @@ Les démons mineurs du Chaos sont les plus nombreux parmi les démons. Jaillissa
 | 5 (1 800 XP) | [Brute](Brute.md#brute) | Démon (Chaos indivisible) de taille grande, chaotique mauvais |
 | 5 (1 800 XP) | [Furie (bêtes du chaos)](Furie.md#furie) | Démon (Chaos indivisible) de taille moyenne, chaotique mauvais |
 | 5 (1 800 XP) | [Incendiaire](Incendiaire.md#incendiaire) | Démon (Tzeentch) de taille moyen, chaotique mauvais |
-| 6 (2 300 XP) | [Charnelle de Slaanesh (Fiend)](Charnelle.md#charnelle-de-slaanesh) | Démon (Slaanesh) de taille grande, chaotique mauvais |
+| 6 (2 300 XP) | [Charnelle de Slaanesh](Charnelle.md#charnelle-de-slaanesh) | Démon (Slaanesh) de taille grande, chaotique mauvais |
 | 6 (2 300 XP) | [Sanguinaire de Khorne](Sanguinaire.md#sanguinaire) | Démon (Khorne) de taille moyenne, loyal mauvais |
 | 7 (2 900 XP) | [Porteur de la Peste](Porteur-peste.md#porteur-peste) | Démon (Nurgle) de taille moyen, chaotique mauvais |
 

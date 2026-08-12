@@ -1,10 +1,10 @@
 #### Champion du Chaos {#champion}
 
-![Un Champion de Khorne](../../../assets/ExaltedChampionKhorne.png){height=8cm}
+![Un Champion de Khorne](../../../assets/ExaltedChampionKhorne.png){height=5cm}
 
 Les champions du Chaos sont ceux à qui les dieux du Chaos ont accordé leur faveur impie. Ces individus peuvent être fortifiés par une cohorte de démons qui les guident ou les utilisent à des fins néfastes, ou bien avoir acquis leurs pouvoirs grâce à leur propre ruse et à leur force. Ces champions servent peut-être les dieux des ténèbres, mais leur comportement, leur attitude, leurs ambitions et leurs objectifs peuvent varier considérablement, et beaucoup d’entre eux héritent de dons différents de la part des dieux qu’ils servent.
 
-<div class="monster newcol" markdown="1">
+<div class="monster wide" markdown="1">
 
 #### Champion du Chaos (Indivisible)
 

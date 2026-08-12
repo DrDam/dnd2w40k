@@ -1,6 +1,6 @@
 #### Incendiaire {#incendiaire .newpage}
 
-![Un Incendiaire de Tzeentch](../../../assets/FlamerTzeentch.png){height=8cm}
+![Un Incendiaire de Tzeentch](../../../assets/FlamerTzeentch.png){height=5cm}
 
 Les Incendiaires de Tzeentch sont des démons flamboyants du Dieu du Changement, dont les flammes ésotériques consument aussi bien la chair que l'esprit. Leurs jets de feu aux couleurs irréelles ne se contentent pas de brûler leurs victimes : ils déforment la réalité et sèment le chaos sur le champ de bataille. Là où ils apparaissent, la volonté insondable de Tzeentch se manifeste dans un déluge de magie et de destruction.
 

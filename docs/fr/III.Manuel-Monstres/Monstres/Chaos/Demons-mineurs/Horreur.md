@@ -1,6 +1,6 @@
 #### Horreur de Tzeentch {#horeur-tzeentch .newpage}
 
-![Un groupe d'horreurs de Tzeentch (roses, bleues, soufres)](../../../assets/HorrorsofTzeentch.png){height=8cm}
+![Un groupe d'horreurs de Tzeentch (roses, bleues, soufres)](../../../assets/HorrorsofTzeentch.png){height=5cm}
 
 Les horreurs de Tzeentch sont de petits démons ressemblant à des masses informes, dotés d’une gueule béante remplie de dents circulaires qui crachent des flammes et transpercent le métal et les armures grâce à leur mâchoire acérée comme un rasoir. Ces démons sont surtout connus pour leur capacité à se diviser en deux nouvelles horreurs à leur mort.
 

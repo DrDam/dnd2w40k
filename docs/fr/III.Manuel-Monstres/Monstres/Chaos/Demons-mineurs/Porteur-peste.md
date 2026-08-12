@@ -1,6 +1,6 @@
 #### Porteur de la Peste {#porteur-peste .newpage}
 
-![Un porteur de la Peste de Nurgle](../../../assets/Plaguebearer.png){height=8cm}
+![Un porteur de la Peste de Nurgle](../../../assets/Plaguebearer.png){height=5cm}
 
 Les Porteurs de la Peste constituent l’infanterie de ligne des légions démoniaques de Nurgle. Ces créatures rongées par la peste sont souvent gonflées, suintantes de pourriture et de maladie, et présentent une teinte verdâtre ou brunâtre malsaine, accompagnée d’une odeur de chair en décomposition qui imprègne leur présence.
 
