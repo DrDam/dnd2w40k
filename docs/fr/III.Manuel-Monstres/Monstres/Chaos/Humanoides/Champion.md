@@ -1,4 +1,4 @@
-#### Champion du Chaos {#champion}
+#### Champion du Chaos {#champion .newpage}
 
 ![Un Champion de Khorne](../../../assets/ExaltedChampionKhorne.png){height=5cm}
 

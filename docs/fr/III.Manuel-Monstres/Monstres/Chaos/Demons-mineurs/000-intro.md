@@ -1,4 +1,4 @@
-### Démons mineurs
+### Démons mineurs   {.newpage}
 
 Les démons mineurs du Chaos sont les plus nombreux parmi les démons. Jaillissant des portails menant à leur royaume infernal, ils sèment le chaos et sèment la destruction parmi les habitants des mondes.
 
@@ -26,5 +26,3 @@ Les démons mineurs du Chaos sont les plus nombreux parmi les démons. Jaillissa
 | 6 (2 300 XP) | [Charnelle de Slaanesh](Charnelle.md#charnelle-de-slaanesh) | Démon (Slaanesh) de taille grande, chaotique mauvais |
 | 6 (2 300 XP) | [Sanguinaire de Khorne](Sanguinaire.md#sanguinaire) | Démon (Khorne) de taille moyenne, loyal mauvais |
 | 7 (2 900 XP) | [Porteur de la Peste](Porteur-peste.md#porteur-peste) | Démon (Nurgle) de taille moyen, chaotique mauvais |
-
-

@@ -1,8 +1,10 @@
 #### Arbitrator Trooper {#trooper}
 
+![Un Arbitrator avec son limier](../../../assets/ArbitratorDarktide2.png){height=5cm}
+
 <div class="monster" markdown="1">
 
-#### Arbotrator Trooper
+#### Arbitrator Trooper
 
 *Humain (toute planète d'origine) de taille moyenne, tout alignement loyal*
 

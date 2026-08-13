@@ -1,4 +1,4 @@
-#### Ranger {#ranger}
+#### Ranger {#ranger .newpage}
 
 ![Une Ranger Asuryani](../../../assets/EldarRanger.png){height=5cm}
 

@@ -9,3 +9,5 @@ Un grand merci à Klefgun pour la création de ce kit de conversion et le travai
 par ordre d'apparition
 
 - Sauf mention contraire les images de ces ouvrages proviennent du site warhammer40k.fandom.com
+
+- **Tony Davidson** pour *Un Lexmachanic*
