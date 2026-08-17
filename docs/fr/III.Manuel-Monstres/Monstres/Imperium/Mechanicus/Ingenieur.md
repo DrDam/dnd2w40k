@@ -46,8 +46,8 @@ Niveau 2 : Métal brûlant, tir de plasma
 
 ##### Actions
 
-**Clé.** Attaque au corps à corps : +2 pour toucher, portée de 5 pieds, une cible. Touché : 2 (1d4) points de dégâts cinétiques.
+**Clé.** Attaque au corps à corps : +2 pour toucher, portée de 1,5 mètres, une cible. Touché : 2 (1d4) points de dégâts cinétiques.
 
-**Pistolet laser.** Attaque à distance : +3 pour toucher, portée de 40/160 pieds, une cible. Touché : 3 (1d4+1) points de dégâts énergétiques.
+**Pistolet laser.** Attaque à distance : +3 pour toucher, portée de 12/48 mètres, une cible. Touché : 3 (1d4+1) points de dégâts énergétiques.
 
 </div>
