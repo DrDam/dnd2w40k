@@ -6,4 +6,6 @@ L'Astra Militarum constitue l'immense armée régulière de l'Imperium, composé
 
 | Facteur de puissance | Nom | Description |
 |:-:|-----|------------|
-| 3 (700 XP) | [Commissaire](commisaire.md#commissaire) | Humain (toute planète d'origine) de taille moyenne, tout alignement bon |
+| 1/8 (25 XP) | [Soldat de la Garde Impériale](Soldat.md#soldat) | Humain (toute planète d'origine) de taille moyenne, tout alignement |
+| 1/2 (100 XP) | [Soldat de Krieg](SoldatKrieg.md#krieg) | Humain (monde mort) de taille moyenne, loyal neutre |
+| 3 (700 XP) | [Commissaire](Commisaire.md#commissaire) | Humain (toute planète d'origine) de taille moyenne, tout alignement bon |

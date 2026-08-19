@@ -8,14 +8,16 @@ Au sein des innombrables mondes de l'Imperium qui s'étend à travers la galaxie
 |:-:|---| -----|------------|
 | 0 (10 XP) | Adeptus Mechanicus | [Chérubin](Cherubin.md#Cherubin) | Construct de très petite taille, tout alignement loyal |
 | 0 (10 XP) | Adeptus Mechanicus | [Servo-crane](ServoCrane.md#ServoCrane) | Construct de très petite taille, non aligné |
+| 1/8 (25 XP) | Astra Militarum | [Soldat de la Garde Impériale](Soldat.md#soldat) | Humain (toute planète d'origine) de taille moyenne, tout alignement |
 | 1/4 (50 XP) | Astra Telepathica | [Garde Pariah](Garde.md#garde) | Humain (blank) de taille moyenne, tout alignement |
 | 1/4 (50 XP) | Adeptus Mechanicus | [Servitor de combat](ServitorCombat.md#ServitorCombat) | Construct de taille moyenne, sans alignement |
 | 1/2 (100 XP) | Adeptus Arbites | [Arbitrator Trooper](Trooper.md#trooper) | Humain (toute planète d'origine) de taille moyenne, tout alignement loyal |
 | 1/2 (100 XP) | Astra Telepathica | [Astropathe](Astropathe.md#astropathe) | Humain (toute planète d'origine) de taille moyenne, loyal bon |
 | 1/2 (100 XP) | Adeptus Mechanicus | [Lexmechanic](Lexmechanic.md#lexmechanic) | Humanoïde (Techno-fusionné) de taille moyenne, loyal neutre |
 | 1/2 (100 XP) | Adeptus Mechanicus | [Servitor Industriel](ServitorIndustriel.md#ServitorIndustriel) | Construct de taille moyenne, sans alignement |
+| 1/2 (100 XP) | Astra Militarum | [Soldat de Krieg](SoldatKrieg.md#krieg) | Humain (monde mort) de taille moyenne, loyal neutre |
 | 1 (200 XP) | Adeptus Mechanicus | [Ingénieur](Ingenieur.md#ingenieur) | Humanoïde (Techno-fusionné) de taille moyenne, loyal neutre |
 | 2 (450 XP) | Astra Telepathica | [Psyker sanctionné](Psyker.md#psyker) | Humain (toute planète d'origine) de taille moyenne, tout alignement |
-| 3 (700 XP) | Astra Militarum | [Commissaire](commisaire.md#commissaire) | Humain (toute planète d'origine) de taille moyenne, tout alignement bon |
+| 3 (700 XP) | Astra Militarum | [Commissaire](Commisaire.md#commissaire) | Humain (toute planète d'origine) de taille moyenne, tout alignement bon |
 | 4 (1 100 XP) | Adeptus Mechanicus | [Électro-prêtre](Electropretre.md#Electropretre) | Humanoïde (Techno-fusionné) de taille moyenne, loyal neutre |
 | 22 (15 100 XP) | Adeptus Mechanicus | [Chevalier Impérial](Chevalier.md#Chevalier) | Construct Gigantesque, tout alignement loyal |
