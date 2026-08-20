@@ -21,9 +21,9 @@ Qu'il s'agisse d'utiliser l'électricité pour recharger des batteries ou pour a
 **Vitesse** 9 m, vol 3 m (stationnaire)
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-14 (+2)| 12 (+1)| 12 (+1)| 16 (+3)| 13 (+1)| 11 (0)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|14 (+2)| 12 (+1)| 12 (+1)| 16 (+3)| 13 (+1)| 11 (0)|
 </div>
 
 **Jet de sauvegarde** : Con +3

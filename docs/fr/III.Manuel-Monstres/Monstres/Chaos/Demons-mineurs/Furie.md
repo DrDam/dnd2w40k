@@ -19,9 +19,9 @@ Ces créatures volantes, semblables à des gargouilles, sont connues pour plonge
 **Vitesse** 9 m , vol 18 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-18 (+4)| 18 (+4)| 16 (+3)| 14 (+2)| 12 (+1)| 16 (+3)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|18 (+4)| 18 (+4)| 16 (+3)| 14 (+2)| 12 (+1)| 16 (+3)|
 </div>
 
 **Jets de sauvegardes** : For +7, Con +6, Int +5, Cha +6

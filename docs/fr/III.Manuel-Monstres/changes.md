@@ -29,9 +29,9 @@ Les alignements restent inchangés par rapport à la version originale de D&D 5e
 **Vitesse** 9 m, vol 18 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-6 (-1)| 17 (+3)| 12 (+1)| 12 (+1)| 12 (+1)| 14 (+2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|6 (-1)| 17 (+3)| 12 (+1)| 12 (+1)| 12 (+1)| 14 (+2)|
 </div>
 
 **Compétences** :  Perception +1 + Bonus de Maîtrise, Discrétion +3 + (Bonus de Maîtrise x 2)

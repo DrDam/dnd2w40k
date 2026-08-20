@@ -17,9 +17,9 @@ Les champions du Chaos sont ceux à qui les dieux du Chaos ont accordé leur fav
 **Vitesse** 12 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-19 (+4)| 16 (+3)| 17 (+3)| 14 (+2)| 15 (+2)| 16 (+3)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|19 (+4)| 16 (+3)| 17 (+3)| 14 (+2)| 15 (+2)| 16 (+3)|
 </div>
 
 **Jets de sauvegardes** : Dex +6, Con +7, Sag +6, Cha +7

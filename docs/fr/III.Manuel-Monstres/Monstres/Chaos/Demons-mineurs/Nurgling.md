@@ -23,9 +23,9 @@ Réputé pour sa bonne humeur comparé aux autres Puissances de la ruine, Nurgle
 **Vitesse** 4,5 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-7 (-2)| 6 (-2)| 9 (-1)| 5 (-3)| 7 (-2)| 3 (-4)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|7 (-2)| 6 (-2)| 9 (-1)| 5 (-3)| 7 (-2)| 3 (-4)|
 </div>
 
 **Vulnérabilité aux dégâts** : au feu

@@ -29,4 +29,4 @@ Les Titans sont les colossales machines de guerre du Mechanicus, des engins de d
 | 1/2 (100 XP) | [Servitor Industriel](ServitorIndustriel.md#ServitorIndustriel) | Construct de taille moyenne, sans alignement |
 | 1 (200 XP) | [Ingénieur](Ingenieur.md#ingenieur) | Humanoïde (Techno-fusionné) de taille moyenne, loyal neutre |
 | 4 (1 100 XP) | [Électro-prêtre](Electropretre.md#Electropretre) | Humanoïde (Techno-fusionné) de taille moyenne, loyal neutre |
-| 22 (15 100 XP) | [Chevalier Impérial](Chevalier.md#Chevalier) | Construct Gigantesque, tout alignement loyal |
+| 22 (41 000 XP) | [Chevalier Impérial](Chevalier.md#Chevalier) | Construct Gigantesque, tout alignement loyal |

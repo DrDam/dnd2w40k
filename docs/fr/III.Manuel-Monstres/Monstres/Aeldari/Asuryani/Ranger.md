@@ -15,9 +15,9 @@
 **Vitesse** 9 m, escalade 9m, nage 9m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-11 (0)| 18 (+4)| 12 (+1)| 11 (0)| 12 (+1)| 12 (+1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|11 (0)| 18 (+4)| 12 (+1)| 11 (0)| 12 (+1)| 12 (+1)|
 </div>
 
 **Jets de sauvegarde** : Dex +7, Int +3

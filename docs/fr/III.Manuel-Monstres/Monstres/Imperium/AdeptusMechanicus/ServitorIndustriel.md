@@ -17,9 +17,9 @@ Ces Serviteurs ont été équipés de dispositifs leur permettant de soulever de
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-15 (+2)| 8 (-1)| 14 (+2)| 4 (-3)| 3 (-2)| 3 (-4)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|15 (+2)| 8 (-1)| 14 (+2)| 4 (-3)| 3 (-2)| 3 (-4)|
 </div>
 
 **Compétences** : Athlétisme +4

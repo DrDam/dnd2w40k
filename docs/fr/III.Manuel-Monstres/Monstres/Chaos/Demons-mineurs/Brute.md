@@ -17,9 +17,9 @@ Depuis l'Hérésie d'Horus et la Longue Guerre, les brutes ont émergé du maels
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-18 (+4)| 13 (+1)| 20 (+5)| 13 (+1)| 9 (-1)| 10 (0)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|18 (+4)| 13 (+1)| 20 (+5)| 13 (+1)| 9 (-1)| 10 (0)|
 </div>
 
 **Compétences** : Intimidation +3, Perception +2

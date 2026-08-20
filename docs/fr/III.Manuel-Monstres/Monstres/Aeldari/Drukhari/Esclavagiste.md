@@ -17,9 +17,9 @@
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-13 (+0)| 18 (+4)| 14 (+2)| 12 (+2)| 13 (+1)| 15 (+2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|13 (+0)| 18 (+4)| 14 (+2)| 12 (+2)| 13 (+1)| 15 (+2)|
 </div>
 
 **Jets de sauvegarde** : Dex +7, Con +5, Sag +4

@@ -17,9 +17,9 @@ Les Chevaliers Impériaux sont de redoutables marcheurs de combat pilotés par d
 **Vitesse** 18 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-29 (+3)| 10 (0)| 28 (+9)| 18 (+4)| 17 (+3)| 21 (+5)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|29 (+3)| 10 (0)| 28 (+9)| 18 (+4)| 17 (+3)| 21 (+5)|
 </div>
 
 **Jet de sauvegarde** : Dex +7, Con +16, Sag +10, Cha +12
@@ -36,7 +36,7 @@ FOR    | DEX    | CON    | INT    | SAG    | CHA
 
 **Langues** : parle le bas-gothique, le binaire et le haut-gothique
 
-**Facteur de puissance** : 22 (15 100 XP)
+**Facteur de puissance** : 22 (41 000 XP)
 
 ##### Traits
 

@@ -17,9 +17,9 @@ Les serviteurs de combat étaient autrefois des humains qui ont subi une lobotom
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-15 (+2)| 14 (+2)| 14 (+2)| 5 (-3)| 8 (-1)| 8 (-1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|15 (+2)| 14 (+2)| 14 (+2)| 5 (-3)| 8 (-1)| 8 (-1)|
 </div>
 
 **Sens** : Perception passive 9

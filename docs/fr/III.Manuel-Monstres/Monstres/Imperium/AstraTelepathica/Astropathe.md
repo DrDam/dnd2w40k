@@ -15,9 +15,9 @@
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-10 (0)| 10 (0)| 10 (0)| 11 (+1)| 13 (+1)| 12 (+1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|10 (0)| 10 (0)| 10 (0)| 11 (+1)| 13 (+1)| 12 (+1)|
 </div>
 
 **Jet de sauvegarde** : Sag +3, Cha +3

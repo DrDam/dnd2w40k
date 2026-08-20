@@ -17,9 +17,9 @@ Les Lexmechanics comptent parmi les membres les plus modestes du Mechanicum. Jus
 **Vitesse** 9 m, vol 3 m (stationnaire)
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-10 (+0)| 12 (+1)| 13 (+1)| 14 (+2)| 12 (+1)| 9 (-1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|10 (+0)| 12 (+1)| 13 (+1)| 14 (+2)| 12 (+1)| 9 (-1)|
 </div>
 
 **Compétences** : Technologie +4

@@ -17,9 +17,9 @@ Les cultistes du Chaos sont les plus nombreux et les plus méprisés des servite
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-11 (0)| 12 (+1)| 10 (0)| 10 (0)| 9 (-1)| 12 (+1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|11 (0)| 12 (+1)| 10 (0)| 10 (0)| 9 (-1)| 12 (+1)|
 </div>
 
 **Compétences** : Occultisme +1, Tromperie +3

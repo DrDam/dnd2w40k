@@ -17,9 +17,9 @@ Les chérubins sont de minuscules bébés ressemblant à des anges, créés par 
 **Vitesse** 4,5m , vol 9m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-3 (-4)| 11 (0)| 10 (0)| 12 (+1)| 10 (0)| 7 (-2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|3 (-4)| 11 (0)| 10 (0)| 12 (+1)| 10 (0)| 7 (-2)|
 </div>
 
 **Sens** : Perception passive 10

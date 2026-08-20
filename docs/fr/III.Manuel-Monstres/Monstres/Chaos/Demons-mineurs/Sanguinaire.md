@@ -17,9 +17,9 @@ Sur l'éternel champ de bataille, les Sanguinaires sont les démons mineurs du d
 **Vitesse** 12 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-17 (+3)| 16 (+3)| 16 (+3)| 11 (0)| 11 (0)| 13 (+1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|17 (+3)| 16 (+3)| 16 (+3)| 11 (0)| 11 (0)| 13 (+1)|
 </div>
 
 **Compétences** :  Athlétisme +6, Intimidation +7

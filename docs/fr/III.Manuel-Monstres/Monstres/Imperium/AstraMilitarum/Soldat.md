@@ -17,9 +17,9 @@ Le soldat de la Garde Impériale est l'infanterie de base de l'Astra Militarum :
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-12 (+1)| 13 (+1)| 11 (0)| 9 (-1)| 10 (0)| 10 (0)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|12 (+1)| 13 (+1)| 11 (0)| 9 (-1)| 10 (0)| 10 (0)|
 </div>
 
 **Sens** : Perception passive 10

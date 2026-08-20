@@ -21,9 +21,9 @@ Les horreurs de Tzeentch sont de petits démons ressemblant à des masses inform
 **Vitesse** 10 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-6 (-2)| 15 (+2)| 12 (+1)| 7 (-2)| 11 (0)| 14 (+5)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|6 (-2)| 15 (+2)| 12 (+1)| 7 (-2)| 11 (0)| 14 (+5)|
 </div>
 
 **Compétences** :  Perception +2

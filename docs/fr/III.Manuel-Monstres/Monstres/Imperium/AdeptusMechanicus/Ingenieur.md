@@ -17,9 +17,9 @@ Spécialisés dans la réparation et l’entretien des diverses machines et arme
 **Vitesse** 9 m,
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-10 (+0)| 14 (+2)| 12 (+1)| 15 (+2)| 12 (+1)| 11 (0)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|10 (+0)| 14 (+2)| 12 (+1)| 15 (+2)| 12 (+1)| 11 (0)|
 </div>
 
 **Compétences** : Technologie +4

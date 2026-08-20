@@ -17,9 +17,9 @@ Les charnelles de Slaanesh sont des bêtes hideuses, qui se présentent sous la 
 **Vitesse** 15 m (escalade 15 m)
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-15 (+2)| 15 (+2)| 14 (+2)| 11 (0)| 14 (+2)| 10 (0)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|15 (+2)| 15 (+2)| 14 (+2)| 11 (0)| 14 (+2)| 10 (0)|
 </div>
 
 **Compétences** : Perception +5

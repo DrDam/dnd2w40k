@@ -17,9 +17,9 @@ Les Démonettes de Slaanesh sont des créatures humanoïdes difformes, recouvert
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-8 (-1)| 17 (+3)| 13 (+1)| 13 (+1)| 12 (+1)| 20 (+5)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|8 (-1)| 17 (+3)| 13 (+1)| 13 (+1)| 12 (+1)| 20 (+5)|
 </div>
 
 **Compétences** : Discrétion +7, Perception +5, Perspicacité +5, Persuasion +9, Tromperie +9

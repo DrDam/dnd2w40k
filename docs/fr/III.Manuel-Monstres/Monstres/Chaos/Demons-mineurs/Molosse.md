@@ -23,9 +23,9 @@ Les molosses de Khorne sont des bêtes voraces à quatre pattes, semblables à d
 **Vitesse** 15 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-17 (+3)| 12 (+1)| 14 (+2)| 6 (-2)| 13 (+1)| 6 (-2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|17 (+3)| 12 (+1)| 14 (+2)| 6 (-2)| 13 (+1)| 6 (-2)|
 </div>
 
 **Compétences** : Perception +5

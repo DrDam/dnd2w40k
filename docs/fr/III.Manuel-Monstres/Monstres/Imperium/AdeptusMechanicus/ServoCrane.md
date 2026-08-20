@@ -17,9 +17,9 @@ Les servo-crânes sont un type de serviteur constitué d'un crâne dans lequel s
 **Vitesse** 1,5m , vol 18m (stationnaire)
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-3 (-4)| 7 (-2)| 8 (-1)| 3 (-4)| 10 (0)| 3 (-4)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|3 (-4)| 7 (-2)| 8 (-1)| 3 (-4)| 10 (0)| 3 (-4)|
 </div>
 
 **Compétences** : Perception +2

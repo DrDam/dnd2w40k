@@ -15,9 +15,9 @@
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-13 (+1)| 12 (+1)| 11 (0)| 10 (0)| 11 (0)| 10 (0)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|13 (+1)| 12 (+1)| 11 (0)| 10 (0)| 11 (0)| 10 (0)|
 </div>
 
 **Compétences** : Perception +2

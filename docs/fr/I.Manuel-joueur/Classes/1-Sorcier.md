@@ -128,7 +128,7 @@ Lorsque vous atteignez le niveau 4, puis à nouveau aux niveaux 8, 12, 16 et 19,
 
 Comme d’habitude, si vous choisissez d'augmenter vos caractéristiques, vous ne pouvez pas le faire au-delà de 20 via de cette capacité.
 
-<div class="monster wide" markdown="1">
+<div class="monster newcol" markdown="1">
 
 #### Familier
 
@@ -141,9 +141,9 @@ Comme d’habitude, si vous choisissez d'augmenter vos caractéristiques, vous n
 **Vitesse** 9 m, vol 18 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-6 (-1)| 17 (+3)| 12 (+1)| 12 (+1)| 12 (+1)| 14 (+2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|6 (-1)| 17 (+3)| 12 (+1)| 12 (+1)| 12 (+1)| 14 (+2)|
 </div>
 
 **Compétences** :  Perception +1 + Bonus de Maîtrise, Discrétion +3 + (Bonus de Maîtrise x 2)

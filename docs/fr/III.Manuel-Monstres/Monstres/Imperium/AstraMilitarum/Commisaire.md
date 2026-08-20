@@ -21,9 +21,9 @@ Les commissaires sont très appréciés au sein de l’Imperium. Il est possible
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-16 (+3)| 16 (+3)| 14 (+2)| 14 (+2)| 14 (+2)| 16 (+3)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|16 (+3)| 16 (+3)| 14 (+2)| 14 (+2)| 14 (+2)| 16 (+3)|
 </div>
 
 **Jet de sauvegarde** : For +4, Dex +5, Sag +4

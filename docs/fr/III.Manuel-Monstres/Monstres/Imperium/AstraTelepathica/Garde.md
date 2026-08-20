@@ -15,9 +15,9 @@ Dans certaines situations, l’Imperium a besoin de recourir à un « blank » :
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-12 (+1)| 14 (+2)| 11 (0)| 10 (0)| 14 (+2)| 12 (+1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|12 (+1)| 14 (+2)| 11 (0)| 10 (0)| 14 (+2)| 12 (+1)|
 </div>
 
 **Jet de sauvegarde** ! Sag +4, Cha +3

@@ -15,9 +15,9 @@
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-11 (0)| 14 (+2)| 14 (+1)| 10 (0)| 13 (+1)| 14 (+2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|11 (0)| 14 (+2)| 14 (+1)| 10 (0)| 13 (+1)| 14 (+2)|
 </div>
 
 **Compétences** : Connaissance +2, Occultisme +3

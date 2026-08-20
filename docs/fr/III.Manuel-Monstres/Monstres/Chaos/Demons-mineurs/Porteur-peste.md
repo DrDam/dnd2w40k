@@ -23,9 +23,9 @@ Les Porteurs de la Peste constituent l’infanterie de ligne des légions démon
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-18 (+4)| 13 (+1)| 20 (+5)| 7 (-2)| 9 (-1)| 7 (-2)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|18 (+4)| 13 (+1)| 20 (+5)| 7 (-2)| 9 (-1)| 7 (-2)|
 </div>
 
 **Compétence** : Perception +2

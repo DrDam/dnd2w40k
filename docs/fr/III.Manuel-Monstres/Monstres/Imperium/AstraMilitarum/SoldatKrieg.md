@@ -19,9 +19,9 @@ Pour un Krieg, mourir au service de l'Empereur n'est pas une tragédie : c'est l
 **Vitesse** 9 m
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-15 (+2)| 14 (+2)| 14 (+2)| 10 (0)| 12 (+1)| 9 (-1)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|15 (+2)| 14 (+2)| 14 (+2)| 10 (0)| 12 (+1)| 9 (-1)|
 </div>
 
 **Compétence** : Perception +3

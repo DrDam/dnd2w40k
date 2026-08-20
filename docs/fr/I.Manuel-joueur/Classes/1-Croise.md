@@ -206,9 +206,9 @@ Une fois que vous avez invoqué un champion de la foi, vous ne pouvez pas le fai
 **Vitesse** 9 m, vol 12 m
 
 <div class="statline" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-20 (+5)| 16 (+3)| 16 (+3)| 16 (+3)| 16 (+3)| 16 (+3)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|20 (+5)| 16 (+3)| 16 (+3)| 16 (+3)| 16 (+3)| 16 (+3)|
 </div>
 
 **Résistances aux dégâts** : radiants, nécrotiques

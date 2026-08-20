@@ -17,9 +17,9 @@ Les Incendiaires de Tzeentch sont des démons flamboyants du Dieu du Changement,
 **Vitesse** 1,5 m, vol 12m (vol stationnaire)
 
 <div class="statline wide" markdown="1">
-FOR    | DEX    | CON    | INT    | SAG    | CHA
-:---:  | :---:  | :---:  | :---:  | :---:  | :---:
-6 (-2)| 17 (+3)| 14 (+2)| 6 (-2)| 10 (0)| 16 (+3)
+|FOR    | DEX    | CON    | INT    | SAG    | CHA|
+|:---:  | :---:  | :---:  | :---:  | :---:  | :---:|
+|6 (-2)| 17 (+3)| 14 (+2)| 6 (-2)| 10 (0)| 16 (+3)|
 </div>
 
 **Compétence** : Occultisme +2, Perception +2
