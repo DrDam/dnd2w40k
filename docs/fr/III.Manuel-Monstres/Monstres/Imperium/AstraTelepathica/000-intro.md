@@ -6,6 +6,6 @@ Au service de l’Inquisition, de la Garde Impériale ou de toute autre branche 
 
 | Facteur de puissance | Nom | Description |
 |:-:|-----|------------|
-| 1/4 (50 XP) | [Garde Pariah](Garde.md#garde) | Humain (blank) de taille moyenne, tout alignement |
-| 1/2 (100 XP) | [Astropathe](Astropathe.md#astropathe) | Humain (toute planète d'origine) de taille moyenne, loyal bon |
+| 1/4 (50 XP) | [Astropathe](Astropathe.md#astropathe) | Humain (toute planète d'origine) de taille moyenne, loyal bon |
+| 1/2 (100 XP) | [Garde Pariah](Garde.md#garde) | Humain (blank) de taille moyenne, tout alignement |
 | 2 (450 XP) | [Psyker sanctionné](Psyker.md#psyker) | Humain (toute planète d'origine) de taille moyenne, tout alignement |

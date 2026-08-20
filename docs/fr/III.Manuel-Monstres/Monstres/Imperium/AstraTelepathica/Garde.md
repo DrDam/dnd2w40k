@@ -30,21 +30,22 @@ Dans certaines situations, l’Imperium a besoin de recourir à un « blank » :
 
 **Langues** : parle une seule langue (en général le bas-gothique)
 
-**Facteur de puissance** : 1/4 (50 XP)
+**Facteur de puissance** : 1/2 (100 XP)
 
 ##### Traits
 
-**Esprit protégé.** L’astropathe bénéficie d’un avantage aux jets de sauvegarde contre les effets de charme ou d’effroi.
+**Perturbation psychique.** Les créatures hostiles situées à moins de 3 mètre du « blank » qui lancent un pouvoir psychique doivent effectuer un jet de sauvegarde de Constitution avec une difficulté de 12. En cas d’échec, le pouvoir ne peut être lancé et les points de pouvoir psychique utilisés pour le lancer sont perdus.
 
-**Vision de l’astropathe.** L’astropathe bénéficie d’un avantage à tous les tests effectués pour naviguer dans le Warp.
+**Anathème psychique.** Le « blank » bénéficie d’un avantage lors des jets de sauvegarde contre les pouvoirs psychiques.
 
-**Lanceur de pouvoir psychique**. La caractéristique de lanceur de pouvoir psycasting de l’astropathe est la Sagesse (jet de sauvegarde psychique de 11, +3 pour toucher avec les attaques psychiques). L’astropathe peut lancer de manière innée les pouvoirs suivants :
-
-À volonté : feux follets, message
-3 fois par jour chacun : augure (niveau 2), envoi (niveau 3), repousser le Warp (niveau 1)
+**Sans âme.** Le personnage est à l’abri des effets psychiques qui permettraient de déterminer sa position, son humeur ou ses pensées, tels que « zone divine » et « détection des pensées ».
 
 ##### Actions
 
-**Bâton.** Attaque au corps à corps : +2 pour toucher, portée de 1,5 mètre, une créature. Touché : 3 (1d6) points de dégâts cinétiques.
+**Attaque multiple.** Le personnage effectue deux attaques.
+
+**Épée courte.** Attaque avec une arme de mêlée : +4 pour toucher, portée de 1,5 mètre, une cible. En cas de coup réussi : 5 (1d6+2) points de dégâts cinétiques.
+
+**Pistolet.** Attaque avec une arme à distance : +4 pour toucher, portée de 12/48 mètres, une cible. En cas de coup réussi : 5 (1d6+2) points de dégâts cinétiques.
 
 </div>

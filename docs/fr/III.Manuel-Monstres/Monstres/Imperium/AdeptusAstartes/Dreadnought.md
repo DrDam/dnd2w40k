@@ -36,7 +36,7 @@ Plus un dreadnought reste actif longtemps, plus le Space Marine qui s'y trouve p
 
 **Sens** : Vision aveugle 9 mètres, Vision dans le noir 36 m,  Perception passive 17
 
-**Langues** : parle le bas-gothique, le binaire et le haut-gothique
+**Langues** : parle le bas-gothique, les codes impériaux et le haut-gothique
 
 **Facteur de puissance** : 16 (15 000 XP)
 

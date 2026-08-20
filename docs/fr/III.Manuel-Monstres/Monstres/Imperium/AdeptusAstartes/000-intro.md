@@ -10,5 +10,8 @@ Chaque Chapitre dispose d’un équipement spécifique adapté à son style de c
 
 | Facteur de puissance | Nom | Description |
 |:-:|-----|------------|
-| 1/8 (25 XP) | [Serf](Serf.md#ingenieur) | Humain (toute planète d'origine) de taille moyenne, tout alignement loyal |
+| 1/8 (25 XP) | [Serf](Serf.md#serf) | Humain (toute planète d'origine) de taille moyenne, tout alignement loyal |
+| 5 (1 800 XP) | [SpaceMarine Tactique](SMarineTactique.md#tactical) | SpaceMarine (toute origine) de taille moyenne, loyal bon |
+| 6 (2 300 XP) | [SpaceMarine Librarian](SMarineLibrarian.md#librarian) | SpaceMarine (toute origine) de taille moyenne, loyal bon |
+| 8 (3 900 XP) | [SpaceMarine de la Deathwatch](SMarineDeathwatch.md#deatwatch) | SpaceMarine (toute origine loyaliste) de taille moyenne, loyal bon |
 | 16 (15 000 XP) | [Dreadnought](Dreadnought.md#dreadnought) | Contruct de grande taille, de tout alignement loyal |
