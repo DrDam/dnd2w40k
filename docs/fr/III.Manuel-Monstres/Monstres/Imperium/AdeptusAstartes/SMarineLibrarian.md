@@ -42,12 +42,17 @@ Les Librarians font office de gardiens du savoir et de psykers au sein de leurs 
 
 **Lanceur de pouvoir psychiques.** Le Librarian est un lanceur de pouvoir psychiques de niveau 10. Sa capacité de lancement de sorts psychiques est la Sagesse (jet de sauvegarde contre les sorts : 15, +7 pour toucher). Le Librarian dispose de 40 points de pouvoir psychique et connaît les pouvoirs psychiques suivants :
 
-À volonté : Châtiment (2d10), Invoquer des phénomènes, Main psychique
-Niveau 1 : Détection du warp, Ordre, Repousser le warp
-Niveau 2 : Brûlot de Malcador, Détecter l’invisibilité, Entrave de personne
-Niveau 3 : Appel de la foudre, Perturbation du warp, Repousser la sorcière
-Niveau 4 : Bannissement, Nécrose, Relocalisation
-Niveau 5 : Entrave de monstre, Immolation, Restauration supérieure
+*À volonté* : Châtiment (2d10), Invoquer des phénomènes, Main psychique
+
+*Niveau 1* : Détection du warp, Ordre, Repousser le warp
+
+*Niveau 2* : Brûlot de Malcador, Détecter l’invisibilité, Entrave de personne
+
+*Niveau 3* : Appel de la foudre, Perturbation du warp, Repousser la sorcière
+
+*Niveau 4* : Bannissement, Nécrose, Relocalisation
+
+*Niveau 5* : Entrave de monstre, Immolation, Restauration supérieure
 
 ##### Actions
 

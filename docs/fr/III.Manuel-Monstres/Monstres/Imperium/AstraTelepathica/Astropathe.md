@@ -40,8 +40,9 @@
 
 **Lanceur de pouvoir psychique**. La caractéristique de lanceur de pouvoir psycasting de l’astropathe est la Sagesse (jet de sauvegarde psychique de 11, +3 pour toucher avec les attaques psychiques). L’astropathe peut lancer de manière innée les pouvoirs suivants :
 
-À volonté : feux follets, message
-3 fois par jour chacun : augure (niveau 2), envoi (niveau 3), repousser le Warp (niveau 1)
+*À volonté* : feux follets, message
+
+*3 fois par jour chacun* : augure (niveau 2), envoi (niveau 3), repousser le Warp (niveau 1)
 
 ##### Actions
 

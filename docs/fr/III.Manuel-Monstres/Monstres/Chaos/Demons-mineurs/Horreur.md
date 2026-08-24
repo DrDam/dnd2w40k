@@ -46,8 +46,9 @@ Les horreurs de Tzeentch sont de petits démons ressemblant à des masses inform
 
 **Lanceur de pouvoir psychique.** La capacité de lanceur de pouvoir de l’horreur est le Charisme (jet de sauvegarde psychique de difficulté 12, +4 pour toucher avec les attaques psychiques). L’horreur peut lancer les pouvoirs suivants :
 
-- À volonté : éclair de feu, main psychique
-- 1 fois par jour chacun : mains brûlantes, charme de personne, détection des pensées, rayon brûlant
+*À volonté* : éclair de feu, main psychique
+
+*1 fois par jour chacun* : mains brûlantes, charme de personne, détection des pensées, rayon brûlant
 
 ##### Actions
 

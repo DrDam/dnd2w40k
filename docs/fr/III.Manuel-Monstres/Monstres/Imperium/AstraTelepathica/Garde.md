@@ -20,7 +20,7 @@ Dans certaines situations, l’Imperium a besoin de recourir à un « blank » :
 |12 (+1)| 14 (+2)| 11 (0)| 10 (0)| 14 (+2)| 12 (+1)|
 </div>
 
-**Jet de sauvegarde** ! Sag +4, Cha +3
+**Jet de sauvegarde** : Sag +4, Cha +3
 
 **Compétences** : Occultisme +3
 

@@ -34,8 +34,9 @@ Les chérubins sont de minuscules bébés ressemblant à des anges, créés par 
 
 **Lanceur de pouvoir technologique.** Le chérubin est un lanceur de pouvoir technologique de niveau 1 (jet de sauvegarde technologique de 11, +3 pour toucher avec les attaques techniques). Il dispose de 4 points de lanceur de pouvoir technologique et maîtrise les pouvoirs technologique suivants :
 
-À volonté : Réparation mineur
-Niveau 1 : Copie, Réparation
+*À volonté* : Réparation mineur
+
+*Niveau 1* : Copie, Réparation
 
 **Outils intégrés.** Le chérubin est équipé de deux jeux d’outils, qu’il maîtrise (généralement une trousse de mécanicien et du matériel de peintre).
 

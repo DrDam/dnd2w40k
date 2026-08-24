@@ -46,10 +46,13 @@ Qu'il s'agisse d'utiliser l'électricité pour recharger des batteries ou pour a
 
 **Lanceur de pouvoir technologique.** Le prêtre est un lanceur de pouvoir technologique de niveau 5 (jet de sauvegarde technologique de 13, +5 pour toucher avec les attaques techniques). Il dispose de 20 points de lanceur de pouvoir technologique et maîtrise les pouvoirs technologique suivants :
 
-À volonté : décharge de plasma, marche/arrêt, réparation
-Niveau 1 : décharge électrique, étincelle de photons, surcharge
-Niveau 2 : arcs électrique, métal brûlant
-Niveau 3 : affaiblissement technologique, surtension foudroyante
+*À volonté* : décharge de plasma, marche/arrêt, réparation
+
+*Niveau 1* : décharge électrique, étincelle de photons, surcharge
+
+*Niveau 2* : arcs électrique, métal brûlant
+
+*Niveau 3* : affaiblissement technologique, surtension foudroyante
 
 ##### Actions
 

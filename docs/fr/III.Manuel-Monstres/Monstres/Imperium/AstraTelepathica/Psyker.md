@@ -34,9 +34,11 @@
 
 **Lanceur de pouvoir psychiques.** Le psyker est un lanceur de pouvoir psychiques de niveau 4. Sa capacité de lancement de sorts psychiques est la Sagesse (jet de sauvegarde contre les sorts : 11, +3 pour toucher avec les attaques psychiques). Le psyker dispose de 16 points de pouvoir psychique et connaît les pouvoirs psychiques suivants :
 
-À volonté : châtiment, flamme sacrée, invoquer des phénomènes,
-Niveau 1 : mains brûlantes, rayon de contagion, trait de la sorcière
-Niveau 2 : brûlot de Malcador, entrave de personne
+*À volonté* : châtiment, flamme sacrée, invoquer des phénomènes
+
+*Niveau 1* : mains brûlantes, rayon de contagion, trait de la sorcière
+
+*Niveau 2* : brûlot de Malcador, entrave de personne
 
 ##### Actions
 

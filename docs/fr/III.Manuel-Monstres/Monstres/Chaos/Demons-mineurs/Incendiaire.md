@@ -44,10 +44,13 @@ Les Incendiaires de Tzeentch sont des démons flamboyants du Dieu du Changement,
 
 **Lanceur de pouvoir psychique**. L'incendiaire est un lanceur de pouvoir psychique de niveau 5. Sa capacité de lanceur de pouvoir psychique est le Charisme (jet de sauvegarde psychique de DC 13, +5 pour toucher avec les attaques psychiques). L'incendiaire dispose de 20 points de lanceur de pouvoir psychique et connaît les pouvoirs psychiques suivants :
 
-- À volonté : main psychique, feux follets
-- Niveau 1 : mains brûlantes, trait de la sorcière
-- Niveau 2 : flou, sphère de feu
-- Niveau 3 : boule de feu
+*À volonté* : main psychique, feux follets
+
+*Niveau 1* : mains brûlantes, trait de la sorcière
+
+*Niveau 2* : flou, sphère de feu
+
+*Niveau 3* : boule de feu
 
 ##### Actions
 

@@ -40,8 +40,9 @@ Les Lexmechanics comptent parmi les membres les plus modestes du Mechanicum. Jus
 
 **Lanceur de pouvoir technologique.** Le Lexmechanic est un lanceur de pouvoir technologique de niveau 2 (jet de sauvegarde technologique de 12, +4 pour toucher avec les attaques techniques). Il dispose de 8 points de lanceur de pouvoir technologique et maîtrise les pouvoirs technologique suivants :
 
-À volonté : marche/arrêt, réparation mineur, salve électrique
-Niveau 1 : détection d'amélioration, exploitation de faiblesse, réparation
+*À volonté* : marche/arrêt, réparation mineur, salve électrique
+
+*Niveau 1* : détection d'amélioration, exploitation de faiblesse, réparation
 
 ##### Actions
 

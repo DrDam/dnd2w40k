@@ -40,9 +40,11 @@ Spécialisés dans la réparation et l’entretien des diverses machines et arme
 
 **Lanceur de pouvoir technologique.** L'ingénieur est un lanceur de pouvoir technologique de niveau 3 (jet de sauvegarde technologique de 12, +4 pour toucher avec les attaques techniques). Il dispose de 12 points de lanceur de pouvoir technologique et maîtrise les pouvoirs technologique suivants :
 
-À volonté : décharge de plasma, marche/arrêt, réparation
-Niveau 1 : copie, réparation, tranquillisant
-Niveau 2 : Métal brûlant, tir de plasma
+*À volonté* : décharge de plasma, marche/arrêt, réparation
+
+*Niveau 1* : copie, réparation, tranquillisant
+
+*Niveau 2* : Métal brûlant, tir de plasma
 
 ##### Actions
 

@@ -23,6 +23,8 @@ Au sein des innombrables mondes de l'Imperium qui s'étend à travers la galaxie
 | 4 (1 100 XP) | Adeptus Mechanicus | [Électro-prêtre](Electropretre.md#Electropretre) | Humanoïde (Techno-fusionné) de taille moyenne, loyal neutre |
 | 5 (1 800 XP) | Adeptus Astartes | [SpaceMarine Tactique](SMarineTactique.md#tactical) | SpaceMarine (toute origine) de taille moyenne, loyal bon |
 | 6 (2 300 XP) | Adeptus Astartes | [SpaceMarine Librarian](SMarineLibrarian.md#librarian) | SpaceMarine (toute origine) de taille moyenne, loyal bon |
+| 8 (3 900 XP) | Inquisition | [Inquisiteur psyker](Inquisiteur-psyker.md#inquisiteur-psyker) | Humain (tout monde d'origine) de taille moyenne, tout alignement loyal |
 | 8 (3 900 XP) | Adeptus Astartes | [SpaceMarine de la Deathwatch](SMarineDeathwatch.md#deatwatch) | SpaceMarine (toute origine loyaliste) de taille moyenne, loyal bon |
+| 13 (10 000 XP) | Inquisition | [Seigneur inquisiteur](Seigneur-inquisiteur.md#seigneur-inquisiteur) | Humain (tout monde d'origine) de taille moyenne, tout alignement loyal |
 | 16 (15 000 XP) | Adeptus Astartes | [Dreadnought](Dreadnought.md#dreadnought) | Contruct de grande taille, de tout alignement loyal |
 | 22 (41 000 XP) | Adeptus Mechanicus | [Chevalier Impérial](Chevalier.md#Chevalier) | Construct Gigantesque, tout alignement loyal |
