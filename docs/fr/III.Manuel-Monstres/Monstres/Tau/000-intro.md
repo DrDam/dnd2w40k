@@ -7,4 +7,4 @@
 | Facteur de puissance | Nom | Description |
 |:-:|-----|------------|
 | 1 (200 XP) | [Guerrier de la Caste du feu](Firewarrior.md#firewarrior) | humanoïde (T'au) de taille moyenne, loyal bon |
-| 3 (700 XP) | [Armure de combat XV25 "Stealth"](Stealth.md#stealth) | humanoïde (ork) de taille moyenne, chaotique neutre |
+| 3 (700 XP) | [Armure de combat XV25 "Stealth"](Stealth.md#stealth) | humanoïde (Tau) de taille moyenne, Loyal bon |

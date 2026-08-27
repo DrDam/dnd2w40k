@@ -41,7 +41,7 @@ Parias même parmi les assassins, les assassins culexus sont des « blanks » : 
 
 **Facteur de puissance** : 17 (18 000 XP)
 
-##### Traits
+##### Traits
 
 **Résistance légendaire (3 fois par jour).** Si l’assassin échoue à un jet de sauvegarde, il peut choisir de le réussir à la place.
 

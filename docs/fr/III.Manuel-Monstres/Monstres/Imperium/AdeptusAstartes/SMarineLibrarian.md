@@ -34,7 +34,7 @@ Les Librarians font office de gardiens du savoir et de psykers au sein de leurs 
 
 **Facteur de puissance** : 6 (2 300 XP)
 
-##### Traits
+##### Traits
 
 **Courage.** Le Space Marine bénéficie d’un avantage aux jets de sauvegarde contre l’effroi.
 

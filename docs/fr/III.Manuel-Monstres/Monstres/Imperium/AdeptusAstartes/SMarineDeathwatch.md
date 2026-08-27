@@ -38,7 +38,7 @@ Bien que la Deathwatch soit considérée comme l’une des forces de combat les 
 
 **Facteur de puissance** : 8 (3 900 XP)
 
-##### Traits
+##### Traits
 
 **Courage.** Le Space Marine bénéficie d’un avantage aux jets de sauvegarde contre l’effroi.
 

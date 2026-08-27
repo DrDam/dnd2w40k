@@ -34,7 +34,7 @@ Les Marines tactiques servent de combattants de première ligne dans tous les ch
 
 **Facteur de puissance** : 5 (1 800 XP)
 
-##### Traits
+##### Traits
 
 **Courage.** Le Space Marine bénéficie d’un avantage aux jets de sauvegarde contre l’effroi.
 
