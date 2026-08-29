@@ -9,3 +9,4 @@ site_dir: ../../site/en/DM-supplies
 nav:
   - Disclaimer : disclaimer.md
   - Variant Rules : Variants.md
+  - Artillery & Vehicules : ArtilleryVehicules.md

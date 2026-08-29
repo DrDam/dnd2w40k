@@ -1,1 +1,2 @@
 docs/en/II.DM_supplies/Variants.md
+docs/en/II.DM_supplies/ArtilleryVehicules.md
